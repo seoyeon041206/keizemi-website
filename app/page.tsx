@@ -59,7 +59,7 @@ export default function Home() {
           <p className="eyebrow">KEIO ECONOMICS SEMINAR COMMITTEE</p>
           <h1><span className="hero-title-line">よりよいゼミ選びと</span><em className="hero-title-line">ゼミ生活を。</em></h1>
           <p className="hero-lead">経済学部の各研究会間の親睦を図り、慶應義塾の興隆に寄与してまいります</p>
-          <div className="hero-actions"><a className="button primary" href="#seminars">研究会を探す</a><a className="button secondary" href="#schedule">入ゼミの流れを見る</a></div>
+          <div className="hero-actions"><a className="button primary" href={siteHref('/seminars')}>研究会を探す</a><a className="button secondary" href="#schedule">入ゼミの流れを見る</a></div>
         </div>
         <aside className="hero-panel" aria-label="次の入ゼミステップ">
           <div className="panel-topline"><span>2026 ADMISSIONS</span><span className="status-dot">最新情報</span></div>
@@ -142,7 +142,7 @@ export default function Home() {
 
       <footer className="site-footer">
         <div className="footer-brand"><span className="brand-mark">K</span><div><strong>KEIZEMI</strong><p>慶應義塾大学 経済学部ゼミナール委員会</p></div></div>
-        <nav aria-label="フッターナビゲーション"><a href="#about">委員会</a><a href="#seminars">研究会</a><a href="#schedule">試験・行事</a><a href="#pearl">PEARL / DD</a></nav>
+        <nav aria-label="フッターナビゲーション"><a href="#about">委員会</a><a href={siteHref('/seminars')}>研究会</a><a href="#schedule">試験・行事</a><a href="#pearl">PEARL / DD</a></nav>
         <div className="social-links"><a href="https://x.com/keizemi_offical" target="_blank" rel="noreferrer">X ↗</a><a href="https://www.instagram.com/keizemi_official/" target="_blank" rel="noreferrer">Instagram ↗</a></div>
         <p className="copyright">© 慶應義塾大学 経済学部ゼミナール委員会</p><a className="back-top" href="#top">PAGE TOP ↑</a>
       </footer>

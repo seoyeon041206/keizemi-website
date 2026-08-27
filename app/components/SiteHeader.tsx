@@ -28,9 +28,9 @@ const menuGroups: MenuGroup[] = [
     label: '研究会',
     labelEn: 'SEMINARS',
     links: [
-      { label: '研究会を探す', href: '/#seminars', note: '教員名・分野から検索' },
+      { label: '研究会を探す', href: '/seminars', note: '教員名・分野から検索' },
       { label: '研究会（ゼミ）とは？', href: '/pages/133', note: '研究会活動の概要' },
-      { label: '日本語研究会一覧', href: '/#seminars' },
+      { label: '日本語研究会一覧', href: '/seminars' },
       { label: 'PEARL / DD 研究会一覧', href: '/pearl-seminars' },
     ],
   },

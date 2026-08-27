@@ -41,7 +41,7 @@ export default async function SeminarDetail({ params }: { params: Promise<{ slug
       overline="SEMINAR DIRECTORY"
       title={seminar.name}
       meta={<><span>{seminar.field}</span><span>{seminar.status}</span>{seminar.pearl && <span>PEARL</span>}{seminar.dd && <span>DD</span>}</>}
-      backHref="/#seminars"
+      backHref="/seminars"
       backLabel="研究会一覧"
     >
       <section className="seminar-profile">
