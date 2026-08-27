@@ -1,21 +1,9 @@
 import type { ReactNode } from 'react';
 import { siteBasePath, siteHref } from '@/app/site-path';
+import { SiteHeader } from '@/app/components/SiteHeader';
 
 export function ArchiveHeader() {
-  return (
-    <header className="archive-header">
-      <a className="brand" href={siteHref('/')} aria-label="KEIZEMI ホーム">
-        <span className="brand-mark">K</span>
-        <span><strong>KEIZEMI</strong><small>慶應義塾大学 経済学部ゼミナール委員会</small></span>
-      </a>
-      <nav aria-label="サイトナビゲーション">
-        <a href={siteHref('/news')}>新着情報</a>
-        <a href={siteHref('/#seminars')}>研究会</a>
-        <a href={siteHref('/pearl-seminars')}>PEARL / DD</a>
-      </nav>
-      <a className="archive-home" href={siteHref('/')}>ホームへ</a>
-    </header>
-  );
+  return <SiteHeader />;
 }
 
 export function ArchiveFooter() {

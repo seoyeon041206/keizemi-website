@@ -3,6 +3,7 @@
 import { useMemo, useState } from 'react';
 import siteIndex from '@/content/site-index.json';
 import { siteHref } from '@/app/site-path';
+import { SiteHeader } from '@/app/components/SiteHeader';
 
 type Seminar = {
   id: number;
@@ -36,7 +37,6 @@ export default function Home() {
   const [field, setField] = useState('すべて');
   const [pearlOnly, setPearlOnly] = useState(false);
   const [showAll, setShowAll] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
 
   const visibleSeminars = useMemo(() => {
     const normalized = query.trim().toLocaleLowerCase('ja');
@@ -48,27 +48,10 @@ export default function Home() {
   }, [field, pearlOnly, query]);
 
   const displayedSeminars = showAll ? visibleSeminars : visibleSeminars.slice(0, 12);
-  const closeMenu = () => setMenuOpen(false);
 
   return (
     <main id="top">
-      <header className="site-header">
-        <a className="brand" href="#top" aria-label="KEIZEMI ホーム" onClick={closeMenu}>
-          <span className="brand-mark">K</span>
-          <span><strong>KEIZEMI</strong><small>慶應義塾大学 経済学部ゼミナール委員会</small></span>
-        </a>
-        <nav className="desktop-nav" aria-label="メインナビゲーション">
-          <a href="#about">委員会について</a><a href="#seminars">研究会</a><a href="#schedule">試験・行事</a><a href="#pearl">PEARL / DD</a>
-        </nav>
-        <a className="header-cta" href="#contact">お問い合わせ</a>
-        <button className="menu-button" type="button" onClick={() => setMenuOpen(!menuOpen)} aria-expanded={menuOpen} aria-controls="mobile-nav">
-          <span>{menuOpen ? '閉じる' : 'メニュー'}</span><b aria-hidden="true">{menuOpen ? '×' : '＋'}</b>
-        </button>
-        <nav id="mobile-nav" className={`mobile-nav ${menuOpen ? 'is-open' : ''}`} aria-label="モバイルナビゲーション">
-          <a href="#about" onClick={closeMenu}>委員会について</a><a href="#seminars" onClick={closeMenu}>研究会</a>
-          <a href="#schedule" onClick={closeMenu}>試験・行事</a><a href="#pearl" onClick={closeMenu}>PEARL / DD</a><a href="#contact" onClick={closeMenu}>お問い合わせ</a>
-        </nav>
-      </header>
+      <SiteHeader />
 
       <section className="hero">
         <div className="hero-copy">
