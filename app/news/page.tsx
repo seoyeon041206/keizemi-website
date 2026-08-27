@@ -1,1 +1,37 @@
-şë+ı¸§ı¶¬{®%Šwµß¯İzÿìµÚ.´ê^­«b¢yè¶—«š+myßî²¿ÛŠÛjÇºàÎzºè®‰â›­
+import type { Metadata } from 'next';
+import postsJson from '@/content/posts.json';
+import type { NewsPost } from '@/app/content-types';
+import { ArchiveFooter, ArchiveHeader } from '@/app/components/ContentChrome';
+
+const posts = postsJson as NewsPost[];
+
+export const metadata: Metadata = {
+  title: 'æ–°ç€æƒ…å ± | KEIZEMI',
+  description: 'çµŒæ¸ˆå­¦éƒ¨ã‚¼ãƒŸãƒŠãƒ¼ãƒ«å§”å“¡ä¼šã‹ã‚‰ã®ãŠçŸ¥ã‚‰ã›ã€å…¥ã‚¼ãƒŸæƒ…å ±ã€è©¦é¨“æƒ…å ±ã€‚',
+  openGraph: { images: [] },
+  twitter: { images: [] },
+};
+
+export default function NewsArchive() {
+  return (
+    <main className="archive-shell">
+      <ArchiveHeader />
+      <section className="archive-hero">
+        <p>NEWS &amp; UPDATES</p>
+        <h1>æ–°ç€æƒ…å ±</h1>
+        <span>{posts.length} articles</span>
+      </section>
+      <section className="archive-list" aria-label="æ–°ç€æƒ…å ±ä¸€è¦§">
+        {posts.map((post) => (
+          <a className="archive-row" href={`/news/${post.id}`} key={post.id}>
+            <time>{post.date.replaceAll('-', '.')}</time>
+            <span>{post.categories[0] ?? 'ãŠçŸ¥ã‚‰ã›'}</span>
+            <div><h2>{post.title}</h2><p>{post.excerpt}</p></div>
+            <b aria-hidden="true">â†’</b>
+          </a>
+        ))}
+      </section>
+      <ArchiveFooter />
+    </main>
+  );
+}

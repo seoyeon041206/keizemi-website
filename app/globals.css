@@ -1,1 +1,310 @@
-þë+ý¸§ý¶¬{®%Šwµß¯ÝzÿìµÚ.´ê^­«b¢yè¶—«š+myßî²¿ÛŠÛjÇºàÎzºè®‰âž›­
+@import 'tailwindcss';
+
+:root {
+  --ink: #122338;
+  --blue: #123f72;
+  --blue-deep: #092b50;
+  --red: #a22d3f;
+  --paper: #f4f0e8;
+  --cream: #fbf8f2;
+  --line: rgba(18, 35, 56, 0.16);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, sans-serif; }
+a { color: inherit; text-decoration: none; }
+
+.site-header { min-height: 86px; padding: 0 clamp(24px, 5vw, 76px); display: flex; align-items: center; justify-content: space-between; gap: 28px; border-bottom: 1px solid var(--line); background: rgba(244, 240, 232, 0.94); }
+.brand { display: flex; align-items: center; gap: 13px; }
+.brand-mark { width: 42px; height: 42px; display: grid; place-items: center; border: 1px solid var(--ink); border-radius: 50%; font-family: Georgia, serif; font-size: 25px; font-style: italic; }
+.brand strong { display: block; font-family: Georgia, serif; letter-spacing: .08em; font-size: 18px; }
+.brand small { display: block; margin-top: 2px; font-size: 9px; letter-spacing: .07em; }
+.desktop-nav { display: flex; align-items: center; gap: clamp(18px, 2.7vw, 42px); font-size: 13px; font-weight: 700; }
+.desktop-nav a { position: relative; padding: 34px 0; }
+.desktop-nav a::after { content: ""; position: absolute; left: 0; right: 100%; bottom: 26px; height: 2px; background: var(--red); transition: .2s; }
+.desktop-nav a:hover::after { right: 0; }
+.header-cta { padding: 12px 19px; border: 1px solid var(--ink); border-radius: 999px; font-size: 12px; font-weight: 700; }
+
+.hero { min-height: 610px; padding: clamp(74px, 10vw, 132px) clamp(24px, 7vw, 110px) 82px; display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(310px, .8fr); align-items: end; gap: clamp(50px, 8vw, 128px); background: linear-gradient(90deg, transparent 49.93%, rgba(18,35,56,.06) 50%, transparent 50.07%), radial-gradient(circle at 83% 30%, rgba(162,45,63,.10), transparent 24%), var(--cream); position: relative; overflow: hidden; }
+.hero::before { content: "çµŒ"; position: absolute; right: 3%; top: -14%; font-family: serif; font-size: min(44vw, 610px); line-height: 1; color: rgba(18,63,114,.035); pointer-events: none; }
+.hero-copy, .hero-panel { position: relative; z-index: 1; }
+.eyebrow { margin: 0 0 24px; color: var(--red); font-size: 11px; font-weight: 800; letter-spacing: .2em; }
+.hero h1 { margin: 0; font-family: "Yu Mincho", YuMincho, Georgia, serif; font-size: clamp(44px, 6vw, 84px); line-height: 1.24; letter-spacing: -.05em; font-weight: 600; }
+.hero h1 em { color: var(--blue); font-style: normal; }
+.hero-lead { max-width: 650px; margin: 30px 0 0; font-size: 15px; line-height: 2; letter-spacing: .035em; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 38px; }
+.button { padding: 15px 25px; border-radius: 2px; font-size: 13px; font-weight: 800; transition: transform .2s, background .2s; }
+.button:hover { transform: translateY(-2px); }
+.button.primary { background: var(--blue); color: white; }
+.button.secondary { border: 1px solid var(--line); background: white; }
+
+.hero-panel { min-height: 330px; padding: 30px 32px; color: white; background: var(--blue-deep); box-shadow: 22px 22px 0 rgba(162,45,63,.16); display: flex; flex-direction: column; align-items: flex-start; }
+.panel-topline { width: 100%; padding-bottom: 18px; display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,.2); font: 700 10px/1 sans-serif; letter-spacing: .13em; }
+.status-dot::before { content: ""; display: inline-block; width: 6px; height: 6px; margin-right: 7px; border-radius: 50%; background: #f0c27a; }
+.panel-kicker { margin: 45px 0 8px; color: #f0c27a; font: 700 10px/1 sans-serif; letter-spacing: .15em; }
+.hero-panel h2 { margin: 0; font-family: "Yu Mincho", YuMincho, serif; font-size: 28px; }
+.hero-panel > p:not(.panel-kicker) { max-width: 340px; margin: 18px 0 24px; color: rgba(255,255,255,.7); font-size: 13px; line-height: 1.8; }
+.hero-panel > a { margin-top: auto; font-size: 12px; font-weight: 800; }
+.hero-panel > a span { margin-left: 10px; }
+.panel-number { position: absolute; right: 24px; bottom: 10px; color: rgba(255,255,255,.07); font: 92px/1 Georgia, serif; }
+
+.news-strip { padding: 72px clamp(24px, 7vw, 110px) 96px; display: grid; grid-template-columns: 220px 1fr; gap: 54px; background: var(--paper); }
+.section-label p { margin: 0 0 8px; color: var(--red); font-size: 10px; font-weight: 800; letter-spacing: .18em; }
+.section-label h2 { margin: 0; font: 600 30px/1.4 "Yu Mincho", YuMincho, serif; }
+.notice-list { border-top: 1px solid var(--ink); }
+.notice { display: grid; grid-template-columns: 100px 90px 1fr 24px; align-items: center; gap: 18px; min-height: 76px; border-bottom: 1px solid var(--line); font-size: 13px; }
+.notice time { font: 12px/1 Georgia, serif; letter-spacing: .05em; }
+.notice-category { width: max-content; padding: 5px 9px; border: 1px solid var(--line); border-radius: 999px; font-size: 10px; }
+.notice strong { font-weight: 600; }
+.arrow { justify-self: end; font-size: 18px; }
+
+@media (max-width: 900px) {
+  .desktop-nav { display: none; }
+  .hero { min-height: auto; grid-template-columns: 1fr; padding-top: 80px; }
+  .hero-panel { max-width: 610px; }
+  .news-strip { grid-template-columns: 1fr; gap: 26px; }
+}
+
+@media (max-width: 580px) {
+  .site-header { min-height: 74px; padding-inline: 18px; }
+  .brand small { display: none; }
+  .header-cta { padding: 10px 13px; }
+  .hero { padding: 62px 20px 62px; gap: 44px; }
+  .hero h1 { font-size: clamp(38px, 12vw, 58px); }
+  .hero-lead { font-size: 14px; }
+  .hero-panel { min-height: 305px; padding: 26px 24px; }
+  .news-strip { padding: 58px 20px 72px; }
+  .notice { grid-template-columns: 82px 1fr 22px; gap: 10px; padding: 16px 0; }
+  .notice-category { display: none; }
+  .notice strong { font-size: 12px; line-height: 1.6; }
+}
+
+section { scroll-margin-top: 85px; }
+.site-header { position: sticky; top: 0; z-index: 50; backdrop-filter: blur(14px); }
+.menu-button, .mobile-nav { display: none; }
+.text-link { display: inline-block; margin-top: 22px; font-size: 12px; font-weight: 800; border-bottom: 1px solid currentColor; padding-bottom: 4px; }
+
+.about-section {
+  padding: clamp(80px, 10vw, 140px) clamp(24px, 7vw, 110px);
+  display: grid; grid-template-columns: minmax(0, .8fr) minmax(450px, 1.2fr); gap: clamp(60px, 9vw, 140px);
+  color: white; background: var(--blue-deep); position: relative; overflow: hidden;
+}
+.about-section::after { content: "K"; position: absolute; right: -3%; bottom: -25%; font: italic min(37vw, 520px)/1 Georgia, serif; color: rgba(255,255,255,.025); }
+.section-label.light p { color: #f0c27a; }
+.section-label.light h2 { color: white; font-size: clamp(34px, 4vw, 55px); line-height: 1.45; }
+.about-lead { position: relative; z-index: 1; }
+.about-lead > p { max-width: 560px; margin: 32px 0; color: rgba(255,255,255,.68); font-size: 14px; line-height: 2.05; }
+.button.outline-light { display: inline-block; color: white; border: 1px solid rgba(255,255,255,.35); }
+.about-grid { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid rgba(255,255,255,.18); border-left: 1px solid rgba(255,255,255,.18); }
+.about-grid article { min-height: 215px; padding: 30px; border-right: 1px solid rgba(255,255,255,.18); border-bottom: 1px solid rgba(255,255,255,.18); }
+.about-grid article > span { color: #f0c27a; font: 11px/1 Georgia, serif; letter-spacing: .1em; }
+.about-grid h3 { margin: 36px 0 10px; font: 600 21px/1.4 "Yu Mincho", YuMincho, serif; }
+.about-grid p { margin: 0; color: rgba(255,255,255,.58); font-size: 12px; line-height: 1.8; }
+
+.seminar-section { padding: clamp(80px, 10vw, 140px) clamp(24px, 7vw, 110px); background: var(--cream); }
+.section-heading-row { display: flex; align-items: end; justify-content: space-between; gap: 40px; margin-bottom: 46px; }
+.section-heading-row .section-label h2 { font-size: clamp(36px, 4vw, 56px); }
+.section-heading-row > p { max-width: 450px; margin: 0 0 5px; color: #5c6877; font-size: 13px; line-height: 1.8; }
+.seminar-toolbar { display: grid; grid-template-columns: 1.4fr .8fr auto; align-items: end; gap: 14px; padding: 24px; background: var(--paper); border: 1px solid var(--line); }
+.seminar-toolbar label:not(.check-filter) { display: grid; gap: 8px; }
+.seminar-toolbar label > span:first-child { font-size: 10px; font-weight: 800; letter-spacing: .08em; }
+.seminar-toolbar input[type="text"], .seminar-toolbar input:not([type]), .seminar-toolbar select { width: 100%; height: 50px; padding: 0 15px; color: var(--ink); background: white; border: 1px solid var(--line); border-radius: 0; font: inherit; font-size: 13px; outline: none; }
+.seminar-toolbar input:focus, .seminar-toolbar select:focus { border-color: var(--blue); box-shadow: 0 0 0 2px rgba(18,63,114,.10); }
+.check-filter { height: 50px; display: flex; align-items: center; gap: 10px; padding: 0 17px; background: white; border: 1px solid var(--line); cursor: pointer; font-size: 12px; font-weight: 700; }
+.check-filter input { position: absolute; opacity: 0; pointer-events: none; }
+.check-filter span { width: 16px; height: 16px; border: 1px solid #8d97a2; position: relative; }
+.check-filter input:checked + span { background: var(--blue); border-color: var(--blue); }
+.check-filter input:checked + span::after { content: "âœ“"; position: absolute; inset: 0; display: grid; place-items: center; color: white; font-size: 11px; }
+.results-line { display: flex; align-items: baseline; gap: 8px; margin: 32px 0 18px; }
+.results-line strong { font: 34px/1 Georgia, serif; color: var(--red); }
+.results-line > span { font-size: 12px; }
+.results-line .legend { margin-left: auto; color: #6a7480; font-size: 10px; }
+.seminar-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--ink); border-left: 1px solid var(--line); }
+.seminar-card { min-height: 172px; padding: 22px 24px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: white; transition: transform .2s, box-shadow .2s; }
+.seminar-card:hover { position: relative; z-index: 1; transform: translateY(-3px); box-shadow: 0 16px 35px rgba(18,35,56,.10); }
+.seminar-card.is-paused { background: #f5f3ef; color: #727a84; }
+.card-meta { display: flex; justify-content: space-between; align-items: center; gap: 12px; color: #687483; font-size: 10px; }
+.recruit-status { color: var(--blue); font-weight: 800; }
+.is-paused .recruit-status { color: #8d8d8d; }
+.recruit-status.is-new { color: var(--red); }
+.seminar-card h3 { margin: 34px 0 19px; font: 600 18px/1.5 "Yu Mincho", YuMincho, serif; }
+.tag-row { display: flex; gap: 6px; }
+.tag-row span { min-width: 26px; height: 22px; display: grid; place-items: center; padding: 0 6px; color: white; background: var(--blue); font: 700 9px/1 sans-serif; }
+.is-paused .tag-row span { background: #90959a; }
+.empty-state { margin: 40px 0; text-align: center; color: #697380; font-size: 13px; }
+.load-more { display: block; min-width: 240px; margin: 38px auto 0; padding: 15px 24px; color: var(--ink); background: transparent; border: 1px solid var(--ink); cursor: pointer; font: 700 12px/1 sans-serif; }
+.load-more:hover { color: white; background: var(--ink); }
+
+.schedule-section { display: grid; grid-template-columns: minmax(340px, .8fr) minmax(0, 1.2fr); background: var(--red); color: white; }
+.schedule-intro { padding: clamp(80px, 9vw, 130px) clamp(24px, 7vw, 110px); align-self: start; position: sticky; top: 85px; }
+.schedule-intro > p { max-width: 480px; margin: 30px 0; color: rgba(255,255,255,.72); font-size: 14px; line-height: 2; }
+.schedule-links { display: flex; flex-wrap: wrap; gap: 20px; }
+.schedule-links a { padding-bottom: 4px; border-bottom: 1px solid rgba(255,255,255,.55); font-size: 11px; font-weight: 800; }
+.timeline { margin: 0; padding: 62px clamp(24px, 5vw, 76px) 72px; list-style: none; background: #7f2233; }
+.timeline li { min-height: 120px; display: grid; grid-template-columns: 40px 92px 1fr; gap: 24px; align-items: start; padding: 28px 0; border-bottom: 1px solid rgba(255,255,255,.19); }
+.timeline-index { color: rgba(255,255,255,.38); font: 11px/1 Georgia, serif; }
+.timeline time { color: #f4d7aa; font-size: 11px; font-weight: 800; }
+.timeline h3 { margin: 0 0 8px; font: 600 20px/1.4 "Yu Mincho", YuMincho, serif; }
+.timeline p { margin: 0; color: rgba(255,255,255,.6); font-size: 12px; line-height: 1.7; }
+
+.pearl-section { min-height: 570px; padding: clamp(80px, 10vw, 130px) clamp(24px, 7vw, 110px); display: grid; grid-template-columns: .55fr 1fr 1.1fr; gap: clamp(40px, 6vw, 90px); align-items: center; background: var(--cream); overflow: hidden; }
+.pearl-monogram { font: italic min(19vw, 270px)/.8 Georgia, serif; color: var(--blue); opacity: .09; }
+.pearl-copy h2 { margin: 8px 0 22px; font: 600 clamp(43px, 5vw, 70px)/1.1 Georgia, serif; color: var(--blue); letter-spacing: -.04em; }
+.pearl-copy > p:not(.eyebrow) { margin: 0 0 30px; color: #596572; font-size: 13px; line-height: 1.95; }
+.pearl-copy .button { display: inline-block; }
+.pearl-links { border-top: 1px solid var(--ink); }
+.pearl-links a { min-height: 76px; display: grid; grid-template-columns: 38px 1fr 22px; gap: 12px; align-items: center; border-bottom: 1px solid var(--line); font: 600 15px/1.3 Georgia, serif; }
+.pearl-links a > span { color: var(--red); font-size: 10px; }
+.pearl-links b { justify-self: end; font-family: sans-serif; font-weight: 400; }
+
+.contact-section { padding: clamp(80px, 10vw, 135px) clamp(24px, 7vw, 110px); display: grid; grid-template-columns: 1fr 1fr; gap: clamp(60px, 10vw, 150px); background: var(--paper); }
+.contact-section h2 { margin: 8px 0 25px; font: 600 clamp(38px, 4.5vw, 65px)/1.4 "Yu Mincho", YuMincho, serif; }
+.contact-section > div:first-child > p:last-child { max-width: 580px; color: #596572; font-size: 13px; line-height: 1.9; }
+.contact-actions { border-top: 1px solid var(--ink); }
+.contact-actions a { min-height: 86px; display: flex; flex-direction: column; justify-content: center; gap: 7px; border-bottom: 1px solid var(--line); font: 500 13px/1.4 Georgia, serif; overflow-wrap: anywhere; }
+.contact-actions a small { color: #687380; font-family: sans-serif; font-size: 10px; font-weight: 700; }
+.contact-actions .contact-main { min-height: 110px; flex-direction: row; align-items: center; justify-content: space-between; color: white; background: var(--blue); padding: 0 28px; border: 0; font: 700 17px/1 sans-serif; }
+.contact-main b { font-size: 22px; font-weight: 400; }
+
+.site-footer { padding: 65px clamp(24px, 7vw, 110px) 28px; display: grid; grid-template-columns: 1.3fr 1fr auto; gap: 40px; align-items: start; color: white; background: #071d35; }
+.footer-brand { display: flex; gap: 15px; align-items: center; }
+.footer-brand .brand-mark { border-color: white; }
+.footer-brand strong { font: 600 22px/1 Georgia, serif; letter-spacing: .08em; }
+.footer-brand p { margin: 6px 0 0; color: rgba(255,255,255,.5); font-size: 9px; }
+.site-footer nav { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 30px; font-size: 11px; font-weight: 700; }
+.social-links { display: flex; gap: 18px; font-size: 11px; }
+.copyright { grid-column: 1 / 3; margin: 34px 0 0; color: rgba(255,255,255,.35); font-size: 9px; }
+.back-top { justify-self: end; align-self: end; color: rgba(255,255,255,.6); font-size: 9px; letter-spacing: .12em; }
+
+@media (max-width: 1050px) {
+  .about-section { grid-template-columns: 1fr; }
+  .about-lead { max-width: 720px; }
+  .seminar-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .schedule-section { grid-template-columns: 1fr; }
+  .schedule-intro { position: static; }
+  .pearl-section { grid-template-columns: 120px 1fr; }
+  .pearl-links { grid-column: 1 / -1; }
+}
+
+@media (max-width: 900px) {
+  .header-cta { display: none; }
+  .menu-button { display: flex; align-items: center; gap: 10px; padding: 10px 0 10px 12px; background: transparent; border: 0; color: var(--ink); font: 700 10px/1 sans-serif; cursor: pointer; }
+  .menu-button b { font-size: 19px; font-weight: 400; }
+  .mobile-nav { position: absolute; top: 100%; left: 0; right: 0; padding: 18px 24px 30px; display: grid; gap: 0; background: var(--cream); border-bottom: 1px solid var(--line); transform: scaleY(0); transform-origin: top; opacity: 0; pointer-events: none; transition: transform .2s, opacity .2s; }
+  .mobile-nav.is-open { transform: scaleY(1); opacity: 1; pointer-events: auto; }
+  .mobile-nav a { padding: 15px 0; border-bottom: 1px solid var(--line); font: 700 13px/1 sans-serif; }
+  .seminar-toolbar { grid-template-columns: 1fr 1fr; }
+  .check-filter { grid-column: 1 / -1; }
+  .contact-section { grid-template-columns: 1fr; }
+  .site-footer { grid-template-columns: 1fr 1fr; }
+  .social-links { justify-self: end; }
+  .site-footer nav { grid-column: 1 / -1; grid-row: 2; }
+  .copyright { grid-column: 1; }
+}
+
+@media (max-width: 650px) {
+  .section-heading-row { display: block; }
+  .section-heading-row > p { margin-top: 20px; }
+  .about-grid, .seminar-grid { grid-template-columns: 1fr; }
+  .about-grid article { min-height: 175px; }
+  .seminar-toolbar { grid-template-columns: 1fr; padding: 18px; }
+  .check-filter { grid-column: auto; }
+  .results-line .legend { display: none; }
+  .seminar-card { min-height: 155px; }
+  .timeline { padding-inline: 20px; }
+  .timeline li { grid-template-columns: 30px 72px 1fr; gap: 12px; }
+  .timeline h3 { font-size: 17px; }
+  .pearl-section { grid-template-columns: 1fr; }
+  .pearl-monogram { display: none; }
+  .pearl-links { grid-column: auto; }
+  .contact-section { gap: 46px; }
+  .site-footer { grid-template-columns: 1fr; }
+  .social-links { justify-self: start; }
+  .site-footer nav { grid-column: 1; grid-row: auto; }
+  .copyright { grid-column: 1; margin-top: 10px; }
+  .back-top { justify-self: start; }
+}
+
+/* Independent content archive */
+.archive-shell { min-height: 100vh; background: var(--cream); }
+.archive-header {
+  min-height: 86px; padding: 0 clamp(22px, 5vw, 76px); display: flex; align-items: center;
+  justify-content: space-between; gap: 28px; border-bottom: 1px solid var(--line);
+  background: rgba(244, 240, 232, .96); position: sticky; top: 0; z-index: 50; backdrop-filter: blur(14px);
+}
+.archive-header nav { display: flex; gap: clamp(18px, 3vw, 42px); font-size: 12px; font-weight: 700; }
+.archive-home { padding: 11px 18px; border: 1px solid var(--ink); border-radius: 999px; font-size: 11px; font-weight: 800; }
+.archive-hero {
+  min-height: 355px; padding: 90px clamp(24px, 8vw, 130px) 72px; display: grid; align-content: end;
+  background: radial-gradient(circle at 84% 30%, rgba(162,45,63,.1), transparent 24%), var(--blue-deep); color: white;
+}
+.archive-hero > p { margin: 0 0 18px; color: #f0c27a; font-size: 10px; font-weight: 800; letter-spacing: .2em; }
+.archive-hero h1 { max-width: 1000px; margin: 0; font: 600 clamp(42px, 6vw, 76px)/1.25 "Yu Mincho", YuMincho, Georgia, serif; }
+.pearl-archive .archive-hero h1 { font-family: Georgia, serif; letter-spacing: -.035em; }
+.archive-hero > span { margin-top: 22px; color: rgba(255,255,255,.5); font: 11px/1 Georgia, serif; letter-spacing: .08em; }
+.archive-list, .directory-list { padding: 42px clamp(24px, 8vw, 130px) 110px; background: var(--cream); }
+.archive-row {
+  min-height: 142px; display: grid; grid-template-columns: 105px 100px minmax(0, 1fr) 30px;
+  align-items: start; gap: 24px; padding: 28px 0; border-bottom: 1px solid var(--line);
+}
+.archive-row:first-child, .directory-row:first-child { border-top: 1px solid var(--ink); }
+.archive-row > time { padding-top: 7px; color: #596572; font: 11px/1.4 Georgia, serif; }
+.archive-row > span { width: max-content; margin-top: 2px; padding: 5px 9px; border: 1px solid var(--line); border-radius: 999px; font-size: 9px; }
+.archive-row h2, .directory-row h2 { margin: 0 0 10px; font: 600 19px/1.55 "Yu Mincho", YuMincho, serif; }
+.archive-row p, .directory-row p { max-width: 850px; margin: 0; color: #66717d; font-size: 11px; line-height: 1.8; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.archive-row > b, .directory-row > b { justify-self: end; padding-top: 4px; color: var(--red); font-size: 19px; font-weight: 400; }
+.directory-row { min-height: 150px; display: grid; grid-template-columns: minmax(130px, .32fr) minmax(0, 1fr) 30px; gap: 34px; align-items: start; padding: 30px 0; border-bottom: 1px solid var(--line); }
+.directory-row > span { padding-top: 7px; color: var(--red); font-size: 10px; font-weight: 800; letter-spacing: .04em; }
+.directory-row h2 { font-family: Georgia, serif; font-size: 21px; }
+.archive-footer { min-height: 170px; padding: 48px clamp(24px, 8vw, 130px); display: flex; align-items: center; justify-content: space-between; gap: 30px; color: white; background: #071d35; }
+.archive-footer div { display: grid; gap: 8px; }
+.archive-footer strong { font: 600 22px/1 Georgia, serif; letter-spacing: .08em; }
+.archive-footer span { color: rgba(255,255,255,.48); font-size: 9px; }
+.archive-footer a { color: rgba(255,255,255,.7); font-size: 10px; font-weight: 800; }
+
+.content-document { padding-bottom: 110px; }
+.content-back { display: block; width: min(930px, calc(100% - 48px)); margin: 0 auto; padding-top: 46px; color: #65717e; font-size: 11px; font-weight: 800; }
+.content-title { width: min(930px, calc(100% - 48px)); margin: 0 auto; padding: 68px 0 54px; border-bottom: 1px solid var(--ink); }
+.content-title > p { margin: 0 0 20px; color: var(--red); font-size: 10px; font-weight: 800; letter-spacing: .2em; }
+.content-title h1 { max-width: 850px; margin: 0; font: 600 clamp(34px, 5vw, 64px)/1.35 "Yu Mincho", YuMincho, Georgia, serif; letter-spacing: -.025em; }
+.content-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 28px; }
+.content-meta > * { padding: 6px 10px; color: #53606e; border: 1px solid var(--line); border-radius: 999px; font-size: 10px; font-weight: 700; }
+.imported-body { width: min(760px, calc(100% - 48px)); margin: 56px auto 0; color: #27384a; font-size: 14px; line-height: 2.05; overflow-wrap: anywhere; }
+.imported-body > :first-child { margin-top: 0; }
+.imported-body h2 { margin: 64px 0 22px; padding-bottom: 13px; border-bottom: 1px solid var(--line); font: 600 26px/1.55 "Yu Mincho", YuMincho, serif; }
+.imported-body h3 { margin: 46px 0 18px; color: var(--blue); font: 700 19px/1.55 "Yu Mincho", YuMincho, serif; }
+.imported-body h4, .imported-body h5 { margin: 36px 0 14px; font-size: 15px; }
+.imported-body p { margin: 0 0 24px; white-space: pre-wrap; }
+.imported-body ul, .imported-body ol { margin: 24px 0; padding-left: 1.5em; }
+.imported-body li { margin: 9px 0; }
+.imported-body a { color: var(--blue); border-bottom: 1px solid currentColor; font-weight: 700; }
+.imported-body blockquote { margin: 32px 0; padding: 18px 24px; border-left: 3px solid var(--red); background: var(--paper); }
+.imported-body table { width: 100%; margin: 32px 0; border-collapse: collapse; font-size: 12px; }
+.imported-body th, .imported-body td { padding: 12px; border: 1px solid var(--line); text-align: left; vertical-align: top; }
+.imported-body th { background: var(--paper); }
+.seminar-profile { width: min(760px, calc(100% - 48px)); margin: 54px auto 0; padding: 32px; display: flex; align-items: end; justify-content: space-between; gap: 36px; background: var(--blue-deep); color: white; }
+.seminar-profile small { color: #f0c27a; font-size: 9px; font-weight: 800; letter-spacing: .16em; }
+.seminar-profile h2 { margin: 13px 0 5px; font: 600 25px/1.4 "Yu Mincho", YuMincho, serif; }
+.seminar-profile p { margin: 0; color: rgba(255,255,255,.58); font: 12px/1.5 Georgia, serif; }
+.seminar-profile nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px 16px; }
+.seminar-profile a { color: rgba(255,255,255,.8); border-bottom: 1px solid rgba(255,255,255,.35); font-size: 10px; font-weight: 800; }
+.professor-body { margin-top: 36px; padding: 28px; background: var(--paper); }
+.detail-links { width: min(760px, calc(100% - 48px)); margin: 50px auto 0; display: flex; flex-wrap: wrap; gap: 12px; }
+.detail-links a { padding: 12px 17px; border: 1px solid var(--ink); font-size: 11px; font-weight: 800; }
+
+@media (max-width: 760px) {
+  .archive-header { min-height: 74px; }
+  .archive-header nav { display: none; }
+  .archive-home { padding: 9px 12px; }
+  .archive-hero { min-height: 300px; padding-block: 72px 55px; }
+  .archive-row { grid-template-columns: 84px 1fr 22px; gap: 12px; }
+  .archive-row > span { display: none; }
+  .directory-row { grid-template-columns: 1fr 22px; gap: 14px; }
+  .directory-row > span { grid-column: 1 / -1; padding: 0; }
+  .archive-row h2, .directory-row h2 { font-size: 16px; }
+  .archive-footer { align-items: flex-start; flex-direction: column; }
+  .content-title { padding-top: 48px; }
+  .seminar-profile { display: block; padding: 24px; }
+  .seminar-profile nav { justify-content: flex-start; margin-top: 26px; }
+}
