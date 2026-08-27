@@ -56,7 +56,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-copy">
           <p className="eyebrow">KEIO ECONOMICS SEMINAR COMMITTEE</p>
-          <h1>ゼミ選びから、<br /><em>ゼミ生活のその先へ。</em></h1>
+          <h1>よりよいゼミ選びと<br /><em>ゼミ生活を。</em></h1>
           <p className="hero-lead">経済学部の研究会情報、入ゼミ試験、説明会や交流イベントを、必要なときにすぐ見つけられる場所。</p>
           <div className="hero-actions"><a className="button primary" href="#seminars">研究会を探す</a><a className="button secondary" href="#schedule">入ゼミの流れを見る</a></div>
         </div>
