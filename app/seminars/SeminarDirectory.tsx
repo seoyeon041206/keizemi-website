@@ -20,7 +20,20 @@ type Seminar = {
 type StatusTab = 'すべて' | '新規募集' | '募集停止';
 
 const seminars = siteIndex.seminars as Seminar[];
-const fields = Array.from(new Set(seminars.map((seminar) => seminar.field)));
+const fieldOrder = [
+  { code: 'A', label: '経済理論' },
+  { code: 'B', label: '計量・統計' },
+  { code: 'C', label: '学史・思想史' },
+  { code: 'D', label: '経済史' },
+  { code: 'E', label: '産業・労働' },
+  { code: 'F', label: '制度・政策' },
+  { code: 'G', label: '現代経済' },
+  { code: 'H', label: '国際経済' },
+  { code: 'I', label: '環境関連' },
+  { code: 'J', label: '社会関連' },
+  { code: 'OTHERS', label: 'その他' },
+] as const;
+const fields = fieldOrder.map((item) => item.label);
 const tabs: Array<{ value: StatusTab; label: string }> = [
   { value: 'すべて', label: '研究会一覧' },
   { value: '新規募集', label: '新規募集' },
@@ -43,8 +56,8 @@ export function SeminarDirectory() {
     });
   }, [field, pearlOnly, query, status]);
 
-  const groupedSeminars = fields
-    .map((fieldName) => ({ field: fieldName, seminars: visibleSeminars.filter((seminar) => seminar.field === fieldName) }))
+  const groupedSeminars = fieldOrder
+    .map((fieldItem) => ({ ...fieldItem, seminars: visibleSeminars.filter((seminar) => seminar.field === fieldItem.label) }))
     .filter((group) => group.seminars.length > 0);
 
   return (
@@ -109,10 +122,10 @@ export function SeminarDirectory() {
       </section>
 
       <section className="field-directory" aria-live="polite">
-        {groupedSeminars.map((group, groupIndex) => (
-          <section className="field-group" key={group.field}>
+        {groupedSeminars.map((group) => (
+          <section className="field-group" key={group.label}>
             <header>
-              <div><small>FIELD {String(groupIndex + 1).padStart(2, '0')}</small><h2>{group.field}</h2></div>
+              <div><small>{group.code === 'OTHERS' ? 'OTHERS · PCP / IRP' : `FIELD ${group.code}`}</small><h2>{group.label}</h2></div>
               <span>{group.seminars.length} 件</span>
             </header>
             <div className="field-seminar-grid">
@@ -124,7 +137,7 @@ export function SeminarDirectory() {
                   </div>
                   <div className="directory-card-mark" aria-hidden="true">{seminar.name.slice(0, 1)}</div>
                   <h3>{seminar.name}</h3>
-                  <p>{seminar.excerpt || `${group.field}分野の研究会です。`}</p>
+                  <p>{seminar.excerpt || `${group.label}分野の研究会です。`}</p>
                   <div className="directory-card-footer"><span>詳細を見る</span><b aria-hidden="true">→</b></div>
                 </a>
               ))}
