@@ -6,6 +6,8 @@ import { ContentChrome, ImportedBody } from '@/app/components/ContentChrome';
 
 const posts = postsJson as NewsPost[];
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return posts.map((post) => ({ id: String(post.id) }));
 }

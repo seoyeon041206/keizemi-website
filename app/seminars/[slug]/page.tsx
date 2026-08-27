@@ -6,6 +6,8 @@ import { ContentChrome, ImportedBody } from '@/app/components/ContentChrome';
 
 const seminars = seminarsJson as Seminar[];
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return seminars.map((seminar) => ({ slug: seminar.slug }));
 }

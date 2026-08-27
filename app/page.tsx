@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import siteIndex from '@/content/site-index.json';
+import { siteHref } from '@/app/site-path';
 
 type Seminar = {
   id: number;
@@ -80,15 +81,15 @@ export default function Home() {
           <div className="panel-topline"><span>2026 ADMISSIONS</span><span className="status-dot">最新情報</span></div>
           <p className="panel-kicker">NEXT STEP</p><h2>第1回 入ゼミ説明会</h2>
           <p>ゼミの全体像と年間スケジュールを知る、最初のガイダンスです。</p>
-          <a href={`/news/${notices[0].id}`}>開催情報を確認 <span aria-hidden="true">→</span></a><div className="panel-number">01</div>
+          <a href={siteHref(`/news/${notices[0].id}`)}>開催情報を確認 <span aria-hidden="true">→</span></a><div className="panel-number">01</div>
         </aside>
       </section>
 
       <section className="news-strip" id="news" aria-labelledby="news-title">
-        <div className="section-label"><p>NEWS &amp; UPDATES</p><h2 id="news-title">新着情報</h2><a className="text-link" href="/news">一覧を見る →</a></div>
+        <div className="section-label"><p>NEWS &amp; UPDATES</p><h2 id="news-title">新着情報</h2><a className="text-link" href={siteHref('/news')}>一覧を見る →</a></div>
         <div className="notice-list">
           {notices.map((notice) => (
-            <a className="notice" href={`/news/${notice.id}`} key={notice.id}>
+            <a className="notice" href={siteHref(`/news/${notice.id}`)} key={notice.id}>
               <time>{notice.date.replaceAll('-', '.')}</time><span className="notice-category">{notice.categories[0] ?? 'お知らせ'}</span><strong>{notice.title}</strong><span className="arrow" aria-hidden="true">→</span>
             </a>
           ))}
@@ -99,7 +100,7 @@ export default function Home() {
         <div className="about-lead">
           <div className="section-label light"><p>ABOUT THE COMMITTEE</p><h2>すべての研究会を、<br />ひとつにつなぐ。</h2></div>
           <p>経済学部ゼミナール委員会は、各研究会に所属する学生全員で構成される学生団体です。研究会間の親睦を図り、学生のゼミ選びと豊かな研究生活を支えます。</p>
-          <a className="button outline-light" href="/pages/71">委員会について詳しく</a>
+          <a className="button outline-light" href={siteHref('/pages/71')}>委員会について詳しく</a>
         </div>
         <div className="about-grid">
           <article><span>01</span><h3>入ゼミ支援</h3><p>説明会、資料作成、オープンゼミ、試験運営</p></article>
@@ -122,7 +123,7 @@ export default function Home() {
         <div className="results-line"><strong>{visibleSeminars.length}</strong><span>件の研究会</span><span className="legend">P：PEARL対応　DD：Double Degree対応</span></div>
         <div className="seminar-grid">
           {displayedSeminars.map((seminar) => (
-            <a className={`seminar-card ${seminar.status === '募集停止' ? 'is-paused' : ''}`} href={`/seminars/${seminar.slug}`} key={seminar.id}>
+            <a className={`seminar-card ${seminar.status === '募集停止' ? 'is-paused' : ''}`} href={siteHref(`/seminars/${seminar.slug}`)} key={seminar.id}>
               <div className="card-meta"><span>{seminar.field}</span><span className={`recruit-status ${seminar.status === '新規募集' ? 'is-new' : ''}`}>{seminar.status}</span></div>
               <h3>{seminar.name.includes('：') ? seminar.name : `${seminar.name}研究会`}</h3>
               <div className="tag-row">{seminar.pearl && <span>P</span>}{seminar.dd && <span>DD</span>}{!seminar.pearl && !seminar.dd && <span>JP</span>}</div>
@@ -137,7 +138,7 @@ export default function Home() {
         <div className="schedule-intro">
           <div className="section-label light"><p>ADMISSION TIMELINE</p><h2 id="schedule-title">入ゼミまでの流れ</h2></div>
           <p>最初の説明会から試験・結果発表まで、およそ半年。節目ごとに情報を集め、自分に合う研究会を見つけましょう。</p>
-          <div className="schedule-links"><a href="/pages/1491">開催情報 →</a><a href="/pages/139">配布資料 →</a><a href="/pages/1259">試験情報 →</a></div>
+          <div className="schedule-links"><a href={siteHref('/pages/1491')}>開催情報 →</a><a href={siteHref('/pages/139')}>配布資料 →</a><a href={siteHref('/pages/1259')}>試験情報 →</a></div>
         </div>
         <ol className="timeline">
           {timeline.map(([date, title, description], index) => <li key={title}><span className="timeline-index">{String(index + 1).padStart(2, '0')}</span><time>{date}</time><div><h3>{title}</h3><p>{description}</p></div></li>)}
@@ -146,8 +147,8 @@ export default function Home() {
 
       <section className="pearl-section" id="pearl">
         <div className="pearl-monogram" aria-hidden="true">P</div>
-        <div className="pearl-copy"><p className="eyebrow">FOR PEARL / DOUBLE DEGREE STUDENTS</p><h2>Discover your Zemi.</h2><p>A Zemi is a highly focused learning environment with close support from a professor specializing in a specific field. Find English-friendly seminars, schedules, examinations, and handouts in one place.</p><a className="button primary" href="/pages/79">Explore PEARL / DD</a></div>
-        <div className="pearl-links"><a href="/pearl-seminars"><span>01</span>Seminars for PEARL / DD <b>→</b></a><a href="/pages/1598"><span>02</span>Schedule <b>→</b></a><a href="/pages/1611"><span>03</span>Examination <b>→</b></a><a href="/pages/1214"><span>04</span>Handout <b>→</b></a></div>
+        <div className="pearl-copy"><p className="eyebrow">FOR PEARL / DOUBLE DEGREE STUDENTS</p><h2>Discover your Zemi.</h2><p>A Zemi is a highly focused learning environment with close support from a professor specializing in a specific field. Find English-friendly seminars, schedules, examinations, and handouts in one place.</p><a className="button primary" href={siteHref('/pages/79')}>Explore PEARL / DD</a></div>
+        <div className="pearl-links"><a href={siteHref('/pearl-seminars')}><span>01</span>Seminars for PEARL / DD <b>→</b></a><a href={siteHref('/pages/1598')}><span>02</span>Schedule <b>→</b></a><a href={siteHref('/pages/1611')}><span>03</span>Examination <b>→</b></a><a href={siteHref('/pages/1214')}><span>04</span>Handout <b>→</b></a></div>
       </section>
 
       <section className="contact-section" id="contact">

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import seminarsJson from '@/content/pearl-seminars.json';
 import type { PearlSeminar } from '@/app/content-types';
 import { ArchiveFooter, ArchiveHeader } from '@/app/components/ContentChrome';
+import { siteHref } from '@/app/site-path';
 
 const seminars = seminarsJson as PearlSeminar[];
 
@@ -23,7 +24,7 @@ export default function PearlSeminarArchive() {
       </section>
       <section className="directory-list" aria-label="PEARL and Double Degree seminars">
         {seminars.map((seminar) => (
-          <a className="directory-row" href={`/pearl-seminars/${seminar.slug}`} key={seminar.id}>
+          <a className="directory-row" href={siteHref(`/pearl-seminars/${seminar.slug}`)} key={seminar.id}>
             <span>{seminar.field}</span>
             <div><h2>{seminar.name}</h2><p>{seminar.excerpt}</p></div>
             <b aria-hidden="true">→</b>

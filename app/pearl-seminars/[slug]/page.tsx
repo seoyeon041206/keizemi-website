@@ -4,9 +4,12 @@ import pearlJson from '@/content/pearl-seminars.json';
 import seminarsJson from '@/content/seminars.json';
 import type { PearlSeminar, Seminar } from '@/app/content-types';
 import { ContentChrome, ImportedBody } from '@/app/components/ContentChrome';
+import { siteHref } from '@/app/site-path';
 
 const pearlSeminars = pearlJson as PearlSeminar[];
 const seminars = seminarsJson as Seminar[];
+
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return pearlSeminars.map((seminar) => ({ slug: seminar.slug }));
@@ -40,7 +43,7 @@ export default async function PearlSeminarDetail({ params }: { params: Promise<{
       {(seminar.professorLink || japanese) && (
         <nav className="detail-links">
           {seminar.professorLink && <a href={seminar.professorLink} target="_blank" rel="noreferrer">Professor profile ↗</a>}
-          {japanese && <a href={`/seminars/${japanese.slug}`}>Japanese seminar page →</a>}
+          {japanese && <a href={siteHref(`/seminars/${japanese.slug}`)}>Japanese seminar page →</a>}
         </nav>
       )}
       {seminar.professorDescription && <div className="imported-body professor-body" dangerouslySetInnerHTML={{ __html: seminar.professorDescription }} />}

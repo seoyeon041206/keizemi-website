@@ -6,6 +6,8 @@ import { ContentChrome, ImportedBody } from '@/app/components/ContentChrome';
 
 const pages = pagesJson as BaseContent[];
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return pages.map((page) => ({ id: String(page.id) }));
 }

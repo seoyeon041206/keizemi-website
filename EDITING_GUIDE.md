@@ -8,7 +8,7 @@ This guide is for collaborators making small content or design changes to the KE
 2. Edit only the files related to your task.
 3. Preview the website locally when possible.
 4. Open a pull request and describe what changed.
-5. Ask the site owner or Codex to preview and publish the approved version.
+5. Merge the approved pull request into `main`. GitHub automatically builds and publishes the public Pages website.
 
 For very small text corrections, you can edit a file directly on GitHub with the pencil button. Choose **Create a new branch for this commit and start a pull request** instead of committing directly to `main`.
 
@@ -59,4 +59,6 @@ Do not commit passwords, API keys, access tokens, `.env` files, `node_modules`, 
 
 ## Publication note
 
-GitHub stores and reviews the source code. It is not the live hosting service for this project. Merging a pull request does not update the live website until the approved source is published through Sites.
+Merging into `main` automatically updates the public GitHub Pages website at `https://seoyeon041206.github.io/keizemi-website/` after the deployment workflow finishes.
+
+The owner-only Sites copy is a separate deployment. Ask the site owner or Codex to publish there when that private copy also needs the approved change.

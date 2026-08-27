@@ -27,4 +27,8 @@ pnpm build
 
 ## Publishing
 
-Changes pushed to GitHub do not automatically update the live website. After a change is reviewed, ask the site owner or Codex to preview and publish the latest version through Sites.
+The public GitHub Pages website is built automatically whenever an approved change is merged into `main`:
+
+`https://seoyeon041206.github.io/keizemi-website/`
+
+The owner-only Sites deployment is separate. Updating that private copy still requires the site owner or Codex to publish an approved version through Sites.
