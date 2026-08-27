@@ -1,0 +1,1659 @@
+{
+  "2": {
+    "slug": "sample-page",
+    "meta": []
+  },
+  "3": {
+    "slug": "privacy-policy",
+    "meta": []
+  },
+  "71": {
+    "slug": "about",
+    "meta": [
+      [
+        "show_catch_overlay",
+        "on"
+      ]
+    ]
+  },
+  "73": {
+    "slug": "about-seminar",
+    "meta": []
+  },
+  "75": {
+    "slug": "activity",
+    "meta": []
+  },
+  "77": {
+    "slug": "financial-report",
+    "meta": [
+      [
+        "show_catch_overlay",
+        "on"
+      ],
+      [
+        "document_year",
+        "2024年度"
+      ],
+      [
+        "document_name",
+        "支出一覧"
+      ],
+      [
+        "document_file",
+        "3853"
+      ],
+      [
+        "document_name",
+        "財務決算報告資料"
+      ],
+      [
+        "document_file",
+        "3854"
+      ],
+      [
+        "document_year",
+        "2023年度"
+      ],
+      [
+        "document_name",
+        "支出一覧"
+      ],
+      [
+        "document_file",
+        "3490"
+      ],
+      [
+        "document_name",
+        "財務決算報告資料"
+      ],
+      [
+        "document_file",
+        "3491"
+      ],
+      [
+        "document_year",
+        "2022年度"
+      ],
+      [
+        "document_name",
+        "支出一覧"
+      ],
+      [
+        "document_file",
+        "3015"
+      ],
+      [
+        "document_name",
+        "財務決算報告資料"
+      ],
+      [
+        "document_file",
+        "3016"
+      ],
+      [
+        "document_year",
+        "2021年度"
+      ],
+      [
+        "document_name",
+        "支出一覧"
+      ],
+      [
+        "document_file",
+        "3851"
+      ],
+      [
+        "document_name",
+        "財務決算報告資料"
+      ],
+      [
+        "document_file",
+        "3852"
+      ],
+      [
+        "document_name",
+        "財務決算報告資料"
+      ],
+      [
+        "document_file",
+        "2538"
+      ],
+      [
+        "document_year",
+        "2020年度"
+      ],
+      [
+        "document_name",
+        "支出一覧"
+      ],
+      [
+        "document_file",
+        "785"
+      ],
+      [
+        "document_name",
+        "財務決算報告資料"
+      ],
+      [
+        "document_file",
+        "786"
+      ],
+      [
+        "document_year",
+        "2019年度"
+      ],
+      [
+        "document_name",
+        "支出一覧"
+      ],
+      [
+        "document_file",
+        "783"
+      ],
+      [
+        "document_name",
+        "財務決算報告資料"
+      ],
+      [
+        "document_file",
+        "784"
+      ],
+      [
+        "document_year",
+        "2018年度"
+      ],
+      [
+        "document_name",
+        "支出一覧"
+      ],
+      [
+        "document_file",
+        "781"
+      ],
+      [
+        "document_name",
+        "財務決算報告資料"
+      ],
+      [
+        "document_file",
+        "782"
+      ],
+      [
+        "document_year",
+        "2017年度"
+      ],
+      [
+        "document_name",
+        "支出一覧"
+      ],
+      [
+        "document_file",
+        "779"
+      ],
+      [
+        "document_name",
+        "財務決算報告資料"
+      ],
+      [
+        "document_file",
+        "780"
+      ],
+      [
+        "document_year",
+        "2016年度"
+      ],
+      [
+        "document_name",
+        "支出一覧"
+      ],
+      [
+        "document_file",
+        "778"
+      ],
+      [
+        "document_year",
+        "2015年度"
+      ],
+      [
+        "document_name",
+        "支出一覧"
+      ],
+      [
+        "document_file",
+        "777"
+      ]
+    ]
+  },
+  "79": {
+    "slug": "pearl",
+    "meta": [
+      [
+        "pearl_banner_title",
+        "Seminars for PEARL/DD"
+      ],
+      [
+        "pearl_banner_img",
+        "966"
+      ],
+      [
+        "pearl_banner_link",
+        "a:3:{s:3:\"url\";s:46:\"https://keizemi-keio.info/pearl/pearl-seminar/\";s:4:\"text\";s:0:\"\";s:6:\"target\";s:4:\"none\";}"
+      ],
+      [
+        "pearl_banner_title",
+        "Schedule"
+      ],
+      [
+        "pearl_banner_img",
+        "702"
+      ],
+      [
+        "pearl_banner_link",
+        "a:3:{s:3:\"url\";s:41:\"https://keizemi-keio.info/pearl/schedule/\";s:4:\"text\";s:0:\"\";s:6:\"target\";s:4:\"none\";}"
+      ],
+      [
+        "pearl_banner_title",
+        "Examination"
+      ],
+      [
+        "pearl_banner_img",
+        "1859"
+      ],
+      [
+        "pearl_banner_link",
+        "a:3:{s:3:\"url\";s:44:\"https://keizemi-keio.info/pearl/examination/\";s:4:\"text\";s:0:\"\";s:6:\"target\";s:4:\"none\";}"
+      ],
+      [
+        "pearl_banner_title",
+        "Handout"
+      ],
+      [
+        "pearl_banner_img",
+        "700"
+      ],
+      [
+        "pearl_banner_link",
+        "a:3:{s:3:\"url\";s:40:\"https://keizemi-keio.info/pearl/handout/\";s:4:\"text\";s:0:\"\";s:6:\"target\";s:4:\"none\";}"
+      ],
+      [
+        "pearl_banner_title",
+        "Previous Year Results"
+      ],
+      [
+        "pearl_banner_img",
+        "1860"
+      ],
+      [
+        "pearl_banner_link",
+        "a:3:{s:3:\"url\";s:41:\"https://keizemi-keio.info/pearl/previous/\";s:4:\"text\";s:0:\"\";s:6:\"target\";s:4:\"none\";}"
+      ],
+      [
+        "pearl_banner_title",
+        "Event meeting"
+      ],
+      [
+        "pearl_banner_img",
+        "2022"
+      ],
+      [
+        "pearl_banner_link",
+        "a:3:{s:3:\"url\";s:46:\"https://keizemi-keio.info/pearl/event-meeting/\";s:4:\"text\";s:0:\"\";s:6:\"target\";s:4:\"none\";}"
+      ]
+    ]
+  },
+  "81": {
+    "slug": "contact",
+    "meta": []
+  },
+  "133": {
+    "slug": "past-activity",
+    "meta": [
+      [
+        "activity_year",
+        "2024年度"
+      ],
+      [
+        "activity_name",
+        "(26卒)2024年度入ゼミ試験"
+      ],
+      [
+        "activity_file",
+        "3571"
+      ],
+      [
+        "activity_name",
+        "2024年度春期ソフトボール大会（アーカイブ資料がまとまり次第掲載します）"
+      ],
+      [
+        "activity_name",
+        "2024年度秋季バレーボール大会（アーカイブ資料がまとまり次第掲載します）"
+      ],
+      [
+        "activity_name",
+        "2024年度三田祭論文コンクール結果（アーカイブ資料がまとまり次第掲載します）"
+      ],
+      [
+        "activity_year",
+        "2023年度"
+      ],
+      [
+        "activity_name",
+        "(25卒)2023年度入ゼミ試験"
+      ],
+      [
+        "activity_file",
+        "3086"
+      ],
+      [
+        "activity_name",
+        "2023年度三田祭論文コンクール結果"
+      ],
+      [
+        "activity_file",
+        "3659"
+      ],
+      [
+        "activity_name",
+        "2023年度春季バレーボール大会"
+      ],
+      [
+        "activity_file",
+        "3739"
+      ],
+      [
+        "activity_name",
+        "2023年度秋季ソフトボール大会"
+      ],
+      [
+        "activity_file",
+        "3742"
+      ],
+      [
+        "activity_year",
+        "2022年度"
+      ],
+      [
+        "activity_name",
+        "(25卒)2022年度入ゼミ行事"
+      ],
+      [
+        "activity_file",
+        "2969"
+      ],
+      [
+        "activity_name",
+        "(24卒)2022年度入ゼミ試験"
+      ],
+      [
+        "activity_file",
+        "813"
+      ],
+      [
+        "activity_name",
+        "2022年度三田祭論文コンクール結果"
+      ],
+      [
+        "activity_file",
+        "2970"
+      ],
+      [
+        "activity_name",
+        "2022年度春季イベント"
+      ],
+      [
+        "activity_file",
+        "2971"
+      ],
+      [
+        "activity_name",
+        "2022年度秋季イベント"
+      ],
+      [
+        "activity_file",
+        "2972"
+      ],
+      [
+        "activity_year",
+        "2021年度"
+      ],
+      [
+        "activity_name",
+        "(24卒)2021年度入ゼミ行事"
+      ],
+      [
+        "activity_file",
+        "814"
+      ],
+      [
+        "activity_name",
+        "(23卒)2021年度入ゼミ試験"
+      ],
+      [
+        "activity_file",
+        "811"
+      ],
+      [
+        "activity_name",
+        "2021年度三田祭論文コンクール結果"
+      ],
+      [
+        "activity_file",
+        "810"
+      ],
+      [
+        "activity_name",
+        "2021年度春季イベント"
+      ],
+      [
+        "activity_file",
+        "809"
+      ],
+      [
+        "activity_name",
+        "2021年度経ゼミ秋季オンラインクイズ大会"
+      ],
+      [
+        "activity_file",
+        "812"
+      ],
+      [
+        "activity_year",
+        "2020年度"
+      ],
+      [
+        "activity_name",
+        "(23卒)2020年度入ゼミ行事"
+      ],
+      [
+        "activity_file",
+        "808"
+      ],
+      [
+        "activity_name",
+        "2020年度三田祭論文コンクール結果"
+      ],
+      [
+        "activity_file",
+        "804"
+      ],
+      [
+        "activity_name",
+        "2020年度春季オンラインクイズ大会"
+      ],
+      [
+        "activity_file",
+        "805"
+      ],
+      [
+        "activity_name",
+        "2020年度経ゼミ秋季バレーボール大会"
+      ],
+      [
+        "activity_file",
+        "807"
+      ],
+      [
+        "activity_img",
+        "1230"
+      ],
+      [
+        "activity_name",
+        "2020年度の三田祭講演会について"
+      ],
+      [
+        "activity_file",
+        "1231"
+      ],
+      [
+        "activity_year",
+        "2019年度"
+      ],
+      [
+        "activity_name",
+        "2019年度三田祭論文コンクール結果"
+      ],
+      [
+        "activity_file",
+        "802"
+      ],
+      [
+        "activity_name",
+        "2019年度春季ソフトボール大会"
+      ],
+      [
+        "activity_file",
+        "803"
+      ],
+      [
+        "activity_year",
+        "2018年度"
+      ],
+      [
+        "activity_name",
+        "2018年度三田祭論文コンクール結果"
+      ],
+      [
+        "activity_file",
+        "799"
+      ],
+      [
+        "activity_name",
+        "2018年度春季ソフトボール大会"
+      ],
+      [
+        "activity_file",
+        "800"
+      ],
+      [
+        "activity_name",
+        "2018年度経ゼミ秋季バレーボール大会"
+      ],
+      [
+        "activity_file",
+        "801"
+      ],
+      [
+        "activity_year",
+        "2017年度"
+      ],
+      [
+        "activity_name",
+        "2017年度三田祭論文コンクール結果"
+      ],
+      [
+        "activity_file",
+        "796"
+      ],
+      [
+        "activity_name",
+        "2017年度春季ソフトボール大会"
+      ],
+      [
+        "activity_file",
+        "797"
+      ],
+      [
+        "activity_name",
+        "2017年度経ゼミ秋季バレーボール大会"
+      ],
+      [
+        "activity_file",
+        "798"
+      ],
+      [
+        "activity_year",
+        "2016年度"
+      ],
+      [
+        "activity_name",
+        "2016年度三田祭論文コンクール結果"
+      ],
+      [
+        "activity_file",
+        "793"
+      ],
+      [
+        "activity_name",
+        "2016年度春季ソフトボール大会"
+      ],
+      [
+        "activity_file",
+        "794"
+      ],
+      [
+        "activity_name",
+        "2016年度経ゼミ秋季バレーボール大会"
+      ],
+      [
+        "activity_file",
+        "795"
+      ]
+    ]
+  },
+  "139": {
+    "slug": "handout",
+    "meta": [
+      [
+        "handout_category",
+        "第1回入ゼミ説明会"
+      ],
+      [
+        "handout_name",
+        "第1回入ゼミ説明会冊子2024"
+      ],
+      [
+        "handout_img",
+        "3476"
+      ],
+      [
+        "handout_link",
+        "https://keio.box.com/s/ajbze9i7xunsktaibhp8iz79yt75okrx"
+      ],
+      [
+        "handout_name",
+        "【PEARL生向け】第1回入ゼミ説明会冊子2023（こちら昨年度のものです）"
+      ],
+      [
+        "handout_img",
+        "2990"
+      ],
+      [
+        "handout_link",
+        "https://keio.box.com/s/oj7da9kmm44grpyphfiv946xcihg29i2"
+      ],
+      [
+        "handout_name",
+        "全体説明会動画"
+      ],
+      [
+        "handout_link",
+        "https://keio.box.com/s/7od8pavffbydzzw9mfdpy15pp9ee4j1d"
+      ],
+      [
+        "handout_category",
+        "第2回入ゼミ説明会"
+      ],
+      [
+        "handout_name",
+        "全体説明会動画"
+      ],
+      [
+        "handout_link",
+        "https://keio.app.box.com/file/1337592776840?s=qimelzjcwhprb1q8gp154h4d7mnjbcmg"
+      ],
+      [
+        "handout_name",
+        "第2回入ゼミ説明会冊子2024"
+      ],
+      [
+        "handout_img",
+        "3475"
+      ],
+      [
+        "handout_link",
+        "https://keio.box.com/s/lkq0q7c4om5d6t4dgippjct8qktoxhqh"
+      ],
+      [
+        "handout_category",
+        "教授説明会"
+      ],
+      [
+        "handout_name",
+        "教授説明会資料"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/spreadsheets/d/1pjGegmMIjMyX__z3MupQ3rlqq4qiSIEPw54KjOrYyqM/edit?gid=613328077#gid=613328077"
+      ],
+      [
+        "handout_category",
+        "オープンゼミ"
+      ],
+      [
+        "handout_name",
+        "オープンゼミ資料"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/spreadsheets/d/1HXC-IFIuhexlpnHYJdqgxrBFHISjvgCFSCqtocdSxqg/edit?gid=0#gid=0"
+      ],
+      [
+        "handout_category",
+        "第3回入ゼミ説明会"
+      ],
+      [
+        "handout_name",
+        "第3回入ゼミ説明会冊子2024"
+      ],
+      [
+        "handout_link",
+        "https://keio.box.com/s/9c68a5jhvjnzi9fyskvc39g5vp1n6weq"
+      ],
+      [
+        "handout_name",
+        "【PEARL生向け】Seminar Introduction Booklet Keio University Faculty of Economics AY 2024 ~Vol. 3"
+      ],
+      [
+        "handout_link",
+        "https://keio.box.com/s/ss299bnipcdb8ybk8g93iwwzn6qtr2v2"
+      ],
+      [
+        "handout_category",
+        "入ゼミ試験（一部昨年度のものです）"
+      ],
+      [
+        "handout_name",
+        "（2025）【AB生向け】 A日程経ゼミ共通ES"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/document/d/1DPC9feL8uEpHNhusnEAEzrVCTgzo-6Vy/edit?usp=sharing&ouid=115177941890052427820&rtpof=true&sd=true"
+      ],
+      [
+        "handout_name",
+        "（2025）【PEARL生向け】 A日程経ゼミ共通ES"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/document/d/1163bg-M2sEZriTJ4yFhh6_Bx8Bo5py2M/edit?usp=sharing&ouid=115177941890052427820&rtpof=true&sd=true"
+      ],
+      [
+        "handout_name",
+        "（2025）【AB生・PEARL生向け】A日程各ゼミ試験要項"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/spreadsheets/d/197uzY2SK3JqQASkhfHckXwSI8wHJLQr2Yzi9UX_IXZw/edit?usp=sharing"
+      ],
+      [
+        "handout_name",
+        "（2025）入ゼミA日程試験概要スライド"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/presentation/d/1TX-Dy88Lq_j17Z53IwRgH3Xwd36wi6zOaAcDVdrbph8/edit?usp=sharing"
+      ],
+      [
+        "handout_name",
+        "（2025）【PEARL生向け】入ゼミA日程試験概要スライド Seminar Entrance Exam A Details"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/presentation/d/1Y175_45uyR2EMQ-zVpd1YCmFM4l-Suk-AxiX_wurcqQ/edit?usp=sharing"
+      ],
+      [
+        "handout_name",
+        "（2025）【AB生向け】 B日程経ゼミ共通ES"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/document/d/1kA2nHjerf2rL-KPHxTL9S5gVtM7OXBm5/edit?usp=sharing&ouid=117028825292232999654&rtpof=true&sd=true"
+      ],
+      [
+        "handout_name",
+        "（2025）【PEARL生向け】 B日程経ゼミ共通ES"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/document/d/1QSgBW4e6c2S3XpC68MfHOLkLv9JnRMhg/edit?usp=sharing&ouid=115177941890052427820&rtpof=true&sd=true"
+      ],
+      [
+        "handout_name",
+        "（2025）入ゼミB日程試験概要スライド"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/presentation/d/1TBFtNjlEnX1EEbB0ByQRQ7LZ6gJD9zCkDpTcTOsCSuo/edit?usp=sharing"
+      ],
+      [
+        "handout_name",
+        "（2025）【AB生・PEARL生向け】B日程各ゼミ試験要項"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/spreadsheets/d/10EXTjPMuJEDOWtEml9WpDAFJ3mmSkqsYyKYSJ960AV8/edit?gid=1688324269#gid=1688324269"
+      ],
+      [
+        "handout_name",
+        "（2025）【PEARL生向け】入ゼミB日程試験概要スライド Seminar Entrance Exam B Details"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/presentation/d/1B4VmbssbexAjhvHDogn4ltbPpJUNeKsUS3qBz1a9M6E/edit?usp=sharing"
+      ],
+      [
+        "handout_name",
+        "よくある質問（2024年度版）"
+      ],
+      [
+        "handout_description",
+        "<p>最新の情報は当委員会メールアドレスにお問い合わせください。</p>"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/document/d/1DncthBhqYQyRwGNLfxHKFIA9DPD7MPysV-KPBTzLgCc/edit?usp=sharing"
+      ]
+    ]
+  },
+  "566": {
+    "slug": "top-customize",
+    "meta": [
+      [
+        "top_banner_title",
+        "入ゼミ配布資料"
+      ],
+      [
+        "top_banner_desc",
+        "今年度の入ゼミに関する配布資料はこちら"
+      ],
+      [
+        "top_banner_img",
+        "700"
+      ],
+      [
+        "top_banner_link",
+        "a:3:{s:3:\"url\";s:48:\"https://keizemi-keio.info/about-seminar/handout/\";s:4:\"text\";s:0:\"\";s:6:\"target\";s:4:\"none\";}"
+      ],
+      [
+        "top_banner_title",
+        "(27卒)2025年度新規募集開始ゼミ"
+      ],
+      [
+        "top_banner_desc",
+        "(27卒)2025年度新規募集開始ゼミの一覧です"
+      ],
+      [
+        "top_banner_img",
+        "966"
+      ],
+      [
+        "top_banner_link",
+        "a:3:{s:3:\"url\";s:43:\"https://keizemi-keio.info/seminar/?open=new\";s:4:\"text\";s:0:\"\";s:6:\"target\";s:4:\"none\";}"
+      ],
+      [
+        "top_banner_title",
+        "入ゼミの流れ"
+      ],
+      [
+        "top_banner_desc",
+        "入ゼミスケジュール・行事の流れについて紹介しています"
+      ],
+      [
+        "top_banner_img",
+        "702"
+      ],
+      [
+        "top_banner_link",
+        "a:3:{s:3:\"url\";s:49:\"https://keizemi-keio.info/about-seminar/schedule/\";s:4:\"text\";s:0:\"\";s:6:\"target\";s:4:\"none\";}"
+      ],
+      [
+        "top_banner_title",
+        "ゼミ活動"
+      ],
+      [
+        "top_banner_desc",
+        "経済学部ゼミナール委員会では当委員会企画のもと様々なゼミ活動を実施しています"
+      ],
+      [
+        "top_banner_img",
+        "703"
+      ],
+      [
+        "top_banner_link",
+        "a:3:{s:3:\"url\";s:51:\"https://keizemi-keio.info/activity/seasonal-events/\";s:4:\"text\";s:0:\"\";s:6:\"target\";s:4:\"none\";}"
+      ]
+    ]
+  },
+  "584": {
+    "slug": "committee",
+    "meta": [
+      [
+        "committee_position",
+        "委員長"
+      ],
+      [
+        "committee_seminar",
+        "中根　琉翔（清田耕造研究会）"
+      ],
+      [
+        "committee_desc",
+        "<p>経済学部ゼミナール委員会委員長を務めさせていただきます、中根琉翔と申します。長である責任を当然果たしながらも、ゼミ生全員でゼミ活動をより発展させていきたいと思っておりますので、お力添えのほどよろしくお願いします。1年間よろしくお願いいたします。</p>"
+      ],
+      [
+        "committee_position",
+        "副委員長"
+      ],
+      [
+        "committee_seminar",
+        "中井久美香（小林慶一郎研究会）"
+      ],
+      [
+        "committee_desc",
+        "<p>このたび、今年度の経済学部ゼミナール委員会にて副委員長を務めさせていただくことになりました。他の委員の皆さんと協力しながら、学生の皆さんが納得のいくゼミ選びと充実したゼミ活動を行えるよう、環境づくりに尽力してまいります。1年間どうぞよろしくお願いいたします。</p>"
+      ],
+      [
+        "committee_position",
+        "財務"
+      ],
+      [
+        "committee_seminar",
+        "中根琉翔　(清田耕造研究会)"
+      ],
+      [
+        "committee_desc",
+        "<p><span data-sheets-value=\"{\"1\":2,\"2\":\"皆さんにご迷惑をかけないよう、精一杯頑張ります！(財務)\"}\" data-sheets-userformat=\"{\"2\":513,\"3\":{\"1\":0},\"12\":0}\">ゼミ活動が滞りなく回るよう、一生懸命頑張ります。</span></p>"
+      ],
+      [
+        "committee_position",
+        "入ゼミ担当"
+      ],
+      [
+        "committee_seminar",
+        "田邉志織（白塚重典研究会）\n渡邉希美（大平哲研究会）\n吉澤鴻（小西祥文研究会）"
+      ],
+      [
+        "committee_desc",
+        "<ul><li>2年生の皆さんがより良いゼミを見つけられるよう精一杯努めますので、どうぞよろしくお願いいたします。（吉澤）</li><li>皆さんの後悔のないゼミ選びをサポートします！（渡邊）</li><li>2年生の皆さんが納得できるゼミ選びをできるよう頑張ります！（田邊）</li></ul>"
+      ],
+      [
+        "committee_position",
+        "三田祭・企画担当"
+      ],
+      [
+        "committee_seminar",
+        "曽布川大翔（星野崇宏研究会）\n田村優里（土居丈朗研究会）\n小林芽莉（一上響研究会）\n小赤澤維吹（河端瑞貴研究会）"
+      ],
+      [
+        "committee_desc",
+        "<ul><li>経済学部生だけで集まるゼミというコミュニティが楽しい活動でありますように。（曽布川）</li><li>三田での学生生活が楽しいものになるよう、ゼミ対抗の大会や三田祭を通して積極的にサポートしていきます！どうぞよろしくお願いします。（田村）</li><li>皆さんが楽しめる企画が出来るように頑張ります！（小林）</li><li>研究会が一丸となって、全力で打ち込める企画を提供することを目標にしております。（小赤澤）</li></ul>"
+      ],
+      [
+        "committee_position",
+        "IT・広報担当"
+      ],
+      [
+        "committee_seminar",
+        "小倉にな\n後藤一斗"
+      ],
+      [
+        "committee_desc",
+        "<ul><li><span data-sheets-value=\"{\"1\":2,\"2\":\"迅速で魅力的な情報発信を通じて日吉・三田全ての学生に三田での学生生活に対し関心を持ってもらえるよう尽力致します！(IT広報)\"}\" data-sheets-userformat=\"{\"2\":513,\"3\":{\"1\":0},\"12\":0}\">2年生の皆様の三田での活動が少しでも楽しいものになるように迅速な情報提供を心がけます！。</span>（小倉）</li><li> </li></ul>"
+      ],
+      [
+        "committee_position",
+        "PEARL担当"
+      ],
+      [
+        "committee_seminar",
+        "キム・ソヨン（笹原彰研究会）\n中井久美香（小林慶一郎研究会）"
+      ],
+      [
+        "committee_desc",
+        "<ul><li>PEARL生が自分に合ったゼミを見つけて、楽しく参加できるよう頑張ります！（キム）</li><li>PEARL生およびダブルディグリー生の皆様にも、必要な情報が確実に届くよう、誠実に取り組んでまいります。1年間よろしくお願いいたします！（中井）</li></ul>"
+      ]
+    ]
+  },
+  "707": {
+    "slug": "new-members",
+    "meta": []
+  },
+  "815": {
+    "slug": "info",
+    "meta": []
+  },
+  "817": {
+    "slug": "%e3%83%95%e3%83%ad%e3%83%b3%e3%83%88%e3%83%9a%e3%83%bc%e3%82%b8",
+    "meta": []
+  },
+  "843": {
+    "slug": "entry",
+    "meta": []
+  },
+  "1058": {
+    "slug": "schedule",
+    "meta": [
+      [
+        "flow_timing",
+        "６月下旬"
+      ],
+      [
+        "flow_title",
+        "第1回入ゼミ説明会・個別説明会"
+      ],
+      [
+        "flow_desc",
+        "<p>ゼミの全体像や、イベントスケジュールを把握しましょう。</p>"
+      ],
+      [
+        "flow_img",
+        "1002"
+      ],
+      [
+        "flow_timing",
+        "10月ごろ"
+      ],
+      [
+        "flow_title",
+        "第2回入ゼミ説明会"
+      ],
+      [
+        "flow_desc",
+        "<p>ゼミの内容に加え、入ゼミの形式（試験、面接、成績、レポートなど）についての詳細な情報を収集しましょう。</p>"
+      ],
+      [
+        "flow_timing",
+        "11月中旬"
+      ],
+      [
+        "flow_title",
+        "三田祭論文発表"
+      ],
+      [
+        "flow_desc",
+        "<p>三田祭では各研究会で進めた研究論文が発表されます。<br />自分の入りたい研究会を知る上で貴重な場でもありますので、是非興味のあるブースへお立ち寄りください。</p>"
+      ],
+      [
+        "flow_img",
+        "1003"
+      ],
+      [
+        "flow_timing",
+        "11月から12月"
+      ],
+      [
+        "flow_title",
+        "各研究会教授説明会"
+      ],
+      [
+        "flow_desc",
+        "<p>昼休み・夕方に主にオンラインにて、各ゼミの担当教授による説明があります。研究内容や入ゼミ形式についての情報を収集しましょう。</p>"
+      ],
+      [
+        "flow_timing",
+        "11月から12月"
+      ],
+      [
+        "flow_title",
+        "オープンゼミ"
+      ],
+      [
+        "flow_desc",
+        "<p>三田で行っているゼミ活動を体験することができます。ゼミの雰囲気を掴みましょう。</p>"
+      ],
+      [
+        "flow_timing",
+        "1月中旬"
+      ],
+      [
+        "flow_title",
+        "第3回入ゼミ説明会"
+      ],
+      [
+        "flow_desc",
+        "<p>詳細な入ゼミ日程や形式、ゼミに関する情報が確定されます。最終確認をしましょう。</p>"
+      ],
+      [
+        "flow_color",
+        "#b81616"
+      ],
+      [
+        "flow_timing",
+        "2月中旬"
+      ],
+      [
+        "flow_title",
+        "日程本登録"
+      ],
+      [
+        "flow_desc",
+        "<p>いよいよ登録の開始です。HPやSNSをチェックし最新情報をキャッチしておきましょう！</p>"
+      ],
+      [
+        "flow_color",
+        "#b81616"
+      ],
+      [
+        "flow_timing",
+        "3月中旬"
+      ],
+      [
+        "flow_title",
+        "A日程試験・結果発表\nB日程登録"
+      ],
+      [
+        "flow_color",
+        "#b81616"
+      ],
+      [
+        "flow_timing",
+        "毎年時期未定"
+      ],
+      [
+        "flow_title",
+        "C日程登録・試験・結果発表"
+      ]
+    ]
+  },
+  "1142": {
+    "slug": "archive",
+    "meta": []
+  },
+  "1150": {
+    "slug": "previous",
+    "meta": [
+      [
+        "previous_seminar_title",
+        "(26卒)2024年度入ゼミ試験"
+      ],
+      [
+        "previous_seminar_file",
+        "3571"
+      ],
+      [
+        "previous_seminar_title",
+        "A日程登録（2024）"
+      ],
+      [
+        "previous_seminar_file",
+        "3259"
+      ],
+      [
+        "previous_seminar_title",
+        "B日程登録（2024）"
+      ],
+      [
+        "previous_seminar_file",
+        "3340"
+      ],
+      [
+        "previous_seminar_title",
+        "C日程試験"
+      ],
+      [
+        "previous_seminar_file",
+        "3087"
+      ]
+    ]
+  },
+  "1214": {
+    "slug": "handout",
+    "meta": [
+      [
+        "handout_category",
+        "1st Seminar Information Session"
+      ],
+      [
+        "handout_name",
+        "Seminar Introduction Booklet"
+      ],
+      [
+        "handout_img",
+        "3476"
+      ],
+      [
+        "handout_link",
+        "https://keio.box.com/s/oj7da9kmm44grpyphfiv946xcihg29i2"
+      ],
+      [
+        "handout_category",
+        "2nd Seminar Information Session"
+      ],
+      [
+        "handout_name",
+        "Seminar Introduction Booklet"
+      ],
+      [
+        "handout_img",
+        "3483"
+      ],
+      [
+        "handout_link",
+        "https://keio.box.com/s/lkq0q7c4om5d6t4dgippjct8qktoxhqh"
+      ],
+      [
+        "handout_category",
+        "Professor Information Session and Open-zemi"
+      ],
+      [
+        "handout_name",
+        "Links to Professor Information Session"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/spreadsheets/d/1pjGegmMIjMyX__z3MupQ3rlqq4qiSIEPw54KjOrYyqM/edit?gid=613328077#gid=613328077"
+      ],
+      [
+        "handout_name",
+        "Links to Open-zemi"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/spreadsheets/d/1HXC-IFIuhexlpnHYJdqgxrBFHISjvgCFSCqtocdSxqg/edit?gid=0#gid=0"
+      ],
+      [
+        "handout_category",
+        "3rd Seminar Information Session"
+      ],
+      [
+        "handout_name",
+        "Seminar Introduction Booklet"
+      ],
+      [
+        "handout_link",
+        "https://keio.box.com/s/ss299bnipcdb8ybk8g93iwwzn6qtr2v2"
+      ],
+      [
+        "handout_category",
+        "Examination　（Some materials from last year are included.）"
+      ],
+      [
+        "handout_name",
+        "（2026）Application Form（Date A）"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/document/d/17Gy5qZ8wiKXcsgNYkBen_5NHRhF0J4yq"
+      ],
+      [
+        "handout_name",
+        "（2026）Examination Guidelines for Each Seminar  (Date A・B)"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/presentation/d/1uY8AmRrPxHxZfMOmtpiGiNpr1xljFxGF/edit?usp=sharing&ouid=100074262005724908353&rtpof=true&sd=true"
+      ],
+      [
+        "handout_name",
+        "AY2026 Seminar Entrance Exam A Details"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/presentation/d/1FK2j8G4VqmnQcJRpZ9w7LAWL483NEgR-MtDysEltczk/edit?usp=sharing"
+      ],
+      [
+        "handout_name",
+        "（2026）Application Form（Date B）"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/document/d/17Gy5qZ8wiKXcsgNYkBen_5NHRhF0J4yq"
+      ],
+      [
+        "handout_name",
+        "AY2025 Seminar Entrance Exam B Details"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/presentation/d/1B4VmbssbexAjhvHDogn4ltbPpJUNeKsUS3qBz1a9M6E/edit?usp=sharing"
+      ],
+      [
+        "handout_name",
+        "FAQ"
+      ],
+      [
+        "handout_link",
+        "https://docs.google.com/document/d/1DncthBhqYQyRwGNLfxHKFIA9DPD7MPysV-KPBTzLgCc/edit?usp=sharing"
+      ]
+    ]
+  },
+  "1216": {
+    "slug": "previous",
+    "meta": [
+      [
+        "previous_seminar_title",
+        "The results of date A registration"
+      ],
+      [
+        "previous_seminar_file",
+        "3260"
+      ],
+      [
+        "previous_seminar_title",
+        "The results of date B registration"
+      ],
+      [
+        "previous_seminar_file",
+        "3341"
+      ]
+    ]
+  },
+  "1259": {
+    "slug": "examination",
+    "meta": []
+  },
+  "1333": {
+    "slug": "detail-c",
+    "meta": []
+  },
+  "1491": {
+    "slug": "session",
+    "meta": [
+      [
+        "update_info_date",
+        "2025/1/13"
+      ],
+      [
+        "update_info_title",
+        "（27卒向け）2024年度　経済学部第3回入ゼミ説明会に関して"
+      ],
+      [
+        "update_info_link",
+        "https://keizemi-keio.info/info/semi/%ef%bc%8827%e5%8d%92%e5%90%91%e3%81%91%ef%bc%892024%e5%b9%b4%e5%ba%a6%e3%80%80%e7%ac%ac3%e5%9b%9e%e3%82%bc%e3%83%9f%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%81%ab%e9%96%a2%e3%81%97%e3%81%a6/"
+      ],
+      [
+        "update_info_date",
+        "2024/11/29"
+      ],
+      [
+        "update_info_title",
+        "オープンゼミの開催情報を公開しました。"
+      ],
+      [
+        "update_info_link",
+        "https://keizemi-keio.info/info/semi/27%e5%8d%92%e5%90%91%e3%81%91%ef%bc%89%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%bc%e3%83%9f%e9%96%8b%e5%82%ac%e3%81%ab%e9%96%a2%e3%81%97%e3%81%a6/"
+      ],
+      [
+        "update_info_date",
+        "2024/11/29"
+      ],
+      [
+        "update_info_title",
+        "教授説明会の開催情報を公開しました。"
+      ],
+      [
+        "update_info_link",
+        "https://keizemi-keio.info/info/semi/%ef%bc%8827%e5%8d%92%e5%90%91%e3%81%91%ef%bc%892024%e5%b9%b4%e5%ba%a6%e6%95%99%e6%8e%88%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%81%ab%e9%96%a2%e3%81%97%e3%81%a6/"
+      ],
+      [
+        "update_info_date",
+        "2024/10/11"
+      ],
+      [
+        "update_info_title",
+        "第2回入ゼミ説明会の開催情報を公開しました。"
+      ],
+      [
+        "update_info_link",
+        "https://keizemi-keio.info/info/semi/%ef%bc%8827%e5%8d%92%e5%90%91%e3%81%91%ef%bc%892025%e5%b9%b4%e5%ba%a6%e3%80%80%e7%b5%8c%e6%b8%88%e5%ad%a6%e9%83%a8%e7%ac%ac2%e5%9b%9e%e5%85%a5%e3%82%bc%e3%83%9f%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%81%ab/"
+      ],
+      [
+        "update_info_date",
+        "2024/6/10"
+      ],
+      [
+        "update_info_title",
+        "第1回入ゼミ説明会の開催情報を公開しました。"
+      ],
+      [
+        "update_info_link",
+        "https://keizemi-keio.info/info/semi/%ef%bc%8827%e5%8d%92%e5%90%91%e3%81%91%ef%bc%892025%e5%b9%b4%e5%ba%a6%e3%80%80%e7%b5%8c%e6%b8%88%e5%ad%a6%e9%83%a8%e7%ac%ac1%e5%9b%9e%e5%85%a5%e3%82%bc%e3%83%9f%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%81%ab/"
+      ]
+    ]
+  },
+  "1524": {
+    "slug": "mitasai",
+    "meta": []
+  },
+  "1544": {
+    "slug": "seasonal-events",
+    "meta": []
+  },
+  "1573": {
+    "slug": "lecture",
+    "meta": [
+      [
+        "lecture_title",
+        "2023年度三田祭講演会"
+      ],
+      [
+        "lecture_img",
+        "3102"
+      ],
+      [
+        "lecture_date",
+        "11月26日(日) 10:30 - 12:00"
+      ],
+      [
+        "lecture_place",
+        "慶應義塾大学　三田キャンパス　南校舎ホール"
+      ],
+      [
+        "lecture_theme",
+        "現役大学生に向けたポジティブ講座"
+      ],
+      [
+        "lecture_desc",
+        "<p>慶應三田祭にモデル・タレントの【アン ミカさん】が講演にいらっしゃいました！<br />就活や恋愛などで挫折の多い大学生に向け、ご自身のご経験(恋愛、お仕事など)や苦労などを踏まえながらポジティブに生きる人生観をお話していただきました。<br />また、学生の心に訴えかけるお話しをしつつ、ご本人のユーモアを交え適度にコミカルな要素もあり、大変多くの方に楽しんでいただけた講演会となりました。</p>"
+      ],
+      [
+        "lecture_pr",
+        "https://twitter.com/mitasaikoen23?s=21&t=uBg6zWlMiUH5Sb6ciL31HA"
+      ],
+      [
+        "lecture_guest_name",
+        "アン ミカ 氏（モデル・タレント）"
+      ],
+      [
+        "lecture_guste_profile",
+        "<p>1972 年生まれ、韓国出身、大阪育ち。1993 年パリコレに初参加後、モデル業以外でも、バラエティ・ドラマ・映画・ラジオ・舞台・TVCM 出演など幅広く活躍されています。 「野菜ソムリエ」「漢方養生指導士 」「日本化粧品検定 1 級」「ジュエリーコーディネーター」など 21 個の資格を活かし、化粧品、洋服、ジュエリーなどをプロデュース。また、韓国観光名誉広報大使、初代大阪観光大使、化粧品検定協会プレミアムアンバサダーも務められ、ポジティブな生き方が共感を呼び、多くの世代から支持を得られています</p>"
+      ]
+    ]
+  },
+  "1598": {
+    "slug": "schedule",
+    "meta": [
+      [
+        "flow_timing",
+        "Late June"
+      ],
+      [
+        "flow_title",
+        "First Seminar Information Session and Individual Information Session"
+      ],
+      [
+        "flow_desc",
+        "<p>Get an overview of the seminar and the schedule for the application process.</p>"
+      ],
+      [
+        "flow_timing",
+        "October"
+      ],
+      [
+        "flow_title",
+        "Second Seminar Information Session"
+      ],
+      [
+        "flow_desc",
+        "<p>Gather detailed information about specific seminars as well as the format of the application process (examinations, interviews, grades, reports, etc.)</p>"
+      ],
+      [
+        "flow_timing",
+        "November"
+      ],
+      [
+        "flow_title",
+        "Mita Festival Thesis Presentation"
+      ],
+      [
+        "flow_desc",
+        "<p>At the Mita Festival, research papers written by each seminar will be presented. This is a valuable opportunity to find out which study group you want to join, so please stop by the booths that you are interested in.</p>"
+      ],
+      [
+        "flow_timing",
+        "November to December"
+      ],
+      [
+        "flow_title",
+        "Information sessions by professors of each seminar"
+      ],
+      [
+        "flow_desc",
+        "<p>During lunch break, professors will be holding an information session at Hiyoshi campus. Gather information about what they are researching and the application process.</p>"
+      ],
+      [
+        "flow_timing",
+        "November to December"
+      ],
+      [
+        "flow_title",
+        "Open Seminar"
+      ],
+      [
+        "flow_desc",
+        "<p>Get experience on the seminar activities at Mita campus. Get a feel for the atmosphere of the seminar.</p>"
+      ],
+      [
+        "flow_timing",
+        "Mid January"
+      ],
+      [
+        "flow_title",
+        "Third Seminar Information Session"
+      ],
+      [
+        "flow_desc",
+        "<p>Detailed information on deadlines, application format, and information on the seminar will be disclosed. Let’s do a final check.</p>"
+      ],
+      [
+        "flow_color",
+        "#b81616"
+      ],
+      [
+        "flow_timing",
+        "Mid February"
+      ],
+      [
+        "flow_title",
+        "Registration Day"
+      ],
+      [
+        "flow_desc",
+        "<p>It’s time to register for your seminar of choice. Check our website and social media to catch the latest information.</p>"
+      ],
+      [
+        "flow_color",
+        "#b81616"
+      ],
+      [
+        "flow_timing",
+        "Mid-March"
+      ],
+      [
+        "flow_title",
+        "Examination Date A / Results \nRegistration for Date B applications"
+      ],
+      [
+        "flow_color",
+        "#b81616"
+      ],
+      [
+        "flow_timing",
+        "Unknown (Dates depend on each seminar)"
+      ],
+      [
+        "flow_title",
+        "Results for Date B\nRegistration for Date C and results"
+      ]
+    ]
+  },
+  "1604": {
+    "slug": "meeting",
+    "meta": []
+  },
+  "1611": {
+    "slug": "examination",
+    "meta": []
+  },
+  "1619": {
+    "slug": "detail-b",
+    "meta": []
+  },
+  "1621": {
+    "slug": "detail-c",
+    "meta": []
+  },
+  "1862": {
+    "slug": "link",
+    "meta": []
+  },
+  "1942": {
+    "slug": "%ef%bc%88%e3%83%95%e3%82%a9%e3%83%bc%e3%83%9e%e3%83%83%e3%83%88%e7%94%a8%e3%80%82%e3%82%b3%e3%83%94%e3%83%9a%e3%81%a7%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%a6%e3%81%8f%e3%81%a0%e3%81%95%e3%81%84%ef%bc%89a",
+    "meta": [
+      [
+        "_dp_original",
+        "1329"
+      ]
+    ]
+  },
+  "2011": {
+    "slug": "event-meeting",
+    "meta": [
+      [
+        "_dp_original",
+        "1544"
+      ]
+    ]
+  },
+  "1232": {
+    "slug": "poster",
+    "meta": [
+      [
+        "poster_img",
+        "3140"
+      ],
+      [
+        "poster_year",
+        "2022年度 三田祭講演会"
+      ],
+      [
+        "poster_title",
+        "弘ナカさんを連れてきた。"
+      ],
+      [
+        "poster_desc",
+        "<p>慶大法学部政治学科を2013年に卒業された弘中アナに、自身が就活時に取り組んだ活動や心構えについてお話しいただきました！</p>"
+      ],
+      [
+        "poster_img",
+        "1241"
+      ],
+      [
+        "poster_year",
+        "2021年度 三田祭講演会"
+      ],
+      [
+        "poster_title",
+        "お笑い芸人×IT企業役員の厚切りジェイソン"
+      ],
+      [
+        "poster_desc",
+        "<p>「何かを新しく始めてみたい！」と考えているあなたに、<br />一歩を踏み出すためのアドバイスを48のWHY?に基づいてレクチャーしてくださいます！ </p>"
+      ],
+      [
+        "poster_img",
+        "1240"
+      ],
+      [
+        "poster_year",
+        "2020年度 三田祭講演会"
+      ],
+      [
+        "poster_title",
+        "テーマ：逆境時代を生き抜く「術」"
+      ],
+      [
+        "poster_desc",
+        "<p>数々の逆境を乗り越えてきた杉村氏に、どのように逆境に立ち向かっていくか、そのために今何をすべきかを語ってもらいます。</p><p>2020/11/22　@Online開催</p><p> </p>"
+      ],
+      [
+        "poster_img",
+        "1242"
+      ],
+      [
+        "poster_year",
+        "2019年度 三田祭講演会"
+      ],
+      [
+        "poster_title",
+        "ロンドンオリンピック200m平泳ぎ銅メダリスト\n立石諒さんトークショー"
+      ],
+      [
+        "poster_desc",
+        "<p>昨年度の三田祭講演会は、慶應義塾大学　環境情報学部卒で、ロンドンオリンピック200m平泳ぎ銅メダリストの立石諒さんにお越しいただきます！</p>"
+      ]
+    ]
+  },
+  "1329": {
+    "slug": "detail-a",
+    "meta": []
+  },
+  "1331": {
+    "slug": "detail-b",
+    "meta": []
+  },
+  "1615": {
+    "slug": "detail-a",
+    "meta": []
+  }
+}
