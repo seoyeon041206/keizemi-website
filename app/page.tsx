@@ -18,6 +18,7 @@ type Seminar = {
 
 const seminars = siteIndex.seminars as Seminar[];
 const notices = siteIndex.posts.slice(0, 4);
+const secondOrientation = siteIndex.posts.find((post) => post.id === 3799) ?? notices[0];
 
 const timeline = [
   ['6月下旬', '第1回入ゼミ説明会', 'ゼミの全体像と年間スケジュールを把握'],
@@ -56,15 +57,15 @@ export default function Home() {
       <section className="hero">
         <div className="hero-copy">
           <p className="eyebrow">KEIO ECONOMICS SEMINAR COMMITTEE</p>
-          <h1>よりよいゼミ選びと<br /><em>ゼミ生活を。</em></h1>
-          <p className="hero-lead">経済学部の研究会情報、入ゼミ試験、説明会や交流イベントを、必要なときにすぐ見つけられる場所。</p>
+          <h1><span className="hero-title-line">よりよいゼミ選びと</span><em className="hero-title-line">ゼミ生活を。</em></h1>
+          <p className="hero-lead">経済学部の各研究会間の親睦を図り、慶應義塾の興隆に寄与してまいります</p>
           <div className="hero-actions"><a className="button primary" href="#seminars">研究会を探す</a><a className="button secondary" href="#schedule">入ゼミの流れを見る</a></div>
         </div>
         <aside className="hero-panel" aria-label="次の入ゼミステップ">
           <div className="panel-topline"><span>2026 ADMISSIONS</span><span className="status-dot">最新情報</span></div>
-          <p className="panel-kicker">NEXT STEP</p><h2>第1回 入ゼミ説明会</h2>
-          <p>ゼミの全体像と年間スケジュールを知る、最初のガイダンスです。</p>
-          <a href={siteHref(`/news/${notices[0].id}`)}>開催情報を確認 <span aria-hidden="true">→</span></a><div className="panel-number">01</div>
+          <p className="panel-kicker">NEXT STEP</p><h2>第2回 入ゼミ説明会</h2>
+          <p>オンデマンド動画と電子版冊子で入ゼミ情報を確認し、対面の個別説明会で各ゼミの雰囲気に触れる機会です。</p>
+          <a href={siteHref(`/news/${secondOrientation.id}`)}>開催情報を確認 <span aria-hidden="true">→</span></a><div className="panel-number">02</div>
         </aside>
       </section>
 
