@@ -6,11 +6,11 @@ export function ArchiveHeader() {
   return <SiteHeader />;
 }
 
-export function ArchiveFooter() {
+export function ArchiveFooter({ homeLabel = 'ホームへ戻る ↑' }: { homeLabel?: string }) {
   return (
     <footer className="archive-footer">
       <div><strong>KEIZEMI</strong><span>慶應義塾大学 経済学部ゼミナール委員会</span></div>
-      <a href={siteHref('/')}>ホームへ戻る ↑</a>
+      <a href={siteHref('/')}>{homeLabel}</a>
     </footer>
   );
 }
@@ -21,10 +21,11 @@ type ContentChromeProps = {
   meta?: ReactNode;
   backHref: string;
   backLabel: string;
+  footerHomeLabel?: string;
   children: ReactNode;
 };
 
-export function ContentChrome({ overline, title, meta, backHref, backLabel, children }: ContentChromeProps) {
+export function ContentChrome({ overline, title, meta, backHref, backLabel, footerHomeLabel, children }: ContentChromeProps) {
   return (
     <main className="archive-shell">
       <ArchiveHeader />
@@ -37,7 +38,7 @@ export function ContentChrome({ overline, title, meta, backHref, backLabel, chil
         </header>
         {children}
       </article>
-      <ArchiveFooter />
+      <ArchiveFooter homeLabel={footerHomeLabel} />
     </main>
   );
 }

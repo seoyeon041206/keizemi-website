@@ -39,6 +39,7 @@ export default async function PearlSeminarDetail({ params }: { params: Promise<{
       meta={<span>{seminar.field}</span>}
       backHref="/pearl-seminars"
       backLabel="All PEARL / DD seminars"
+      footerHomeLabel="Back to home ↑"
     >
       {(seminar.professorLink || japanese) && (
         <nav className="detail-links">

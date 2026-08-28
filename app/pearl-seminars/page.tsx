@@ -1,37 +1,35 @@
 import type { Metadata } from 'next';
-import seminarsJson from '@/content/pearl-seminars.json';
+import pearlJson from '@/content/pearl-seminars.json';
+import siteIndex from '@/content/site-index.json';
 import type { PearlSeminar } from '@/app/content-types';
-import { ArchiveFooter, ArchiveHeader } from '@/app/components/ContentChrome';
-import { siteHref } from '@/app/site-path';
+import { PearlSeminarDirectory, type PearlDirectorySeminar } from '@/app/pearl-seminars/PearlSeminarDirectory';
 
-const seminars = seminarsJson as PearlSeminar[];
+const pearlSeminars = pearlJson as PearlSeminar[];
+const japaneseSeminars = siteIndex.seminars;
+const japaneseById = new Map(japaneseSeminars.map((seminar) => [seminar.id, seminar]));
+
+const directorySeminars: PearlDirectorySeminar[] = pearlSeminars.map((seminar) => {
+  const japanese = japaneseById.get(seminar.relatedJapaneseId);
+  const hasJapaneseText = /[ぁ-んァ-ヶ一-龯]/.test(seminar.excerpt);
+  return {
+    id: seminar.id,
+    slug: seminar.slug,
+    name: seminar.name,
+    field: seminar.field,
+    excerpt: hasJapaneseText ? 'Explore this seminar’s research focus, activities, and admissions information.' : seminar.excerpt,
+    status: japanese?.status === '募集停止' ? 'Recruitment closed' : japanese?.status === '新規募集' ? 'Newly recruiting' : 'Recruiting',
+    pearl: japanese?.pearl ?? /[（(]P[）)]/.test(seminar.name),
+    dd: japanese?.dd ?? /[（(]DD[）)]/.test(seminar.name),
+  };
+});
 
 export const metadata: Metadata = {
   title: 'Seminars for PEARL / DD | KEIZEMI',
-  description: 'English-friendly economics seminars for PEARL and Double Degree students.',
+  description: 'Find English-friendly economics seminars by field, recruitment status, and programme.',
   openGraph: { images: [] },
   twitter: { images: [] },
 };
 
 export default function PearlSeminarArchive() {
-  return (
-    <main className="archive-shell pearl-archive">
-      <ArchiveHeader />
-      <section className="archive-hero">
-        <p>FOR PEARL / DOUBLE DEGREE STUDENTS</p>
-        <h1>Seminars for PEARL / DD</h1>
-        <span>{seminars.length} seminars</span>
-      </section>
-      <section className="directory-list" aria-label="PEARL and Double Degree seminars">
-        {seminars.map((seminar) => (
-          <a className="directory-row" href={siteHref(`/pearl-seminars/${seminar.slug}`)} key={seminar.id}>
-            <span>{seminar.field}</span>
-            <div><h2>{seminar.name}</h2><p>{seminar.excerpt}</p></div>
-            <b aria-hidden="true">→</b>
-          </a>
-        ))}
-      </section>
-      <ArchiveFooter />
-    </main>
-  );
+  return <PearlSeminarDirectory seminars={directorySeminars} />;
 }
