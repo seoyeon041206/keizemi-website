@@ -281,6 +281,56 @@ section { scroll-margin-top: 142px; }
 .archive-footer span { color: rgba(255,255,255,.48); font-size: 9px; }
 .archive-footer a { color: rgba(255,255,255,.7); font-size: 10px; font-weight: 800; }
 
+/* Handout archive */
+.handout-hero { min-height: 355px; padding: 86px clamp(24px, 7vw, 110px) 66px; display: flex; align-items: flex-end; justify-content: space-between; gap: 40px; color: white; background: linear-gradient(112deg, #071d35, #123f72); overflow: hidden; }
+.handout-hero > div { position: relative; z-index: 1; }
+.handout-hero p { margin: 0 0 18px; color: #f0c27a; font-size: 10px; font-weight: 800; letter-spacing: .2em; }
+.handout-hero h1 { margin: 0; font: 600 clamp(48px, 6vw, 80px)/1.2 "Yu Mincho", YuMincho, serif; letter-spacing: -.035em; }
+.handout-hero span { display: block; margin-top: 24px; color: rgba(255,255,255,.64); font-size: 13px; line-height: 1.8; }
+.handout-hero > b { margin: 0 -1vw -12vw 0; color: rgba(255,255,255,.045); font: 600 min(35vw, 470px)/.75 "Yu Mincho", YuMincho, serif; pointer-events: none; }
+.handout-intro { padding: 76px clamp(24px, 7vw, 110px); display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(300px, .7fr); align-items: end; gap: clamp(48px, 8vw, 120px); background: var(--cream); }
+.handout-overline { margin: 0 0 16px; color: var(--red); font-size: 9px; font-weight: 800; letter-spacing: .18em; }
+.handout-intro h2 { margin: 0; font: 600 clamp(35px, 5vw, 60px)/1.35 "Yu Mincho", YuMincho, serif; letter-spacing: -.035em; }
+.handout-intro > div > p:not(.handout-overline) { max-width: 680px; margin: 25px 0 0; color: #52606e; font-size: 13px; line-height: 2; }
+.handout-count { margin-top: 34px; display: flex; align-items: baseline; gap: 10px; }
+.handout-count strong { color: var(--blue); font: 50px/1 Georgia, serif; }
+.handout-count span { color: #66727e; font-size: 10px; font-weight: 800; }
+.handout-intro aside { padding: 30px; color: white; background: var(--blue-deep); box-shadow: 16px 16px 0 rgba(162,45,63,.14); }
+.handout-intro aside small { color: #f0c27a; font-size: 9px; font-weight: 800; letter-spacing: .1em; }
+.handout-intro aside h3 { margin: 13px 0 16px; font: 600 22px/1.5 "Yu Mincho", YuMincho, serif; }
+.handout-intro aside p { margin: 0; color: rgba(255,255,255,.72); font-size: 11px; line-height: 1.9; }
+.handout-intro aside span { display: block; margin-top: 20px; padding-top: 16px; color: rgba(255,255,255,.46); border-top: 1px solid rgba(255,255,255,.18); font-size: 9px; line-height: 1.7; }
+.handout-toc { padding: 0 clamp(24px, 7vw, 110px) 72px; background: var(--cream); }
+.handout-toc > p { margin: 0 0 14px; color: #697582; font: 800 9px/1 Georgia, serif; letter-spacing: .17em; }
+.handout-toc > div { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--ink); border-left: 1px solid var(--line); }
+.handout-toc a { min-height: 68px; padding: 15px 18px; display: flex; align-items: center; gap: 13px; background: white; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); font: 600 13px/1.5 "Yu Mincho", YuMincho, serif; transition: color .18s, background .18s; }
+.handout-toc a:hover { color: white; background: var(--blue); }
+.handout-toc a span { color: var(--red); font: 11px/1 Georgia, serif; }
+.handout-toc a:hover span { color: #f0c27a; }
+.handout-sections { padding: 0 clamp(24px, 7vw, 110px) 120px; background: var(--paper); }
+.handout-section { padding: 72px 0 10px; border-top: 1px solid var(--ink); }
+.handout-section > header { margin-bottom: 32px; display: grid; grid-template-columns: 64px minmax(0, 1fr) auto; align-items: start; gap: 24px; }
+.handout-section > header > span { color: rgba(18,63,114,.22); font: 52px/1 Georgia, serif; }
+.handout-section > header small { display: block; margin-bottom: 9px; color: var(--red); font: 800 8px/1 Georgia, serif; letter-spacing: .17em; }
+.handout-section > header h2 { margin: 0; font: 600 clamp(28px, 3.4vw, 42px)/1.3 "Yu Mincho", YuMincho, serif; }
+.handout-section > header p { max-width: 680px; margin: 12px 0 0; color: #65717d; font-size: 11px; line-height: 1.8; }
+.handout-section > header > b { padding-top: 9px; color: #6e7882; font: 10px/1 Georgia, serif; }
+.handout-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.handout-card { min-width: 0; background: white; border: 1px solid var(--line); transition: transform .2s, box-shadow .2s, border-color .2s; }
+.handout-card:hover { transform: translateY(-4px); border-color: rgba(18,63,114,.42); box-shadow: 0 16px 36px rgba(18,35,56,.09); }
+.handout-card-visual { height: 190px; padding: 24px; display: flex; flex-direction: column; justify-content: space-between; color: white; background: linear-gradient(135deg, #092b50, #164f87); position: relative; overflow: hidden; }
+.handout-card-visual::after { content: ""; position: absolute; right: -35px; bottom: -48px; width: 150px; height: 150px; border: 1px solid rgba(255,255,255,.14); border-radius: 50%; }
+.handout-card-visual > span { position: relative; z-index: 1; color: #f0c27a; font: 700 12px/1 Georgia, serif; letter-spacing: .18em; }
+.handout-card-visual > small { position: relative; z-index: 1; color: rgba(255,255,255,.46); font: 9px/1.7 Georgia, serif; letter-spacing: .12em; }
+.handout-card-body { min-height: 190px; padding: 20px; display: flex; flex-direction: column; }
+.handout-card-body > div { display: flex; align-items: center; justify-content: space-between; gap: 14px; }
+.handout-card-body > div > span { color: var(--red); font: 700 8px/1 Georgia, serif; letter-spacing: .13em; }
+.handout-card-body > div > small { color: #6d7883; font-size: 8px; font-weight: 800; }
+.handout-card h3 { margin: 18px 0 0; font: 600 17px/1.6 "Yu Mincho", YuMincho, serif; }
+.handout-card-body > p { margin: 10px 0 0; color: #78818b; font-size: 9px; line-height: 1.7; }
+.handout-card footer { margin-top: auto; padding-top: 17px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); color: #52606e; font-size: 9px; font-weight: 800; }
+.handout-card footer b { color: var(--red); font-size: 16px; font-weight: 400; }
+
 /* Dedicated seminar directory */
 .seminar-directory-hero {
   min-height: 360px; padding: 86px clamp(24px, 7vw, 110px) 66px; display: flex; align-items: flex-end; justify-content: space-between; gap: 40px;
@@ -403,10 +453,27 @@ section { scroll-margin-top: 142px; }
   .field-group { padding-top: 48px; }
   .field-seminar-grid { grid-template-columns: 1fr; }
   .directory-seminar-card { min-height: 290px; }
+  .handout-hero { min-height: 300px; padding: 64px 20px 48px; }
+  .handout-hero > b { display: none; }
+  .handout-hero span { max-width: 310px; }
+  .handout-intro { padding: 54px 20px 68px; grid-template-columns: 1fr; gap: 42px; }
+  .handout-intro aside { padding: 24px; box-shadow: 10px 10px 0 rgba(162,45,63,.12); }
+  .handout-toc { padding: 0 20px 56px; }
+  .handout-toc > div { grid-template-columns: 1fr; }
+  .handout-sections { padding: 0 20px 80px; }
+  .handout-section { padding-top: 52px; }
+  .handout-section > header { grid-template-columns: 48px minmax(0, 1fr); gap: 14px; }
+  .handout-section > header > span { font-size: 40px; }
+  .handout-section > header > b { display: none; }
+  .handout-grid { grid-template-columns: 1fr; }
+  .handout-card-visual { height: 220px; }
 }
 
 @media (min-width: 761px) and (max-width: 1080px) {
   .directory-filter-panel { grid-template-columns: 1fr 1fr; }
   .directory-pearl-filter { grid-column: 1 / -1; }
   .field-seminar-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .handout-intro { grid-template-columns: 1fr; }
+  .handout-intro aside { max-width: 620px; }
+  .handout-toc > div, .handout-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }

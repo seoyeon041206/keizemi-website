@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import pagesJson from '@/content/pages.json';
 import type { BaseContent } from '@/app/content-types';
 import { ContentChrome, ImportedBody } from '@/app/components/ContentChrome';
+import { HandoutPage } from '@/app/pages/HandoutPage';
 
 const pages = pagesJson as BaseContent[];
 
@@ -28,6 +29,7 @@ export default async function InformationPage({ params }: { params: Promise<{ id
   const { id } = await params;
   const page = pages.find((item) => item.id === Number(id));
   if (!page) notFound();
+  if (page.id === 139) return <HandoutPage />;
   return (
     <ContentChrome overline="INFORMATION" title={page.title} backHref="/" backLabel="ホーム">
       <ImportedBody html={page.contentHtml} fallback={page.excerpt} />
