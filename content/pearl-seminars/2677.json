@@ -1,15 +1,22 @@
 {
   "id": 2677,
   "slug": "yamada-hiroyuki-seminar",
-  "title": "Yamada Hiroyuki Seminar（P）（DD）",
+  "title": "Hiroyuki Yamada Seminar",
   "date": "2023-06-19",
   "modified": "2024-12-09",
-  "excerpt": "Yamada Hiroyuki Seminar is a cozy research group consisting of 11 third-year students and 13 fourth-year students! Our research focuses on development economics and econometrics, primarily analyzing the various issues of",
+  "excerpt": "Hiroyuki Yamada Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Japanese is the main language, but technical terms are used in English as is. Presentations and discussions in English are also welcome.",
   "contentHtml": "Yamada Hiroyuki Seminar is a cozy research group consisting of 11 third-year students and 13 fourth-year students! Our research focuses on development economics and econometrics, primarily analyzing the various issues of developing countries.\n\nProfessor Yamada has had extensive experience abroad, including working in international organizations, and possesses in-depth knowledge about developing countries. If you are interested in developing countries or have a passion for econometrics, we warmly invite you to attend our seminar orientation!",
-  "name": "Yamada Hiroyuki Seminar（P）（DD）",
+  "name": "Hiroyuki Yamada Seminar",
   "field": "International Economics",
   "relatedJapaneseId": 281,
   "professorDescription": "We conduct research that uses data to analyze various issues in developing countries, sometimes incorporating historical and cultural perspectives and geospatial factors. In the process of economic development, many countries experience declining birthrates and aging populations, which leads to the problems currently faced by developed countries. There will be endless discussions both from the analytical methodological perspective and from the perspective of economic dynamism. I hope to engage in friendly discussions with gutsy students and strive to make the world a better place.",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000570_en.html",
-  "order": 59
+  "order": 40,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Japanese is the main language, but technical terms are used in English as is. Presentations and discussions in English are also welcome.",
+  "recruitmentStatus": "募集中"
 }

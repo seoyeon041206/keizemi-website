@@ -1,15 +1,22 @@
 {
   "id": 1654,
   "slug": "sasahara-akira-seminar",
-  "title": "Sasahara Akira Seminar（P）（DD）",
+  "title": "Akira Sasahara Seminar",
   "date": "2022-09-13",
   "modified": "2026-08-23",
-  "excerpt": "We study a wide range of topics in international economics from an empirical perspective. We begin by learning the fundamentals of econometrics. Next, we examine and discuss findings from published research in economics.",
+  "excerpt": "Akira Sasahara Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: English only",
   "contentHtml": "We study a wide range of topics in international economics from an empirical perspective. We begin by learning the fundamentals of econometrics. Next, we examine and discuss findings from published research in economics. Finally, students apply the knowledge and skills they have acquired by conducting their own independent research. The students pursue research on a variety of topics, including international trade, foreign direct investment, immigration, and their economic effects. This zemi conducts all activities in English.\n\n(Accepting Double Degree)",
-  "name": "Sasahara Akira Seminar（P）（DD）",
+  "name": "Akira Sasahara Seminar",
   "field": "International Economics",
   "relatedJapaneseId": 275,
   "professorDescription": "Sasahara Seminar aims to become one of the most fun and intellectually stimulating zemi. We study economics with rigor and enthusiasm. As a professor, my goal is to help students discover that economics is a challenging and fun subject. If you want to make your Mita campus life exciting, please join us!",
   "professorLink": "https://sasaharaseminar-2.jimdosite.com/",
-  "order": 57
+  "order": 38,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "English only",
+  "recruitmentStatus": "募集中"
 }

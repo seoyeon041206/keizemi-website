@@ -1,15 +1,22 @@
 {
   "id": 1486,
   "slug": "ota-atsushi-seminar",
-  "title": "Ota Atsushi Seminar（P）（DD）",
+  "title": "Atsushi Ota Seminar",
   "date": "2022-09-09",
   "modified": "2023-06-20",
-  "excerpt": "In this seminar, we are studying about South East Asia emerging countries economic from the level of citizen’s livelihood. In order to do that, we actually go to Indonesia’s capital, Jakarta, and have a training camp to",
+  "excerpt": "Atsushi Ota Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: English only",
   "contentHtml": "In this seminar, we are studying about South East Asia emerging countries economic from the level of citizen’s livelihood. In order to do that, we actually go to Indonesia’s capital, Jakarta, and have a training camp to do field work research.\nIn third grade, we get in a group and write an academic paper(Mita-Ron) based on the field work research. In fourth grade, each seminar member will write a graduation paper about something related to developing country’s economy.\nIn the spring semester, we read an academic paper already written and discuss about it. We also prepare for the summer field work research. In the fall semester, we report and discuss about the summer field work research. We also report about the progress of the academic paper.\n\n(Accepting Double Degree)",
-  "name": "Ota Atsushi Seminar（P）（DD）",
+  "name": "Atsushi Ota Seminar",
   "field": "Economic History",
   "relatedJapaneseId": 224,
   "professorDescription": "この研究会は、新興国経済を庶民生活のレベルで理解することを目的とします。そのために毎年夏休みに2週間ほどジャカルタ郊外の低所得者層居住地で合宿し、フィールド調査を行います。東南アジアや新興国経済、その庶民の生活に関心があり、研究のテーマや方法も自分たちで決める意欲のある学生は、ぜひ一緒に勉強しましょう。言葉もほとんど分からないフィールドで、体当たりの経験を楽しめる学生に参加してほしいと思います。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000348_en.html",
-  "order": 15
+  "order": 21,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "English only",
+  "recruitmentStatus": "募集中"
 }

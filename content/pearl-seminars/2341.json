@@ -1,15 +1,22 @@
 {
   "id": 2341,
   "slug": "matsuda-kazushige-seminar",
-  "title": "Matsuda Kazushige Seminar（P）（DD）",
+  "title": "Kazushige Matsuda Seminar",
   "date": "2022-12-21",
   "modified": "2023-06-20",
-  "excerpt": "This course introduces students to the basic foundation methods in modern macroeconomic analysis and uses them to address long-run macroeconomic issues. The course will start with reviewing macroeconomic models with hete",
+  "excerpt": "Kazushige Matsuda Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Japanese only",
   "contentHtml": "This course introduces students to the basic foundation methods in modern macroeconomic analysis and uses them to address long-run macroeconomic issues. The course will start with reviewing macroeconomic models with heterogeneous agents as a toolkit. Next, students will make research proposals and present existing papers their research is built on. Finally, students develop skill to deliver your research effectively.\n\n(Accepting Double Degree)",
-  "name": "Matsuda Kazushige Seminar（P）（DD）",
+  "name": "Kazushige Matsuda Seminar",
   "field": "Economic Theory",
   "relatedJapaneseId": 2308,
   "professorDescription": "",
   "professorLink": "",
-  "order": 29
+  "order": 9,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Japanese only",
+  "recruitmentStatus": "募集中"
 }

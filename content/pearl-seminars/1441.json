@@ -1,15 +1,22 @@
 {
   "id": 1441,
   "slug": "kobayashi-keiichirou-seminar",
-  "title": "Kobayashi Keiichirou Seminar（P）（DD）",
+  "title": "Keiichiro Kobayashi Seminar",
   "date": "2022-09-09",
   "modified": "2023-06-20",
-  "excerpt": "小林ゼミは”財政”と”金融”分野を扱い、マーケットに対し俯瞰的な視点を持ちながら、国の政策や経済状態等について論理的に学ぶことを主軸としています。 日々の活動は、輪読や三田論、卒論の執筆に向けた準備を進めています。サブゼミは、各々の興味がある分野の輪読をしています。今年度は、公共経済を扱っています。 小林教授は非常に穏やかで優しい方であり、各々の研究の相談にも親身になって教えてくれます。 (Accepting Double Degree",
+  "excerpt": "Keiichiro Kobayashi Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Japanese only",
   "contentHtml": "小林ゼミは”財政”と”金融”分野を扱い、マーケットに対し俯瞰的な視点を持ちながら、国の政策や経済状態等について論理的に学ぶことを主軸としています。\n\n日々の活動は、輪読や三田論、卒論の執筆に向けた準備を進めています。サブゼミは、各々の興味がある分野の輪読をしています。今年度は、公共経済を扱っています。\n\n小林教授は非常に穏やかで優しい方であり、各々の研究の相談にも親身になって教えてくれます。\n\n(Accepting Double Degree)",
-  "name": "Kobayashi Keiichirou Seminar（P）（DD）",
+  "name": "Keiichiro Kobayashi Seminar",
   "field": "Economic Policy and Public Finance",
   "relatedJapaneseId": 248,
   "professorDescription": "ゼミでは、自身の関心によって問題を発見し探究します。まずはゼミ生各自が自身の力で研究課題を発見することが第一で、私はそれを支援する伴走者です。私自身の研究関心は、日本経済の過去30年の停滞です。金融危機や長期経済停滞についてマクロ経済学の理論モデルを研究し、危機の30年を解明することを試みています。同様のテーマでも、または、まったく違うテーマでも自分の力で研究したい人を歓迎します。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000402_en.html",
-  "order": 17
+  "order": 30,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Japanese only",
+  "recruitmentStatus": "募集中"
 }

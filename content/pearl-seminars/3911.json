@@ -1,0 +1,22 @@
+{
+  "id": 3911,
+  "slug": "abe-keita-seminar",
+  "title": "Keita Abe Seminar",
+  "date": "2026-02-21",
+  "modified": "2026-03-14",
+  "excerpt": "Keita Abe Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Japanese and English",
+  "contentHtml": "阿部ゼミは2026年度に新設されるゼミです。天然資源・海洋・環境をテーマに、経済学の視点からデータ分析・実証研究に取り組みます。データ分析ツールを活用した定量分析を軸に、専門的なスキルを身につけることができます。\n新しいゼミだからこそ、活動の進め方やイベントは皆さんと一緒に作り上げていきます。フィールドワーク・合宿・インゼミなど、やりたいことを自由に提案してください。環境問題や資源管理に関心があり、データ分析に挑戦したい学生を歓迎します。",
+  "name": "Keita Abe Seminar",
+  "field": "Environmental and Urban Economics",
+  "relatedJapaneseId": 3911,
+  "professorDescription": "阿部景太 (Abe Keita)",
+  "professorLink": "",
+  "order": 52,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Japanese and English",
+  "recruitmentStatus": "新規募集"
+}

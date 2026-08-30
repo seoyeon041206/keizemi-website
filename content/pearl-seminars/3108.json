@@ -1,15 +1,22 @@
 {
   "id": 3108,
   "slug": "matsumoto-hidehiko-seminar",
-  "title": "Matsumoto Hidehiko seminar（P）（DD）",
+  "title": "Hidehiko Matsumoto Seminar",
   "date": "2023-12-24",
   "modified": "2024-01-13",
-  "excerpt": "1. Reading IMF reports “World Economic Outlook” The WEO quarterly presents a detailed analysis of the current global economy by IMF staff. We will read the WEO to deepen our understanding on the current state of the glob",
+  "excerpt": "Hidehiko Matsumoto Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: English only",
   "contentHtml": "1. Reading IMF reports “World Economic Outlook”\nThe WEO quarterly presents a detailed analysis of the current global economy by IMF staff. We will read the WEO to deepen our understanding on the current state of the global economy. The latest issue (October 2023) features recent slowdown of recovery from the pandemic recession and its causes.\n\n2. Empirical studies using Python\nWe will learn how to use Python for basic econometric analysis and then apply these methods to empirical studies using data from the IMF, World Bank, etc.\n\n〇Seminar information\nSeminars are conducted in English.\nWednesdays 3rd and 4th periods (scheduled).\nAccept students from Type A/B, Pearl, DD, and other departments.\nCurrent third-year Pearl students who are not enrolled in any seminars will be considered for acceptance.\n(Accepting Double Degree)",
-  "name": "Matsumoto Hidehiko seminar（P）（DD）",
+  "name": "Hidehiko Matsumoto Seminar",
   "field": "International Economics",
   "relatedJapaneseId": 3080,
   "professorDescription": "・Specializes in international finance, with a special focus on capital flows and financial crises.\n・Work experience at NHK, Bank of Japan, and GRIPS.",
   "professorLink": "",
-  "order": 53
+  "order": 43,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "English only",
+  "recruitmentStatus": "募集中"
 }

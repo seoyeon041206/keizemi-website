@@ -1,15 +1,22 @@
 {
   "id": 3531,
   "slug": "姚瑩研究会-p-dd",
-  "title": "Ying Yao Seminar（P）（DD）",
+  "title": "Ying Yao Seminar",
   "date": "2025-01-14",
   "modified": "2025-01-14",
-  "excerpt": "本研究会では、医療や健康に関する身近な問題をテーマに、教科書や政策レポートの輪読、統計ソフトを使った基礎的なデータ分析、グループ討論を行い、理解を深めます。これを通じて、医療制度や健康課題について学び、将来に役立つ基礎的な分析力を養います。 In this seminar, we explore healthcare and health issues through textbook and policy report reading",
+  "excerpt": "Ying Yao Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Japanese and English",
   "contentHtml": "本研究会では、医療や健康に関する身近な問題をテーマに、教科書や政策レポートの輪読、統計ソフトを使った基礎的なデータ分析、グループ討論を行い、理解を深めます。これを通じて、医療制度や健康課題について学び、将来に役立つ基礎的な分析力を養います。\n\nIn this seminar, we explore healthcare and health issues through textbook and policy report readings, basic data analysis using statistical software, and group discussions. Students will learn about healthcare systems while developing fundamental analytical skills.\n\nThe seminar first introduces the fundamental concepts of healthcare systems and their broader contexts. As the seminar progresses, we transition into hands-on learning. Students are introduced to basic data analysis techniques using statistical software, gaining practical experience in working with real-world health data, identifying trends, and understanding the implications of policies. Group discussions during this phase encourage critical thinking and collaborative problem-solving.\n\n(Accepting Double Degree)",
-  "name": "Ying Yao Seminar（P）（DD）",
+  "name": "Ying Yao Seminar",
   "field": "Labor and Industrial Economics",
   "relatedJapaneseId": 3509,
   "professorDescription": "As a health economist, I use economic analysis to understand healthcare systems and social issues affecting health outcomes. My research emphasizes empirical approaches to evaluate policies and understand behavior. I welcome students who are curious about healthcare challenges and eager to develop analytical skills, even without prior experience in these areas.",
   "professorLink": "",
-  "order": 66
+  "order": 27,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Japanese and English",
+  "recruitmentStatus": "募集中"
 }

@@ -1,15 +1,22 @@
 {
   "id": 2356,
   "slug": "obashi-ayako-seminar",
-  "title": "Obashi Ayako Seminar（P）（DD）",
+  "title": "Ayako Obashi Seminar",
   "date": "2022-12-21",
   "modified": "2023-06-20",
-  "excerpt": "本研究会では、「企業活動のグローバル化と通商政策論」をテーマとして、グローバリゼーションをめぐる諸問題についての理解を深め、問題解決のための通商政策その他の関連政策、そして国際的枠組みのあり方について考えていきます。ゼミ活動の集大成として、理論的に導かれる仮説を、データを用いて検証し、政策提言につなげられるような卒業論文の執筆を目指します。 (Accepting Double Degree)",
+  "excerpt": "Ayako Obashi Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Japanese and English",
   "contentHtml": "本研究会では、「企業活動のグローバル化と通商政策論」をテーマとして、グローバリゼーションをめぐる諸問題についての理解を深め、問題解決のための通商政策その他の関連政策、そして国際的枠組みのあり方について考えていきます。ゼミ活動の集大成として、理論的に導かれる仮説を、データを用いて検証し、政策提言につなげられるような卒業論文の執筆を目指します。\n\n(Accepting Double Degree)",
-  "name": "Obashi Ayako Seminar（P）（DD）",
+  "name": "Ayako Obashi Seminar",
   "field": "International Economics",
   "relatedJapaneseId": 2306,
   "professorDescription": "仲間と共に学ぶ楽しさを味わえるゼミの場を提供していきたいと思います。知的好奇心を共有するゼミの仲間は、きっと皆さんにとって特別な存在になることでしょう。\n新規開講のゼミですので、１期生として小橋ゼミの基盤を築いていこうという意欲溢れる方の入ゼミをお待ちしています。一緒に学びを楽しみましょう！",
   "professorLink": "",
-  "order": 55
+  "order": 41,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Japanese and English",
+  "recruitmentStatus": "募集中"
 }

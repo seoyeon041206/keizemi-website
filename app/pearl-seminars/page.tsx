@@ -1,25 +1,23 @@
 import type { Metadata } from 'next';
 import pearlJson from '@/content/generated/pearl-seminars.json';
-import siteIndex from '@/content/generated/site-index.json';
 import type { PearlSeminar } from '@/app/content-types';
 import { PearlSeminarDirectory, type PearlDirectorySeminar } from '@/app/pearl-seminars/PearlSeminarDirectory';
 
 const pearlSeminars = pearlJson as PearlSeminar[];
-const japaneseSeminars = siteIndex.seminars;
-const japaneseById = new Map(japaneseSeminars.map((seminar) => [seminar.id, seminar]));
 
 const directorySeminars: PearlDirectorySeminar[] = pearlSeminars.map((seminar) => {
-  const japanese = japaneseById.get(seminar.relatedJapaneseId);
-  const hasJapaneseText = /[ぁ-んァ-ヶ一-龯]/.test(seminar.excerpt);
   return {
     id: seminar.id,
     slug: seminar.slug,
     name: seminar.name,
     field: seminar.field,
-    excerpt: hasJapaneseText ? 'Explore this seminar’s research focus, activities, and admissions information.' : seminar.excerpt,
-    status: japanese?.status === '募集停止' ? 'Recruitment closed' : japanese?.status === '新規募集' ? 'Newly recruiting' : 'Recruiting',
-    pearl: japanese?.pearl ?? /[（(]P[）)]/.test(seminar.name),
-    dd: japanese?.dd ?? /[（(]DD[）)]/.test(seminar.name),
+    excerpt: seminar.excerpt,
+    status: seminar.recruitmentStatus === '募集停止' ? 'Recruitment closed' : seminar.recruitmentStatus === '新規募集' ? 'Newly recruiting' : 'Recruiting',
+    pearl: seminar.pearl,
+    dd: seminar.dd,
+    pearlStatus: seminar.pearlStatus,
+    ddStatus: seminar.ddStatus,
+    language: seminar.language,
   };
 });
 

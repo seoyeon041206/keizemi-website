@@ -1,15 +1,22 @@
 {
   "id": 2088,
   "slug": "professional-career-program-pcp",
-  "title": "Professional Career Program（PCP）（P）（DD）",
+  "title": "Professional Career Program (PCP)",
   "date": "2022-09-29",
   "modified": "2024-12-09",
-  "excerpt": "PCPは、3、4年生向けの選抜制のAll Englishプログラムです（2005年度開講）。グローバル社会で活躍することを目指す学生が対象です。プログラムは、英語でのコミュニケーション力と経済学の実証分析の知識を習得できる2つの必修科目が中心です。1〜2年かけてプログラムを修了すると（指定科目20単位）、経済学部長名と学長名入りのPCP certificateが授与されます。タイプA/B生、PEARL生、交換留学生含む多様性ある学習環境",
+  "excerpt": "Professional Career Program (PCP) is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: English only",
   "contentHtml": "PCPは、3、4年生向けの選抜制のAll Englishプログラムです（2005年度開講）。グローバル社会で活躍することを目指す学生が対象です。プログラムは、英語でのコミュニケーション力と経済学の実証分析の知識を習得できる2つの必修科目が中心です。1〜2年かけてプログラムを修了すると（指定科目20単位）、経済学部長名と学長名入りのPCP certificateが授与されます。タイプA/B生、PEARL生、交換留学生含む多様性ある学習環境で楽しく学んでいます。\n\n* 研究会との同時履修可能。\n\nThe Professional Career Programme (PCP) is an all-English programme for selected third- and fourth- year students (since AY2005). It is aimed at students who plan to build a career in an internationalized environment. The programme centers around the two required courses designed to help students develop the skills to communicate effectively in English and conduct their own empirical research in economics. Upon completing the programme in one to two years (earning a total of 20 credits from designated courses), PCP students will be awarded a PCP Certificate, which is signed by the President of Keio University and the Dean of the Faculty of Economics. The diverse student body including Type A/B, PEARL, and exchange students creates a stimulating and fun leaning environment.\n\n* Possible to join PCP concurring with the Research Seminar.",
-  "name": "Professional Career Program（PCP）（P）（DD）",
+  "name": "Professional Career Program (PCP)",
   "field": "Others",
   "relatedJapaneseId": 2054,
   "professorDescription": "PCPの必修科目である「Finance, Policy, and the Global Economy」と「Independent Study」は、一上響、小橋文子、山田浩之が担当します。担当教員の専門である国際金融論、国際貿易論、開発経済学分野の実証分析の論文指導に力を入れています。分析手法の解説を行い、統計に苦手意識がある学生でも努力すれば修了できるよう指導しています。専門の異なる複数の教員から多角的な指導を受けながら、経済学の実践的スキルを身につけてキャリア形成の可能性を広げましょう。\n\nThe instructors of the required courses of the programme, ‘Finance, Policy and the Global Economy’ and ‘Independent Study,’ are Hibiki Ichiue, Ayako Obashi, and Hiroyuki Yamada. As the instructors specialize in empirical research in the fields of International Macroeconomics, International Trade, and Development Economics, the courses are intended especially to help students acquire empirical research skills in these fields. Students who are feeling unsure about statistics and econometrics are also welcome as we provide basic training in empirical analysis. Embrace this opportunity to expand your knowledge, develop practical skills, and unlock exciting career possibilities.",
   "professorLink": "",
-  "order": 71
+  "order": 53,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "English only",
+  "recruitmentStatus": "募集中"
 }

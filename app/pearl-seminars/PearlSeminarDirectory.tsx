@@ -14,10 +14,14 @@ export type PearlDirectorySeminar = {
   status: 'Recruiting' | 'Newly recruiting' | 'Recruitment closed';
   pearl: boolean;
   dd: boolean;
+  pearlStatus: string;
+  ddStatus: string;
+  language: string;
 };
 
 type StatusTab = 'All' | 'Newly recruiting' | 'Recruitment closed';
 type Programme = 'All programmes' | 'PEARL' | 'Double Degree';
+type LanguageFilter = 'All languages' | 'English only' | 'Japanese & English' | 'Japanese mainly / English support' | 'Japanese only' | 'Consult office';
 
 const fieldOrder = [
   { code: 'A', label: 'Economic Theory' },
@@ -39,22 +43,32 @@ const tabs: Array<{ value: StatusTab; label: string }> = [
   { value: 'Recruitment closed', label: 'Recruitment closed' },
 ];
 
+const getLanguageGroup = (value: string): Exclude<LanguageFilter, 'All languages'> => {
+  if (value === 'English only') return 'English only';
+  if (value === 'Japanese and English') return 'Japanese & English';
+  if (value === 'Please consult with the IRP office') return 'Consult office';
+  if (value === 'Japanese only' || value === 'Japanese in principle') return 'Japanese only';
+  return 'Japanese mainly / English support';
+};
+
 export function PearlSeminarDirectory({ seminars }: { seminars: PearlDirectorySeminar[] }) {
   const [query, setQuery] = useState('');
   const [field, setField] = useState('All fields');
   const [status, setStatus] = useState<StatusTab>('All');
   const [programme, setProgramme] = useState<Programme>('All programmes');
+  const [language, setLanguage] = useState<LanguageFilter>('All languages');
 
   const visibleSeminars = useMemo(() => {
     const normalizedQuery = query.trim().toLocaleLowerCase('en');
     return seminars.filter((seminar) => {
-      const matchesQuery = !normalizedQuery || `${seminar.name} ${seminar.field} ${seminar.excerpt}`.toLocaleLowerCase('en').includes(normalizedQuery);
+      const matchesQuery = !normalizedQuery || `${seminar.name} ${seminar.field} ${seminar.language} ${seminar.excerpt}`.toLocaleLowerCase('en').includes(normalizedQuery);
       const matchesField = field === 'All fields' || seminar.field === field;
       const matchesStatus = status === 'All' || seminar.status === status;
       const matchesProgramme = programme === 'All programmes' || (programme === 'PEARL' ? seminar.pearl : seminar.dd);
-      return matchesQuery && matchesField && matchesStatus && matchesProgramme;
+      const matchesLanguage = language === 'All languages' || getLanguageGroup(seminar.language) === language;
+      return matchesQuery && matchesField && matchesStatus && matchesProgramme && matchesLanguage;
     });
-  }, [field, programme, query, seminars, status]);
+  }, [field, language, programme, query, seminars, status]);
 
   const groupedSeminars = fieldOrder
     .map((fieldItem) => ({ ...fieldItem, seminars: visibleSeminars.filter((seminar) => seminar.field === fieldItem.label) }))
@@ -68,7 +82,7 @@ export function PearlSeminarDirectory({ seminars }: { seminars: PearlDirectorySe
         <div>
           <p>FOR PEARL / DOUBLE DEGREE STUDENTS</p>
           <h1>Seminars for PEARL / DD</h1>
-          <span>Find an English-friendly seminar by academic field, recruitment status, or programme.</span>
+          <span>Explore the 54 seminars open to PEARL and Double Degree students for the 2026 academic year.</span>
         </div>
         <b aria-hidden="true">P</b>
       </section>
@@ -109,11 +123,22 @@ export function PearlSeminarDirectory({ seminars }: { seminars: PearlDirectorySe
               <option>Double Degree</option>
             </select>
           </label>
+          <label className="directory-field-select pearl-language-select">
+            <span>LANGUAGE USED</span>
+            <select value={language} onChange={(event) => setLanguage(event.target.value as LanguageFilter)}>
+              <option>All languages</option>
+              <option>English only</option>
+              <option>Japanese &amp; English</option>
+              <option>Japanese mainly / English support</option>
+              <option>Japanese only</option>
+              <option>Consult office</option>
+            </select>
+          </label>
         </div>
 
         <div className="directory-result-summary">
           <p><strong>{visibleSeminars.length}</strong> seminars</p>
-          <p><b>(P)</b> PEARL students accepted　<b>(DD)</b> Double Degree students accepted</p>
+          <p><b>2026 DATA</b> “Allowed” may still require Japanese. Always check the language and any conditions shown on each card.</p>
         </div>
       </section>
 
@@ -130,7 +155,11 @@ export function PearlSeminarDirectory({ seminars }: { seminars: PearlDirectorySe
                   <div className="directory-card-topline"><span>{seminar.status}</span><small>{seminar.pearl && 'P'}{seminar.pearl && seminar.dd && ' · '}{seminar.dd && 'DD'}</small></div>
                   <div className="directory-card-mark" aria-hidden="true">{seminar.name.slice(0, 1)}</div>
                   <h3>{seminar.name}</h3>
-                  <p>{seminar.excerpt || `An English-friendly seminar in ${group.label}.`}</p>
+                  <dl className="pearl-card-availability">
+                    <div><dt>PEARL</dt><dd>{seminar.pearlStatus}</dd></div>
+                    <div><dt>DD</dt><dd>{seminar.ddStatus}</dd></div>
+                    <div><dt>LANGUAGE</dt><dd>{seminar.language}</dd></div>
+                  </dl>
                   <div className="directory-card-footer"><span>View details</span><b aria-hidden="true">→</b></div>
                 </a>
               ))}
@@ -141,7 +170,7 @@ export function PearlSeminarDirectory({ seminars }: { seminars: PearlDirectorySe
           <div className="directory-empty">
             <strong>No seminars match these filters</strong>
             <p>Try changing the keyword or one of the filter options.</p>
-            <button type="button" onClick={() => { setQuery(''); setField('All fields'); setStatus('All'); setProgramme('All programmes'); }}>Reset filters</button>
+            <button type="button" onClick={() => { setQuery(''); setField('All fields'); setStatus('All'); setProgramme('All programmes'); setLanguage('All languages'); }}>Reset filters</button>
           </div>
         )}
       </section>

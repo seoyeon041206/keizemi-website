@@ -1,15 +1,22 @@
 {
   "id": 1464,
   "slug": "nakajima-ryo-seminar",
-  "title": "Nakajima Ryo Seminar（P）",
+  "title": "Ryo Nakajima Seminar",
   "date": "2022-09-09",
   "modified": "2023-06-20",
-  "excerpt": "“本ゼミでは、経済実証分析の基礎的な手法を身につけることで、データの背後にある経済原理を論理的に理解する能力を身につけることを目的とします。 学生は自ら設定した問題に対しての解答を、データを集め、適切なツールを用いて、分析することが求められます。 中嶋ゼミは経済学部に限らず、自分が持っている知識に満足することなく、学問に対して常識を疑い、自らの力で探究出来る主体性を持った生徒を歓迎します。”",
+  "excerpt": "Ryo Nakajima Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are not accepted. Language: Japanese only",
   "contentHtml": "“本ゼミでは、経済実証分析の基礎的な手法を身につけることで、データの背後にある経済原理を論理的に理解する能力を身につけることを目的とします。\n\n学生は自ら設定した問題に対しての解答を、データを集め、適切なツールを用いて、分析することが求められます。\n\n中嶋ゼミは経済学部に限らず、自分が持っている知識に満足することなく、学問に対して常識を疑い、自らの力で探究出来る主体性を持った生徒を歓迎します。”",
-  "name": "Nakajima Ryo Seminar（P）",
+  "name": "Ryo Nakajima Seminar",
   "field": "Econometrics and Statistics",
   "relatedJapaneseId": 208,
   "professorDescription": "人生は一本道でないように大学生活の道も様々である。私の研究会に入っても何が正しい道だったのか、今後どのような道を歩むべきなのかはっきりとした答えは得られないかもしれない。どちらかといえば研究会に入った後は、これまでの「地図」から外れて自在に歩き回ってほしい。この研究会が諸君らにとって唯一の道を辿る場所でなく、自由に道を迷うことができる場所、または、迷っても平気であることを学ぶ場所であってほしい。迷いながらも自分で考え勇気を持って歩き続けることができる学生を歓迎する。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000481_en.html",
-  "order": 6
+  "order": 11,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": false,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Not Allowed",
+  "language": "Japanese only",
+  "recruitmentStatus": "募集中"
 }

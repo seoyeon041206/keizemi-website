@@ -1,15 +1,22 @@
 {
   "id": 2697,
   "slug": "hirose-yasuo-seminar",
-  "title": "Hirose Yasuo Seminar",
+  "title": "Yasuo Hirose Seminar",
   "date": "2023-06-20",
   "modified": "2024-12-09",
-  "excerpt": "廣瀬研究会では、日吉で学んだマクロ経済学、ミクロ経済学、統計学、経済数学等の基礎知識、あるいはそれ以上の知識を活用し、マクロ経済学のモデルの一種であるDSGEモデルを中心とした現代マクロ経済学を学んでいます。 2年間のゼミ活動を通して、学問にじっくりと取り組み、残りの学生生活を充実したものにしたい方には強く当ゼミをお薦めしたいと思います。",
+  "excerpt": "Yasuo Hirose Seminar is listed for the 2026 academic year. PEARL: Allowed (Need to join from April). Double Degree: Allowed (Need to join from April). Language: Japanese only",
   "contentHtml": "廣瀬研究会では、日吉で学んだマクロ経済学、ミクロ経済学、統計学、経済数学等の基礎知識、あるいはそれ以上の知識を活用し、マクロ経済学のモデルの一種であるDSGEモデルを中心とした現代マクロ経済学を学んでいます。\n2年間のゼミ活動を通して、学問にじっくりと取り組み、残りの学生生活を充実したものにしたい方には強く当ゼミをお薦めしたいと思います。",
-  "name": "Hirose Yasuo Seminar",
+  "name": "Yasuo Hirose Seminar",
   "field": "Economic Theory",
   "relatedJapaneseId": 192,
   "professorDescription": "大学院レベルのマクロ経済分析手法の習得を目指しますので、学部中～上級レベルのマクロ経済学、ミクロ経済学、微分積分、線形代数、統計学の知識が必要となります。数学やプログラミングが得意な方や、将来、政策当局や民間調査機関でマクロ経済分析に携わりたい方を歓迎します。",
   "professorLink": "",
-  "order": 25
+  "order": 6,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed (Need to join from April)",
+  "ddStatus": "Allowed (Need to join from April)",
+  "language": "Japanese only",
+  "recruitmentStatus": "募集中"
 }

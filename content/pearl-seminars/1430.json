@@ -1,15 +1,22 @@
 {
   "id": 1430,
   "slug": "kanda-sayako-seminar",
-  "title": "Kanda Sayako Seminar（P）（DD）",
+  "title": "Sayako Kanda Seminar",
   "date": "2022-09-09",
   "modified": "2023-06-20",
-  "excerpt": "神田ゼミではインドを中心とした南アジアの経済史についての研究をしています。 具体的には、アジア地域の経済発展のダイナミズム及びその経済・社会が抱える問題を理解するため、 輪読や議題の討論を通じてその歴史的背景や社会的・文化的特徴について理解を深めています。 (Accepting Double Degree)",
+  "excerpt": "Sayako Kanda Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Classes are conducted in Japanese, but papers and assignments may be written in English.",
   "contentHtml": "神田ゼミではインドを中心とした南アジアの経済史についての研究をしています。\n\n具体的には、アジア地域の経済発展のダイナミズム及びその経済・社会が抱える問題を理解するため、 輪読や議題の討論を通じてその歴史的背景や社会的・文化的特徴について理解を深めています。\n\n(Accepting Double Degree)",
-  "name": "Kanda Sayako Seminar（P）（DD）",
+  "name": "Sayako Kanda Seminar",
   "field": "Economic History",
   "relatedJapaneseId": 228,
   "professorDescription": "私はインド経済史を研究しています。学生の時にインド世界に出会ったこと、経済史のゼミに入ったこと、そしてそこで知り合った人々との関係が今のキャリアを築くきっかけになりました。学生の皆さんには、学問とその他の活動のなかで、キャンパス内外で多様なバックグラウンドをもつ人たちに出会い、話し、議論する機会をもってほしいです。刺激を受け、多くのことを学ぶでしょう。それが自らの可能性を広げてくれるように思います。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000387_en.html",
-  "order": 14
+  "order": 51,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Classes are conducted in Japanese, but papers and assignments may be written in English.",
+  "recruitmentStatus": "募集中"
 }

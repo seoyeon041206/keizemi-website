@@ -112,6 +112,16 @@ collections:
       - { label: Seminar name, name: name, widget: string }
       - { label: Field, name: field, widget: string }
       - { label: Related Japanese seminar ID, name: relatedJapaneseId, widget: number, value_type: int }
+      - { label: Source year, name: sourceYear, widget: number, value_type: int }
+      - { label: PEARL accepted, name: pearl, widget: boolean }
+      - { label: Double Degree accepted, name: dd, widget: boolean }
+      - { label: PEARL status / conditions, name: pearlStatus, widget: string }
+      - { label: Double Degree status / conditions, name: ddStatus, widget: string }
+      - { label: Language used, name: language, widget: text }
+      - label: Recruitment status
+        name: recruitmentStatus
+        widget: select
+        options: [募集中, 新規募集, 募集停止]
       - { label: Summary, name: excerpt, widget: text }
       - { label: Body, name: contentHtml, widget: markdown }
       - { label: Professor description, name: professorDescription, widget: text, required: false }

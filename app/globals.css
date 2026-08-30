@@ -545,6 +545,7 @@ section { scroll-margin-top: 142px; }
 .pearl-directory-tabs button span { font-family: Georgia, "Times New Roman", serif; }
 .directory-tabs button small { min-width: 24px; padding: 4px 7px; border-radius: 999px; color: #687481; background: rgba(18,35,56,.06); font-size: 9px; font-weight: 800; }
 .directory-filter-panel { margin-top: 38px; padding: 24px; display: grid; grid-template-columns: minmax(240px, 1.35fr) minmax(180px, .7fr) auto; align-items: end; gap: 16px; background: var(--paper); border: 1px solid var(--line); }
+.pearl-directory-page .directory-filter-panel { grid-template-columns: minmax(220px, 1.2fr) repeat(3, minmax(155px, .68fr)); }
 .directory-search, .directory-field-select { display: grid; gap: 9px; }
 .directory-search > span, .directory-field-select > span { color: #617080; font-size: 9px; font-weight: 800; letter-spacing: .08em; }
 .directory-search input, .directory-field-select select { width: 100%; height: 50px; padding: 0 15px; color: var(--ink); background: white; border: 1px solid var(--line); border-radius: 0; font: inherit; font-size: 12px; }
@@ -578,6 +579,10 @@ section { scroll-margin-top: 142px; }
 .directory-seminar-card.is-paused .directory-card-mark { background: #707983; box-shadow: 7px 7px 0 rgba(18,35,56,.08); }
 .directory-seminar-card h3 { margin: 0; font: 600 19px/1.55 "Yu Mincho", YuMincho, serif; }
 .directory-seminar-card > p { margin: 14px 0 22px; color: #677381; font-size: 10px; line-height: 1.8; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.pearl-card-availability { margin: 18px 0 24px; display: grid; gap: 9px; }
+.pearl-card-availability > div { min-width: 0; padding-top: 9px; display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 10px; border-top: 1px solid var(--line); }
+.pearl-card-availability dt { color: var(--red); font: 800 7px/1.5 Georgia, serif; letter-spacing: .11em; }
+.pearl-card-availability dd { margin: 0; color: #5f6d7b; font-size: 8px; line-height: 1.55; overflow-wrap: anywhere; }
 .directory-card-footer { margin-top: auto; padding-top: 16px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); color: #52606e; font-size: 10px; font-weight: 800; }
 .directory-card-footer b { color: var(--red); font-size: 18px; font-weight: 400; }
 .directory-empty { padding: 96px 24px; text-align: center; border-top: 1px solid var(--ink); }
@@ -614,6 +619,15 @@ section { scroll-margin-top: 142px; }
 .professor-body { margin-top: 36px; padding: 28px; background: var(--paper); }
 .detail-links { width: min(760px, calc(100% - 48px)); margin: 50px auto 0; display: flex; flex-wrap: wrap; gap: 12px; }
 .detail-links a { padding: 12px 17px; border: 1px solid var(--ink); font-size: 11px; font-weight: 800; }
+.pearl-detail-availability { width: min(930px, calc(100% - 48px)); margin: 54px auto 0; padding: 34px; color: white; background: var(--blue-deep); box-shadow: 16px 16px 0 rgba(162,45,63,.13); }
+.pearl-detail-availability > header small { color: #f0c27a; font: 800 8px/1 Georgia, serif; letter-spacing: .16em; }
+.pearl-detail-availability > header h2 { margin: 14px 0 8px; font: 600 clamp(25px, 3vw, 38px)/1.35 Georgia, "Times New Roman", serif; }
+.pearl-detail-availability > header p { margin: 0; color: rgba(255,255,255,.58); font-size: 10px; line-height: 1.8; }
+.pearl-detail-availability dl { margin: 30px 0 0; display: grid; grid-template-columns: .8fr .8fr 1.4fr; border-top: 1px solid rgba(255,255,255,.22); border-left: 1px solid rgba(255,255,255,.16); }
+.pearl-detail-availability dl > div { min-width: 0; min-height: 118px; padding: 22px; border-right: 1px solid rgba(255,255,255,.16); border-bottom: 1px solid rgba(255,255,255,.16); }
+.pearl-detail-availability dt { color: #f0c27a; font: 800 8px/1 Georgia, serif; letter-spacing: .14em; }
+.pearl-detail-availability dd { margin: 15px 0 0; color: rgba(255,255,255,.84); font-size: 11px; line-height: 1.75; overflow-wrap: anywhere; }
+.pearl-detail-note { margin: 22px 0 0; color: rgba(255,255,255,.55); font-size: 9px; line-height: 1.8; }
 
 @media (max-width: 760px) {
   .archive-hero { min-height: 300px; padding-block: 72px 55px; }
@@ -640,6 +654,9 @@ section { scroll-margin-top: 142px; }
   .field-group { padding-top: 48px; }
   .field-seminar-grid { grid-template-columns: 1fr; }
   .directory-seminar-card { min-height: 290px; }
+  .pearl-detail-availability { width: calc(100% - 40px); padding: 24px; box-shadow: 10px 10px 0 rgba(162,45,63,.12); }
+  .pearl-detail-availability dl { grid-template-columns: 1fr; }
+  .pearl-detail-availability dl > div { min-height: auto; }
   .handout-hero { min-height: 300px; padding: 64px 20px 48px; }
   .handout-hero > b { display: none; }
   .handout-hero span { max-width: 310px; }
@@ -718,6 +735,7 @@ section { scroll-margin-top: 142px; }
 
 @media (min-width: 761px) and (max-width: 1080px) {
   .directory-filter-panel { grid-template-columns: 1fr 1fr; }
+  .pearl-directory-page .directory-filter-panel { grid-template-columns: 1fr 1fr; }
   .directory-pearl-filter { grid-column: 1 / -1; }
   .field-seminar-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .handout-intro { grid-template-columns: 1fr; }

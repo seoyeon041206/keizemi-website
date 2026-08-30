@@ -1,15 +1,22 @@
 {
   "id": 1467,
   "slug": "nakatsuma-teruo-seminar",
-  "title": "Nakatsuma Teruo Seminar（P）（DD）",
+  "title": "Teruo Nakatsuma Seminar",
   "date": "2022-09-09",
   "modified": "2023-06-20",
-  "excerpt": "At Teruo Nakatsuma Zemi, we are learning data science methods and their application to finance. Specifically, we are learning how to solve various problems dealt with in finance practice such as optimal asset management",
+  "excerpt": "Teruo Nakatsuma Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Japanese and English",
   "contentHtml": "At Teruo Nakatsuma Zemi, we are learning data science methods and their application to finance. Specifically, we are learning how to solve various problems dealt with in finance practice such as optimal asset management and corporate value calculation by using methods such as Bayesian statistics and machine learning.\n\n(Accepting Double Degree)",
-  "name": "Nakatsuma Teruo Seminar（P）（DD）",
+  "name": "Teruo Nakatsuma Seminar",
   "field": "Econometrics and Statistics",
   "relatedJapaneseId": 210,
   "professorDescription": "中妻照雄研究会は好奇心旺盛で常に向上心を持って自発的に勉学に勤しむ学生諸君を求めています。今の世界で活躍するためには、「定量的に物事を見定める目」と「複数言語で人々と話し合える力」が必要不可欠です。日吉時代から数学、統計学などをしっかりと学習するとともに、語学教育の中で多様な人々とコミュニケーションをとれる能力を磨いてください。皆さんが中妻照雄研究会の門を叩く日を心待ちにしています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000482_en.html",
-  "order": 7
+  "order": 12,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Japanese and English",
+  "recruitmentStatus": "募集中"
 }

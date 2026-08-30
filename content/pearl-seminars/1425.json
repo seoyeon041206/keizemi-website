@@ -1,15 +1,22 @@
 {
   "id": 1425,
   "slug": "kajima-jun-seminar",
-  "title": "Kajima Jun Seminar（P）（DD）",
+  "title": "Jun Kajima Seminar",
   "date": "2022-09-09",
   "modified": "2023-06-20",
-  "excerpt": "加島ゼミでは、中国を中心に、近現代アジア経済史について研究しています。 中国やアジアに興味がある方、歴史に興味がある方など大歓迎です！2021年度設立の新しいゼミで、優しい教授のもとアットホームな雰囲気で活動しています。 研究テーマやゼミで扱う内容は、それぞれの興味に合わせて教授が幅広く受け入れてくださいます。ゼミに関する最新情報は、TwitterとInstagramをご覧ください。みなさんとゼミでお会いできるのを楽しみにしています！",
+  "excerpt": "Jun Kajima Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Japanese only",
   "contentHtml": "加島ゼミでは、中国を中心に、近現代アジア経済史について研究しています。\n中国やアジアに興味がある方、歴史に興味がある方など大歓迎です！2021年度設立の新しいゼミで、優しい教授のもとアットホームな雰囲気で活動しています。\n研究テーマやゼミで扱う内容は、それぞれの興味に合わせて教授が幅広く受け入れてくださいます。ゼミに関する最新情報は、TwitterとInstagramをご覧ください。みなさんとゼミでお会いできるのを楽しみにしています！\n\n(Accepting Double Degree)",
-  "name": "Kajima Jun Seminar（P）（DD）",
+  "name": "Jun Kajima Seminar",
   "field": "Economic History",
   "relatedJapaneseId": 226,
   "professorDescription": "本ゼミでは、以下のような人を募集しています（どれか1つに当てはまればOKです）。①経済学×歴史学という学問分野としての経済史に関心がある人、②近代以降の東アジアの経済発展や社会の変化に関心のある人、③日本以外の国・地域の社会や経済に関心がある、または日本以外の国・地域との比較から日本の社会や経済を考えてみたい人。幅広い応募をお待ちしています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100015624_en.html",
-  "order": 13
+  "order": 22,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Japanese only",
+  "recruitmentStatus": "募集中"
 }

@@ -1,15 +1,22 @@
 {
   "id": 1660,
   "slug": "shirai-yoshimasa-seminar",
-  "title": "Shirai Yoshimasa Seminar（P）（DD）",
+  "title": "Yoshimasa Shirai Seminar",
   "date": "2022-09-13",
   "modified": "2023-06-20",
-  "excerpt": "In Shirai seminar, we study International Economics. Under the guidance of Professor Shirai, we read research papers and a textbook in preparation for writing our own research theses. This seminar can be taught in either",
+  "excerpt": "Yoshimasa Shirai Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Japanese and English",
   "contentHtml": "In Shirai seminar, we study International Economics. Under the guidance of Professor Shirai, we read research papers and a textbook in preparation for writing our own research theses. This seminar can be taught in either Japanese or English so PEARL and foreign students are more than welcome. Therefore, you can study economics with people of many different backgrounds! If you are interested in learning about international economics, please check out our seminar!\n\n(Accepting Double Degree)",
-  "name": "Shirai Yoshimasa Seminar（P）（DD）",
+  "name": "Yoshimasa Shirai Seminar",
   "field": "International Economics",
   "relatedJapaneseId": 277,
   "professorDescription": "国際貿易（広くはグローバリゼーション）が生産性や技術進歩に及ぼす影響、またはその逆の影響について考察する学術論文や学術書をみんなで読み議論しようと考えています。日本の実質賃金や労働生産性がなぜ伸び悩んでいるのかという大きな問いの一部分としても考えてみたいと思っています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000432_en.html",
-  "order": 58
+  "order": 39,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Japanese and English",
+  "recruitmentStatus": "募集中"
 }

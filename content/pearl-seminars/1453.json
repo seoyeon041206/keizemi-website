@@ -1,15 +1,22 @@
 {
   "id": 1453,
   "slug": "makino-kuniaki-seminar",
-  "title": "Makino Kuniaki Seminar（P）",
+  "title": "Kuniaki Makino Seminar",
   "date": "2022-09-09",
   "modified": "2023-06-20",
-  "excerpt": "牧野邦昭研究会では、近代日本の経済思想史に関する研究を行っています。 普段の活動では輪読や三田論に向けた活動を行い、主に発表やディスカッションを通じて近代日本の政治・経済に関わった人物について学んでいます。 牧野ゼミは昨年新設されたゼミで、様々な個性にあふれた計16名のメンバーで和気藹々と楽しく活動しています！ 日本史が好きな方、サークルや體育會と両立させたい方などどんな人でも大歓迎です！",
+  "excerpt": "Kuniaki Makino Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are not accepted. Language: Japanese only",
   "contentHtml": "牧野邦昭研究会では、近代日本の経済思想史に関する研究を行っています。\n\n普段の活動では輪読や三田論に向けた活動を行い、主に発表やディスカッションを通じて近代日本の政治・経済に関わった人物について学んでいます。\n\n牧野ゼミは昨年新設されたゼミで、様々な個性にあふれた計16名のメンバーで和気藹々と楽しく活動しています！\n\n日本史が好きな方、サークルや體育會と両立させたい方などどんな人でも大歓迎です！",
-  "name": "Makino Kuniaki Seminar（P）",
+  "name": "Kuniaki Makino Seminar",
   "field": "History of Economic Thought",
   "relatedJapaneseId": 220,
   "professorDescription": "学生時代は「試行錯誤」や「無駄なこと」をすることが許されている期間です。経済について深く学びながら、教養を身につけ、また色々な体験をして、充実した学生生活を送るようにしてください。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100015625_en.html",
-  "order": 45
+  "order": 17,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": false,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Not Allowed",
+  "language": "Japanese only",
+  "recruitmentStatus": "募集中"
 }

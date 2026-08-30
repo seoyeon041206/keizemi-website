@@ -1,15 +1,22 @@
 {
   "id": 1475,
   "slug": "naoi-michio-seminar",
-  "title": "Naoi Michio Seminar（P）（DD）",
+  "title": "Michio Naoi Seminar",
   "date": "2022-09-09",
   "modified": "2023-06-20",
-  "excerpt": "直井道生研究会は慶應で唯一「都市経済学」を研究しているぜミです！ とても親身に指導してくださる直井先生の下で、現在は4年生12名、3年生16名で活動しています。 ゼミでは都市経済学やデータ分析に関する書籍や論文を輪読していき、都市経済学だけでなく近年注目されているデータ分析も学ぶことができます。都市・地域問題やデータ分析を通して社会を見透すことに関心がある方はぜひ説明会にお越しください! (Accepting Double Degree",
+  "excerpt": "Michio Naoi Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Japanese only",
   "contentHtml": "直井道生研究会は慶應で唯一「都市経済学」を研究しているぜミです！\n\nとても親身に指導してくださる直井先生の下で、現在は4年生12名、3年生16名で活動しています。\n\nゼミでは都市経済学やデータ分析に関する書籍や論文を輪読していき、都市経済学だけでなく近年注目されているデータ分析も学ぶことができます。都市・地域問題やデータ分析を通して社会を見透すことに関心がある方はぜひ説明会にお越しください!\n\n(Accepting Double Degree)",
-  "name": "Naoi Michio Seminar（P）（DD）",
+  "name": "Michio Naoi Seminar",
   "field": "Environmental and Urban Economics",
   "relatedJapaneseId": 206,
   "professorDescription": "都市・地域経済学、応用計量経済学を中心とした研究を行っています。ゼミ（研究会）では、これらの分野を含む幅広いトピック（都市・地域、交通、環境、労働、教育など）に関するデータ分析（応用計量経済学）を扱っています。都市・地域問題は、皆さんにとっても身近なテーマですので、こうしたテーマに幅広い興味・関心を持ち、経済学的な分析・研究を行ってみたいという人を希望します。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000477_en.html",
-  "order": 42
+  "order": 44,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Japanese only",
+  "recruitmentStatus": "募集中"
 }

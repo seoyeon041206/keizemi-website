@@ -39,4 +39,11 @@ export type PearlSeminar = BaseContent & {
   relatedJapaneseId: number;
   professorDescription: string;
   professorLink: string;
+  sourceYear: number;
+  pearl: boolean;
+  dd: boolean;
+  pearlStatus: string;
+  ddStatus: string;
+  language: string;
+  recruitmentStatus: string;
 };

@@ -1,15 +1,22 @@
 {
   "id": 1410,
   "slug": "fujiwara-ippei-seminar",
-  "title": "Fujiwara Ippei Seminar（P）（DD）",
+  "title": "Ippei Fujiwara Seminar",
   "date": "2022-09-09",
   "modified": "2023-06-20",
-  "excerpt": "藤原一平研究会は以下の３つを目標とし、さまざまなテーマに関してディスカッションベースで学んでいます。 1.経済学的思考および分析手法の学習 2.経済事象を論理的に理解し説明する能力 3.グローバル化した社会で働くことを強く意識する 留学、体育会など様々なこととゼミを両立している人がほとんどで、ゼミ員は多様性に溢れています。最高の仲間との出会いは、人生にとってかけがえのないものとなるはずです。 藤原一平ゼミでお待ちしています！ (Acce",
+  "excerpt": "Ippei Fujiwara Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Japanese only",
   "contentHtml": "藤原一平研究会は以下の３つを目標とし、さまざまなテーマに関してディスカッションベースで学んでいます。\n\n1.経済学的思考および分析手法の学習\n2.経済事象を論理的に理解し説明する能力\n3.グローバル化した社会で働くことを強く意識する\n\n留学、体育会など様々なこととゼミを両立している人がほとんどで、ゼミ員は多様性に溢れています。最高の仲間との出会いは、人生にとってかけがえのないものとなるはずです。\n藤原一平ゼミでお待ちしています！\n\n(Accepting Double Degree)",
-  "name": "Fujiwara Ippei Seminar（P）（DD）",
+  "name": "Ippei Fujiwara Seminar",
   "field": "Economic Theory",
   "relatedJapaneseId": 196,
   "professorDescription": "大学時代のゼミの最も素晴らしいことは、様々なバックグランドを持った友人と出会えることです。部、サークル、アルバイト等を通じたつながりも素晴らしいものですが、ゼミという新しい軸を通じた友人は、その後の人生にとって、かけがえのないものとなるはずです。グループ研究、個人研究、イベント企画、などを通じて、新たな、そして、多様なつながりが生まれてくるような機会を提供できればと思っています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000516_en.html",
-  "order": 23
+  "order": 8,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Japanese only",
+  "recruitmentStatus": "募集中"
 }

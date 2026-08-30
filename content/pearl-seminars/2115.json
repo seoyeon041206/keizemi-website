@@ -1,15 +1,22 @@
 {
   "id": 2115,
   "slug": "ichiue-hibiki-seminar",
-  "title": "Ichiue Hibiki Seminar（P）（DD）",
+  "title": "Hibiki Ichiue Seminar",
   "date": "2022-09-29",
   "modified": "2023-06-20",
-  "excerpt": "当研究会では、さまざまな経済指標や政府・日銀の発表資料などに基づいて、最近の経済や金融で起こっていることをプレゼン、議論しています。 並行して計量分析のコツや Stata など統計ソフトの使い方もいちから学びます。イベントについては、三田祭論文やゼミ合宿、インゼミを予定しています。 2022 年度開講の新しいゼミなので、皆さんと共に良いゼミをつくり上げていきたいと考えています。 (Accepting Double Degree)",
+  "excerpt": "Hibiki Ichiue Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Japanese only",
   "contentHtml": "当研究会では、さまざまな経済指標や政府・日銀の発表資料などに基づいて、最近の経済や金融で起こっていることをプレゼン、議論しています。\n\n並行して計量分析のコツや Stata など統計ソフトの使い方もいちから学びます。イベントについては、三田祭論文やゼミ合宿、インゼミを予定しています。\n\n2022 年度開講の新しいゼミなので、皆さんと共に良いゼミをつくり上げていきたいと考えています。\n\n(Accepting Double Degree)",
-  "name": "Ichiue Hibiki Seminar（P）（DD）",
+  "name": "Hibiki Ichiue Seminar",
   "field": "International Economics",
   "relatedJapaneseId": 174,
   "professorDescription": "前職の日銀では、経済の実態把握と予測の仕事に長く携わり、経済調査課長というチーフエコノミストのような役職も務めました。その一方で、マクロ経済学からファイナンスまで幅広く研究を行いました。ゼミでは、経済や金融で現実に起こっていることに対する基本的な理解力とともに、新たな疑問が生じたときに、他人の意見を鵜呑みにせず、自ら必要なデータを探しだして一定の答えを導き出す力を身に付けることを目指します。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100015815_ja.html?k=%E4%B8%80%E4%B8%8A%E9%9F%BF",
-  "order": 49
+  "order": 36,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Japanese only",
+  "recruitmentStatus": "募集中"
 }

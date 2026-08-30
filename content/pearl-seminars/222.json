@@ -1,0 +1,22 @@
+{
+  "id": 222,
+  "slug": "iida-kyo-seminar",
+  "title": "Kyo Iida Seminar",
+  "date": "2022-08-10",
+  "modified": "2022-10-01",
+  "excerpt": "Kyo Iida Seminar is listed for the 2026 academic year. PEARL: Allowed (Ability and willingness to read academic literature in Japanese, present and discuss in Japanese, and write papers in Japanese). Double Degree: Allowed (Ability and willingness to read academic literature in Japanese, present and discuss in Japanese, and write papers in Japanese). Language: Japanese only",
+  "contentHtml": "当研究会では、ヨーロッパの経済史・社会史・環境史について研究します。とりわけヨーロッパにおける農業と林業（およびそれを営む社会や、それをとりまく環境）の歴史を、長期（中世から現代）にわたって考察しながら、ヨーロッパ史の世界史における特殊性と、ヨーロッパ内部の地域差について学びます。\n担当教員の専門はドイツ史です。ドイツ史、ヨーロッパ史、そして世界史に関心のある学生を、他学部生を含めて歓迎します。",
+  "name": "Kyo Iida Seminar",
+  "field": "Economic History",
+  "relatedJapaneseId": 222,
+  "professorDescription": "学問とは、新しい知を生み出すことです。しかし、新しい知を生み出すためには、その前に既存の知（先行研究）をしっかりと勉強しておく必要があります。さもなくば何が新しい知たりうるかも分からないからです。年々厚みを増すヨーロッパ史の先行研究を習得するのには根気がいりますが、学部生にとって避けては通れぬ道です。骨のある分厚い洋書をまず一冊苦労して読み切ったとき、皆さんはきっと知的に一段成長しているはずです。",
+  "professorLink": "https://k-ris.keio.ac.jp/html/100000320_ja.html?k=%E9%A3%AF%E7%94%B0%E6%81%AD",
+  "order": 20,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed (Ability and willingness to read academic literature in Japanese, present and discuss in Japanese, and write papers in Japanese)",
+  "ddStatus": "Allowed (Ability and willingness to read academic literature in Japanese, present and discuss in Japanese, and write papers in Japanese)",
+  "language": "Japanese only",
+  "recruitmentStatus": "募集中"
+}

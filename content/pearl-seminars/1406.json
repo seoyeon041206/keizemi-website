@@ -1,15 +1,22 @@
 {
   "id": 1406,
   "slug": "fujita-yasunori-seminar",
-  "title": "Fujita Yasunori Seminar（P）（DD）",
+  "title": "Yasunori Fujita Seminar",
   "date": "2022-09-09",
   "modified": "2023-06-20",
-  "excerpt": "At the Fujita Seminar, we aim to become the “Yukichi Fukuzawa of the 21st century,” the “Steve Jobs of the next generation,” the “super college students,” and the “0th graders in the workforce,” and we work every day und",
+  "excerpt": "Yasunori Fujita Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Japanese only",
   "contentHtml": "At the Fujita Seminar, we aim to become the “Yukichi Fukuzawa of the 21st century,” the “Steve Jobs of the next generation,” the “super college students,” and the “0th graders in the workforce,” and we work every day under the theme of “designing for excitement”. We received high praise for the solutions we had proposed and the work we had created for the practical issues from some companies. By learning together with our unique and ambitious colleagues, and by stimulating each other, we can find new talents. Let’s enjoy our university lives in “mutual prosperity of ourselves and others” and become good members of society.\n\n(Accepting Double Degree)",
-  "name": "Fujita Yasunori Seminar（P）（DD）",
+  "name": "Yasunori Fujita Seminar",
   "field": "Economic Theory",
   "relatedJapaneseId": 194,
   "professorDescription": "応用経済理論分析による問題解決や「感動の設計」を専門とする本研究会は、「独立自尊」の個人によるグループワークやワークショップ、プロジェクト等を基本としていて、各ゼミ生が新たな才能を発掘して相互に良い刺激を与え合っていただきたいと希望しています。コロナがいまだ収束せず、不都合の多い世の中ですが、是非みなさんそれぞれの背景を大切にして日吉キャンパスでの生活をより充実させ、互いに尊重できる存在であり続けて下さい。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000515_en.html",
-  "order": 22
+  "order": 7,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Japanese only",
+  "recruitmentStatus": "募集中"
 }

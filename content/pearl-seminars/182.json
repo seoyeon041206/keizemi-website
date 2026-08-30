@@ -1,0 +1,22 @@
+{
+  "id": 182,
+  "slug": "sakai-toyotaka-seminar",
+  "title": "Toyotaka Sakai Seminar",
+  "date": "2022-08-10",
+  "modified": "2023-07-14",
+  "excerpt": "Toyotaka Sakai Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Japanese only",
+  "contentHtml": "広い意味での制度や仕組みの設計を扱います。\n本ゼミでは『Causal Inference』という統計的因果推論の専門書と、坂井先生の著書『社会的選択理論への招待』を輪読しています。\nまた、サブゼミでは基本的に統計学の復習や統計ソフト『R』の演習を行っています。\nメカニズムデザインや社会選択理論に興味がある方はぜひ！\n\n（ダブルディグリー生受け入れ有。）",
+  "name": "Toyotaka Sakai Seminar",
+  "field": "Economic Theory",
+  "relatedJapaneseId": 182,
+  "professorDescription": "地道な基礎学習を延々と続けること。学知を実際に使いきること。できない理由ではなく、どうすればできるかをひたすらに考え抜くこと。これらのどれが欠けても、学知の社会実装はできません。自分でこう書いていても、しんどくて嫌になってきます。あと、ゼミは相性。たぶんフィーリング。フィーリングでゼミ選びを間違えてしまっても、それはそれで仕方ないし楽しもう。",
+  "professorLink": "https://k-ris.keio.ac.jp/html/100000413_ja.html?k=%E5%9D%82%E4%BA%95%E8%B1%8A%E8%B2%B4",
+  "order": 3,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Japanese only",
+  "recruitmentStatus": "募集中"
+}

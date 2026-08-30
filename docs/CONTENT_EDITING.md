@@ -5,7 +5,7 @@
 ## 管理コンテンツ
 
 - `content/seminars/*.json`: 日本語研究会。1研究会につき1ファイルです。
-- `content/pearl-seminars/*.json`: PEARL / DD 向け研究会。
+- `content/pearl-seminars/*.json`: PEARL / DD 向け研究会。2026年度の受入可否・条件・使用言語を含みます。
 - `content/news/*.json`: お知らせ。1記事につき1ファイルです。
 - `content/faqs/*.json`: FAQ。1質問につき1ファイルです。
 - `content/about.json`: 「委員会について」ページ。
@@ -30,6 +30,8 @@
 - `image`: 画像パス
 - `url`: 研究会公式URL
 - `status`: 募集状況
+
+PEARL / DD 向け研究会では、`pearlStatus`、`ddStatus`、`language`、`sourceYear` が公式年度リストの表示に使われます。カードの受入可否を研究会名から推測せず、これらのフィールドを更新してください。
 
 ## Decap CMS 導入時
 

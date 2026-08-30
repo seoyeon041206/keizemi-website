@@ -1,15 +1,22 @@
 {
   "id": 1673,
   "slug": "tsumagari-masatoshi-seminar",
-  "title": "Tsumagari Masatoshi Seminar（P）（DD）",
+  "title": "Masatoshi Tsumagari Seminar",
   "date": "2022-09-13",
   "modified": "2023-06-20",
-  "excerpt": "・津曲正俊研究会はミクロ経済学を専攻とした研究会です。 津曲先生は海外留学に行っていたため休会しており、２０１７年に再開されました。 ・活動は毎週水曜日の４，５限に、教科書の輪読やパートゼミ（メカニズムデザインパート、ゲーム理論パート）でグループごとに興味のある分野の研究と発表をしています。 ・雰囲気は自由で居心地の良い、アットホームなゼミです！！ (Accepting Double Degree)",
+  "excerpt": "Masatoshi Tsumagari Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Japanese only",
   "contentHtml": "・津曲正俊研究会はミクロ経済学を専攻とした研究会です。\n津曲先生は海外留学に行っていたため休会しており、２０１７年に再開されました。\n\n・活動は毎週水曜日の４，５限に、教科書の輪読やパートゼミ（メカニズムデザインパート、ゲーム理論パート）でグループごとに興味のある分野の研究と発表をしています。\n\n・雰囲気は自由で居心地の良い、アットホームなゼミです！！\n\n(Accepting Double Degree)",
-  "name": "Tsumagari Masatoshi Seminar（P）（DD）",
+  "name": "Masatoshi Tsumagari Seminar",
   "field": "Economic Theory",
   "relatedJapaneseId": 190,
   "professorDescription": "私は、契約理論を中心としたミクロ経済学の研究者です。契約理論は、情報が共有されていない状況で、人間間の関係形成がどう影響され、組織・制度設計の問題にどう反映されるかを分析します。研究会では、契約理論だけでなく、ゲーム理論、マーケットデザイン理論などミクロ経済学を幅広く勉強します。実証研究の重要性を鑑みて、基本的な実証手法も学習します。経済問題を分析する確かな理論・実証の力を身に着けていただきます。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000467_en.html",
-  "order": 33
+  "order": 5,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Japanese only",
+  "recruitmentStatus": "募集中"
 }

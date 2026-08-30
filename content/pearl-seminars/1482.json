@@ -1,15 +1,22 @@
 {
   "id": 1482,
   "slug": "ohta-souichi-seminar",
-  "title": "Ohta Souichi Seminar（P）",
+  "title": "Soichi Ota Seminar",
   "date": "2022-09-09",
   "modified": "2023-06-20",
-  "excerpt": "We are a research group to think about the familiar concept of “work” called “labor economics” together! We are active on Wednesdays during the 4.5 period, and there are no sub-seminars, making it a very fulfilling semin",
+  "excerpt": "Soichi Ota Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are not accepted. Language: Japanese only",
   "contentHtml": "We are a research group to think about the familiar concept of “work” called “labor economics” together! We are active on Wednesdays during the 4.5 period, and there are no sub-seminars, making it a very fulfilling seminar for university life! This year, we will increase the number of female students! There are no required seminar classes!",
-  "name": "Ohta Souichi Seminar（P）",
+  "name": "Soichi Ota Seminar",
   "field": "Labor and Industrial Economics",
   "relatedJapaneseId": 242,
   "professorDescription": "",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000349_en.html",
-  "order": 65
+  "order": 24,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": false,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Not Allowed",
+  "language": "Japanese only",
+  "recruitmentStatus": "募集中"
 }

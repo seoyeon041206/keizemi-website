@@ -1,15 +1,22 @@
 {
   "id": 1401,
   "slug": "doi-takero-seminar",
-  "title": "Doi Takero Seminar（P）（DD）",
+  "title": "Takero Doi Seminar",
   "date": "2022-09-09",
   "modified": "2023-06-20",
-  "excerpt": "土居丈朗研究会では、財政を中心に様々な経済・社会政策について政治経済学的な分析を行うことを目的としています。 例年、財政・社会保障・医療介護・地方創生などのパートに分かれ、ISFJ日本政策学生会議に向けて論文を執筆します。 火曜4,5限の本ゼミでは論文の輪読を、木曜4,5限のサブゼミでは公共経済学のテキストを輪読し、実証面、理論面の双方において財政政策などに関する深い知識を得ることができます。 (Accepting Double Deg",
+  "excerpt": "Takero Doi Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Japanese only",
   "contentHtml": "土居丈朗研究会では、財政を中心に様々な経済・社会政策について政治経済学的な分析を行うことを目的としています。\n\n例年、財政・社会保障・医療介護・地方創生などのパートに分かれ、ISFJ日本政策学生会議に向けて論文を執筆します。\n\n火曜4,5限の本ゼミでは論文の輪読を、木曜4,5限のサブゼミでは公共経済学のテキストを輪読し、実証面、理論面の双方において財政政策などに関する深い知識を得ることができます。\n\n(Accepting Double Degree)",
-  "name": "Doi Takero Seminar（P）（DD）",
+  "name": "Takero Doi Seminar",
   "field": "Economic Policy and Public Finance",
   "relatedJapaneseId": 254,
   "professorDescription": "私のゼミでは，財政金融政策をはじめとする経済政策を政治経済学的に考える力を養うことを目的とします。主に税制改革，医療・介護・年金をはじめとする社会保障政策，公共投資政策，教育・育児などの地方財政，量的金融緩和政策，国債管理政策などを対象に，政治の影響を考慮しつつ経済学的にどう分析できるかに取り組みます。論文執筆のみならず，飲み会やOBOG会など，ゼミでの活動を大いに楽しみたい学生の応募をお待ちしています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000476_en.html",
-  "order": 16
+  "order": 33,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Japanese only",
+  "recruitmentStatus": "募集中"
 }

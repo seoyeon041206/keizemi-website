@@ -1,15 +1,22 @@
 {
   "id": 1656,
   "slug": "sato-yuki-study-group",
-  "title": "Sato Yuki Seminar（P）（DD）",
+  "title": "Yuki Sato Seminar",
   "date": "2022-09-13",
   "modified": "2023-06-20",
-  "excerpt": "こんにちは！佐藤祐己研究会です。 本研究会のテーマは、国内外の金融システムの現状と課題を経済学のロジックを踏まえて分析をしています。 基本的に3年生は春学期に輪読を通して金融の基礎理論を学び、秋学期に三田祭論文の研究、執筆を行います。4年生は卒業論文の執筆を行います。 本研究会は他にもファイナンス関連の映画を鑑賞し、ディベートを行ったり、他大学とのインゼミや夏合宿など幅広い活動をしています。 (Accepting Double Degr",
+  "excerpt": "Yuki Sato Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Japanese only",
   "contentHtml": "こんにちは！佐藤祐己研究会です。\n\n本研究会のテーマは、国内外の金融システムの現状と課題を経済学のロジックを踏まえて分析をしています。\n\n基本的に3年生は春学期に輪読を通して金融の基礎理論を学び、秋学期に三田祭論文の研究、執筆を行います。4年生は卒業論文の執筆を行います。\n\n本研究会は他にもファイナンス関連の映画を鑑賞し、ディベートを行ったり、他大学とのインゼミや夏合宿など幅広い活動をしています。\n\n(Accepting Double Degree)",
-  "name": "Sato Yuki Seminar（P）（DD）",
+  "name": "Yuki Sato Seminar",
   "field": "Economic Policy and Public Finance",
   "relatedJapaneseId": 250,
   "professorDescription": "金融・ファイナンスに興味があり、それらについて浅薄な議論をするのではなく、経済学に基づいてじっくり考え、議論し、理解したい学生を望みます。 本研究会は現実と理論のバランスを重視しますので、数理モデルだけに興味がある人にはお勧めしませんし、理論にアレルギーがある人にも向いていません。 与えられたことをただこなすのではなく、自発的に考え、積極的に議論に参加し、独創性のある研究をする意欲を持った学生を歓迎します。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000423_en.html",
-  "order": 18
+  "order": 31,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Japanese only",
+  "recruitmentStatus": "募集中"
 }

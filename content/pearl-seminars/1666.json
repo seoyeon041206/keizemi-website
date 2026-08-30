@@ -1,15 +1,22 @@
 {
   "id": 1666,
   "slug": "takeyama-masanao-seminar",
-  "title": "Takeyama Masanao Seminar（P）（DD）",
+  "title": "Masanao Takeyama Seminar",
   "date": "2022-09-13",
   "modified": "2023-06-20",
-  "excerpt": "武山ゼミ、通称KEG。 私たちはデザイン思考を手法としたサービスデザインを通して、社会課題解決に取り組んでいるゼミです。 様々な企業と提携しながら顧客のニーズに沿った提案をすることで新たな価値を共創していきます。 議論が好きな人、自由な思考が好きな人、グループワークが好きな人、社会に貢献したい人、大歓迎です！ (Accepting Double Degree)",
+  "excerpt": "Masanao Takeyama Seminar is listed for the 2026 academic year. PEARL students are accepted. Double Degree students are accepted. Language: Japanese only",
   "contentHtml": "武山ゼミ、通称KEG。\n\n私たちはデザイン思考を手法としたサービスデザインを通して、社会課題解決に取り組んでいるゼミです。 様々な企業と提携しながら顧客のニーズに沿った提案をすることで新たな価値を共創していきます。\n\n議論が好きな人、自由な思考が好きな人、グループワークが好きな人、社会に貢献したい人、大歓迎です！\n\n(Accepting Double Degree)",
-  "name": "Takeyama Masanao Seminar（P）（DD）",
+  "name": "Masanao Takeyama Seminar",
   "field": "Environmental and Urban Economics",
   "relatedJapaneseId": 289,
   "professorDescription": "サービスデザインは、利用者のニーズに応えることや、現在の社会課題を解決することだけでなく、サービスをつくり出す人びとの描く未来への期待や理想の追求を大切にしています。将来の予測が困難な時代には、自ら未来をつくり出すプロアクティブな姿勢が求められますが、私の研究会では、そのような価値創造への情熱と夢を持つ学生たちが、正解の無い探索型の研究に取り組んでいます。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000455_en.html",
-  "order": 44
+  "order": 46,
+  "sourceYear": 2026,
+  "pearl": true,
+  "dd": true,
+  "pearlStatus": "Allowed",
+  "ddStatus": "Allowed",
+  "language": "Japanese only",
+  "recruitmentStatus": "募集中"
 }
