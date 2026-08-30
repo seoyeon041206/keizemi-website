@@ -176,7 +176,10 @@ section { scroll-margin-top: 142px; }
 .timeline li { min-height: 120px; display: grid; grid-template-columns: 40px 92px 1fr; gap: 24px; align-items: start; padding: 28px 0; border-bottom: 1px solid rgba(255,255,255,.19); }
 .timeline-index { color: rgba(255,255,255,.38); font: 11px/1 Georgia, serif; }
 .timeline time { color: #f4d7aa; font-size: 11px; font-weight: 800; }
+.timeline time span, .timeline time small, .timeline h3 small { display: block; }
+.timeline time small { margin-top: 7px; color: rgba(244,215,170,.68); font: 7px/1.45 Georgia, serif; letter-spacing: .06em; }
 .timeline h3 { margin: 0 0 8px; font: 600 20px/1.4 "Yu Mincho", YuMincho, serif; }
+.timeline h3 small { margin-top: 5px; color: #f4d7aa; font: 700 8px/1.45 Georgia, serif; letter-spacing: .045em; }
 .timeline p { margin: 0; color: rgba(255,255,255,.6); font-size: 12px; line-height: 1.7; }
 
 .pearl-section { min-height: 570px; padding: clamp(80px, 10vw, 130px) clamp(24px, 7vw, 110px); display: grid; grid-template-columns: .55fr 1fr 1.1fr; gap: clamp(40px, 6vw, 90px); align-items: center; background: var(--cream); overflow: hidden; }
@@ -330,6 +333,58 @@ section { scroll-margin-top: 142px; }
 .handout-card-body > p { margin: 10px 0 0; color: #78818b; font-size: 9px; line-height: 1.7; }
 .handout-card footer { margin-top: auto; padding-top: 17px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); color: #52606e; font-size: 9px; font-weight: 800; }
 .handout-card footer b { color: var(--red); font-size: 16px; font-weight: 400; }
+
+/* Admission schedules and previous results */
+.admissions-hero { min-height: 370px; padding: 86px clamp(24px, 7vw, 110px) 68px; display: flex; align-items: flex-end; justify-content: space-between; gap: 60px; color: white; background: linear-gradient(112deg, #071d35, #123f72); overflow: hidden; }
+.admissions-hero > div { position: relative; z-index: 1; max-width: 900px; }
+.admissions-hero p { margin: 0 0 18px; color: #f0c27a; font-size: 10px; font-weight: 800; letter-spacing: .2em; }
+.admissions-hero h1 { margin: 0; font: 600 clamp(48px, 6vw, 80px)/1.2 "Yu Mincho", YuMincho, Georgia, serif; letter-spacing: -.035em; }
+.admissions-hero-en h1 { font-family: Georgia, "Times New Roman", serif; }
+.admissions-hero span { max-width: 720px; display: block; margin-top: 24px; color: rgba(255,255,255,.64); font-size: 13px; line-height: 1.9; }
+.admissions-hero > b { margin: 0 -2vw -11vw 0; color: rgba(255,255,255,.045); font: 600 min(32vw, 420px)/.75 Georgia, serif; pointer-events: none; }
+.admissions-intro { padding: 86px clamp(24px, 7vw, 110px); display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(300px, .7fr); align-items: end; gap: clamp(52px, 9vw, 130px); background: var(--cream); }
+.admissions-intro > div > p, .results-intro-grid > div > p { margin: 0 0 17px; color: var(--red); font: 800 9px/1 Georgia, serif; letter-spacing: .18em; }
+.admissions-intro h2, .results-intro-grid h2 { margin: 0; font: 600 clamp(36px, 4.7vw, 60px)/1.25 Georgia, "Times New Roman", serif; letter-spacing: -.04em; }
+.admissions-intro > div > span, .results-intro-grid > div > span { max-width: 720px; display: block; margin-top: 26px; color: #52606e; font-size: 13px; line-height: 2; }
+.admissions-intro aside, .results-intro-grid aside { padding: 28px; color: white; background: var(--blue-deep); box-shadow: 14px 14px 0 rgba(162,45,63,.13); }
+.admissions-intro aside small, .results-intro-grid aside small { display: block; color: #f0c27a; font: 800 8px/1 Georgia, serif; letter-spacing: .15em; }
+.admissions-intro aside p, .results-intro-grid aside p { margin: 16px 0 0; color: rgba(255,255,255,.72); font-size: 10px; line-height: 1.9; }
+.admissions-timeline { margin: 0; padding: 0 clamp(24px, 7vw, 110px) 110px; list-style: none; background: var(--paper); }
+.admissions-timeline li { min-height: 190px; padding: 44px 0; display: grid; grid-template-columns: 60px minmax(150px, .34fr) minmax(0, 1fr); align-items: start; gap: clamp(25px, 5vw, 76px); border-top: 1px solid var(--line); }
+.admissions-timeline li:first-child { border-top-color: var(--ink); }
+.admissions-timeline li > span { color: rgba(18,63,114,.22); font: 34px/1 Georgia, serif; }
+.admissions-timeline time { padding-top: 6px; color: var(--red); font: 700 13px/1.5 Georgia, serif; }
+.admissions-timeline small { display: block; margin-bottom: 11px; color: #75808b; font: 800 7px/1 Georgia, serif; letter-spacing: .16em; }
+.admissions-timeline h2 { margin: 0; font: 600 clamp(24px, 3vw, 38px)/1.3 Georgia, "Times New Roman", serif; }
+.admissions-timeline p { max-width: 760px; margin: 15px 0 0; color: #63707d; font-size: 11px; line-height: 1.9; }
+.admissions-next-links { padding: 0 clamp(24px, 7vw, 110px) 100px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); background: var(--paper); }
+.admissions-next-links a { min-height: 120px; padding: 26px; display: grid; grid-template-columns: 32px 1fr 20px; align-items: center; gap: 12px; color: white; background: var(--blue-deep); border-right: 1px solid rgba(255,255,255,.16); transition: background .18s; }
+.admissions-next-links a:hover { background: var(--blue); }
+.admissions-next-links span { color: #f0c27a; font: 9px/1 Georgia, serif; }
+.admissions-next-links strong { font: 600 17px/1.35 Georgia, serif; }
+.admissions-next-links b { justify-self: end; color: #f0c27a; font-size: 17px; font-weight: 400; }
+
+.results-intro { padding: 72px clamp(24px, 7vw, 110px) 86px; background: var(--cream); }
+.results-language-tabs { display: flex; border-top: 1px solid var(--ink); border-left: 1px solid var(--line); }
+.results-language-tabs a { min-width: 180px; min-height: 62px; padding: 15px 24px; display: grid; place-items: center; background: white; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); font: 700 12px/1 Georgia, serif; }
+.results-language-tabs a.is-active { color: white; background: var(--blue-deep); border-color: var(--blue-deep); }
+.results-intro-grid { padding-top: 68px; display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(300px, .7fr); align-items: end; gap: clamp(52px, 9vw, 130px); }
+.results-page:not(.results-page-en) .results-intro-grid h2, .results-page:not(.results-page-en) .results-resources h2 { font-family: "Yu Mincho", YuMincho, serif; }
+.results-resources { padding: 0 clamp(24px, 7vw, 110px) 100px; background: var(--paper); }
+.results-resources > a { min-height: 170px; padding: 38px 0; display: grid; grid-template-columns: 60px minmax(0, 1fr) 32px; align-items: start; gap: clamp(24px, 4vw, 60px); border-top: 1px solid var(--line); transition: padding-left .18s, background .18s; }
+.results-resources > a:first-child { border-top-color: var(--ink); }
+.results-resources > a:hover { padding-left: 18px; background: rgba(255,255,255,.45); }
+.results-resources > a > span { color: rgba(18,63,114,.24); font: 34px/1 Georgia, serif; }
+.results-resources small { display: block; margin-bottom: 10px; color: var(--red); font: 800 8px/1 Georgia, serif; letter-spacing: .16em; }
+.results-resources h2 { margin: 0; font: 600 clamp(22px, 2.8vw, 35px)/1.35 Georgia, "Times New Roman", serif; }
+.results-resources p { max-width: 760px; margin: 13px 0 0; color: #65717e; font-size: 11px; line-height: 1.85; }
+.results-resources > a > b { justify-self: end; color: var(--red); font-size: 20px; font-weight: 400; }
+.results-current-link { padding: 70px clamp(24px, 7vw, 110px); color: white; background: var(--red); }
+.results-current-link > p { margin: 0 0 16px; color: #f4d7aa; font: 800 8px/1 Georgia, serif; letter-spacing: .18em; }
+.results-current-link a { max-width: 780px; padding: 20px 0; display: flex; align-items: center; justify-content: space-between; gap: 30px; border-top: 1px solid rgba(255,255,255,.4); border-bottom: 1px solid rgba(255,255,255,.4); }
+.results-current-link strong { font: 600 clamp(20px, 3vw, 32px)/1.4 "Yu Mincho", YuMincho, Georgia, serif; }
+.results-page-en .results-current-link strong { font-family: Georgia, "Times New Roman", serif; }
+.results-current-link span { color: #f4d7aa; font-size: 20px; }
 
 /* About the committee */
 .about-page-hero { min-height: 410px; padding: 82px clamp(24px, 7vw, 110px) 68px; display: flex; align-items: flex-end; justify-content: space-between; gap: 70px; color: white; background: linear-gradient(115deg, #071d35 0 62%, #123f72 62%); }
@@ -599,6 +654,26 @@ section { scroll-margin-top: 142px; }
   .handout-section > header > b { display: none; }
   .handout-grid { grid-template-columns: 1fr; }
   .handout-card-visual { height: 220px; }
+  .admissions-hero { min-height: 300px; padding: 64px 20px 48px; }
+  .admissions-hero > b { display: none; }
+  .admissions-intro, .results-intro-grid { padding-inline: 20px; grid-template-columns: 1fr; gap: 42px; }
+  .admissions-intro { padding-block: 58px 68px; }
+  .admissions-intro aside, .results-intro-grid aside { box-shadow: 10px 10px 0 rgba(162,45,63,.12); }
+  .admissions-timeline { padding: 0 20px 72px; }
+  .admissions-timeline li { grid-template-columns: 42px 1fr; gap: 16px; }
+  .admissions-timeline time { grid-column: 2; grid-row: 1; }
+  .admissions-timeline li > div { grid-column: 2; }
+  .admissions-timeline li > span { grid-row: 1 / 3; font-size: 27px; }
+  .admissions-next-links { padding: 0 20px 76px; grid-template-columns: 1fr; }
+  .admissions-next-links a { min-height: 94px; border-right: 0; border-bottom: 1px solid rgba(255,255,255,.16); }
+  .results-intro { padding: 52px 20px 68px; }
+  .results-language-tabs a { min-width: 0; flex: 1; }
+  .results-intro-grid { padding: 54px 0 0; }
+  .results-resources { padding: 0 20px 72px; }
+  .results-resources > a { grid-template-columns: 42px minmax(0, 1fr) 22px; gap: 14px; }
+  .results-resources > a > span { font-size: 27px; }
+  .results-resources > a:hover { padding-left: 0; }
+  .results-current-link { padding: 56px 20px; }
   .committee-hero { min-height: 300px; padding: 64px 20px 48px; }
   .committee-hero > b { display: none; }
   .committee-hero span { max-width: 310px; }

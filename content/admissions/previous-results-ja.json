@@ -1,0 +1,44 @@
+{
+  "language": "ja",
+  "overline": "PAST ADMISSIONS",
+  "title": "参考：過去の試験結果",
+  "heroLead": "過去年度の入ゼミ試験スケジュール・登録結果を、参考資料としてまとめています。",
+  "introTitle": "2024年度 入ゼミ試験資料",
+  "introduction": "A・B・C日程の流れや登録状況を確認できます。現在年度の募集人数・日程・選考方法は変更される場合があります。",
+  "notice": "このページの資料は過去年度の参考情報です。出願時は必ず最新の試験情報と各研究会からの案内を確認してください。",
+  "tabs": [
+    { "label": "日本語", "href": "/pages/1150", "active": true },
+    { "label": "English", "href": "/pages/1216", "active": false }
+  ],
+  "resources": [
+    {
+      "number": "01",
+      "eyebrow": "OVERVIEW",
+      "title": "2024年度 入ゼミ試験概要",
+      "description": "A・B・C日程の登録期間、試験日、注意事項をまとめた全体資料です。",
+      "href": "https://keizemi-keio.info/wp-content/uploads/2025/02/26%E5%8D%922024%E5%B9%B4%E5%BA%A6%E5%85%A5%E3%82%BC%E3%83%9F%E8%A9%A6%E9%A8%93-1-1.pdf"
+    },
+    {
+      "number": "02",
+      "eyebrow": "DATE A",
+      "title": "A日程 最終登録結果（2024）",
+      "description": "研究会ごとの募集人数、最終登録者数、倍率を確認できます。",
+      "href": "https://keizemi-keio.info/wp-content/uploads/2024/02/dateA-final.pdf"
+    },
+    {
+      "number": "03",
+      "eyebrow": "DATE B",
+      "title": "B日程 最終登録結果（2024）",
+      "description": "B日程の募集人数、変更後の最終登録者数、倍率をまとめた資料です。",
+      "href": "https://keizemi-keio.info/wp-content/uploads/2024/03/datebfinal.pdf"
+    },
+    {
+      "number": "04",
+      "eyebrow": "DATE C",
+      "title": "C日程 試験情報",
+      "description": "研究会ごとのC日程の募集・試験情報をまとめた参考資料です。",
+      "href": "https://keizemi-keio.info/wp-content/uploads/2023/12/%E3%80%90%E6%8E%B2%E8%BC%89%E7%94%A8%E3%80%912023%E5%B9%B4%E5%BA%A6-%E7%B5%8C%E6%B8%88%E5%AD%A6%E9%83%A8%E5%85%A5%E3%82%BC%E3%83%9F%E8%A9%A6%E9%A8%93%E6%A6%82%E8%A6%81-C%E6%97%A5%E7%A8%8B.pdf"
+    }
+  ],
+  "currentLink": { "label": "最新の試験情報を見る", "href": "/pages/1259" }
+}

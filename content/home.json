@@ -1,0 +1,64 @@
+{
+  "timeline": [
+    {
+      "dateJa": "6月下旬",
+      "dateEn": "Late June",
+      "titleJa": "第1回入ゼミ説明会",
+      "titleEn": "First Seminar Information Session",
+      "descriptionJa": "ゼミの全体像と年間スケジュールを把握"
+    },
+    {
+      "dateJa": "10月ごろ",
+      "dateEn": "Around October",
+      "titleJa": "第2回入ゼミ説明会",
+      "titleEn": "Second Seminar Information Session",
+      "descriptionJa": "試験・面接・成績など選考形式を確認"
+    },
+    {
+      "dateJa": "11月中旬",
+      "dateEn": "Mid-November",
+      "titleJa": "三田祭論文発表",
+      "titleEn": "Mita Festival Thesis Presentation",
+      "descriptionJa": "研究内容と各ゼミの雰囲気を知る"
+    },
+    {
+      "dateJa": "11–12月",
+      "dateEn": "November–December",
+      "titleJa": "教授説明会",
+      "titleEn": "Professor Information Sessions",
+      "descriptionJa": "担当教授から研究テーマと方針を聞く"
+    },
+    {
+      "dateJa": "11–12月",
+      "dateEn": "November–December",
+      "titleJa": "オープンゼミ",
+      "titleEn": "Open Seminar",
+      "descriptionJa": "三田で実際のゼミ活動を体験"
+    },
+    {
+      "dateJa": "1月中旬",
+      "dateEn": "Mid-January",
+      "titleJa": "第3回入ゼミ説明会",
+      "titleEn": "Third Seminar Information Session",
+      "descriptionJa": "確定した日程と試験情報を最終確認"
+    },
+    {
+      "dateJa": "2月中旬",
+      "dateEn": "Mid-February",
+      "titleJa": "日程本登録",
+      "titleEn": "Registration Day",
+      "descriptionJa": "希望日程へ期限内に登録"
+    },
+    {
+      "dateJa": "3月以降",
+      "dateEn": "From March",
+      "titleJa": "試験・結果発表",
+      "titleEn": "Examinations & Results",
+      "descriptionJa": "A・B・C日程の試験と結果発表"
+    }
+  ],
+  "pearlCta": {
+    "label": "Explore English-friendly seminars",
+    "href": "/pearl-seminars"
+  }
+}

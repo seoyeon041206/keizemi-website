@@ -32,6 +32,7 @@ const menuGroups: MenuGroup[] = [
       { label: '研究会（ゼミ）とは？', href: '/pages/133', note: '研究会活動の概要' },
       { label: '日本語研究会一覧', href: '/seminars' },
       { label: 'PEARL / DD 研究会一覧', href: '/pearl-seminars' },
+      { label: '参考：過去の試験結果', href: '/pages/1150', note: '2024年度 A・B・C日程' },
     ],
   },
   {
@@ -43,7 +44,7 @@ const menuGroups: MenuGroup[] = [
       { label: '入ゼミ行事開催情報', href: '/pages/1491', note: '説明会・オープンゼミ' },
       { label: '試験情報', href: '/pages/1259', note: 'A・B・C日程' },
       { label: '配布資料', href: '/pages/139' },
-      { label: '参考：過去の試験情報', href: '/pages/1150' },
+      { label: '参考：過去の試験結果', href: '/pages/1150' },
     ],
   },
   {
@@ -65,6 +66,7 @@ const menuGroups: MenuGroup[] = [
       { label: 'Seminars', href: '/pearl-seminars', note: 'English-friendly seminars' },
       { label: 'Schedule', href: '/pages/1598' },
       { label: 'Examination', href: '/pages/1611' },
+      { label: 'Previous Year Results', href: '/pages/1216', note: 'Date A / Date B results' },
       { label: 'Handout', href: '/pages/1214' },
     ],
   },

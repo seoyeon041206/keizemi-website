@@ -10,6 +10,10 @@
 - `content/faqs/*.json`: FAQ。1質問につき1ファイルです。
 - `content/about.json`: 「委員会について」ページ。
 - `content/committee.json`: 年度別の常任委員・担当・紹介文。
+- `content/home.json`: ホームの入ゼミ日程（日英併記）とPEARL向けボタン。
+- `content/admissions/pearl-schedule.json`: PEARL / DD向け入ゼミスケジュール。
+- `content/admissions/previous-results-ja.json`: 日本語の過去試験結果・PDFリンク。
+- `content/admissions/previous-results-en.json`: 英語のPrevious Year Results・PDFリンク。
 
 `content/generated/*.json` はサイト表示用に自動生成されます。直接編集しないでください。
 

@@ -1,0 +1,69 @@
+{
+  "overline": "PEARL / DOUBLE DEGREE ADMISSIONS",
+  "title": "Schedule",
+  "heroLead": "Follow the main seminar events from the first information session through examinations and results.",
+  "introTitle": "Flow of Seminar Events",
+  "introduction": "The seminar application process runs for roughly half a year. Collect information at each stage, check the latest announcements, and prepare early. Exact dates will be published once they are confirmed.",
+  "notice": "The periods below are a general guide based on the previous schedule. Always use the current Examination and News pages for confirmed dates and requirements.",
+  "steps": [
+    {
+      "number": "01",
+      "date": "Late June",
+      "title": "First Seminar Information Session",
+      "description": "Get an overview of Zemi, the annual schedule, and the application process. Individual information sessions may also be announced."
+    },
+    {
+      "number": "02",
+      "date": "October",
+      "title": "Second Seminar Information Session",
+      "description": "Learn more about individual seminars and how selection may use examinations, interviews, grades, or written work."
+    },
+    {
+      "number": "03",
+      "date": "November",
+      "title": "Mita Festival Thesis Presentation",
+      "description": "Explore research papers and presentations from each Zemi, and compare the fields and seminar cultures that interest you."
+    },
+    {
+      "number": "04",
+      "date": "November–December",
+      "title": "Professor Information Sessions",
+      "description": "Hear directly from professors about their research themes, seminar policies, and application requirements."
+    },
+    {
+      "number": "05",
+      "date": "November–December",
+      "title": "Open Seminar",
+      "description": "Experience real seminar activities at Mita Campus and get a closer feel for the atmosphere of each Zemi."
+    },
+    {
+      "number": "06",
+      "date": "Mid-January",
+      "title": "Third Seminar Information Session",
+      "description": "Review confirmed deadlines, application formats, and the latest examination details before applying."
+    },
+    {
+      "number": "07",
+      "date": "Mid-February",
+      "title": "Registration Day",
+      "description": "Register for your chosen seminar within the stated period and monitor the website and official social channels for updates."
+    },
+    {
+      "number": "08",
+      "date": "Mid-March",
+      "title": "Examination Date A / Results",
+      "description": "Take the Date A examination. Students continuing the process should also check the registration information for Date B."
+    },
+    {
+      "number": "09",
+      "date": "Dates vary by seminar",
+      "title": "Date B Results / Date C",
+      "description": "Check Date B results and, where applicable, the registration and result procedures for Date C."
+    }
+  ],
+  "links": [
+    { "label": "Examination", "href": "/pages/1611" },
+    { "label": "English-friendly seminars", "href": "/pearl-seminars" },
+    { "label": "Previous Year Results", "href": "/pages/1216" }
+  ]
+}

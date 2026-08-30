@@ -1,0 +1,30 @@
+{
+  "language": "en",
+  "overline": "PAST ADMISSIONS",
+  "title": "Previous Year Results",
+  "heroLead": "Review registration results from the previous seminar admission cycle.",
+  "introTitle": "2024 Registration Results",
+  "introduction": "These resources show final registration numbers and application ratios for Date A and Date B, including English-friendly seminars.",
+  "notice": "These documents are provided for reference only. Capacity, dates, and selection methods may change. Always follow the current Examination page and instructions from each seminar.",
+  "tabs": [
+    { "label": "日本語", "href": "/pages/1150", "active": false },
+    { "label": "English", "href": "/pages/1216", "active": true }
+  ],
+  "resources": [
+    {
+      "number": "01",
+      "eyebrow": "DATE A",
+      "title": "Final Date A Registration Results",
+      "description": "Final registration totals and application ratios for each seminar after the amendment period.",
+      "href": "https://keizemi-keio.info/wp-content/uploads/2024/02/dateA-final-english.pdf"
+    },
+    {
+      "number": "02",
+      "eyebrow": "DATE B",
+      "title": "Final Date B Registration Results",
+      "description": "Final Date B registration totals, recruiting capacity, and application ratios for each seminar.",
+      "href": "https://keizemi-keio.info/wp-content/uploads/2024/03/datebfinal-english.pdf"
+    }
+  ],
+  "currentLink": { "label": "View current examination information", "href": "/pages/1611" }
+}

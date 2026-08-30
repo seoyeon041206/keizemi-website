@@ -198,3 +198,91 @@ collections:
                   - { label: 氏名, name: name, widget: string }
                   - { label: 所属研究会, name: seminar, widget: string, required: false }
                   - { label: メッセージ, name: message, widget: text, required: false }
+
+  - name: admissions_content
+    label: 入ゼミ・試験ページ
+    files:
+      - name: home
+        label: ホーム 入ゼミ・PEARL表示
+        file: content/home.json
+        format: json
+        fields:
+          - label: 入ゼミタイムライン
+            name: timeline
+            widget: list
+            fields:
+              - { label: 時期（日本語）, name: dateJa, widget: string }
+              - { label: 時期（英語）, name: dateEn, widget: string }
+              - { label: タイトル（日本語）, name: titleJa, widget: string }
+              - { label: タイトル（英語）, name: titleEn, widget: string }
+              - { label: 説明（日本語）, name: descriptionJa, widget: text }
+          - label: PEARL CTA
+            name: pearlCta
+            widget: object
+            fields:
+              - { label: ボタン文言, name: label, widget: string }
+              - { label: リンク, name: href, widget: string }
+      - name: pearl_schedule
+        label: PEARL / DD Schedule
+        file: content/admissions/pearl-schedule.json
+        format: json
+        fields:
+          - { label: Overline, name: overline, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Hero lead, name: heroLead, widget: text }
+          - { label: Intro title, name: introTitle, widget: string }
+          - { label: Introduction, name: introduction, widget: text }
+          - { label: Notice, name: notice, widget: text }
+          - label: Schedule steps
+            name: steps
+            widget: list
+            fields:
+              - { label: Number, name: number, widget: string }
+              - { label: Period, name: date, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+          - label: Related links
+            name: links
+            widget: list
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: Link, name: href, widget: string }
+      - name: previous_results_ja
+        label: 過去の試験結果（日本語）
+        file: content/admissions/previous-results-ja.json
+        format: json
+        fields: &previous_results_fields
+          - { label: Language, name: language, widget: hidden }
+          - { label: Overline, name: overline, widget: string }
+          - { label: ページタイトル, name: title, widget: string }
+          - { label: リード文, name: heroLead, widget: text }
+          - { label: 内容見出し, name: introTitle, widget: string }
+          - { label: 紹介文, name: introduction, widget: text }
+          - { label: 注意書き, name: notice, widget: text }
+          - label: 言語タブ
+            name: tabs
+            widget: list
+            fields:
+              - { label: 表示名, name: label, widget: string }
+              - { label: リンク, name: href, widget: string }
+              - { label: 選択中, name: active, widget: boolean }
+          - label: 資料
+            name: resources
+            widget: list
+            fields:
+              - { label: 番号, name: number, widget: string }
+              - { label: 区分, name: eyebrow, widget: string }
+              - { label: タイトル, name: title, widget: string }
+              - { label: 説明, name: description, widget: text }
+              - { label: PDF URL, name: href, widget: string }
+          - label: 最新情報リンク
+            name: currentLink
+            widget: object
+            fields:
+              - { label: 表示名, name: label, widget: string }
+              - { label: リンク, name: href, widget: string }
+      - name: previous_results_en
+        label: Previous Year Results (English)
+        file: content/admissions/previous-results-en.json
+        format: json
+        fields: *previous_results_fields

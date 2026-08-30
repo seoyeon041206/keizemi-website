@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import siteIndex from '@/content/generated/site-index.json';
+import homeContent from '@/content/home.json';
 import { siteHref } from '@/app/site-path';
 import { SiteHeader } from '@/app/components/SiteHeader';
 
@@ -19,17 +20,6 @@ type Seminar = {
 const seminars = siteIndex.seminars as Seminar[];
 const notices = siteIndex.posts.slice(0, 4);
 const secondOrientation = siteIndex.posts.find((post) => post.id === 3799) ?? notices[0];
-
-const timeline = [
-  ['6月下旬', '第1回入ゼミ説明会', 'ゼミの全体像と年間スケジュールを把握'],
-  ['10月ごろ', '第2回入ゼミ説明会', '試験・面接・成績など選考形式を確認'],
-  ['11月中旬', '三田祭論文発表', '研究内容と各ゼミの雰囲気を知る'],
-  ['11–12月', '教授説明会', '担当教授から研究テーマと方針を聞く'],
-  ['11–12月', 'オープンゼミ', '三田で実際のゼミ活動を体験'],
-  ['1月中旬', '第3回入ゼミ説明会', '確定した日程と試験情報を最終確認'],
-  ['2月中旬', '日程本登録', '希望日程へ期限内に登録'],
-  ['3月以降', '試験・結果発表', 'A・B・C日程の試験と結果発表'],
-];
 
 const fields = Array.from(new Set(seminars.map((seminar) => seminar.field)));
 
@@ -125,14 +115,14 @@ export default function Home() {
           <div className="schedule-links"><a href={siteHref('/pages/1491')}>開催情報 →</a><a href={siteHref('/pages/139')}>配布資料 →</a><a href={siteHref('/pages/1259')}>試験情報 →</a></div>
         </div>
         <ol className="timeline">
-          {timeline.map(([date, title, description], index) => <li key={title}><span className="timeline-index">{String(index + 1).padStart(2, '0')}</span><time>{date}</time><div><h3>{title}</h3><p>{description}</p></div></li>)}
+          {homeContent.timeline.map((item, index) => <li key={item.titleJa}><span className="timeline-index">{String(index + 1).padStart(2, '0')}</span><time><span>{item.dateJa}</span><small>{item.dateEn}</small></time><div><h3>{item.titleJa}<small>{item.titleEn}</small></h3><p>{item.descriptionJa}</p></div></li>)}
         </ol>
       </section>
 
       <section className="pearl-section" id="pearl">
         <div className="pearl-monogram" aria-hidden="true">P</div>
-        <div className="pearl-copy"><p className="eyebrow">FOR PEARL / DOUBLE DEGREE STUDENTS</p><h2>Discover your Zemi.</h2><p>A Zemi is a highly focused learning environment with close support from a professor specializing in a specific field. Find English-friendly seminars, schedules, examinations, and handouts in one place.</p><a className="button primary" href={siteHref('/pages/79')}>Explore PEARL / DD</a></div>
-        <div className="pearl-links"><a href={siteHref('/pearl-seminars')}><span>01</span>Seminars for PEARL / DD <b>→</b></a><a href={siteHref('/pages/1598')}><span>02</span>Schedule <b>→</b></a><a href={siteHref('/pages/1611')}><span>03</span>Examination <b>→</b></a><a href={siteHref('/pages/1214')}><span>04</span>Handout <b>→</b></a></div>
+        <div className="pearl-copy"><p className="eyebrow">FOR PEARL / DOUBLE DEGREE STUDENTS</p><h2>Discover your Zemi.</h2><p>A Zemi is a highly focused learning environment with close support from a professor specializing in a specific field. Find English-friendly seminars, schedules, examinations, and handouts in one place.</p><a className="button primary" href={siteHref(homeContent.pearlCta.href)}>{homeContent.pearlCta.label}</a></div>
+        <div className="pearl-links"><a href={siteHref('/pearl-seminars')}><span>01</span>Seminars for PEARL / DD <b>→</b></a><a href={siteHref('/pages/1598')}><span>02</span>Schedule <b>→</b></a><a href={siteHref('/pages/1611')}><span>03</span>Examination <b>→</b></a><a href={siteHref('/pages/1214')}><span>04</span>Handout <b>→</b></a><a href={siteHref('/pages/1216')}><span>05</span>Previous Year Results <b>→</b></a></div>
       </section>
 
       <section className="contact-section" id="contact">
