@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
-import pearlJson from '@/content/pearl-seminars.json';
-import siteIndex from '@/content/site-index.json';
+import pearlJson from '@/content/generated/pearl-seminars.json';
+import siteIndex from '@/content/generated/site-index.json';
 import type { PearlSeminar } from '@/app/content-types';
 import { PearlSeminarDirectory, type PearlDirectorySeminar } from '@/app/pearl-seminars/PearlSeminarDirectory';
 

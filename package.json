@@ -6,9 +6,10 @@
     "node": ">=22.13.0"
   },
   "scripts": {
-    "dev": "vinext dev",
-    "build": "vinext build",
-    "build:pages": "next build --webpack",
+    "content:build": "node scripts/content-pipeline.mjs",
+    "dev": "pnpm content:build && vinext dev",
+    "build": "pnpm content:build && vinext build",
+    "build:pages": "pnpm content:build && next build --webpack",
     "start": "vinext start",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next"
   },

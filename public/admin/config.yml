@@ -1,0 +1,200 @@
+backend:
+  name: github
+  repo: seoyeon041206/keizemi-website
+  branch: main
+
+local_backend: true
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: seminars
+    label: 研究会情報
+    label_singular: 研究会
+    folder: content/seminars
+    format: json
+    extension: json
+    create: true
+    identifier_field: id
+    slug: "{{fields.id}}"
+    summary: "{{name}} — {{professorName}}"
+    fields:
+      - { label: ID, name: id, widget: number, value_type: int }
+      - { label: 表示順, name: order, widget: number, value_type: int }
+      - { label: Slug, name: slug, widget: string, hint: URLに使う半角英数字の名前 }
+      - { label: 研究会名, name: name, widget: string }
+      - { label: 教授名, name: professorName, widget: string, required: false }
+      - { label: 教授名（英字）, name: professorNameAlpha, widget: string, required: false }
+      - label: 分野
+        name: field
+        widget: select
+        options: [経済理論, 計量・統計, 学史・思想史, 経済史, 産業・労働, 制度・政策, 現代経済, 国際経済, 環境関連, 社会関連, その他]
+      - label: 募集状況
+        name: status
+        widget: select
+        options: [募集中, 新規募集, 募集停止]
+      - { label: PEARL対応, name: pearl, widget: boolean, default: false }
+      - { label: Double Degree対応, name: dd, widget: boolean, default: false }
+      - label: 使用言語
+        name: languages
+        widget: list
+        field: { label: 言語, name: language, widget: string }
+      - { label: 紹介文, name: description, widget: text }
+      - { label: 一覧用抜粋, name: excerpt, widget: text }
+      - { label: 詳細本文, name: contentHtml, widget: markdown }
+      - { label: 紹介画像, name: image, widget: image, required: false }
+      - { label: 研究会URL, name: url, widget: string, required: false }
+      - { label: 教授プロフィールURL, name: professorLink, widget: string, required: false }
+      - { label: 教授紹介, name: professorDescription, widget: text, required: false }
+      - { label: X URL, name: twitter, widget: string, required: false }
+      - { label: Instagram URL, name: instagram, widget: string, required: false }
+      - { label: Facebook URL, name: facebook, widget: string, required: false }
+      - { label: 旧Website URL, name: website, widget: hidden, required: false }
+      - { label: ページタイトル, name: title, widget: hidden, required: false }
+      - { label: 公開日, name: date, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { label: 更新日, name: modified, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+
+  - name: news
+    label: お知らせ
+    label_singular: お知らせ
+    folder: content/news
+    format: json
+    extension: json
+    create: true
+    identifier_field: id
+    slug: "{{fields.id}}"
+    summary: "{{date}} — {{title}}"
+    fields:
+      - { label: ID, name: id, widget: number, value_type: int }
+      - { label: 表示順, name: order, widget: number, value_type: int, required: false }
+      - { label: Slug, name: slug, widget: string }
+      - { label: タイトル, name: title, widget: string }
+      - { label: 公開日, name: date, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { label: 更新日, name: modified, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - label: カテゴリー
+        name: categories
+        widget: list
+        field: { label: カテゴリー, name: category, widget: string }
+      - { label: 抜粋, name: excerpt, widget: text }
+      - { label: 本文, name: contentHtml, widget: markdown }
+
+  - name: faqs
+    label: FAQ
+    label_singular: 質問
+    folder: content/faqs
+    format: json
+    extension: json
+    create: true
+    identifier_field: id
+    slug: "{{fields.id}}"
+    summary: "{{category}} — {{question}}"
+    fields:
+      - { label: ID, name: id, widget: string }
+      - { label: 表示順, name: order, widget: number, value_type: int }
+      - { label: カテゴリー, name: category, widget: string }
+      - { label: 質問, name: question, widget: string }
+      - { label: 回答, name: answer, widget: text }
+
+  - name: pearl_seminars
+    label: PEARL / DD Seminars
+    label_singular: PEARL / DD Seminar
+    folder: content/pearl-seminars
+    format: json
+    extension: json
+    create: true
+    identifier_field: id
+    slug: "{{fields.id}}"
+    summary: "{{name}}"
+    fields:
+      - { label: ID, name: id, widget: number, value_type: int }
+      - { label: Display order, name: order, widget: number, value_type: int }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Seminar name, name: name, widget: string }
+      - { label: Field, name: field, widget: string }
+      - { label: Related Japanese seminar ID, name: relatedJapaneseId, widget: number, value_type: int }
+      - { label: Summary, name: excerpt, widget: text }
+      - { label: Body, name: contentHtml, widget: markdown }
+      - { label: Professor description, name: professorDescription, widget: text, required: false }
+      - { label: Professor URL, name: professorLink, widget: string, required: false }
+      - { label: Page title, name: title, widget: hidden, required: false }
+      - { label: Published, name: date, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { label: Updated, name: modified, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+
+  - name: committee_content
+    label: 委員会ページ
+    files:
+      - name: about
+        label: 委員会について
+        file: content/about.json
+        format: json
+        fields:
+          - { label: 英字見出し, name: overline, widget: string }
+          - { label: ページタイトル, name: title, widget: string }
+          - { label: リード文, name: heroLead, widget: text }
+          - label: 委員会説明
+            name: introduction
+            widget: list
+            field: { label: 段落, name: paragraph, widget: text }
+          - { label: 組織理念, name: mission, widget: string }
+          - label: 構成
+            name: composition
+            widget: list
+            fields:
+              - { label: 区分, name: label, widget: string }
+              - { label: 構成員, name: value, widget: string }
+              - { label: 説明, name: description, widget: text }
+          - label: 活動内容
+            name: activities
+            widget: list
+            fields:
+              - { label: 番号, name: number, widget: string }
+              - { label: タイトル, name: title, widget: string }
+              - { label: 説明, name: description, widget: text }
+              - { label: リンク, name: href, widget: string }
+          - label: 意義
+            name: significance
+            widget: list
+            field: { label: 項目, name: item, widget: string }
+          - label: 組織文化
+            name: culture
+            widget: list
+            field: { label: 項目, name: item, widget: string }
+          - label: 委員会規約
+            name: rules
+            widget: object
+            fields:
+              - { label: タイトル, name: title, widget: string }
+              - { label: 説明, name: description, widget: text }
+              - { label: URL, name: url, widget: string }
+          - label: 財務報告
+            name: finance
+            widget: object
+            fields:
+              - { label: タイトル, name: title, widget: string }
+              - { label: 金額, name: amount, widget: string }
+              - { label: 説明, name: description, widget: text }
+              - { label: リンク, name: href, widget: string }
+      - name: committee
+        label: 常任委員紹介
+        file: content/committee.json
+        format: json
+        fields:
+          - { label: 年度, name: year, widget: number, value_type: int }
+          - { label: 紹介文, name: introduction, widget: text }
+          - label: 担当・メンバー
+            name: groups
+            widget: list
+            fields:
+              - { label: ID, name: id, widget: string }
+              - { label: 番号, name: number, widget: string }
+              - { label: 担当名, name: role, widget: string }
+              - { label: 英字担当名, name: roleEn, widget: string }
+              - { label: 説明, name: description, widget: text }
+              - { label: 主要役職, name: featured, widget: boolean, default: false }
+              - label: メンバー
+                name: members
+                widget: list
+                fields:
+                  - { label: 氏名, name: name, widget: string }
+                  - { label: 所属研究会, name: seminar, widget: string, required: false }
+                  - { label: メッセージ, name: message, widget: text, required: false }

@@ -331,6 +331,89 @@ section { scroll-margin-top: 142px; }
 .handout-card footer { margin-top: auto; padding-top: 17px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); color: #52606e; font-size: 9px; font-weight: 800; }
 .handout-card footer b { color: var(--red); font-size: 16px; font-weight: 400; }
 
+/* About the committee */
+.about-page-hero { min-height: 410px; padding: 82px clamp(24px, 7vw, 110px) 68px; display: flex; align-items: flex-end; justify-content: space-between; gap: 70px; color: white; background: linear-gradient(115deg, #071d35 0 62%, #123f72 62%); }
+.about-page-hero > div { max-width: 780px; }
+.about-page-hero > div > p { margin: 0 0 18px; color: #f0c27a; font-size: 10px; font-weight: 800; letter-spacing: .2em; }
+.about-page-hero h1 { margin: 0; font: 600 clamp(48px, 6vw, 80px)/1.2 "Yu Mincho", YuMincho, serif; letter-spacing: -.035em; }
+.about-page-hero > div > span { max-width: 620px; display: block; margin-top: 24px; color: rgba(255,255,255,.64); font-size: 13px; line-height: 1.9; }
+.about-page-hero aside { width: 230px; flex: 0 0 230px; padding: 22px 0 4px; border-top: 1px solid rgba(255,255,255,.3); }
+.about-page-hero aside strong { display: block; color: #f0c27a; font: 52px/1 Georgia, serif; }
+.about-page-hero aside span { display: block; margin-top: 12px; color: rgba(255,255,255,.56); font: 8px/1.6 Georgia, serif; letter-spacing: .14em; }
+.about-page-intro { padding: 92px clamp(24px, 7vw, 110px); display: grid; grid-template-columns: minmax(300px, .78fr) minmax(0, 1.22fr); gap: clamp(60px, 10vw, 150px); background: var(--cream); }
+.about-page-intro small, .about-section-heading small, .about-values header small { color: var(--red); font: 800 9px/1 Georgia, serif; letter-spacing: .17em; }
+.about-page-intro h2 { margin: 19px 0 0; font: 600 clamp(36px, 4.6vw, 58px)/1.45 "Yu Mincho", YuMincho, serif; letter-spacing: -.035em; }
+.about-page-intro > div { padding-top: 28px; border-top: 1px solid var(--ink); }
+.about-page-intro > div p { margin: 0 0 20px; color: #4f5e6d; font-size: 14px; line-height: 2.15; }
+.about-mission { padding: 82px clamp(24px, 7vw, 110px); display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 52px; align-items: center; color: white; background: var(--red); }
+.about-mission > div { padding: 8px 0 8px 20px; border-left: 2px solid #f0c27a; }
+.about-mission small { display: block; color: #f0c27a; font: 800 8px/1 Georgia, serif; letter-spacing: .17em; }
+.about-mission span { display: block; margin-top: 10px; color: rgba(255,255,255,.65); font-size: 10px; }
+.about-mission h2 { max-width: 850px; margin: 0; font: 600 clamp(28px, 4vw, 52px)/1.55 "Yu Mincho", YuMincho, serif; }
+.about-composition, .about-governance { padding: 94px clamp(24px, 7vw, 110px) 108px; background: var(--paper); }
+.about-section-heading { margin-bottom: 46px; display: flex; align-items: end; justify-content: space-between; gap: 50px; }
+.about-section-heading h2 { margin: 13px 0 0; font: 600 clamp(34px, 4vw, 54px)/1.35 "Yu Mincho", YuMincho, serif; letter-spacing: -.035em; }
+.about-section-heading > p { max-width: 490px; margin: 0 0 5px; color: #62707e; font-size: 12px; line-height: 1.9; }
+.about-composition-flow { padding: 42px; background: white; border: 1px solid var(--line); }
+.about-composition-flow article { min-width: 0; padding: 25px; border: 1px solid var(--line); background: var(--cream); }
+.about-composition-flow article.is-president { width: min(480px, 100%); margin: 0 auto; text-align: center; background: var(--blue-deep); color: white; }
+.about-composition-flow article > span { display: block; margin-bottom: 20px; color: rgba(18,63,114,.24); font: 34px/1 Georgia, serif; }
+.about-composition-flow article small { color: var(--red); font-size: 8px; font-weight: 800; letter-spacing: .14em; }
+.about-composition-flow article.is-president small { color: #f0c27a; }
+.about-composition-flow article h3 { margin: 13px 0 8px; font: 600 20px/1.45 "Yu Mincho", YuMincho, serif; }
+.about-composition-flow article p { margin: 0; color: #687481; font-size: 10px; line-height: 1.8; }
+.about-composition-flow article.is-president p { color: rgba(255,255,255,.58); }
+.about-flow-arrow { height: 58px; display: grid; place-items: center; color: var(--red); font: 22px/1 Georgia, serif; }
+.about-composition-flow > div { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.about-inline-link { width: max-content; margin-top: 28px; padding-bottom: 5px; display: block; border-bottom: 1px solid var(--ink); font-size: 11px; font-weight: 800; }
+.about-inline-link span { margin-left: 15px; color: var(--red); }
+.about-activities { padding: 94px clamp(24px, 7vw, 110px) 108px; color: white; background: var(--blue-deep); }
+.about-section-heading.is-light small { color: #f0c27a; }
+.about-section-heading.is-light > p { color: rgba(255,255,255,.55); }
+.about-activity-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid rgba(255,255,255,.22); border-left: 1px solid rgba(255,255,255,.22); }
+.about-activity-grid a { min-height: 300px; padding: 28px; display: flex; flex-direction: column; border-right: 1px solid rgba(255,255,255,.22); border-bottom: 1px solid rgba(255,255,255,.22); transition: background .2s; }
+.about-activity-grid a:hover { background: rgba(255,255,255,.055); }
+.about-activity-grid a > span { color: #f0c27a; font: 11px/1 Georgia, serif; letter-spacing: .1em; }
+.about-activity-grid h3 { margin: 52px 0 15px; font: 600 20px/1.5 "Yu Mincho", YuMincho, serif; }
+.about-activity-grid p { margin: 0; color: rgba(255,255,255,.57); font-size: 11px; line-height: 1.9; }
+.about-activity-grid b { margin-top: auto; color: #f0c27a; font-size: 18px; font-weight: 400; }
+.about-values { display: grid; grid-template-columns: 1fr 1fr; background: var(--cream); }
+.about-values > article { padding: 92px clamp(24px, 7vw, 110px); }
+.about-values > article:first-child { border-right: 1px solid var(--line); }
+.about-values h2 { margin: 13px 0 34px; font: 600 clamp(30px, 3.5vw, 46px)/1.4 "Yu Mincho", YuMincho, serif; }
+.about-values ol { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--ink); }
+.about-values li { min-height: 72px; padding: 18px 0; display: grid; grid-template-columns: 38px 1fr; gap: 14px; align-items: center; border-bottom: 1px solid var(--line); font-size: 11px; line-height: 1.8; }
+.about-values li span { color: var(--red); font: 9px/1 Georgia, serif; }
+.about-culture-list { display: flex; flex-wrap: wrap; gap: 10px; }
+.about-culture-list span { padding: 15px 18px; background: white; border: 1px solid var(--line); font: 600 13px/1.4 "Yu Mincho", YuMincho, serif; }
+.about-governance { background: var(--paper); }
+.about-governance > div { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.about-governance > div > a { min-height: 310px; padding: 30px; display: flex; flex-direction: column; background: white; border: 1px solid var(--line); }
+.about-governance > div > a:last-child { color: white; background: var(--red); border-color: var(--red); }
+.about-governance a small { color: var(--red); font: 800 8px/1 Georgia, serif; letter-spacing: .16em; }
+.about-governance a:last-child small { color: #f0c27a; }
+.about-governance h3 { margin: 42px 0 13px; font: 600 27px/1.4 "Yu Mincho", YuMincho, serif; }
+.about-governance a strong { margin: -2px 0 17px; color: #f0c27a; font: 25px/1.3 Georgia, serif; }
+.about-governance a p { max-width: 620px; margin: 0; color: #65717e; font-size: 11px; line-height: 1.9; }
+.about-governance a:last-child p { color: rgba(255,255,255,.67); }
+.about-governance a b { margin-top: auto; padding-top: 30px; font-size: 10px; }
+.about-faq { padding: 94px clamp(24px, 7vw, 110px) 108px; color: white; background: #303030; }
+.about-faq details { border-top: 1px solid rgba(255,255,255,.2); }
+.about-faq details:last-child { border-bottom: 1px solid rgba(255,255,255,.2); }
+.about-faq summary { min-height: 86px; padding: 20px 0; display: grid; grid-template-columns: 44px minmax(0, 1fr) 30px; gap: 18px; align-items: center; cursor: pointer; list-style: none; }
+.about-faq summary::-webkit-details-marker { display: none; }
+.about-faq summary > span { color: #f0c27a; font: 10px/1 Georgia, serif; }
+.about-faq summary strong { font: 600 15px/1.65 "Yu Mincho", YuMincho, serif; }
+.about-faq summary b { justify-self: end; color: #f0c27a; font-size: 20px; font-weight: 300; }
+.about-faq details[open] summary b { transform: rotate(45deg); }
+.about-faq details > p { max-width: 800px; margin: -5px 0 0 62px; padding: 0 0 28px; color: rgba(255,255,255,.61); font-size: 11px; line-height: 2; }
+.about-next-links { display: grid; grid-template-columns: 1fr 1fr; background: var(--cream); }
+.about-next-links a { min-height: 170px; padding: 38px clamp(24px, 7vw, 110px); display: grid; grid-template-columns: 1fr auto; align-content: center; gap: 12px 30px; border-right: 1px solid var(--line); }
+.about-next-links small { grid-column: 1 / -1; color: var(--red); font: 800 8px/1 Georgia, serif; letter-spacing: .16em; }
+.about-next-links strong { font: 600 24px/1.4 "Yu Mincho", YuMincho, serif; }
+.about-next-links span { color: var(--red); font-size: 20px; }
+.seminar-cover { width: min(930px, calc(100% - 48px)); max-height: 480px; margin: 54px auto 0; display: block; object-fit: cover; background: var(--paper); }
+
 /* Executive committee */
 .committee-hero { min-height: 355px; padding: 86px clamp(24px, 7vw, 110px) 66px; display: flex; align-items: flex-end; justify-content: space-between; gap: 40px; color: white; background: linear-gradient(112deg, #071d35, #123f72); overflow: hidden; }
 .committee-hero > div { position: relative; z-index: 1; }
@@ -536,6 +619,26 @@ section { scroll-margin-top: 142px; }
   .committee-member-grid { grid-template-columns: 1fr; }
   .committee-contact { padding: 56px 20px; grid-template-columns: 1fr; }
   .committee-contact a { width: max-content; }
+  .about-page-hero { min-height: 320px; padding: 64px 20px 50px; background: var(--blue-deep); }
+  .about-page-hero aside { display: none; }
+  .about-page-intro { padding: 58px 20px 66px; grid-template-columns: 1fr; gap: 42px; }
+  .about-page-intro > div { padding-top: 22px; }
+  .about-mission { padding: 56px 20px; grid-template-columns: 1fr; gap: 30px; }
+  .about-composition, .about-activities, .about-governance, .about-faq { padding: 62px 20px 72px; }
+  .about-section-heading { margin-bottom: 34px; align-items: flex-start; flex-direction: column; gap: 20px; }
+  .about-composition-flow { padding: 18px; }
+  .about-composition-flow > div { grid-template-columns: 1fr; }
+  .about-activity-grid { grid-template-columns: 1fr; }
+  .about-activity-grid a { min-height: 250px; }
+  .about-values { grid-template-columns: 1fr; }
+  .about-values > article { padding: 62px 20px 72px; }
+  .about-values > article:first-child { border-right: 0; border-bottom: 1px solid var(--line); }
+  .about-governance > div { grid-template-columns: 1fr; }
+  .about-governance > div > a { min-height: 285px; }
+  .about-faq summary { grid-template-columns: 32px minmax(0, 1fr) 24px; gap: 10px; }
+  .about-faq details > p { margin-left: 42px; }
+  .about-next-links { grid-template-columns: 1fr; }
+  .about-next-links a { min-height: 145px; padding: 32px 20px; border-right: 0; border-bottom: 1px solid var(--line); }
 }
 
 @media (min-width: 761px) and (max-width: 1080px) {
@@ -556,4 +659,10 @@ section { scroll-margin-top: 142px; }
   .committee-member-card.is-featured { border-top: 1px solid var(--line); border-left: 0; }
   .committee-contact { grid-template-columns: 1fr 1fr; }
   .committee-contact a { width: max-content; }
+  .about-page-intro { grid-template-columns: 1fr; gap: 48px; }
+  .about-page-intro > div { max-width: 760px; }
+  .about-activity-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .about-values { grid-template-columns: 1fr; }
+  .about-values > article:first-child { border-right: 0; border-bottom: 1px solid var(--line); }
+  .about-values > article { padding-block: 72px; }
 }

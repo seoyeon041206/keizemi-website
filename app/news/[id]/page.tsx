@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import postsJson from '@/content/posts.json';
+import postsJson from '@/content/generated/posts.json';
 import type { NewsPost } from '@/app/content-types';
 import { ContentChrome, ImportedBody } from '@/app/components/ContentChrome';
 

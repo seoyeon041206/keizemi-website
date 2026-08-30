@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import seminarsJson from '@/content/seminars.json';
+import seminarsJson from '@/content/generated/seminars.json';
 import type { Seminar } from '@/app/content-types';
 import { ContentChrome, ImportedBody } from '@/app/components/ContentChrome';
+import { siteHref } from '@/app/site-path';
 
 const seminars = seminarsJson as Seminar[];
 
@@ -29,7 +30,7 @@ export default async function SeminarDetail({ params }: { params: Promise<{ slug
   const seminar = seminars.find((item) => item.slug === slug);
   if (!seminar) notFound();
   const links = [
-    ['研究会サイト', seminar.website],
+    ['研究会サイト', seminar.url || seminar.website],
     ['教員プロフィール', seminar.professorLink],
     ['X', seminar.twitter],
     ['Instagram', seminar.instagram],
@@ -40,10 +41,11 @@ export default async function SeminarDetail({ params }: { params: Promise<{ slug
     <ContentChrome
       overline="SEMINAR DIRECTORY"
       title={seminar.name}
-      meta={<><span>{seminar.field}</span><span>{seminar.status}</span>{seminar.pearl && <span>PEARL</span>}{seminar.dd && <span>DD</span>}</>}
+      meta={<><span>{seminar.field}</span><span>{seminar.status}</span>{seminar.languages?.map((language) => <span key={language}>{language}</span>)}{seminar.pearl && <span>PEARL</span>}{seminar.dd && <span>DD</span>}</>}
       backHref="/seminars"
       backLabel="研究会一覧"
     >
+      {seminar.image && <img className="seminar-cover" src={siteHref(seminar.image)} alt={`${seminar.name}の紹介画像`} />}
       <section className="seminar-profile">
         {(seminar.professorName || seminar.professorNameAlpha) && (
           <div><small>PROFESSOR</small><h2>{seminar.professorName || seminar.name}</h2><p>{seminar.professorNameAlpha}</p></div>

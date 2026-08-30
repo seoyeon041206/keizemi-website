@@ -5,6 +5,7 @@ import type { BaseContent } from '@/app/content-types';
 import { ContentChrome, ImportedBody } from '@/app/components/ContentChrome';
 import { HandoutPage } from '@/app/pages/HandoutPage';
 import { CommitteePage } from '@/app/pages/CommitteePage';
+import { AboutPage } from '@/app/pages/AboutPage';
 
 const pages = pagesJson as BaseContent[];
 
@@ -30,6 +31,7 @@ export default async function InformationPage({ params }: { params: Promise<{ id
   const { id } = await params;
   const page = pages.find((item) => item.id === Number(id));
   if (!page) notFound();
+  if (page.id === 71) return <AboutPage />;
   if (page.id === 139) return <HandoutPage />;
   if (page.id === 584) return <CommitteePage />;
   return (

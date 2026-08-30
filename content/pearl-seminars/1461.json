@@ -1,0 +1,15 @@
+{
+  "id": 1461,
+  "slug": "nagakura-daisuke-seminar",
+  "title": "Nagakura Daisuke Seminar（P）（DD）",
+  "date": "2022-09-09",
+  "modified": "2023-06-20",
+  "excerpt": "統計手法を用いて、機械学習を主なテーマとして学んでいます。統計解析ソフトPythonを実際に使い、様々なモデルを用いて、それぞれの影響の有無や大きさを計量分析しています。 このゼミは計量経済学のゼミなので、学んだ手法の応用先はゼミ生が自由に選択して構いません。また、ゼミ生は時系列分析やFinancialEconometrics 関係のデータの分析を行う必要はありません。とにかく自分が面白いと思うデータを自由に分析して下さい。 (Acce",
+  "contentHtml": "統計手法を用いて、機械学習を主なテーマとして学んでいます。統計解析ソフトPythonを実際に使い、様々なモデルを用いて、それぞれの影響の有無や大きさを計量分析しています。\n\nこのゼミは計量経済学のゼミなので、学んだ手法の応用先はゼミ生が自由に選択して構いません。また、ゼミ生は時系列分析やFinancialEconometrics 関係のデータの分析を行う必要はありません。とにかく自分が面白いと思うデータを自由に分析して下さい。\n\n(Accepting Double Degree)",
+  "name": "Nagakura Daisuke Seminar（P）（DD）",
+  "field": "Econometrics and Statistics",
+  "relatedJapaneseId": 212,
+  "professorDescription": "私のゼミでは、計量経済学の方法論とその応用について、また最近では機械学習についても勉強しています。Pythonを用いて学んだ手法を実際のデータに適用する演習もしています。3年生はグループに分かれて最終的に1つ論文を書くことを、4年生は個々で卒業論文を書くことを目標としています。論文のテーマは統計分析であれば何でも構いません。私の専門は金融計量経済学ですが、ゼミ生のテーマは多岐にわたっています。詳しくは、　http://user.keio.ac.jp/~nagakura/mitaronsotsuron.html　を見て下さい。",
+  "professorLink": "https://k-ris.keio.ac.jp/html/100000490_en.html",
+  "order": 5
+}

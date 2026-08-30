@@ -1,0 +1,15 @@
+{
+  "id": 2348,
+  "slug": "sugasawa-shonosuke-seminar",
+  "title": "Sugasawa Shonosuke Seminar（P）（DD）",
+  "date": "2022-12-21",
+  "modified": "2023-06-20",
+  "excerpt": "Data science techniques for effectively utilizing and analyzing real-world data have become indispensable in economics and various other scientific fields. In this seminar, we will deepen our knowledge of data science me",
+  "contentHtml": "Data science techniques for effectively utilizing and analyzing real-world data have become indispensable in economics and various other scientific fields. In this seminar, we will deepen our knowledge of data science methods from both the implementation (programming) and theoretical aspects. In particular, we will focus on a framework called Bayesian statistics. We will also conduct applied research using data science techniques on data of interest to each member.\n\n(Accepting Double Degree)",
+  "name": "Sugasawa Shonosuke Seminar（P）（DD）",
+  "field": "Econometrics and Statistics",
+  "relatedJapaneseId": 2332,
+  "professorDescription": "",
+  "professorLink": "",
+  "order": 10
+}

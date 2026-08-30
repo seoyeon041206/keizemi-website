@@ -1,7 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import siteIndex from '@/content/site-index.json';
+import siteIndex from '@/content/generated/site-index.json';
 import { ArchiveFooter } from '@/app/components/ContentChrome';
 import { SiteHeader } from '@/app/components/SiteHeader';
 import { siteHref } from '@/app/site-path';

@@ -26,6 +26,11 @@ export type Seminar = BaseContent & {
   facebook: string;
   pearl: boolean;
   dd: boolean;
+  languages: string[];
+  description: string;
+  image: string;
+  url: string;
+  order?: number;
 };
 
 export type PearlSeminar = BaseContent & {

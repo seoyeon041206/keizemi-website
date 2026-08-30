@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import pearlJson from '@/content/pearl-seminars.json';
-import seminarsJson from '@/content/seminars.json';
+import pearlJson from '@/content/generated/pearl-seminars.json';
+import seminarsJson from '@/content/generated/seminars.json';
 import type { PearlSeminar, Seminar } from '@/app/content-types';
 import { ContentChrome, ImportedBody } from '@/app/components/ContentChrome';
 import { siteHref } from '@/app/site-path';

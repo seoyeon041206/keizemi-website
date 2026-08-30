@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import postsJson from '@/content/posts.json';
+import postsJson from '@/content/generated/posts.json';
 import type { NewsPost } from '@/app/content-types';
 import { ArchiveFooter, ArchiveHeader } from '@/app/components/ContentChrome';
 import { siteHref } from '@/app/site-path';
