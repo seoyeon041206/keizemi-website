@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "一上響（イチウエ ヒビキ）",
   "professorNameAlpha": "Ichiue Hibiki",
-  "professorDescription": "前職の日銀では経済の実態把握と予測の仕事に長く携わり、経済調査課長というチーフエコノミストのような役職も務めました。その一方で、マクロ経済学からファイナンスまで幅広く研究を行いました。ゼミ生には、「経済や金融で現実に起こっていることを理解する力」とともに「新たな疑問に対し、通説を鵜呑みにせず、自ら必要なデータを探しだして一定の答えを導き出す力」の習得を期待します。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100015815_ja.html?k=%E4%B8%80%E4%B8%8A%E9%9F%BF",
   "website": "",
   "twitter": "https://twitter.com/ichiuezemi",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": ""
+  "url": "",
+  "seminarImage": "",
+  "seminarImageAlt": "一上響研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/ichiue-hibiki/professor.jpg",
+  "professorImageAlt": "一上響（イチウエ ヒビキ） 教員写真",
+  "professorMessage": "前職の日銀では経済の実態把握と予測の仕事に長く携わり、経済調査課長というチーフエコノミストのような役職も務めました。その一方で、マクロ経済学からファイナンスまで幅広く研究を行いました。ゼミ生には、「経済や金融で現実に起こっていることを理解する力」とともに「新たな疑問に対し、通説を鵜呑みにせず、自ら必要なデータを探しだして一定の答えを導き出す力」の習得を期待します。"
 }

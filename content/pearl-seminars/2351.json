@@ -9,7 +9,6 @@
   "name": "Wakako Kumakura Seminar",
   "field": "Environmental and Urban Economics",
   "relatedJapaneseId": 2310,
-  "professorDescription": "雨がほとんど降らないエジプトで、人々が依拠してきたのがナイル川。私は、このナイルを利用するための水利・灌漑の歴史的展開を探究してきました。専門とする時代はイスラーム期、特に13世紀以降の中近世史です。ファラオの時代、ローマ・ビザンツ期を経て、イスラーム期にナイルをめぐるエジプト社会経済がどのように変容していったのか、さらにはそれが近現代にどう接続していくのかに関心を持ちながら研究を進めています。\n\n学生に期待することは、探究心！それを刺激するようなゼミ企画などもみなさんと一緒に考えていきたいと思っています。中東・北アフリカ地域、イスラーム史、経済と環境の歴史に関心のある人、デジタルヒューマニティーズ的手法を使って経済史研究をやってみたい人の応募をお待ちしています。",
   "professorLink": "",
   "order": 47,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Not Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Kumakura Wakako",
+  "professorNameLocal": "熊倉和歌子(クマクラ ワカコ)",
+  "seminarImage": "/uploads/seminars/kumakura-wakako/seminar.jpg",
+  "seminarImageAlt": "Wakako Kumakura Seminar seminar group",
+  "professorImage": "/uploads/seminars/kumakura-wakako/professor.jpg",
+  "professorImageAlt": "Portrait of Kumakura Wakako",
+  "professorMessage": "雨がほとんど降らないエジプトで、人々が依拠してきたのがナイル川。私は、このナイルを利用するための水利・灌漑の歴史的展開を探究してきました。専門とする時代はイスラーム期、特に13世紀以降の中近世史です。ファラオの時代、ローマ・ビザンツ期を経て、イスラーム期にナイルをめぐるエジプト社会経済がどのように変容していったのか、さらにはそれが近現代にどう接続していくのかに関心を持ちながら研究を進めています。\n\n学生に期待することは、探究心！それを刺激するようなゼミ企画などもみなさんと一緒に考えていきたいと思っています。中東・北アフリカ地域、イスラーム史、経済と環境の歴史に関心のある人、デジタルヒューマニティーズ的手法を使って経済史研究をやってみたい人の応募をお待ちしています。",
+  "website": "",
+  "twitter": "https://twitter.com/2023KumaLabo",
+  "instagram": "",
+  "facebook": ""
 }

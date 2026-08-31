@@ -9,7 +9,6 @@
   "name": "Yuki Sato Seminar",
   "field": "Economic Policy and Public Finance",
   "relatedJapaneseId": 250,
-  "professorDescription": "金融・ファイナンスに興味があり、それらについて浅薄な議論をするのではなく、経済学に基づいてじっくり考え、議論し、理解したい学生を望みます。 本研究会は現実と理論のバランスを重視しますので、数理モデルだけに興味がある人にはお勧めしませんし、理論にアレルギーがある人にも向いていません。 与えられたことをただこなすのではなく、自発的に考え、積極的に議論に参加し、独創性のある研究をする意欲を持った学生を歓迎します。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000423_en.html",
   "order": 31,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Sato Yuki",
+  "professorNameLocal": "佐藤祐己（サトウ ユウキ）",
+  "seminarImage": "/uploads/seminars/sato-yuki/seminar.jpg",
+  "seminarImageAlt": "Yuki Sato Seminar seminar group",
+  "professorImage": "",
+  "professorImageAlt": "Portrait of Sato Yuki",
+  "professorMessage": "金融・ファイナンスに興味があり、それらについて浅薄な議論をするのではなく、経済学に基づいてじっくり考え、議論し、理解したい学生を望みます。 本研究会は現実と理論のバランスを重視しますので、数理モデルだけに興味がある人にはお勧めしませんし、理論にアレルギーがある人にも向いていません。 与えられたことをただこなすのではなく、自発的に考え、積極的に議論に参加し、独創性のある研究をする意欲を持った学生を歓迎します。",
+  "website": "https://satoyukiseminar.jimdofree.com/",
+  "twitter": "https://twitter.com/satozemi_keio",
+  "instagram": "https://www.instagram.com/keio_satozemi/?hl=ja",
+  "facebook": ""
 }

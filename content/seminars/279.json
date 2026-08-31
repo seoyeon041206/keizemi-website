@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "松浦寿幸（マツウラ トシユキ）",
   "professorNameAlpha": "Matsuura Toshiyuki",
-  "professorDescription": "国際貿易・海外直接投資・企業の国際競争力の計測に関する実証分析（データ分析）を専門にしています。最近は、地方創生や観光振興関連の政策評価に取り組んでいます。研究会では、因果推論のためのデータ分析手法を習得し、様々な政策課題の数量評価を行っています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100013706_ja.html?k=%E6%9D%BE%E6%B5%A6%E5%AF%BF%E5%B9%B8",
   "website": "https://sites.google.com/view/matsuura-toshiyuki-seminar/",
   "twitter": "https://twitter.com/t_matsuurasemi?s=21&t=7n4NLojcg8PQsbXqnmw32Q",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://sites.google.com/view/matsuura-toshiyuki-seminar/"
+  "url": "https://sites.google.com/view/matsuura-toshiyuki-seminar/",
+  "seminarImage": "/uploads/seminars/matsuura-toshiyuki/seminar.jpg",
+  "seminarImageAlt": "松浦寿幸研究会の研究会写真",
+  "professorImage": "/uploads/seminars/matsuura-toshiyuki/professor.jpg",
+  "professorImageAlt": "松浦寿幸（マツウラ トシユキ） 教員写真",
+  "professorMessage": "国際貿易・海外直接投資・企業の国際競争力の計測に関する実証分析（データ分析）を専門にしています。最近は、地方創生や観光振興関連の政策評価に取り組んでいます。研究会では、因果推論のためのデータ分析手法を習得し、様々な政策課題の数量評価を行っています。"
 }

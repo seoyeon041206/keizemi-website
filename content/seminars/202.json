@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "片山翔太（カタヤマ ショウタ）",
   "professorNameAlpha": "Katayama Shouta",
-  "professorDescription": "高次元・大規模データに対する適切な理論や方法論の開発を目指して，スパースモデリング，ロバスト推測，因果推論，グラフィカルモデリングなどを研究しています．データ解析(経済分野に限らず)をしていると，もう少し融通の利く方法があればとか，何故これで上手くいったのかなど思うことが多々あります．新しい解析法の開発に興味がある方や，数理的に細かい部分が気になる方は一緒に勉強・研究しましょう．",
   "professorLink": "https://k-ris.keio.ac.jp/html/100014894_ja.html?k=%E7%89%87%E5%B1%B1%E7%BF%94%E5%A4%AA",
   "website": "https://katayama0laborator.wixsite.com/home",
   "twitter": "https://twitter.com/katayamalabo",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://katayama0laborator.wixsite.com/home"
+  "url": "https://katayama0laborator.wixsite.com/home",
+  "seminarImage": "",
+  "seminarImageAlt": "片山翔太研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/katayama-shouta/professor.jpg",
+  "professorImageAlt": "片山翔太（カタヤマ ショウタ） 教員写真",
+  "professorMessage": "高次元・大規模データに対する適切な理論や方法論の開発を目指して，スパースモデリング，ロバスト推測，因果推論，グラフィカルモデリングなどを研究しています．データ解析(経済分野に限らず)をしていると，もう少し融通の利く方法があればとか，何故これで上手くいったのかなど思うことが多々あります．新しい解析法の開発に興味がある方や，数理的に細かい部分が気になる方は一緒に勉強・研究しましょう．"
 }

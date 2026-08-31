@@ -1,6 +1,6 @@
 {
   "id": 303,
-  "slug": "研究プロジェクトirp",
+  "slug": "independent-research-project-irp",
   "title": "研究プロジェクト：IRP（P）（DD）",
   "date": "2022-08-10",
   "modified": "2023-06-29",
@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "",
   "professorNameAlpha": "",
-  "professorDescription": "",
   "professorLink": "",
   "website": "https://www.econ.keio.ac.jp/undergraduate/research-project",
   "twitter": "",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://www.econ.keio.ac.jp/undergraduate/research-project"
+  "url": "https://www.econ.keio.ac.jp/undergraduate/research-project",
+  "seminarImage": "",
+  "seminarImageAlt": "研究プロジェクト：IRP（P）（DD）の研究会写真",
+  "professorImage": "",
+  "professorImageAlt": "研究プロジェクト：IRP（P）（DD） 教員写真",
+  "professorMessage": ""
 }

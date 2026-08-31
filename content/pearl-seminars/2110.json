@@ -9,7 +9,6 @@
   "name": "Atsuhiro Yamada Seminar",
   "field": "Economic Policy and Public Finance",
   "relatedJapaneseId": 256,
-  "professorDescription": "",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000569_ja.html?k=%E5%B1%B1%E7%94%B0%E7%AF%A4%E8%A3%95",
   "order": 28,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Yamada Atsuhiro",
+  "professorNameLocal": "山田篤裕（ヤマダ アツヒロ）",
+  "seminarImage": "/uploads/seminars/yamada-atsuhiro/seminar.jpg",
+  "seminarImageAlt": "Atsuhiro Yamada Seminar seminar group",
+  "professorImage": "",
+  "professorImageAlt": "Portrait of Yamada Atsuhiro",
+  "professorMessage": "社会保障と労働政策について、データを用いて実証研究をしています。専門書輪読やディベート活動と並行し、3年次にグループ研究、4年次は卒業研究を各自進めます。生活の質に直結する社会問題を深く考えられる環境が本研究会の強みです。さまざまな社会問題が山積する今だからこそ、社会保障と労働政策について研究したいと思う学生をお待ちしています。なお教員はこの領域を専門とする研究者も育てたいと考えています。",
+  "website": "https://yamada-seminar.wixsite.com/yamada-atuhiro-semi",
+  "twitter": "https://twitter.com/yamadaseminar",
+  "instagram": "https://www.instagram.com/yamada_atsuhiro_seminar/",
+  "facebook": ""
 }

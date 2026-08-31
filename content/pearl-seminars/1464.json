@@ -9,7 +9,6 @@
   "name": "Ryo Nakajima Seminar",
   "field": "Econometrics and Statistics",
   "relatedJapaneseId": 208,
-  "professorDescription": "人生は一本道でないように大学生活の道も様々である。私の研究会に入っても何が正しい道だったのか、今後どのような道を歩むべきなのかはっきりとした答えは得られないかもしれない。どちらかといえば研究会に入った後は、これまでの「地図」から外れて自在に歩き回ってほしい。この研究会が諸君らにとって唯一の道を辿る場所でなく、自由に道を迷うことができる場所、または、迷っても平気であることを学ぶ場所であってほしい。迷いながらも自分で考え勇気を持って歩き続けることができる学生を歓迎する。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000481_en.html",
   "order": 11,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Not Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Nakajima Ryo",
+  "professorNameLocal": "中嶋亮（ナカジマ リョウ）",
+  "seminarImage": "/uploads/seminars/nakajima-ryo/seminar.jpg",
+  "seminarImageAlt": "Ryo Nakajima Seminar seminar group",
+  "professorImage": "/uploads/seminars/nakajima-ryo/professor.jpg",
+  "professorImageAlt": "Portrait of Nakajima Ryo",
+  "professorMessage": "人生は一本道でないように大学生活の道も様々である。私の研究会に入っても何が正しい道だったのか、今後どのような道を歩むべきなのかはっきりとした答えは得られないかもしれない。どちらかといえば研究会に入った後は、これまでの「地図」から外れて自在に歩き回ってほしい。この研究会が諸君らにとって唯一の道を辿る場所でなく、自由に道を迷うことができる場所、または、迷っても平気であることを学ぶ場所であってほしい。迷いながらも自分で考え勇気を持って歩き続けることができる学生を歓迎する。",
+  "website": "https://keionakajimaryoseminar.amebaownd.com/",
+  "twitter": "https://twitter.com/nakajimaryo2022",
+  "instagram": "https://www.instagram.com/nakajimaryo2022/",
+  "facebook": ""
 }

@@ -11,7 +11,6 @@
   "status": "募集停止",
   "professorName": "小西祥文（コニシ ヨシフミ）",
   "professorNameAlpha": "Konishi Yoshifumi",
-  "professorDescription": "私の専門分野は，実証ミクロ経済学（ミクロ経済学×統計的因果推論）という比較的新しいアプローチを使って効果的な環境政策を考える分野です．現在日本で採用されている様々な脱炭素政策は，効果が不十分であったり，効果があっても社会・経済へのマイナスの影響が必要以上に大きかったりと必ずしも我々が望む政策とは言えないものばかりです．そのため，データと経済学を駆使して実証的に政策を評価し，より良い政策とは何かを考える姿勢がとても重要なのです．こういうことを真剣に考えたいと思っている皆さん，ぜひ弊ゼミを検討してみてください．今の三年生・四年生はとても真面目にゼミ活動に取り組んでくれる気持ちの良い学生ばかりで，ゼミ時間以外にもソフトボール大会やフットサルを楽しんだりしています．",
   "professorLink": "https://k-ris.keio.ac.jp/html/100015281_ja.html?k=%E5%B0%8F%E8%A5%BF%E7%A5%A5%E6%96%87",
   "website": "https://sites.google.com/view/konishizemi/%E3%83%9B%E3%83%BC%E3%83%A0\"",
   "twitter": "https://www.instagram.com/konishi_nyuzemi/",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://sites.google.com/view/konishizemi/%E3%83%9B%E3%83%BC%E3%83%A0\""
+  "url": "https://sites.google.com/view/konishizemi/%E3%83%9B%E3%83%BC%E3%83%A0\"",
+  "seminarImage": "/uploads/seminars/konishi-yoshifumi/seminar.jpg",
+  "seminarImageAlt": "小西祥文研究会（P）の研究会写真",
+  "professorImage": "/uploads/seminars/konishi-yoshifumi/professor.jpg",
+  "professorImageAlt": "小西祥文（コニシ ヨシフミ） 教員写真",
+  "professorMessage": "私の専門分野は，実証ミクロ経済学（ミクロ経済学×統計的因果推論）という比較的新しいアプローチを使って効果的な環境政策を考える分野です．現在日本で採用されている様々な脱炭素政策は，効果が不十分であったり，効果があっても社会・経済へのマイナスの影響が必要以上に大きかったりと必ずしも我々が望む政策とは言えないものばかりです．そのため，データと経済学を駆使して実証的に政策を評価し，より良い政策とは何かを考える姿勢がとても重要なのです．こういうことを真剣に考えたいと思っている皆さん，ぜひ弊ゼミを検討してみてください．今の三年生・四年生はとても真面目にゼミ活動に取り組んでくれる気持ちの良い学生ばかりで，ゼミ時間以外にもソフトボール大会やフットサルを楽しんだりしています． "
 }

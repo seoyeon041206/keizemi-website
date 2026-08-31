@@ -9,7 +9,6 @@
   "name": "Teruo Nakatsuma Seminar",
   "field": "Econometrics and Statistics",
   "relatedJapaneseId": 210,
-  "professorDescription": "中妻照雄研究会は好奇心旺盛で常に向上心を持って自発的に勉学に勤しむ学生諸君を求めています。今の世界で活躍するためには、「定量的に物事を見定める目」と「複数言語で人々と話し合える力」が必要不可欠です。日吉時代から数学、統計学などをしっかりと学習するとともに、語学教育の中で多様な人々とコミュニケーションをとれる能力を磨いてください。皆さんが中妻照雄研究会の門を叩く日を心待ちにしています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000482_en.html",
   "order": 12,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese and English",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Nakatsuma Teruo",
+  "professorNameLocal": "中妻照雄（ナカツマ テルオ）",
+  "seminarImage": "",
+  "seminarImageAlt": "Teruo Nakatsuma Seminar seminar group",
+  "professorImage": "/uploads/seminars/nakatsuma-teruo/professor.jpg",
+  "professorImageAlt": "Portrait of Nakatsuma Teruo",
+  "professorMessage": "中妻照雄研究会は好奇心旺盛で常に向上心を持って自発的に勉学に勤しむ学生諸君を求めています。今の世界で活躍するためには、「定量的に物事を見定める目」と「複数言語で人々と話し合える力」が必要不可欠です。日吉時代から数学、統計学などをしっかりと学習するとともに、語学教育の中で多様な人々とコミュニケーションをとれる能力を磨いてください。皆さんが中妻照雄研究会の門を叩く日を心待ちにしています。",
+  "website": "https://nakatsuma.com/",
+  "twitter": "https://twitter.com/nakatsuma_2022?s=11&t=cr4y3z1yUUxfFq9qlQCXYQ",
+  "instagram": "https://www.instagram.com/nakatsuma.seminar/?hl=ja",
+  "facebook": ""
 }

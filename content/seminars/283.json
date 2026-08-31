@@ -11,7 +11,6 @@
   "status": "募集停止",
   "professorName": "大沼あゆみ（オオヌマ アユミ）",
   "professorNameAlpha": "Onuma Ayumi",
-  "professorDescription": "環境問題は純粋な気持ちから心を痛める人も多いのですが、提言の中には、持続的な実現が難しいものも少なくありません。持続可能な環境政策の設計には経済学的な考えは欠かせません。学生諸君には、ゼミを通じて脳みそに汗をかきながら、さまざまな観点から独創的な提言を行ってくれることを期待しています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000354_ja.html?k=%E5%A4%A7%E6%B2%BC%E3%81%82%E3%82%86%E3%81%BF",
   "website": "https://onumaseminar.com/",
   "twitter": "https://twitter.com/onumazemi2022?s=11&t=cr4y3z1yUUxfFq9qlQCXYQ",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://onumaseminar.com/"
+  "url": "https://onumaseminar.com/",
+  "seminarImage": "/uploads/seminars/onuma-ayumi/seminar.jpg",
+  "seminarImageAlt": "大沼あゆみ研究会（P）の研究会写真",
+  "professorImage": "/uploads/seminars/onuma-ayumi/professor.jpg",
+  "professorImageAlt": "大沼あゆみ（オオヌマ アユミ） 教員写真",
+  "professorMessage": "環境問題は純粋な気持ちから心を痛める人も多いのですが、提言の中には、持続的な実現が難しいものも少なくありません。持続可能な環境政策の設計には経済学的な考えは欠かせません。学生諸君には、ゼミを通じて脳みそに汗をかきながら、さまざまな観点から独創的な提言を行ってくれることを期待しています。"
 }

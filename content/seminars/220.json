@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "牧野邦昭（マキノ クニアキ）",
   "professorNameAlpha": "Makino Kuniaki",
-  "professorDescription": "学生時代は「試行錯誤」や「無駄なこと」をすることが許されている期間です。\n経済について深く学びながら、教養を身につけ、また色々な体験をして、充実した学生生活を送るようにしてください。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100015625_ja.html?k=%E7%89%A7%E9%87%8E%E9%82%A6%E6%98%AD",
   "website": "https://sites.google.com/view/makinoseminar/home",
   "twitter": "https://mobile.twitter.com/makino_seminar",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://sites.google.com/view/makinoseminar/home"
+  "url": "https://sites.google.com/view/makinoseminar/home",
+  "seminarImage": "/uploads/seminars/makino-kuniaki/seminar.jpg",
+  "seminarImageAlt": "牧野邦昭研究会（P）の研究会写真",
+  "professorImage": "/uploads/seminars/makino-kuniaki/professor.jpg",
+  "professorImageAlt": "牧野邦昭（マキノ クニアキ） 教員写真",
+  "professorMessage": "学生時代は「試行錯誤」や「無駄なこと」をすることが許されている期間です。\n経済について深く学びながら、教養を身につけ、また色々な体験をして、充実した学生生活を送るようにしてください。"
 }

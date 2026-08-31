@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "松本英彦（マツモト ヒデヒコ）",
   "professorNameAlpha": "Matsumoto Hidehiko",
-  "professorDescription": "・Specializes in international finance, with a special focus on capital flows and financial crises.\n・Work experience at NHK, Bank of Japan, and GRIPS.",
   "professorLink": "",
   "website": "https://sites.google.com/keio.jp/matsumoto-seminar",
   "twitter": "",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://sites.google.com/keio.jp/matsumoto-seminar"
+  "url": "https://sites.google.com/keio.jp/matsumoto-seminar",
+  "seminarImage": "",
+  "seminarImageAlt": "松本英彦研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/matsumoto-hidehiko/professor.jpg",
+  "professorImageAlt": "松本英彦（マツモト ヒデヒコ） 教員写真",
+  "professorMessage": "・Specializes in international finance, with a special focus on capital flows and financial crises.\n・Work experience at NHK, Bank of Japan, and GRIPS."
 }

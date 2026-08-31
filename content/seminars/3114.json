@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "大久保敏弘（オオクボ トシヒロ）",
   "professorNameAlpha": "Okubo Toshihiro",
-  "professorDescription": "",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000347_ja.html",
   "website": "",
   "twitter": "",
@@ -24,6 +23,10 @@
   "languages": [
     "日本語"
   ],
-  "image": "",
-  "url": ""
+  "url": "",
+  "seminarImage": "",
+  "seminarImageAlt": "大久保敏弘研究会の研究会写真",
+  "professorImage": "",
+  "professorImageAlt": "大久保敏弘（オオクボ トシヒロ） 教員写真",
+  "professorMessage": ""
 }

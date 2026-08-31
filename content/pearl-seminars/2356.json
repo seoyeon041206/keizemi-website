@@ -9,7 +9,6 @@
   "name": "Ayako Obashi Seminar",
   "field": "International Economics",
   "relatedJapaneseId": 2306,
-  "professorDescription": "仲間と共に学ぶ楽しさを味わえるゼミの場を提供していきたいと思います。知的好奇心を共有するゼミの仲間は、きっと皆さんにとって特別な存在になることでしょう。\n新規開講のゼミですので、１期生として小橋ゼミの基盤を築いていこうという意欲溢れる方の入ゼミをお待ちしています。一緒に学びを楽しみましょう！",
   "professorLink": "",
   "order": 41,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese and English",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Obashi Ayako",
+  "professorNameLocal": "小橋文子(オバシ アヤコ)",
+  "seminarImage": "",
+  "seminarImageAlt": "Ayako Obashi Seminar seminar group",
+  "professorImage": "/uploads/seminars/obashi-ayako/professor.jpg",
+  "professorImageAlt": "Portrait of Obashi Ayako",
+  "professorMessage": "仲間と共に学ぶ楽しさを味わえるゼミの場を提供していきたいと思います。知的好奇心を共有するゼミの仲間は、きっと皆さんにとって特別な存在になることでしょう。\n新規開講のゼミですので、１期生として小橋ゼミの基盤を築いていこうという意欲溢れる方の入ゼミをお待ちしています。一緒に学びを楽しみましょう！",
+  "website": "",
+  "twitter": "",
+  "instagram": "",
+  "facebook": ""
 }

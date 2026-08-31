@@ -9,7 +9,6 @@
   "name": "Ippei Fujiwara Seminar",
   "field": "Economic Theory",
   "relatedJapaneseId": 196,
-  "professorDescription": "大学時代のゼミの最も素晴らしいことは、様々なバックグランドを持った友人と出会えることです。部、サークル、アルバイト等を通じたつながりも素晴らしいものですが、ゼミという新しい軸を通じた友人は、その後の人生にとって、かけがえのないものとなるはずです。グループ研究、個人研究、イベント企画、などを通じて、新たな、そして、多様なつながりが生まれてくるような機会を提供できればと思っています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000516_en.html",
   "order": 8,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Fujiwara Ippei",
+  "professorNameLocal": "藤原一平（フジワラ イッペイ）",
+  "seminarImage": "/uploads/seminars/fujiwara-ippei/seminar.jpg",
+  "seminarImageAlt": "Ippei Fujiwara Seminar seminar group",
+  "professorImage": "/uploads/seminars/fujiwara-ippei/professor.jpg",
+  "professorImageAlt": "Portrait of Fujiwara Ippei",
+  "professorMessage": "大学時代のゼミの最も素晴らしいことは、様々なバックグランドを持った友人と出会えることです。部、サークル、アルバイト等を通じたつながりも素晴らしいものですが、ゼミという新しい軸を通じた友人は、その後の人生にとって、かけがえのないものとなるはずです。グループ研究、個人研究、イベント企画、などを通じて、新たな、そして、多様なつながりが生まれてくるような機会を提供できればと思っています。",
+  "website": "https://fujiwaraippeiseminar.wixsite.com/fujiwara-ippei",
+  "twitter": "https://twitter.com/fujiwarazemi?lang=ja",
+  "instagram": "https://www.instagram.com/fujiwara_seminar/",
+  "facebook": ""
 }

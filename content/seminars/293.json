@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "井手英策（イデ エイサク）",
   "professorNameAlpha": "Ide Eisaku",
-  "professorDescription": "テーマは社会問題です。僕は就活に役立つ知識は教えません。でも、なぜ知性が必要なのかを自らに問い、どのように生きかたを選び取っていくのかを考える、そんな力を育もうと、ゼミ生と全力で関わっています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000335_ja.html?k=%E4%BA%95%E6%89%8B%E8%8B%B1%E7%AD%96",
   "website": "https://ideseminarhp.wixsite.com/ideseminar",
   "twitter": "https://mobile.twitter.com/ideseminar",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://ideseminarhp.wixsite.com/ideseminar"
+  "url": "https://ideseminarhp.wixsite.com/ideseminar",
+  "seminarImage": "/uploads/seminars/ide-eisaku/seminar.jpg",
+  "seminarImageAlt": "井手英策研究会の研究会写真",
+  "professorImage": "/uploads/seminars/ide-eisaku/professor.jpg",
+  "professorImageAlt": "井手英策（イデ エイサク） 教員写真",
+  "professorMessage": "テーマは社会問題です。僕は就活に役立つ知識は教えません。でも、なぜ知性が必要なのかを自らに問い、どのように生きかたを選び取っていくのかを考える、そんな力を育もうと、ゼミ生と全力で関わっています。"
 }

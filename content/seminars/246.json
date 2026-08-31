@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "三嶋恒平（ミシマ コウヘイ）",
   "professorNameAlpha": "Mishima Kohei",
-  "professorDescription": "",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000542_ja.html?k=%E4%B8%89%E5%B6%8B%E6%81%92%E5%B9%B3",
   "website": "",
   "twitter": "https://twitter.com/mishimazemi2024",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": ""
+  "url": "",
+  "seminarImage": "/uploads/seminars/mishima-kohei/seminar.jpg",
+  "seminarImageAlt": "三嶋恒平研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/mishima-kohei/professor.jpg",
+  "professorImageAlt": "三嶋恒平（ミシマ コウヘイ） 教員写真",
+  "professorMessage": ""
 }

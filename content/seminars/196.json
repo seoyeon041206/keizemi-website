@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "藤原一平（フジワラ イッペイ）",
   "professorNameAlpha": "Fujiwara Ippei",
-  "professorDescription": "大学時代のゼミの最も素晴らしいことは、様々なバックグランドを持った友人と出会えることです。部、サークル、アルバイト等を通じたつながりも素晴らしいものですが、ゼミという新しい軸を通じた友人は、その後の人生にとって、かけがえのないものとなるはずです。グループ研究、個人研究、イベント企画、などを通じて、新たな、そして、多様なつながりが生まれてくるような機会を提供できればと思っています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000516_ja.html?k=%E8%97%A4%E5%8E%9F%E4%B8%80%E5%B9%B3",
   "website": "https://fujiwaraippeiseminar.wixsite.com/fujiwara-ippei",
   "twitter": "https://twitter.com/fujiwarazemi?lang=ja",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://fujiwaraippeiseminar.wixsite.com/fujiwara-ippei"
+  "url": "https://fujiwaraippeiseminar.wixsite.com/fujiwara-ippei",
+  "seminarImage": "/uploads/seminars/fujiwara-ippei/seminar.jpg",
+  "seminarImageAlt": "藤原一平研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/fujiwara-ippei/professor.jpg",
+  "professorImageAlt": "藤原一平（フジワラ イッペイ） 教員写真",
+  "professorMessage": "大学時代のゼミの最も素晴らしいことは、様々なバックグランドを持った友人と出会えることです。部、サークル、アルバイト等を通じたつながりも素晴らしいものですが、ゼミという新しい軸を通じた友人は、その後の人生にとって、かけがえのないものとなるはずです。グループ研究、個人研究、イベント企画、などを通じて、新たな、そして、多様なつながりが生まれてくるような機会を提供できればと思っています。"
 }

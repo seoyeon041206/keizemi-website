@@ -9,7 +9,6 @@
   "name": "Toyotaka Sakai Seminar",
   "field": "Economic Theory",
   "relatedJapaneseId": 182,
-  "professorDescription": "地道な基礎学習を延々と続けること。学知を実際に使いきること。できない理由ではなく、どうすればできるかをひたすらに考え抜くこと。これらのどれが欠けても、学知の社会実装はできません。自分でこう書いていても、しんどくて嫌になってきます。あと、ゼミは相性。たぶんフィーリング。フィーリングでゼミ選びを間違えてしまっても、それはそれで仕方ないし楽しもう。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000413_ja.html?k=%E5%9D%82%E4%BA%95%E8%B1%8A%E8%B2%B4",
   "order": 3,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Sakai Toyotaka",
+  "professorNameLocal": "坂井豊貴（サカイ トヨタカ）",
+  "seminarImage": "/uploads/seminars/sakai-toyotaka/seminar.jpg",
+  "seminarImageAlt": "Toyotaka Sakai Seminar seminar group",
+  "professorImage": "/uploads/seminars/sakai-toyotaka/professor.jpg",
+  "professorImageAlt": "Portrait of Sakai Toyotaka",
+  "professorMessage": "地道な基礎学習を延々と続けること。学知を実際に使いきること。できない理由ではなく、どうすればできるかをひたすらに考え抜くこと。これらのどれが欠けても、学知の社会実装はできません。自分でこう書いていても、しんどくて嫌になってきます。あと、ゼミは相性。たぶんフィーリング。フィーリングでゼミ選びを間違えてしまっても、それはそれで仕方ないし楽しもう。\n",
+  "website": "",
+  "twitter": "https://twitter.com/sakai_seminar",
+  "instagram": "https://www.instagram.com/sakaiseminar/",
+  "facebook": ""
 }

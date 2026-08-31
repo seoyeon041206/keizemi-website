@@ -1,6 +1,6 @@
 {
   "id": 3531,
-  "slug": "姚瑩研究会-p-dd",
+  "slug": "yao-ying-seminar",
   "title": "Ying Yao Seminar",
   "date": "2025-01-14",
   "modified": "2025-01-14",
@@ -9,7 +9,6 @@
   "name": "Ying Yao Seminar",
   "field": "Labor and Industrial Economics",
   "relatedJapaneseId": 3509,
-  "professorDescription": "As a health economist, I use economic analysis to understand healthcare systems and social issues affecting health outcomes. My research emphasizes empirical approaches to evaluate policies and understand behavior. I welcome students who are curious about healthcare challenges and eager to develop analytical skills, even without prior experience in these areas.",
   "professorLink": "",
   "order": 27,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese and English",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Ying Yao",
+  "professorNameLocal": "姚 瑩（ヤオ イン）",
+  "seminarImage": "",
+  "seminarImageAlt": "Ying Yao Seminar seminar group",
+  "professorImage": "/uploads/seminars/yao-ying/professor.jpg",
+  "professorImageAlt": "Portrait of Ying Yao",
+  "professorMessage": "As a health economist, I use economic analysis to understand healthcare systems and social issues affecting health outcomes. My research emphasizes empirical approaches to evaluate policies and understand behavior. I welcome students who are curious about healthcare challenges and eager to develop analytical skills, even without prior experience in these areas.",
+  "website": "",
+  "twitter": "",
+  "instagram": "",
+  "facebook": ""
 }

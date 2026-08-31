@@ -1,6 +1,6 @@
 {
   "id": 3505,
-  "slug": "能勢学研究会-p-dd",
+  "slug": "nose-manabu",
   "title": "能勢学研究会（P）（DD）",
   "date": "2025-01-02",
   "modified": "2026-08-23",
@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "能勢 学（ノセ マナブ）",
   "professorNameAlpha": "Manabu Nose",
-  "professorDescription": "途上国における財政問題、企業や都市の発展、大規模災害・不確実性をテーマとして、実証研究を進めています。近年は、企業データや空間地理情報、Big Dataを用いて、インフラ投資やデジタル化の政策評価に取り組んでいます。最近までIMFでは、アジア、アフリカ諸国の財務省や中央銀行等との政策交渉や経済予測に長く携わりながら、財政・債務問題に関する研究を進めてきました。ゼミ活動は英語文献を題材として、プレゼン、ディスカッションを進めていきます。広く開発経済の研究や、将来国際機関での政策実務に関心がある学生の積極的な参加をお待ちしています。",
   "professorLink": "",
   "website": "https://noseseminar.studio.site/",
   "twitter": "",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://noseseminar.studio.site/"
+  "url": "https://noseseminar.studio.site/",
+  "seminarImage": "/uploads/seminars/nose-manabu/seminar.jpg",
+  "seminarImageAlt": "能勢学研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/nose-manabu/professor.jpg",
+  "professorImageAlt": "能勢 学（ノセ マナブ） 教員写真",
+  "professorMessage": "途上国における財政問題、企業や都市の発展、大規模災害・不確実性をテーマとして、実証研究を進めています。近年は、企業データや空間地理情報、Big Dataを用いて、インフラ投資やデジタル化の政策評価に取り組んでいます。最近までIMFでは、アジア、アフリカ諸国の財務省や中央銀行等との政策交渉や経済予測に長く携わりながら、財政・債務問題に関する研究を進めてきました。ゼミ活動は英語文献を題材として、プレゼン、ディスカッションを進めていきます。広く開発経済の研究や、将来国際機関での政策実務に関心がある学生の積極的な参加をお待ちしています。"
 }

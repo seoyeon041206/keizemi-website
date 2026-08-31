@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "直井道生（ナオイ ミチオ）",
   "professorNameAlpha": "Naoi Michio",
-  "professorDescription": "都市・地域経済学、応用計量経済学を中心とした研究を行っています。ゼミ（研究会）では、これらの分野を含む幅広いトピック（都市・地域、交通、環境、労働、教育など）に関するデータ分析（応用計量経済学）を扱っています。都市・地域問題は、皆さんにとっても身近なテーマですので、こうしたテーマに幅広い興味・関心を持ち、経済学的な分析・研究を行ってみたいという人を希望します。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000477_ja.html?k=%E7%9B%B4%E4%BA%95%E9%81%93%E7%94%9F",
   "website": "https://keionaoiseminar.wordpress.com/",
   "twitter": "https://twitter.com/naoi_seminar",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://keionaoiseminar.wordpress.com/"
+  "url": "https://keionaoiseminar.wordpress.com/",
+  "seminarImage": "/uploads/seminars/naoi-michio/seminar.jpg",
+  "seminarImageAlt": "直井道生研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/naoi-michio/professor.jpg",
+  "professorImageAlt": "直井道生（ナオイ ミチオ） 教員写真",
+  "professorMessage": "都市・地域経済学、応用計量経済学を中心とした研究を行っています。ゼミ（研究会）では、これらの分野を含む幅広いトピック（都市・地域、交通、環境、労働、教育など）に関するデータ分析（応用計量経済学）を扱っています。都市・地域問題は、皆さんにとっても身近なテーマですので、こうしたテーマに幅広い興味・関心を持ち、経済学的な分析・研究を行ってみたいという人を希望します。"
 }

@@ -9,7 +9,6 @@
   "name": "Satoshi Ohira Seminar",
   "field": "Modern Economic Systems",
   "relatedJapaneseId": 260,
-  "professorDescription": "公式ウェブサイト http://web.econ.keio.ac.jp/staff/tets/kougi/seminar/index.html を見てください。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000355_en.html",
   "order": 35,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Ohira Satoshi",
+  "professorNameLocal": "大平哲（オオヒラ サトシ）",
+  "seminarImage": "/uploads/seminars/ohira-satoshi/seminar.jpg",
+  "seminarImageAlt": "Satoshi Ohira Seminar seminar group",
+  "professorImage": "",
+  "professorImageAlt": "Portrait of Ohira Satoshi",
+  "professorMessage": "公式ウェブサイト http://web.econ.keio.ac.jp/staff/tets/kougi/seminar/index.html を見てください。",
+  "website": "https://web.econ.keio.ac.jp/staff/tets/kougi/seminar/",
+  "twitter": "https://twitter.com/ohiraseminar_22",
+  "instagram": "https://www.instagram.com/ohiraseminar_22/",
+  "facebook": ""
 }

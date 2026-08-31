@@ -9,7 +9,6 @@
   "name": "Toru Hokari Seminar",
   "field": "Economic Theory",
   "relatedJapaneseId": 178,
-  "professorDescription": "",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000521_en.html",
   "order": 1,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Hokari Toru",
+  "professorNameLocal": "穂刈亨（ホカリ トオル）",
+  "seminarImage": "/uploads/seminars/hokari-toru/seminar.jpg",
+  "seminarImageAlt": "Toru Hokari Seminar seminar group",
+  "professorImage": "",
+  "professorImageAlt": "Portrait of Hokari Toru",
+  "professorMessage": "",
+  "website": "https://sites.google.com/view/hokarisemi",
+  "twitter": "https://twitter.com/hokahokahokari1",
+  "instagram": "",
+  "facebook": ""
 }

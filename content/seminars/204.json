@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "河井啓希（カワイ ヒロキ）",
   "professorNameAlpha": "Kawai Hiroki",
-  "professorDescription": "経済学の考え方と統計的な方法を用いて、様々な社会現象を生み出すメカニズムを明らかにし、望ましい制度設計の在り方について考えましょう。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000379_ja.html?k=%E6%B2%B3%E4%BA%95%E5%95%93%E5%B8%8C",
   "website": "",
   "twitter": "https://twitter.com/kawaisemi2022",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": ""
+  "url": "",
+  "seminarImage": "/uploads/seminars/kawai-hiroki/seminar.jpg",
+  "seminarImageAlt": "河井啓希研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/kawai-hiroki/professor.jpg",
+  "professorImageAlt": "河井啓希（カワイ ヒロキ） 教員写真",
+  "professorMessage": "経済学の考え方と統計的な方法を用いて、様々な社会現象を生み出すメカニズムを明らかにし、望ましい制度設計の在り方について考えましょう。\n"
 }

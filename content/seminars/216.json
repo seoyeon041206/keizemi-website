@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "星野崇宏（ホシノ タカヒロ）",
   "professorNameAlpha": "Hoshino Takahiro",
-  "professorDescription": "計量経済学や機械学習などのデータサイエンスと、行動経済学やマーケティングを学ぶゼミを運営しています。ゼミではただの知識習得ではなく、膨大な先行研究や学知に基づいて実際の課題に対面し解決する能力を身に付けることを目標にしています。数多くの企業や政府自治体との共同研究のプロジェクトが走っていますが、研究室には大学院生も多く、３年からでも先輩に相談しながら実課題に取り組めるのが魅力だと思っています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000523_ja.html?k=%E6%98%9F%E9%87%8E%E5%B4%87%E5%AE%8F",
   "website": "https://hoshinoseminar.com/",
   "twitter": "https://twitter.com/hoshinoseminar",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://hoshinoseminar.com/"
+  "url": "https://hoshinoseminar.com/",
+  "seminarImage": "/uploads/seminars/hoshino-takahiro/seminar.jpg",
+  "seminarImageAlt": "星野崇宏研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/hoshino-takahiro/professor.jpg",
+  "professorImageAlt": "星野崇宏（ホシノ タカヒロ） 教員写真",
+  "professorMessage": "計量経済学や機械学習などのデータサイエンスと、行動経済学やマーケティングを学ぶゼミを運営しています。ゼミではただの知識習得ではなく、膨大な先行研究や学知に基づいて実際の課題に対面し解決する能力を身に付けることを目標にしています。数多くの企業や政府自治体との共同研究のプロジェクトが走っていますが、研究室には大学院生も多く、３年からでも先輩に相談しながら実課題に取り組めるのが魅力だと思っています。"
 }

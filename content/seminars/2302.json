@@ -1,6 +1,6 @@
 {
   "id": 2302,
-  "slug": "新井拓児研究会",
+  "slug": "arai-takuji",
   "title": "新井拓児研究会",
   "date": "2022-12-21",
   "modified": "2023-05-25",
@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "新井拓児(アライ タクジ)",
   "professorNameAlpha": "Arai Takuji",
-  "professorDescription": "微分積分学や確率論のゼミを行います。ゼミ生に求めることは「数学が好きであること」です。数学に自信がなくても構いません。数学を学ぶ意欲があれば大歓迎です。一緒に数学を語りましょう。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000315_ja.html",
   "website": "",
   "twitter": "",
@@ -24,6 +23,10 @@
   "languages": [
     "日本語"
   ],
-  "image": "",
-  "url": ""
+  "url": "",
+  "seminarImage": "",
+  "seminarImageAlt": "新井拓児研究会の研究会写真",
+  "professorImage": "",
+  "professorImageAlt": "新井拓児(アライ タクジ) 教員写真",
+  "professorMessage": "微分積分学や確率論のゼミを行います。ゼミ生に求めることは「数学が好きであること」です。数学に自信がなくても構いません。数学を学ぶ意欲があれば大歓迎です。一緒に数学を語りましょう。"
 }

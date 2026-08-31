@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "加島潤（カジマ ジュン）",
   "professorNameAlpha": "Kajima Jun",
-  "professorDescription": "本ゼミでは、以下のような人を募集しています（どれか1つに当てはまればOKです）。①経済学×歴史学という学問分野としての経済史に関心がある人、②近代以降の東アジアの経済発展や社会の変化に関心のある人、③日本以外の国・地域の社会や経済に関心がある、または日本以外の国・地域との比較から日本の社会や経済を考えてみたい人。幅広い応募をお待ちしています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100015624_ja.html?k=%E5%8A%A0%E5%B3%B6%E6%BD%A4",
   "website": "",
   "twitter": "https://twitter.com/kajima_seminar",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": ""
+  "url": "",
+  "seminarImage": "/uploads/seminars/kajima-jun/seminar.jpg",
+  "seminarImageAlt": "加島潤研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/kajima-jun/professor.jpg",
+  "professorImageAlt": "加島潤（カジマ ジュン） 教員写真",
+  "professorMessage": "本ゼミでは、以下のような人を募集しています（どれか1つに当てはまればOKです）。①経済学×歴史学という学問分野としての経済史に関心がある人、②近代以降の東アジアの経済発展や社会の変化に関心のある人、③日本以外の国・地域の社会や経済に関心がある、または日本以外の国・地域との比較から日本の社会や経済を考えてみたい人。幅広い応募をお待ちしています。"
 }

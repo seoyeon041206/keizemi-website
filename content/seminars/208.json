@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "中嶋亮（ナカジマ リョウ）",
   "professorNameAlpha": "Nakajima Ryo",
-  "professorDescription": "人生は一本道でないように大学生活の道も様々である。私の研究会に入っても何が正しい道だったのか、今後どのような道を歩むべきなのかはっきりとした答えは得られないかもしれない。どちらかといえば研究会に入った後は、これまでの「地図」から外れて自在に歩き回ってほしい。この研究会が諸君らにとって唯一の道を辿る場所でなく、自由に道を迷うことができる場所、または、迷っても平気であることを学ぶ場所であってほしい。迷いながらも自分で考え勇気を持って歩き続けることができる学生を歓迎する。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000481_ja.html?k=%E4%B8%AD%E5%B6%8B%E4%BA%AE",
   "website": "https://keionakajimaryoseminar.amebaownd.com/",
   "twitter": "https://twitter.com/nakajimaryo2022",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://keionakajimaryoseminar.amebaownd.com/"
+  "url": "https://keionakajimaryoseminar.amebaownd.com/",
+  "seminarImage": "/uploads/seminars/nakajima-ryo/seminar.jpg",
+  "seminarImageAlt": "中嶋亮研究会（P）の研究会写真",
+  "professorImage": "/uploads/seminars/nakajima-ryo/professor.jpg",
+  "professorImageAlt": "中嶋亮（ナカジマ リョウ） 教員写真",
+  "professorMessage": "人生は一本道でないように大学生活の道も様々である。私の研究会に入っても何が正しい道だったのか、今後どのような道を歩むべきなのかはっきりとした答えは得られないかもしれない。どちらかといえば研究会に入った後は、これまでの「地図」から外れて自在に歩き回ってほしい。この研究会が諸君らにとって唯一の道を辿る場所でなく、自由に道を迷うことができる場所、または、迷っても平気であることを学ぶ場所であってほしい。迷いながらも自分で考え勇気を持って歩き続けることができる学生を歓迎する。"
 }

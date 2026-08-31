@@ -9,7 +9,6 @@
   "name": "Mizuki Kawabata Seminar",
   "field": "Environmental and Urban Economics",
   "relatedJapaneseId": 285,
-  "professorDescription": "GIS has opened up fascinating new ways to explore and understand the\nspatial dimensions of urban and regional socioeconomic structures.\nWith the rapid expansion of spatial data, its applications are now\nspreading across diverse fields, including economics.\nIn our seminar, cherishing Keio University’s founding philosophy of\nHangaku-Hankyo—the spirit of learning and teaching together—we explore\nGIS collaboratively. Through this shared learning process, we exchange\nideas, gain fresh perspectives, and uncover insights that would be\ndifficult to discover on our own.",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000383_en.html",
   "order": 45,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Mainly Japanese; presentations etc. may be conducted in English",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Kawabata Mizuki",
+  "professorNameLocal": "河端瑞貴（カワバタ ミズキ）",
+  "seminarImage": "/uploads/seminars/kawabata-mizuki/seminar.jpg",
+  "seminarImageAlt": "Mizuki Kawabata Seminar seminar group",
+  "professorImage": "/uploads/seminars/kawabata-mizuki/professor.jpg",
+  "professorImageAlt": "Portrait of Kawabata Mizuki",
+  "professorMessage": "GIS has opened up fascinating new ways to explore and understand the\nspatial dimensions of urban and regional socioeconomic structures.\nWith the rapid expansion of spatial data, its applications are now\nspreading across diverse fields, including economics.\nIn our seminar, cherishing Keio University’s founding philosophy of\nHangaku-Hankyo—the spirit of learning and teaching together—we explore\nGIS collaboratively. Through this shared learning process, we exchange\nideas, gain fresh perspectives, and uncover insights that would be\ndifficult to discover on our own.",
+  "website": "https://sites.google.com/keio.jp/mizuki-seminar/",
+  "twitter": "",
+  "instagram": "https://www.instagram.com/kwbt_seminar/?igshid=YmMyMTA2M2Y%3D",
+  "facebook": ""
 }

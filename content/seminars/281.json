@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "山田浩之（ヤマダ ヒロユキ）",
   "professorNameAlpha": "Yamada Hiroyuki",
-  "professorDescription": "開発途上国の諸問題に関してデータを用いて分析する研究を行っていますが、その際には歴史的・文化的視点や地理空間的要素を盛り込むこともあります。そして、経済発展のプロセスでは多くの国が少子高齢化を経験し、現在先進国の直面する問題へとつながります。分析手法的視点からも経済のダイナミズムの視点からも議論は尽きません。ガッツある学生さんと切磋琢磨し少しでも良い世界に向かうような努力が出来ればと思います。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000570_ja.html?k=%E5%B1%B1%E7%94%B0%E6%B5%A9%E4%B9%8B",
   "website": "https://hyamadaseminar.wixsite.com/developmentecon",
   "twitter": "https://twitter.com/hyamadaseminar?s=20",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://hyamadaseminar.wixsite.com/developmentecon"
+  "url": "https://hyamadaseminar.wixsite.com/developmentecon",
+  "seminarImage": "/uploads/seminars/yamada-hiroyuki/seminar.jpg",
+  "seminarImageAlt": "山田浩之研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/yamada-hiroyuki/professor.jpg",
+  "professorImageAlt": "山田浩之（ヤマダ ヒロユキ） 教員写真",
+  "professorMessage": "開発途上国の諸問題に関してデータを用いて分析する研究を行っていますが、その際には歴史的・文化的視点や地理空間的要素を盛り込むこともあります。そして、経済発展のプロセスでは多くの国が少子高齢化を経験し、現在先進国の直面する問題へとつながります。分析手法的視点からも経済のダイナミズムの視点からも議論は尽きません。ガッツある学生さんと切磋琢磨し少しでも良い世界に向かうような努力が出来ればと思います。"
 }

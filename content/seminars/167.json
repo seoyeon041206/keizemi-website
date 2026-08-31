@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "沖本竜義（オキモト タツヨシ）",
   "professorNameAlpha": "Okimoto Tatsuyoshi",
-  "professorDescription": "",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000588_ja.html?k=okimoto",
   "website": "https://okimotoseminar6.wixsite.com/okimotozemi",
   "twitter": "https://twitter.com/okimotozemi",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://okimotoseminar6.wixsite.com/okimotozemi"
+  "url": "https://okimotoseminar6.wixsite.com/okimotozemi",
+  "seminarImage": "",
+  "seminarImageAlt": "沖本竜義研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/okimoto-tatsuyoshi/professor.jpg",
+  "professorImageAlt": "沖本竜義（オキモト タツヨシ） 教員写真",
+  "professorMessage": ""
 }

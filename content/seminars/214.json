@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "福原正大（フクハラ マサヒロ）",
   "professorNameAlpha": "Fukuhara Masahiro",
-  "professorDescription": "In the modern business world, vital decisions must be made after careful consideration from various perspectives and standpoints such as ethical, political, economical, etc. In our Fukuhara Research Seminar, we also emphasize the importance of justifying these decisions by utilizing significant and reliable data and proactively strengthening our econometric skills and data analysis skills. We are also researching how we can generate/collect/analyze/apply data for Web3.0 by studying token engineering and deep data analysis.",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000607_ja.html?k=%E7%A6%8F%E5%8E%9F%E6%AD%A3%E5%A4%A7",
   "website": "",
   "twitter": "https://twitter.com/FukuharaSeminar",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": ""
+  "url": "",
+  "seminarImage": "/uploads/seminars/fukuhara-masahiro/seminar.jpg",
+  "seminarImageAlt": "福原正大研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/fukuhara-masahiro/professor.jpg",
+  "professorImageAlt": "福原正大（フクハラ マサヒロ） 教員写真",
+  "professorMessage": "In the modern business world, vital decisions must be made after careful consideration from various perspectives and standpoints such as ethical, political, economical, etc. In our Fukuhara Research Seminar, we also emphasize the importance of justifying these decisions by utilizing significant and reliable data and proactively strengthening our econometric skills and data analysis skills. We are also researching how we can generate/collect/analyze/apply data for Web3.0 by studying token engineering and deep data analysis. "
 }

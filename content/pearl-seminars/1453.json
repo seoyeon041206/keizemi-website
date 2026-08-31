@@ -9,7 +9,6 @@
   "name": "Kuniaki Makino Seminar",
   "field": "History of Economic Thought",
   "relatedJapaneseId": 220,
-  "professorDescription": "学生時代は「試行錯誤」や「無駄なこと」をすることが許されている期間です。経済について深く学びながら、教養を身につけ、また色々な体験をして、充実した学生生活を送るようにしてください。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100015625_en.html",
   "order": 17,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Not Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Makino Kuniaki",
+  "professorNameLocal": "牧野邦昭（マキノ クニアキ）",
+  "seminarImage": "/uploads/seminars/makino-kuniaki/seminar.jpg",
+  "seminarImageAlt": "Kuniaki Makino Seminar seminar group",
+  "professorImage": "/uploads/seminars/makino-kuniaki/professor.jpg",
+  "professorImageAlt": "Portrait of Makino Kuniaki",
+  "professorMessage": "学生時代は「試行錯誤」や「無駄なこと」をすることが許されている期間です。経済について深く学びながら、教養を身につけ、また色々な体験をして、充実した学生生活を送るようにしてください。",
+  "website": "https://sites.google.com/view/makinoseminar/home",
+  "twitter": "https://mobile.twitter.com/makino_seminar",
+  "instagram": "https://www.instagram.com/makino_seminar/",
+  "facebook": ""
 }

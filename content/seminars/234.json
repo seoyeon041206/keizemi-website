@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "橋口勝利（ハシグチ カツトシ）",
   "professorNameAlpha": "Hashiguchi Katsutoshi",
-  "professorDescription": "橋口勝利研究会は、現代日本の問題を歴史的視点から解明し、これからの提案を行うことを目的としています。現在、福島県の震災復興、大阪の副首都プロジェクト、奄美徳之島の地域振興をテーマに現地に足を運び学んでいます。私は、やる気と行動力溢れる学生を待っています。日本各地の熱い方々との議論を通じて、これからの社会を一緒に考えましょう。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100015299_ja.html?k=%E6%A9%8B%E5%8F%A3%E5%8B%9D",
   "website": "https://accforhpkouhou.wixsite.com/website",
   "twitter": "https://twitter.com/keio_hashiguchi?s=21&t=cmngRadjY0Z1PvFBIF8u5Q",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://accforhpkouhou.wixsite.com/website"
+  "url": "https://accforhpkouhou.wixsite.com/website",
+  "seminarImage": "/uploads/seminars/hashiguchi-katsutoshi/seminar.jpg",
+  "seminarImageAlt": "橋口勝利研究会（P）の研究会写真",
+  "professorImage": "/uploads/seminars/hashiguchi-katsutoshi/professor.jpg",
+  "professorImageAlt": "橋口勝利（ハシグチ カツトシ） 教員写真",
+  "professorMessage": "橋口勝利研究会は、現代日本の問題を歴史的視点から解明し、これからの提案を行うことを目的としています。現在、福島県の震災復興、大阪の副首都プロジェクト、奄美徳之島の地域振興をテーマに現地に足を運び学んでいます。私は、やる気と行動力溢れる学生を待っています。日本各地の熱い方々との議論を通じて、これからの社会を一緒に考えましょう。\n"
 }

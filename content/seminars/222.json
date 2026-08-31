@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "飯田恭（イイダ タカシ）",
   "professorNameAlpha": "Iida Takashi",
-  "professorDescription": "学問とは、新しい知を生み出すことです。しかし、新しい知を生み出すためには、その前に既存の知（先行研究）をしっかりと勉強しておく必要があります。さもなくば何が新しい知たりうるかも分からないからです。年々厚みを増すヨーロッパ史の先行研究を習得するのには根気がいりますが、学部生にとって避けては通れぬ道です。骨のある分厚い洋書をまず一冊苦労して読み切ったとき、皆さんはきっと知的に一段成長しているはずです。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000320_ja.html?k=%E9%A3%AF%E7%94%B0%E6%81%AD",
   "website": "",
   "twitter": "https://twitter.com/seminariida",
@@ -24,6 +23,10 @@
   "languages": [
     "日本語"
   ],
-  "image": "",
-  "url": ""
+  "url": "",
+  "seminarImage": "",
+  "seminarImageAlt": "飯田恭研究会の研究会写真",
+  "professorImage": "/uploads/seminars/iida-takashi/professor.jpg",
+  "professorImageAlt": "飯田恭（イイダ タカシ） 教員写真",
+  "professorMessage": "学問とは、新しい知を生み出すことです。しかし、新しい知を生み出すためには、その前に既存の知（先行研究）をしっかりと勉強しておく必要があります。さもなくば何が新しい知たりうるかも分からないからです。年々厚みを増すヨーロッパ史の先行研究を習得するのには根気がいりますが、学部生にとって避けては通れぬ道です。骨のある分厚い洋書をまず一冊苦労して読み切ったとき、皆さんはきっと知的に一段成長しているはずです。"
 }

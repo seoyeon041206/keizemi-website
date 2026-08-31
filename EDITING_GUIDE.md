@@ -19,21 +19,17 @@ For very small text corrections, you can edit a file directly on GitHub with the
 | Homepage text, sections, buttons, and links | `app/page.tsx` |
 | Colours, fonts, spacing, and responsive design | `app/globals.css` |
 | Browser title and social-sharing description | `app/layout.tsx` |
-| News articles | `content/posts.json` |
-| Japanese seminar information | `content/seminars.json` |
-| PEARL / Double Degree seminar information | `content/pearl-seminars.json` |
+| News articles | One file per article in `content/news/` |
+| Japanese seminar information | One file per seminar in `content/seminars/` |
+| PEARL / Double Degree seminar information | One file per seminar in `content/pearl-seminars/` |
 | General information pages | `content/pages.json` |
-| Homepage news and seminar search summaries | `content/site-index.json` |
 | Social-sharing image | `public/og.png` |
 
 ## Important content rule
 
-Homepage summaries are stored separately from the full entries:
+Generated summaries in `content/generated/` are rebuilt automatically. Do not edit those generated files by hand.
 
-- When changing a news article in `content/posts.json`, update the matching item under `posts` in `content/site-index.json` if its title, date, category, or excerpt changed.
-- When changing a Japanese seminar in `content/seminars.json`, update the matching item under `seminars` in `content/site-index.json` if its name, field, status, PEARL/DD availability, or excerpt changed.
-
-If you are unsure, ask Codex to make the change so both files stay synchronized.
+Each seminar detail page keeps its content separate from the layout. Edit `contentHtml` for the seminar introduction, `seminarImage` for the group photo, `professorImage` for the portrait, and `professorMessage` for the professor's short message. Images belong in `public/uploads/`; store `/uploads/...` as the content path.
 
 ## Editing JSON safely
 

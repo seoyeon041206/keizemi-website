@@ -9,7 +9,6 @@
   "name": "Ryu Susato Seminar",
   "field": "History of Economic Thought",
   "relatedJapaneseId": 2558,
-  "professorDescription": "Although seminar discussions rarely lead to clear conclusions, it is crucial to consider each ideological position's historical background and opposing arguments for thinking about contemporary social issues. By doing so, you will recognize the depth of the problems and learn the dangers of quickly picking and choosing a particular position. In addition, it isn't easy to have time to read books carefully and think about and discuss their contents after graduating from university, so I hope this seminar will provide such an opportunity.",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000437_en.html",
   "order": 19,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed (Conversational Japanese level required)",
   "ddStatus": "Allowed (Conversational Japanese level required)",
   "language": "Primarily conducted in Japanese, but necessary support will be provided. Reports and theses may be submitted in English.",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Susato Ryu",
+  "professorNameLocal": "壽里竜",
+  "seminarImage": "",
+  "seminarImageAlt": "Ryu Susato Seminar seminar group",
+  "professorImage": "/uploads/seminars/susato-ryu/professor.jpg",
+  "professorImageAlt": "Portrait of Susato Ryu",
+  "professorMessage": "Although seminar discussions rarely lead to clear conclusions, it is crucial to consider each ideological position's historical background and opposing arguments for thinking about contemporary social issues. By doing so, you will recognize the depth of the problems and learn the dangers of quickly picking and choosing a particular position. In addition, it isn't easy to have time to read books carefully and think about and discuss their contents after graduating from university, so I hope this seminar will provide such an opportunity.",
+  "website": "https://susatoryuseminar.wixsite.com/my-site-3",
+  "twitter": "",
+  "instagram": "https://www.instagram.com/susato_zemi?igsh=MWEzYm4yNXN1YjIydw==",
+  "facebook": ""
 }

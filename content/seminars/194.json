@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "藤田康範（フジタ ヤスノリ）",
   "professorNameAlpha": "Fujita Yasunori",
-  "professorDescription": "応用経済理論分析による問題解決や「感動の設計」を専門とする本研究会は、「独立自尊」の個人によるグループワークやワークショップ、プロジェクト等を基本としていて、各ゼミ生が新たな才能を発掘して相互に良い刺激を与え合っていただきたいと希望しています。コロナがいまだ収束せず、不都合の多い世の中ですが、是非みなさんそれぞれの背景を大切にして日吉キャンパスでの生活をより充実させ、互いに尊重できる存在であり続けて下さい。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000515_ja.html?k=%E8%97%A4%E7%94%B0%E5%BA%B7%E7%AF%84",
   "website": "https://yasunorifujitasemi.wixsite.com/website23rd",
   "twitter": "https://mobile.twitter.com/fujitayasunori",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://yasunorifujitasemi.wixsite.com/website23rd"
+  "url": "https://yasunorifujitasemi.wixsite.com/website23rd",
+  "seminarImage": "/uploads/seminars/fujita-yasunori/seminar.jpg",
+  "seminarImageAlt": "藤田康範研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/fujita-yasunori/professor.jpg",
+  "professorImageAlt": "藤田康範（フジタ ヤスノリ） 教員写真",
+  "professorMessage": "応用経済理論分析による問題解決や「感動の設計」を専門とする本研究会は、「独立自尊」の個人によるグループワークやワークショップ、プロジェクト等を基本としていて、各ゼミ生が新たな才能を発掘して相互に良い刺激を与え合っていただきたいと希望しています。コロナがいまだ収束せず、不都合の多い世の中ですが、是非みなさんそれぞれの背景を大切にして日吉キャンパスでの生活をより充実させ、互いに尊重できる存在であり続けて下さい。"
 }

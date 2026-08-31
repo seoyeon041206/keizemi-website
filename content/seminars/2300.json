@@ -1,6 +1,6 @@
 {
   "id": 2300,
-  "slug": "寺井公子研究会-p",
+  "slug": "terai-kimiko",
   "title": "寺井公子研究会（P）",
   "date": "2022-12-21",
   "modified": "2023-06-19",
@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "寺井公子(テライ キミコ)",
   "professorNameAlpha": "Terai Kimiko",
-  "professorDescription": "ゼミ生には、広く政策を考える際の指針となる税・財政理論を学び、さらに、理論を現実に当てはめて考える癖を身につけてほしいと思っています。また、ゼミ生が一緒に学び、議論する時間を大切にしたいと思っています。三田祭論文はグループで知恵を出し合ってテーマを選び、本格的な分析に取り組める機会です。卒業論文の執筆・発表の過程でも、ゼミ生の間で良い刺激を与え合える雰囲気を大事にしたいと思っています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000469_ja.html",
   "website": "https://sites.google.com/site/kimikoteraiwebsite/home",
   "twitter": "https://twitter.com/teraizemi2023",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://sites.google.com/site/kimikoteraiwebsite/home"
+  "url": "https://sites.google.com/site/kimikoteraiwebsite/home",
+  "seminarImage": "/uploads/seminars/terai-kimiko/seminar.jpg",
+  "seminarImageAlt": "寺井公子研究会（P）の研究会写真",
+  "professorImage": "/uploads/seminars/terai-kimiko/professor.jpg",
+  "professorImageAlt": "寺井公子(テライ キミコ) 教員写真",
+  "professorMessage": "ゼミ生には、広く政策を考える際の指針となる税・財政理論を学び、さらに、理論を現実に当てはめて考える癖を身につけてほしいと思っています。また、ゼミ生が一緒に学び、議論する時間を大切にしたいと思っています。三田祭論文はグループで知恵を出し合ってテーマを選び、本格的な分析に取り組める機会です。卒業論文の執筆・発表の過程でも、ゼミ生の間で良い刺激を与え合える雰囲気を大事にしたいと思っています。"
 }

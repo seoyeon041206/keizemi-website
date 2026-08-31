@@ -9,7 +9,6 @@
   "name": "Soichi Ota Seminar",
   "field": "Labor and Industrial Economics",
   "relatedJapaneseId": 242,
-  "professorDescription": "",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000349_en.html",
   "order": 24,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Not Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Oota Souichi",
+  "professorNameLocal": "太田聰一（オオタ ソウイチ）",
+  "seminarImage": "/uploads/seminars/oota-souichi/seminar.jpg",
+  "seminarImageAlt": "Soichi Ota Seminar seminar group",
+  "professorImage": "",
+  "professorImageAlt": "Portrait of Oota Souichi",
+  "professorMessage": "",
+  "website": "",
+  "twitter": "https://twitter.com/keio_ota2023",
+  "instagram": "https://instagram.com/keio_ota2023?igshid=MzRlODBiNWFlZA==",
+  "facebook": ""
 }

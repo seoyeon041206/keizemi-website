@@ -9,7 +9,6 @@
   "name": "IRP",
   "field": "Others",
   "relatedJapaneseId": 303,
-  "professorDescription": "",
   "professorLink": "",
   "order": 54,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Please consult with the IRP office",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "",
+  "professorNameLocal": "",
+  "seminarImage": "",
+  "seminarImageAlt": "IRP seminar group",
+  "professorImage": "",
+  "professorImageAlt": "Portrait of IRP",
+  "professorMessage": "",
+  "website": "https://www.econ.keio.ac.jp/undergraduate/research-project",
+  "twitter": "",
+  "instagram": "",
+  "facebook": ""
 }

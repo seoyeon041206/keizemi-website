@@ -9,7 +9,6 @@
   "name": "Jun Kajima Seminar",
   "field": "Economic History",
   "relatedJapaneseId": 226,
-  "professorDescription": "本ゼミでは、以下のような人を募集しています（どれか1つに当てはまればOKです）。①経済学×歴史学という学問分野としての経済史に関心がある人、②近代以降の東アジアの経済発展や社会の変化に関心のある人、③日本以外の国・地域の社会や経済に関心がある、または日本以外の国・地域との比較から日本の社会や経済を考えてみたい人。幅広い応募をお待ちしています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100015624_en.html",
   "order": 22,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Kajima Jun",
+  "professorNameLocal": "加島潤（カジマ ジュン）",
+  "seminarImage": "/uploads/seminars/kajima-jun/seminar.jpg",
+  "seminarImageAlt": "Jun Kajima Seminar seminar group",
+  "professorImage": "/uploads/seminars/kajima-jun/professor.jpg",
+  "professorImageAlt": "Portrait of Kajima Jun",
+  "professorMessage": "本ゼミでは、以下のような人を募集しています（どれか1つに当てはまればOKです）。①経済学×歴史学という学問分野としての経済史に関心がある人、②近代以降の東アジアの経済発展や社会の変化に関心のある人、③日本以外の国・地域の社会や経済に関心がある、または日本以外の国・地域との比較から日本の社会や経済を考えてみたい人。幅広い応募をお待ちしています。",
+  "website": "",
+  "twitter": "https://twitter.com/kajima_seminar",
+  "instagram": "https://www.instagram.com/kajima_seminar/",
+  "facebook": ""
 }

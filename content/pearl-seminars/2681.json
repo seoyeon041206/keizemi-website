@@ -9,7 +9,6 @@
   "name": "Sora Sato Seminar",
   "field": "History of Economic Thought",
   "relatedJapaneseId": 2458,
-  "professorDescription": "経済学史・経済思想の講義を受講していることは必須ではないが、すでに受講済みか受講予定であることが望ましい。ただし、応募時に専門知識は求めない。国際性を重要視する観点からPEARL 生を歓迎する。語学力は問わないが、ゼミ内で英語と日本語の両方を使用するため、そのどちらも使用する（話す＋読む）意欲がある者を求める。選考は面接（オンラインもしくは対面）を実施。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100016534_en.html",
   "order": 18,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese and English",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Sato Sora",
+  "professorNameLocal": "佐藤空（サトウ ソラ）",
+  "seminarImage": "",
+  "seminarImageAlt": "Sora Sato Seminar seminar group",
+  "professorImage": "/uploads/seminars/sato-sora/professor.jpg",
+  "professorImageAlt": "Portrait of Sato Sora",
+  "professorMessage": "経済学史・経済思想の講義を受講していることは必須ではないが、すでに受講済みか受講予定であることが望ましい。ただし、応募時に専門知識は求めない。国際性を重要視する観点からPEARL 生を歓迎する。語学力は問わないが、ゼミ内で英語と日本語の両方を使用するため、そのどちらも使用する（話す＋読む）意欲がある者を求める。選考は面接（オンラインもしくは対面）を実施。",
+  "website": "",
+  "twitter": "",
+  "instagram": "",
+  "facebook": ""
 }

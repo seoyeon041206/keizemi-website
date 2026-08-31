@@ -9,7 +9,6 @@
   "name": "Kimiko Terai Seminar",
   "field": "Economic Policy and Public Finance",
   "relatedJapaneseId": 2300,
-  "professorDescription": "Our seminar aims to develop students who are able to analyze policy measures through public economics, and public finance, moreover to develop the habit of constantly applying theories to the real world. In order to achieve such aims, we value student interaction, especially by taking the time for students to discuss with each other. This is highlighted in the writing for the Mita festival research paper, as students collaborate in groups to put our heads together, and share ideas. Even in the process of writing the graduation thesis, we value the atmosphere that enables students to freely discuss and exchange knowledge. Through interactive lectures and discussions, our seminar aims to develop applicable knowledge and methodology to analyze the real world of policy measures, through the lens of public finance, public economics, and political economics.",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000469_ja.html",
   "order": 34,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Not Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Terai Kimiko",
+  "professorNameLocal": "寺井公子(テライ キミコ)",
+  "seminarImage": "/uploads/seminars/terai-kimiko/seminar.jpg",
+  "seminarImageAlt": "Kimiko Terai Seminar seminar group",
+  "professorImage": "/uploads/seminars/terai-kimiko/professor.jpg",
+  "professorImageAlt": "Portrait of Terai Kimiko",
+  "professorMessage": "Our seminar aims to develop students who are able to analyze policy measures through public economics, and public finance, moreover to develop the habit of constantly applying theories to the real world. In order to achieve such aims, we value student interaction, especially by taking the time for students to discuss with each other. This is highlighted in the writing for the Mita festival research paper, as students collaborate in groups to put our heads together, and share ideas. Even in the process of writing the graduation thesis, we value the atmosphere that enables students to freely discuss and exchange knowledge. Through interactive lectures and discussions, our seminar aims to develop applicable knowledge and methodology to analyze the real world of policy measures, through the lens of public finance, public economics, and political economics.",
+  "website": "https://sites.google.com/site/kimikoteraiwebsite/home",
+  "twitter": "https://twitter.com/teraizemi2023",
+  "instagram": "https://instagram.com/terai_zemi?igshid=MmIzYWVlNDQ5Yg==",
+  "facebook": ""
 }

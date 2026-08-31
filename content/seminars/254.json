@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "土居丈朗（ドイ タケロウ）",
   "professorNameAlpha": "Doi Takero",
-  "professorDescription": "私のゼミでは，財政金融政策をはじめとする経済政策を政治経済学的に考える力を養うことを目的とします。主に税制改革，医療・介護・年金をはじめとする社会保障政策，公共投資政策，教育・育児などの地方財政，量的金融緩和政策，国債管理政策などを対象に，政治の影響を考慮しつつ経済学的にどう分析できるかに取り組みます。論文執筆のみならず，飲み会やOBOG会など，ゼミでの活動を大いに楽しみたい学生の応募をお待ちしています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000476_ja.html?k=%E5%9C%9F%E5%B1%85%E4%B8%88%E6%9C%97",
   "website": "https://doinyusemi.wixsite.com/doisemi",
   "twitter": "https://twitter.com/doi_nyusemi",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://doinyusemi.wixsite.com/doisemi"
+  "url": "https://doinyusemi.wixsite.com/doisemi",
+  "seminarImage": "/uploads/seminars/doi-takero/seminar.jpg",
+  "seminarImageAlt": "土居丈朗研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/doi-takero/professor.jpg",
+  "professorImageAlt": "土居丈朗（ドイ タケロウ） 教員写真",
+  "professorMessage": "私のゼミでは，財政金融政策をはじめとする経済政策を政治経済学的に考える力を養うことを目的とします。主に税制改革，医療・介護・年金をはじめとする社会保障政策，公共投資政策，教育・育児などの地方財政，量的金融緩和政策，国債管理政策などを対象に，政治の影響を考慮しつつ経済学的にどう分析できるかに取り組みます。論文執筆のみならず，飲み会やOBOG会など，ゼミでの活動を大いに楽しみたい学生の応募をお待ちしています。"
 }

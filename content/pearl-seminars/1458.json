@@ -9,7 +9,6 @@
   "name": "Kohei Mishima Seminar",
   "field": "Labor and Industrial Economics",
   "relatedJapaneseId": 246,
-  "professorDescription": "",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000542_en.html",
   "order": 26,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Mishima Kohei",
+  "professorNameLocal": "三嶋恒平（ミシマ コウヘイ）",
+  "seminarImage": "/uploads/seminars/mishima-kohei/seminar.jpg",
+  "seminarImageAlt": "Kohei Mishima Seminar seminar group",
+  "professorImage": "/uploads/seminars/mishima-kohei/professor.jpg",
+  "professorImageAlt": "Portrait of Mishima Kohei",
+  "professorMessage": "",
+  "website": "",
+  "twitter": "https://twitter.com/mishimazemi2024",
+  "instagram": "https://www.instagram.com/mishimazemi2024/?hl=ja",
+  "facebook": ""
 }

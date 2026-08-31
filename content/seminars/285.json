@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "河端瑞貴（カワバタ ミズキ）",
   "professorNameAlpha": "Kawabata Mizuki",
-  "professorDescription": "GISがあまりにも面白くて、気づけば長年にわたり、その研究と教育に取り組んできました。\nGISを活用すると、地図とデータを結びつけ、都市や地域の経済・社会を新たな視点から捉えることができます。利用可能な空間データが飛躍的に増え、経済学、とりわけ都市・地域に関する研究でも、その活用が広がっています。\n\nゼミで仲間と一緒に学び、議論することで、GISはさらに面白くなります。一人で考えているだけでは気づかなかった見方や、新しい研究のアイデアにも出会えるはずです。\n\n皆さんも、地図とデータを使って経済や社会を読み解く面白さを、一緒に体験してみませんか。\n※PEARL生、ダブルディグリー生も受け入れています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000383_ja.html?k=%E6%B2%B3%E7%AB%AF%E7%91%9E%E8%B2%B4",
   "website": "https://sites.google.com/keio.jp/mizuki-seminar/",
   "twitter": "",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://sites.google.com/keio.jp/mizuki-seminar/"
+  "url": "https://sites.google.com/keio.jp/mizuki-seminar/",
+  "seminarImage": "/uploads/seminars/kawabata-mizuki/seminar.jpg",
+  "seminarImageAlt": "河端瑞貴研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/kawabata-mizuki/professor.jpg",
+  "professorImageAlt": "河端瑞貴（カワバタ ミズキ） 教員写真",
+  "professorMessage": "GISがあまりにも面白くて、気づけば長年にわたり、その研究と教育に取り組んできました。\nGISを活用すると、地図とデータを結びつけ、都市や地域の経済・社会を新たな視点から捉えることができます。利用可能な空間データが飛躍的に増え、経済学、とりわけ都市・地域に関する研究でも、その活用が広がっています。\n\nゼミで仲間と一緒に学び、議論することで、GISはさらに面白くなります。一人で考えているだけでは気づかなかった見方や、新しい研究のアイデアにも出会えるはずです。\n\n皆さんも、地図とデータを使って経済や社会を読み解く面白さを、一緒に体験してみませんか。\n※PEARL生、ダブルディグリー生も受け入れています。"
 }

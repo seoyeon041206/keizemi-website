@@ -9,7 +9,6 @@
   "name": "Takahiro Hoshino Seminar",
   "field": "Econometrics and Statistics",
   "relatedJapaneseId": 216,
-  "professorDescription": "計量経済学や機械学習などのデータサイエンスと、行動経済学やマーケティングを学ぶゼミを運営しています。ゼミではただの知識習得ではなく、膨大な先行研究や学知に基づいて実際の課題に対面し解決する能力を身に付けることを目標にしています。数多くの企業や政府自治体との共同研究のプロジェクトが走っていますが、研究室には大学院生も多く、３年からでも先輩に相談しながら実課題に取り組めるのが魅力だと思っています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000523_en.html",
   "order": 15,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Hoshino Takahiro",
+  "professorNameLocal": "星野崇宏（ホシノ タカヒロ）",
+  "seminarImage": "/uploads/seminars/hoshino-takahiro/seminar.jpg",
+  "seminarImageAlt": "Takahiro Hoshino Seminar seminar group",
+  "professorImage": "/uploads/seminars/hoshino-takahiro/professor.jpg",
+  "professorImageAlt": "Portrait of Hoshino Takahiro",
+  "professorMessage": "計量経済学や機械学習などのデータサイエンスと、行動経済学やマーケティングを学ぶゼミを運営しています。ゼミではただの知識習得ではなく、膨大な先行研究や学知に基づいて実際の課題に対面し解決する能力を身に付けることを目標にしています。数多くの企業や政府自治体との共同研究のプロジェクトが走っていますが、研究室には大学院生も多く、３年からでも先輩に相談しながら実課題に取り組めるのが魅力だと思っています。",
+  "website": "https://hoshinoseminar.com/",
+  "twitter": "https://twitter.com/hoshinoseminar",
+  "instagram": "https://www.instagram.com/hoshinoseminar/",
+  "facebook": ""
 }

@@ -9,7 +9,6 @@
   "name": "Masanao Takeyama Seminar",
   "field": "Environmental and Urban Economics",
   "relatedJapaneseId": 289,
-  "professorDescription": "サービスデザインは、利用者のニーズに応えることや、現在の社会課題を解決することだけでなく、サービスをつくり出す人びとの描く未来への期待や理想の追求を大切にしています。将来の予測が困難な時代には、自ら未来をつくり出すプロアクティブな姿勢が求められますが、私の研究会では、そのような価値創造への情熱と夢を持つ学生たちが、正解の無い探索型の研究に取り組んでいます。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000455_en.html",
   "order": 46,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Takeyama Masanao",
+  "professorNameLocal": "武山政直（タケヤマ マサナオ）",
+  "seminarImage": "/uploads/seminars/takeyama-masanao/seminar.jpg",
+  "seminarImageAlt": "Masanao Takeyama Seminar seminar group",
+  "professorImage": "/uploads/seminars/takeyama-masanao/professor.jpg",
+  "professorImageAlt": "Portrait of Takeyama Masanao",
+  "professorMessage": "サービスデザインは、利用者のニーズに応えることや、現在の社会課題を解決することだけでなく、サービスをつくり出す人びとの描く未来への期待や理想の追求を大切にしています。将来の予測が困難な時代には、自ら未来をつくり出すプロアクティブな姿勢が求められますが、私の研究会では、そのような価値創造への情熱と夢を持つ学生たちが、正解の無い探索型の研究に取り組んでいます。",
+  "website": "https://keg-lab.jp/",
+  "twitter": "https://twitter.com/Takeyama_2023",
+  "instagram": "https://www.instagram.com/takeyama_lab_/",
+  "facebook": ""
 }

@@ -27,11 +27,17 @@
 - `languages`: 使用言語
 - `description`: 一覧・検索用の紹介文
 - `contentHtml`: 詳細ページ本文
-- `image`: 画像パス
+- `seminarImage`: ゼミ紹介に表示する研究会写真
+- `seminarImageAlt`: 研究会写真の短い説明
+- `professorImage`: 教員紹介に表示する教授写真
+- `professorImageAlt`: 教授写真の短い説明
+- `professorMessage`: 教授からの一言
 - `url`: 研究会公式URL
 - `status`: 募集状況
 
-PEARL / DD 向け研究会では、`pearlStatus`、`ddStatus`、`language`、`sourceYear` が公式年度リストの表示に使われます。カードの受入可否を研究会名から推測せず、これらのフィールドを更新してください。
+写真は `public/uploads/` に保存し、JSONには `/uploads/...` から始まるパスを書きます。写真が未登録の場合も詳細ページは準備中表示になるため、仮の人物写真を入れる必要はありません。
+
+PEARL / DD 向け研究会では、`pearlStatus`、`ddStatus`、`language`、`sourceYear` が公式年度リストの表示に使われます。カードの受入可否を研究会名から推測せず、これらのフィールドを更新してください。英語ページ用に `professorName`、`professorNameLocal`、写真、教授メッセージ、SNS URLも個別に編集できます。
 
 ## Decap CMS 導入時
 

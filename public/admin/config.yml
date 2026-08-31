@@ -42,10 +42,13 @@ collections:
       - { label: 紹介文, name: description, widget: text }
       - { label: 一覧用抜粋, name: excerpt, widget: text }
       - { label: 詳細本文, name: contentHtml, widget: markdown }
-      - { label: 紹介画像, name: image, widget: image, required: false }
+      - { label: 研究会写真, name: seminarImage, widget: image, required: false, hint: ゼミ紹介セクションに大きく表示されます }
+      - { label: 研究会写真の説明, name: seminarImageAlt, widget: string, required: false, hint: 画像を見られない人向けの短い説明 }
+      - { label: 教授写真, name: professorImage, widget: image, required: false }
+      - { label: 教授写真の説明, name: professorImageAlt, widget: string, required: false }
       - { label: 研究会URL, name: url, widget: string, required: false }
       - { label: 教授プロフィールURL, name: professorLink, widget: string, required: false }
-      - { label: 教授紹介, name: professorDescription, widget: text, required: false }
+      - { label: 教授からの一言, name: professorMessage, widget: text, required: false }
       - { label: X URL, name: twitter, widget: string, required: false }
       - { label: Instagram URL, name: instagram, widget: string, required: false }
       - { label: Facebook URL, name: facebook, widget: string, required: false }
@@ -124,8 +127,18 @@ collections:
         options: [募集中, 新規募集, 募集停止]
       - { label: Summary, name: excerpt, widget: text }
       - { label: Body, name: contentHtml, widget: markdown }
-      - { label: Professor description, name: professorDescription, widget: text, required: false }
+      - { label: Professor name, name: professorName, widget: string, required: false }
+      - { label: Professor name (Japanese), name: professorNameLocal, widget: string, required: false }
+      - { label: Seminar photo, name: seminarImage, widget: image, required: false }
+      - { label: Seminar photo description, name: seminarImageAlt, widget: string, required: false }
+      - { label: Professor photo, name: professorImage, widget: image, required: false }
+      - { label: Professor photo description, name: professorImageAlt, widget: string, required: false }
+      - { label: Message from professor, name: professorMessage, widget: text, required: false }
       - { label: Professor URL, name: professorLink, widget: string, required: false }
+      - { label: Seminar website, name: website, widget: string, required: false }
+      - { label: X URL, name: twitter, widget: string, required: false }
+      - { label: Instagram URL, name: instagram, widget: string, required: false }
+      - { label: Facebook URL, name: facebook, widget: string, required: false }
       - { label: Page title, name: title, widget: hidden, required: false }
       - { label: Published, name: date, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
       - { label: Updated, name: modified, widget: datetime, date_format: YYYY-MM-DD, time_format: false }

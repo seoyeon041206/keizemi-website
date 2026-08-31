@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "石井太（イシイ フトシ）",
   "professorNameAlpha": "Ishii Futoshi",
-  "professorDescription": "近年、少子高齢化、人口減少等の言葉をよく耳にしますが、これらは全て人口問題です。人口問題は「人口学」に基づいた議論が不可欠ですが、本研究会は、本格的な人口学を学べる数少ない研究会です。\n研究会では人口学に関する文献輪読や、Rによるデータ解析スキルの習得等を通じて研究を行い、成果を論文としてまとめます。詳細は研究会HP(http://ishii-seminar.jpn.org/)をご覧下さい。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100014882_ja.html?k=%E7%9F%B3%E4%BA%95%E5%A4%AA",
   "website": "",
   "twitter": "",
@@ -24,6 +23,10 @@
   "languages": [
     "日本語"
   ],
-  "image": "",
-  "url": ""
+  "url": "",
+  "seminarImage": "",
+  "seminarImageAlt": "石井太研究会の研究会写真",
+  "professorImage": "/uploads/seminars/ishii-futoshi/professor.jpg",
+  "professorImageAlt": "石井太（イシイ フトシ） 教員写真",
+  "professorMessage": "近年、少子高齢化、人口減少等の言葉をよく耳にしますが、これらは全て人口問題です。人口問題は「人口学」に基づいた議論が不可欠ですが、本研究会は、本格的な人口学を学べる数少ない研究会です。\n研究会では人口学に関する文献輪読や、Rによるデータ解析スキルの習得等を通じて研究を行い、成果を論文としてまとめます。詳細は研究会HP(http://ishii-seminar.jpn.org/)をご覧下さい。"
 }

@@ -9,7 +9,6 @@
   "name": "Hidehiko Matsumoto Seminar",
   "field": "International Economics",
   "relatedJapaneseId": 3080,
-  "professorDescription": "・Specializes in international finance, with a special focus on capital flows and financial crises.\n・Work experience at NHK, Bank of Japan, and GRIPS.",
   "professorLink": "",
   "order": 43,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "English only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Matsumoto Hidehiko",
+  "professorNameLocal": "松本英彦（マツモト ヒデヒコ）",
+  "seminarImage": "",
+  "seminarImageAlt": "Hidehiko Matsumoto Seminar seminar group",
+  "professorImage": "/uploads/seminars/matsumoto-hidehiko/professor.jpg",
+  "professorImageAlt": "Portrait of Matsumoto Hidehiko",
+  "professorMessage": "・Specializes in international finance, with a special focus on capital flows and financial crises.\n・Work experience at NHK, Bank of Japan, and GRIPS.",
+  "website": "https://sites.google.com/keio.jp/matsumoto-seminar",
+  "twitter": "",
+  "instagram": "https://www.instagram.com/matsumoto.h_zemi/",
+  "facebook": ""
 }

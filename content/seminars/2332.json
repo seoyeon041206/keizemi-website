@@ -1,6 +1,6 @@
 {
   "id": 2332,
-  "slug": "菅澤翔之助研究会-p",
+  "slug": "sugasawa-shonosuke",
   "title": "菅澤翔之助研究会（P）（DD）",
   "date": "2022-12-21",
   "modified": "2024-06-10",
@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "菅澤翔之助 (スガサワ ショウノスケ)",
   "professorNameAlpha": "Sugasawa Shonosuke",
-  "professorDescription": "",
   "professorLink": "",
   "website": "https://sites.google.com/view/sugasawa-seminar/",
   "twitter": "https://x.com/sugasawaseminar",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://sites.google.com/view/sugasawa-seminar/"
+  "url": "https://sites.google.com/view/sugasawa-seminar/",
+  "seminarImage": "",
+  "seminarImageAlt": "菅澤翔之助研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/sugasawa-shonosuke/professor.jpg",
+  "professorImageAlt": "菅澤翔之助 (スガサワ ショウノスケ) 教員写真",
+  "professorMessage": ""
 }

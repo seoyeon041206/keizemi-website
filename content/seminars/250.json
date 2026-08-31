@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "佐藤祐己（サトウ ユウキ）",
   "professorNameAlpha": "Sato Yuki",
-  "professorDescription": "金融・ファイナンスに興味があり、それらについて浅薄な議論をするのではなく、経済学に基づいてじっくり考え、議論し、理解したい学生を望みます。 本研究会は現実と理論のバランスを重視しますので、数理モデルだけに興味がある人にはお勧めしませんし、理論にアレルギーがある人にも向いていません。 与えられたことをただこなすのではなく、自発的に考え、積極的に議論に参加し、独創性のある研究をする意欲を持った学生を歓迎します。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000423_ja.html?k=%E4%BD%90%E8%97%A4%E7%A5%90%E5%B7%B1",
   "website": "https://satoyukiseminar.jimdofree.com/",
   "twitter": "https://twitter.com/satozemi_keio",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://satoyukiseminar.jimdofree.com/"
+  "url": "https://satoyukiseminar.jimdofree.com/",
+  "seminarImage": "/uploads/seminars/sato-yuki/seminar.jpg",
+  "seminarImageAlt": "佐藤祐己研究会（P）（DD）の研究会写真",
+  "professorImage": "",
+  "professorImageAlt": "佐藤祐己（サトウ ユウキ） 教員写真",
+  "professorMessage": "金融・ファイナンスに興味があり、それらについて浅薄な議論をするのではなく、経済学に基づいてじっくり考え、議論し、理解したい学生を望みます。 本研究会は現実と理論のバランスを重視しますので、数理モデルだけに興味がある人にはお勧めしませんし、理論にアレルギーがある人にも向いていません。 与えられたことをただこなすのではなく、自発的に考え、積極的に議論に参加し、独創性のある研究をする意欲を持った学生を歓迎します。 "
 }

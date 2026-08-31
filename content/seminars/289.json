@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "武山政直（タケヤマ マサナオ）",
   "professorNameAlpha": "Takeyama Masanao",
-  "professorDescription": "サービスデザインは、利用者のニーズに応えることや、現在の社会課題を解決することだけでなく、サービスをつくり出す人びとの描く未来への期待や理想の追求を大切にしています。将来の予測が困難な時代には、自ら未来をつくり出すプロアクティブな姿勢が求められますが、私の研究会では、そのような価値創造への情熱と夢を持つ学生たちが、正解の無い探索型の研究に取り組んでいます。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000455_ja.html?k=%E6%AD%A6%E5%B1%B1%E6%94%BF%E7%9B%B4",
   "website": "https://keg-lab.jp/",
   "twitter": "https://twitter.com/Takeyama_2023",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://keg-lab.jp/"
+  "url": "https://keg-lab.jp/",
+  "seminarImage": "/uploads/seminars/takeyama-masanao/seminar.jpg",
+  "seminarImageAlt": "武山政直研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/takeyama-masanao/professor.jpg",
+  "professorImageAlt": "武山政直（タケヤマ マサナオ） 教員写真",
+  "professorMessage": "サービスデザインは、利用者のニーズに応えることや、現在の社会課題を解決することだけでなく、サービスをつくり出す人びとの描く未来への期待や理想の追求を大切にしています。将来の予測が困難な時代には、自ら未来をつくり出すプロアクティブな姿勢が求められますが、私の研究会では、そのような価値創造への情熱と夢を持つ学生たちが、正解の無い探索型の研究に取り組んでいます。"
 }

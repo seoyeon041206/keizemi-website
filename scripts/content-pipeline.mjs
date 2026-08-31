@@ -29,7 +29,7 @@ async function buildGeneratedContent() {
     'faqs.json': faqs,
     'site-index.json': {
       posts: posts.map(({ id, title, date, excerpt, categories }) => ({ id, title, date, excerpt, categories })),
-      seminars: seminars.map(({ id, slug, name, professorName, field, status, pearl, dd, languages, description, excerpt, image, url }) => ({
+      seminars: seminars.map(({ id, slug, name, professorName, field, status, pearl, dd, languages, description, excerpt, seminarImage, url }) => ({
         id,
         slug,
         name,
@@ -41,7 +41,7 @@ async function buildGeneratedContent() {
         languages,
         description,
         excerpt,
-        image,
+        seminarImage,
         url,
       })),
     },

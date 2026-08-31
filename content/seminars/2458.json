@@ -1,6 +1,6 @@
 {
   "id": 2458,
-  "slug": "佐藤空研究会",
+  "slug": "sato-sora",
   "title": "佐藤空研究会（P）（DD）",
   "date": "2023-02-01",
   "modified": "2023-06-20",
@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "佐藤空（サトウ ソラ）",
   "professorNameAlpha": "Sato Sora",
-  "professorDescription": "経済学史・経済思想の講義を受講していることは必須ではないが、すでに受講済みか受講予定であることが望ましい。ただし、応募時に専門知識は求めない。国際性を重要視する観点からPEARL 生を歓迎する。語学力は問わないが、ゼミ内で英語と日本語の両方を使用するため、そのどちらも使用する（話す＋読む）意欲がある者を求める。選考は面接（オンラインもしくは対面）を実施。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100016534_ja.html",
   "website": "",
   "twitter": "",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": ""
+  "url": "",
+  "seminarImage": "",
+  "seminarImageAlt": "佐藤空研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/sato-sora/professor.jpg",
+  "professorImageAlt": "佐藤空（サトウ ソラ） 教員写真",
+  "professorMessage": "経済学史・経済思想の講義を受講していることは必須ではないが、すでに受講済みか受講予定であることが望ましい。ただし、応募時に専門知識は求めない。国際性を重要視する観点からPEARL 生を歓迎する。語学力は問わないが、ゼミ内で英語と日本語の両方を使用するため、そのどちらも使用する（話す＋読む）意欲がある者を求める。選考は面接（オンラインもしくは対面）を実施。"
 }

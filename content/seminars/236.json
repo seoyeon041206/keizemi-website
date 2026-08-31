@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "松沢裕作（マツザワ ユウサク）",
   "professorNameAlpha": "Matsuzawa Yusaku",
-  "professorDescription": "当研究会では、日本近世あるいは近代の社会史を主題に卒業論文を執筆することを最終目的としています。卒業論文のテーマは、どのようなものでも、論文として成立するものでありさえすれば自由です。ゼミの内容は、そうした卒業論文の執筆に向けた訓練と準備として設計されており、１）地域、２）メディア、３）ジェンダーを三つの柱に据えていますが、卒業論文の主題はその柱にとらわれる必要はありません。社会のあり方を、日本に即して、歴史的に考えてみたいという方はどなたでも歓迎します。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000536_ja.html?k=%E6%9D%BE%E6%B2%A2%E8%A3%95%E4%BD%9C",
   "website": "http://web.econ.keio.ac.jp/staff/yusaku/seminar.html",
   "twitter": "https://twitter.com/matsuzawasemi",
@@ -24,6 +23,10 @@
   "languages": [
     "日本語"
   ],
-  "image": "",
-  "url": "http://web.econ.keio.ac.jp/staff/yusaku/seminar.html"
+  "url": "http://web.econ.keio.ac.jp/staff/yusaku/seminar.html",
+  "seminarImage": "/uploads/seminars/matsuzawa-yusaku/seminar.jpg",
+  "seminarImageAlt": "松沢裕作研究会の研究会写真",
+  "professorImage": "/uploads/seminars/matsuzawa-yusaku/professor.jpg",
+  "professorImageAlt": "松沢裕作（マツザワ ユウサク） 教員写真",
+  "professorMessage": "当研究会では、日本近世あるいは近代の社会史を主題に卒業論文を執筆することを最終目的としています。卒業論文のテーマは、どのようなものでも、論文として成立するものでありさえすれば自由です。ゼミの内容は、そうした卒業論文の執筆に向けた訓練と準備として設計されており、１）地域、２）メディア、３）ジェンダーを三つの柱に据えていますが、卒業論文の主題はその柱にとらわれる必要はありません。社会のあり方を、日本に即して、歴史的に考えてみたいという方はどなたでも歓迎します。"
 }

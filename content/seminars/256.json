@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "山田篤裕（ヤマダ アツヒロ）",
   "professorNameAlpha": "Yamada Atsuhiro",
-  "professorDescription": "社会保障と労働政策について、データを用いて実証研究をしています。専門書輪読やディベート活動と並行し、3年次にグループ研究、4年次は卒業研究を各自進めます。生活の質に直結する社会問題を深く考えられる環境が本研究会の強みです。さまざまな社会問題が山積する今だからこそ、社会保障と労働政策について研究したいと思う学生をお待ちしています。なお教員はこの領域を専門とする研究者も育てたいと考えています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000569_ja.html?k=%E5%B1%B1%E7%94%B0%E7%AF%A4%E8%A3%95",
   "website": "https://yamada-seminar.wixsite.com/yamada-atuhiro-semi",
   "twitter": "https://twitter.com/yamadaseminar",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://yamada-seminar.wixsite.com/yamada-atuhiro-semi"
+  "url": "https://yamada-seminar.wixsite.com/yamada-atuhiro-semi",
+  "seminarImage": "/uploads/seminars/yamada-atsuhiro/seminar.jpg",
+  "seminarImageAlt": "山田篤裕研究会（P）（DD）の研究会写真",
+  "professorImage": "",
+  "professorImageAlt": "山田篤裕（ヤマダ アツヒロ） 教員写真",
+  "professorMessage": "社会保障と労働政策について、データを用いて実証研究をしています。専門書輪読やディベート活動と並行し、3年次にグループ研究、4年次は卒業研究を各自進めます。生活の質に直結する社会問題を深く考えられる環境が本研究会の強みです。さまざまな社会問題が山積する今だからこそ、社会保障と労働政策について研究したいと思う学生をお待ちしています。なお教員はこの領域を専門とする研究者も育てたいと考えています。"
 }

@@ -1,6 +1,6 @@
 {
   "id": 3502,
-  "slug": "髙橋涼太朗研究会-p",
+  "slug": "takahashi-ryotaro",
   "title": "髙橋涼太朗研究会（P）",
   "date": "2025-01-02",
   "modified": "2026-02-21",
@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "髙橋涼太朗（タカハシ リョウタロウ）",
   "professorNameAlpha": "Takahashi Ryotaro",
-  "professorDescription": "今から30年ほど前まで、日本は小さな政府にもかかわらず所得の平等を享受してきました。いわゆる一億総中流と呼ばれる状況です。しかし、一般的に小さな政府は再分配機能が弱いと考えられています。それにもかかわらず、なぜ当時の日本は所得の平等を実現できたのでしょうか。この謎を解き明かすために、私は財政社会学の観点から日本財政を研究してきました。\n現在は、「平等」を特徴とする小さな政府がいかに形成されたのか、そしてその形成の背後にある財政制度が現代日本にどのような影響をもたらしているのかについて関心を持ち、研究を進めています。",
   "professorLink": "https://sites.google.com/view/takahashi-ryotaro/",
   "website": "https://sites.google.com/view/takahashi-ryotaro/",
   "twitter": "https://x.com/takahashi__semi?s=11&t=bf88c6rDwp6D_Cq8CSEaaQ",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://sites.google.com/view/takahashi-ryotaro/"
+  "url": "https://sites.google.com/view/takahashi-ryotaro/",
+  "seminarImage": "",
+  "seminarImageAlt": "髙橋涼太朗研究会（P）の研究会写真",
+  "professorImage": "/uploads/seminars/takahashi-ryotaro/professor.jpg",
+  "professorImageAlt": "髙橋涼太朗（タカハシ リョウタロウ） 教員写真",
+  "professorMessage": "今から30年ほど前まで、日本は小さな政府にもかかわらず所得の平等を享受してきました。いわゆる一億総中流と呼ばれる状況です。しかし、一般的に小さな政府は再分配機能が弱いと考えられています。それにもかかわらず、なぜ当時の日本は所得の平等を実現できたのでしょうか。この謎を解き明かすために、私は財政社会学の観点から日本財政を研究してきました。\n現在は、「平等」を特徴とする小さな政府がいかに形成されたのか、そしてその形成の背後にある財政制度が現代日本にどのような影響をもたらしているのかについて関心を持ち、研究を進めています。"
 }

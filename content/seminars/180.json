@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "栗野盛光（クリノ モリミツ）",
   "professorNameAlpha": "Kurino Morimitsu",
-  "professorDescription": "",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000400_ja.html?k=%E6%A0%97%E9%87%8E",
   "website": "https://keiokurinoseminar.wixsite.com/kurinozemi",
   "twitter": "https://mobile.twitter.com/econ_kurino",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://keiokurinoseminar.wixsite.com/kurinozemi"
+  "url": "https://keiokurinoseminar.wixsite.com/kurinozemi",
+  "seminarImage": "/uploads/seminars/kurino-morimitsu/seminar.jpg",
+  "seminarImageAlt": "栗野盛光研究会（P）の研究会写真",
+  "professorImage": "",
+  "professorImageAlt": "栗野盛光（クリノ モリミツ） 教員写真",
+  "professorMessage": ""
 }

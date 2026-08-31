@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "笹原彰（ササハラ アキラ）",
   "professorNameAlpha": "Sasahara Akira",
-  "professorDescription": "笹原彰研究会は、楽しく真面目にゼミ活動をしています。ゼミ活動を通じて、学生の皆さんに経済学は面白い学問だと実感してもらえればと思っています。是非応募してください。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100015445_ja.html?k=%E7%AC%B9%E5%8E%9F%E5%BD%B0",
   "website": "https://sasaharaseminar-2.jimdosite.com/",
   "twitter": "",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://sasaharaseminar-2.jimdosite.com/"
+  "url": "https://sasaharaseminar-2.jimdosite.com/",
+  "seminarImage": "/uploads/seminars/sasahara-akira/seminar.jpg",
+  "seminarImageAlt": "笹原彰研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/sasahara-akira/professor.jpg",
+  "professorImageAlt": "笹原彰（ササハラ アキラ） 教員写真",
+  "professorMessage": "笹原彰研究会は、楽しく真面目にゼミ活動をしています。ゼミ活動を通じて、学生の皆さんに経済学は面白い学問だと実感してもらえればと思っています。是非応募してください。"
 }

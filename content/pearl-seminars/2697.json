@@ -9,7 +9,6 @@
   "name": "Yasuo Hirose Seminar",
   "field": "Economic Theory",
   "relatedJapaneseId": 192,
-  "professorDescription": "大学院レベルのマクロ経済分析手法の習得を目指しますので、学部中～上級レベルのマクロ経済学、ミクロ経済学、微分積分、線形代数、統計学の知識が必要となります。数学やプログラミングが得意な方や、将来、政策当局や民間調査機関でマクロ経済分析に携わりたい方を歓迎します。",
   "professorLink": "",
   "order": 6,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed (Need to join from April)",
   "ddStatus": "Allowed (Need to join from April)",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Hirose Yasuo",
+  "professorNameLocal": "廣瀬康生（ヒロセ ヤスオ）",
+  "seminarImage": "/uploads/seminars/hirose-yasuo/seminar.jpg",
+  "seminarImageAlt": "Yasuo Hirose Seminar seminar group",
+  "professorImage": "",
+  "professorImageAlt": "Portrait of Hirose Yasuo",
+  "professorMessage": "大学院レベルのマクロ経済分析手法の習得を目指しますので、学部中～上級レベルのマクロ経済学、ミクロ経済学、微分積分、線形代数、統計学の知識が必要となります。数学やプログラミングが得意な方や、将来、政策当局や民間調査機関でマクロ経済分析に携わりたい方を歓迎します。",
+  "website": "https://hiroseseminar.github.io/",
+  "twitter": "https://twitter.com/hirose_zemi",
+  "instagram": "",
+  "facebook": ""
 }

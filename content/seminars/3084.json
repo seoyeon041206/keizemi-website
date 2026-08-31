@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "森田香菜子（モリタ カナコ）",
   "professorNameAlpha": "Morita Kanako",
-  "professorDescription": "慶應義塾大学総合政策学部卒業、東京工業大学大学院社会理工学研究科博士前期・後期課程修了。博士（学術）。\n国立環境研究所、慶應義塾大学、森林総合研究所、国連大学サステイナビリティ高等研究所（非常勤）を経て、2024年度より経済学部に着任。\n持続可能な開発や環境に関する様々な国連のプロセスに参画。例えば、国連気候変動枠組条約、生物多様性条約などの国際交渉の担当や、国際的な科学的アセスメントであるIPCCやIPBESの主執筆者などを経験。\n経歴・研究など https://researchmap.jp/k-morita",
   "professorLink": "https://researchmap.jp/k-morita",
   "website": "",
   "twitter": "",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": ""
+  "url": "",
+  "seminarImage": "",
+  "seminarImageAlt": "森田香菜子研究会（P）の研究会写真",
+  "professorImage": "/uploads/seminars/morita-kanako/professor.jpg",
+  "professorImageAlt": "森田香菜子（モリタ カナコ） 教員写真",
+  "professorMessage": "慶應義塾大学総合政策学部卒業、東京工業大学大学院社会理工学研究科博士前期・後期課程修了。博士（学術）。\n国立環境研究所、慶應義塾大学、森林総合研究所、国連大学サステイナビリティ高等研究所（非常勤）を経て、2024年度より経済学部に着任。\n持続可能な開発や環境に関する様々な国連のプロセスに参画。例えば、国連気候変動枠組条約、生物多様性条約などの国際交渉の担当や、国際的な科学的アセスメントであるIPCCやIPBESの主執筆者などを経験。\n経歴・研究など https://researchmap.jp/k-morita"
 }

@@ -2,10 +2,11 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import seminarsJson from '@/content/generated/seminars.json';
 import type { Seminar } from '@/app/content-types';
-import { ContentChrome, ImportedBody } from '@/app/components/ContentChrome';
-import { siteHref } from '@/app/site-path';
+import { ContentChrome } from '@/app/components/ContentChrome';
+import { SeminarDetailSections, type SeminarDetailLink } from '@/app/components/SeminarDetailSections';
 
 const seminars = seminarsJson as Seminar[];
+const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://keizemi-keio.sykim140400.chatgpt.site').replace(/\/$/, '');
 
 export const dynamicParams = false;
 
@@ -17,11 +18,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const seminar = seminars.find((item) => item.slug === slug);
   if (!seminar) return {};
+  const socialImage = seminar.seminarImage ? `${siteUrl}${seminar.seminarImage}` : '';
   return {
     title: `${seminar.name} | KEIZEMI`,
     description: seminar.excerpt,
-    openGraph: { images: [] },
-    twitter: { images: [] },
+    openGraph: {
+      images: socialImage ? [{ url: socialImage, alt: seminar.seminarImageAlt }] : [],
+    },
+    twitter: { images: socialImage ? [socialImage] : [] },
   };
 }
 
@@ -30,12 +34,11 @@ export default async function SeminarDetail({ params }: { params: Promise<{ slug
   const seminar = seminars.find((item) => item.slug === slug);
   if (!seminar) notFound();
   const links = [
-    ['研究会サイト', seminar.url || seminar.website],
-    ['教員プロフィール', seminar.professorLink],
-    ['X', seminar.twitter],
-    ['Instagram', seminar.instagram],
-    ['Facebook', seminar.facebook],
-  ].filter((entry) => entry[1]);
+    { label: '研究会サイト', href: seminar.url || seminar.website, external: true },
+    { label: 'X', href: seminar.twitter, external: true },
+    { label: 'Instagram', href: seminar.instagram, external: true },
+    { label: 'Facebook', href: seminar.facebook, external: true },
+  ].filter((entry) => entry.href) as SeminarDetailLink[];
 
   return (
     <ContentChrome
@@ -45,15 +48,21 @@ export default async function SeminarDetail({ params }: { params: Promise<{ slug
       backHref="/seminars"
       backLabel="研究会一覧"
     >
-      {seminar.image && <img className="seminar-cover" src={siteHref(seminar.image)} alt={`${seminar.name}の紹介画像`} />}
-      <section className="seminar-profile">
-        {(seminar.professorName || seminar.professorNameAlpha) && (
-          <div><small>PROFESSOR</small><h2>{seminar.professorName || seminar.name}</h2><p>{seminar.professorNameAlpha}</p></div>
-        )}
-        {links.length > 0 && <nav>{links.map(([label, href]) => <a href={href} target="_blank" rel="noreferrer" key={label}>{label} ↗</a>)}</nav>}
-      </section>
-      {seminar.professorDescription && <div className="imported-body professor-body" dangerouslySetInnerHTML={{ __html: seminar.professorDescription }} />}
-      <ImportedBody html={seminar.contentHtml} fallback={seminar.excerpt} />
+      <SeminarDetailSections
+        language="ja"
+        seminarName={seminar.name}
+        introductionHtml={seminar.contentHtml}
+        introductionFallback={seminar.excerpt}
+        seminarImage={seminar.seminarImage}
+        seminarImageAlt={seminar.seminarImageAlt}
+        professorName={seminar.professorName}
+        professorNameSecondary={seminar.professorNameAlpha}
+        professorImage={seminar.professorImage}
+        professorImageAlt={seminar.professorImageAlt}
+        professorMessage={seminar.professorMessage}
+        professorLink={seminar.professorLink}
+        links={links}
+      />
     </ContentChrome>
   );
 }

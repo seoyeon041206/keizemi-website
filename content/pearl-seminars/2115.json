@@ -9,7 +9,6 @@
   "name": "Hibiki Ichiue Seminar",
   "field": "International Economics",
   "relatedJapaneseId": 174,
-  "professorDescription": "前職の日銀では、経済の実態把握と予測の仕事に長く携わり、経済調査課長というチーフエコノミストのような役職も務めました。その一方で、マクロ経済学からファイナンスまで幅広く研究を行いました。ゼミでは、経済や金融で現実に起こっていることに対する基本的な理解力とともに、新たな疑問が生じたときに、他人の意見を鵜呑みにせず、自ら必要なデータを探しだして一定の答えを導き出す力を身に付けることを目指します。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100015815_ja.html?k=%E4%B8%80%E4%B8%8A%E9%9F%BF",
   "order": 36,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Ichiue Hibiki",
+  "professorNameLocal": "一上響（イチウエ ヒビキ）",
+  "seminarImage": "",
+  "seminarImageAlt": "Hibiki Ichiue Seminar seminar group",
+  "professorImage": "/uploads/seminars/ichiue-hibiki/professor.jpg",
+  "professorImageAlt": "Portrait of Ichiue Hibiki",
+  "professorMessage": "前職の日銀では、経済の実態把握と予測の仕事に長く携わり、経済調査課長というチーフエコノミストのような役職も務めました。その一方で、マクロ経済学からファイナンスまで幅広く研究を行いました。ゼミでは、経済や金融で現実に起こっていることに対する基本的な理解力とともに、新たな疑問が生じたときに、他人の意見を鵜呑みにせず、自ら必要なデータを探しだして一定の答えを導き出す力を身に付けることを目指します。",
+  "website": "",
+  "twitter": "https://twitter.com/ichiuezemi",
+  "instagram": "https://www.instagram.com/ichiue_seminar/",
+  "facebook": ""
 }

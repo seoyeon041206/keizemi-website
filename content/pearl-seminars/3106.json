@@ -9,7 +9,6 @@
   "name": "Kanako Morita Seminar",
   "field": "Environmental and Urban Economics",
   "relatedJapaneseId": 3084,
-  "professorDescription": "慶應義塾大学総合政策学部卒業、東京工業大学大学院社会理工学研究科博士前期・後期課程修了。博士（学術）。\n国立環境研究所、慶應義塾大学、森林総合研究所、国連大学サステイナビリティ高等研究所（非常勤）を経て、2024年度より経済学部に着任。\n持続可能な開発や環境に関する様々な国連のプロセスに参画。例えば、国連気候変動枠組条約、生物多様性条約などの国際交渉の担当や、国際的な科学的アセスメントであるIPCCやIPBESの主執筆者などを経験。\n経歴・研究など https://researchmap.jp/k-morita",
   "professorLink": "",
   "order": 48,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Not Allowed",
   "language": "Japanese in principle",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Morita Kanako",
+  "professorNameLocal": "森田香菜子（モリタ カナコ）",
+  "seminarImage": "",
+  "seminarImageAlt": "Kanako Morita Seminar seminar group",
+  "professorImage": "/uploads/seminars/morita-kanako/professor.jpg",
+  "professorImageAlt": "Portrait of Morita Kanako",
+  "professorMessage": "慶應義塾大学総合政策学部卒業、東京工業大学大学院社会理工学研究科博士前期・後期課程修了。博士（学術）。\n国立環境研究所、慶應義塾大学、森林総合研究所、国連大学サステイナビリティ高等研究所（非常勤）を経て、2024年度より経済学部に着任。\n持続可能な開発や環境に関する様々な国連のプロセスに参画。例えば、国連気候変動枠組条約、生物多様性条約などの国際交渉の担当や、国際的な科学的アセスメントであるIPCCやIPBESの主執筆者などを経験。\n経歴・研究など https://researchmap.jp/k-morita",
+  "website": "",
+  "twitter": "",
+  "instagram": "",
+  "facebook": ""
 }

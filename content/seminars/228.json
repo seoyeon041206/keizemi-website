@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "神田さやこ（カンダ サヤコ）",
   "professorNameAlpha": "Kanda Sayako",
-  "professorDescription": "私はインド経済史を研究しています。学生の時にインド世界に出会ったこと、経済史のゼミに入ったこと、そしてそこで知り合った人々との関係が今のキャリアを築くきっかけになりました。学生の皆さんには、学問とその他の活動のなかで、キャンパス内外で多様なバックグラウンドをもつ人たちに出会い、話し、議論する機会をもってほしいです。刺激を受け、多くのことを学ぶでしょう。それが自らの可能性を広げてくれるように思います。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000387_ja.html?k=%E7%A5%9E%E7%94%B0%E3%81%95%E3%82%84",
   "website": "",
   "twitter": "https://twitter.com/kanda_seminar?s=11&t=cr4y3z1yUUxfFq9qlQCXYQ",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": ""
+  "url": "",
+  "seminarImage": "/uploads/seminars/kanda-sayako/seminar.jpg",
+  "seminarImageAlt": "神田さやこ研究会（P）（DD）の研究会写真",
+  "professorImage": "",
+  "professorImageAlt": "神田さやこ（カンダ サヤコ） 教員写真",
+  "professorMessage": "私はインド経済史を研究しています。学生の時にインド世界に出会ったこと、経済史のゼミに入ったこと、そしてそこで知り合った人々との関係が今のキャリアを築くきっかけになりました。学生の皆さんには、学問とその他の活動のなかで、キャンパス内外で多様なバックグラウンドをもつ人たちに出会い、話し、議論する機会をもってほしいです。刺激を受け、多くのことを学ぶでしょう。それが自らの可能性を広げてくれるように思います。"
 }

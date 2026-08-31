@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "白井義昌（シライ ヨシマサ）",
   "professorNameAlpha": "Shirai Yoshimasa",
-  "professorDescription": "国際貿易（広くはグローバリゼーション）が生産性や技術進歩に及ぼす影響、またはその逆の影響について考察する学術論文や学術書をみんなで読み議論しようと考えています。日本の実質賃金や労働生産性がなぜ伸び悩んでいるのかという大きな問いの一部分としても考えてみたいと思っています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000432_ja.html?k=%E7%99%BD%E4%BA%95%E7%BE%A9%E6%98%8C",
   "website": "https://shiraizemi2014.jimdofree.com/",
   "twitter": "https://twitter.com/shirainyuzemi",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://shiraizemi2014.jimdofree.com/"
+  "url": "https://shiraizemi2014.jimdofree.com/",
+  "seminarImage": "",
+  "seminarImageAlt": "白井義昌研究会（P）（DD）の研究会写真",
+  "professorImage": "",
+  "professorImageAlt": "白井義昌（シライ ヨシマサ） 教員写真",
+  "professorMessage": "国際貿易（広くはグローバリゼーション）が生産性や技術進歩に及ぼす影響、またはその逆の影響について考察する学術論文や学術書をみんなで読み議論しようと考えています。日本の実質賃金や労働生産性がなぜ伸び悩んでいるのかという大きな問いの一部分としても考えてみたいと思っています。"
 }

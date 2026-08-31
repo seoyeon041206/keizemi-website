@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "赤林英夫（アカバヤシ ヒデオ）",
   "professorNameAlpha": "Akabayashi Hideo",
-  "professorDescription": "教育と家族の経済学に関する研究を行っています。応用ミクロ経済学の手法に基づき、理論的基礎付けと綿密なデータ分析により、経済学的知見と政策的な意義のある研究を目指しています。研究対象となる地域は限定せず、方法としては、テーマにより理論・実証両方を使っています。従って、アイデアと根気が勝負と思っていますので、その点では負けない自信のある皆さんとの出会いを楽しみにしています。現在は、日本の教育政策の分析と教育格差の国際比較にほぼ集中しています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000311_ja.html?k=%E8%B5%A4%E6%9E%97",
   "website": "",
   "twitter": "https://twitter.com/akbzemi?s=21&t=msTfi4qdmPFXiB-IIVv7Kw",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": ""
+  "url": "",
+  "seminarImage": "/uploads/seminars/akabayashi-hideo/seminar.jpg",
+  "seminarImageAlt": "赤林英夫研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/akabayashi-hideo/professor.jpg",
+  "professorImageAlt": "赤林英夫（アカバヤシ ヒデオ） 教員写真",
+  "professorMessage": "教育と家族の経済学に関する研究を行っています。応用ミクロ経済学の手法に基づき、理論的基礎付けと綿密なデータ分析により、経済学的知見と政策的な意義のある研究を目指しています。研究対象となる地域は限定せず、方法としては、テーマにより理論・実証両方を使っています。従って、アイデアと根気が勝負と思っていますので、その点では負けない自信のある皆さんとの出会いを楽しみにしています。現在は、日本の教育政策の分析と教育格差の国際比較にほぼ集中しています。"
 }

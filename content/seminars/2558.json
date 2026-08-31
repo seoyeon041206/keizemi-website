@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "壽里竜",
   "professorNameAlpha": "Susato Ryu",
-  "professorDescription": "ゼミのディスカッションで明確な結論に至ることは稀ですが、現代の社会問題を考えるには、それぞれの思想的立場の歴史的背景や反対の主張を考慮することが重要です。そうすることで問題の根深さを認識し、安易に特定の立場を選び取ることの危うさを学ぶことができるでしょう。また、じっくり本を読んで、その内容について考えたり議論したりする時間は、大学を卒業したあとはなかなか持てないので、このゼミがそういう機会を提供できればと思っています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000437_ja.html",
   "website": "https://susatoryuseminar.wixsite.com/my-site-3",
   "twitter": "",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://susatoryuseminar.wixsite.com/my-site-3"
+  "url": "https://susatoryuseminar.wixsite.com/my-site-3",
+  "seminarImage": "",
+  "seminarImageAlt": "壽里竜研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/susato-ryu/professor.jpg",
+  "professorImageAlt": "壽里竜 教員写真",
+  "professorMessage": "ゼミのディスカッションで明確な結論に至ることは稀ですが、現代の社会問題を考えるには、それぞれの思想的立場の歴史的背景や反対の主張を考慮することが重要です。そうすることで問題の根深さを認識し、安易に特定の立場を選び取ることの危うさを学ぶことができるでしょう。また、じっくり本を読んで、その内容について考えたり議論したりする時間は、大学を卒業したあとはなかなか持てないので、このゼミがそういう機会を提供できればと思っています。"
 }

@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "崔在東 (チェ ゼドン)",
   "professorNameAlpha": "Choi Jaedong",
-  "professorDescription": "",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000460_ja.html?k=%E5%B4%94%E5%9C%A8%E6%9D%B1",
   "website": "",
   "twitter": "https://twitter.com/keiochoijaedong",
@@ -24,6 +23,10 @@
   "languages": [
     "日本語"
   ],
-  "image": "",
-  "url": ""
+  "url": "",
+  "seminarImage": "/uploads/seminars/choi-jaedong/seminar.jpg",
+  "seminarImageAlt": "崔在東研究会の研究会写真",
+  "professorImage": "",
+  "professorImageAlt": "崔在東 (チェ ゼドン) 教員写真",
+  "professorMessage": ""
 }

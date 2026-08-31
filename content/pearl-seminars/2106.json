@@ -9,7 +9,6 @@
   "name": "Kohei Komamura Seminar",
   "field": "Labor and Industrial Economics",
   "relatedJapaneseId": 244,
-  "professorDescription": "高齢化率が40％に接近する超高齢社会が到来します。社会経済の仕組みを様々見直さないといけない状況になります。社会政策そして神経経済学の視点からこの問題に皆さんと取り組んで行きたいと思います。研究活動状況は、慶應義塾大学ファイナンシャルジェロントロジー研究センターのHPも参考にしてください。https://rcfg.keio.ac.jp/",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000405_ja.html?k=%E9%A7%92%E6%9D%91%E5%BA%B7%E5%B9%B3",
   "order": 25,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Komamura Kouhei",
+  "professorNameLocal": "駒村康平（コマムラ コウヘイ）",
+  "seminarImage": "/uploads/seminars/komamura-kouhei/seminar.jpg",
+  "seminarImageAlt": "Kohei Komamura Seminar seminar group",
+  "professorImage": "",
+  "professorImageAlt": "Portrait of Komamura Kouhei",
+  "professorMessage": "高齢化率が40％に接近する超高齢社会が到来します。社会経済の仕組みを様々見直さないといけない状況になります。社会政策そして神経経済学の視点からこの問題に皆さんと取り組んで行きたいと思います。研究活動状況は、慶應義塾大学ファイナンシャルジェロントロジー研究センターのHPも参考にしてください。https://rcfg.keio.ac.jp/",
+  "website": "https://komamura-keio-econ.jimdofree.com/",
+  "twitter": "https://twitter.com/komazemi_2021?s=21&t=q6jCp6EIzmK3zxYgRLVudg",
+  "instagram": "",
+  "facebook": ""
 }

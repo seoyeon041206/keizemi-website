@@ -610,15 +610,44 @@ section { scroll-margin-top: 142px; }
 .imported-body table { width: 100%; margin: 32px 0; border-collapse: collapse; font-size: 12px; }
 .imported-body th, .imported-body td { padding: 12px; border: 1px solid var(--line); text-align: left; vertical-align: top; }
 .imported-body th { background: var(--paper); }
-.seminar-profile { width: min(760px, calc(100% - 48px)); margin: 54px auto 0; padding: 32px; display: flex; align-items: end; justify-content: space-between; gap: 36px; background: var(--blue-deep); color: white; }
-.seminar-profile small { color: #f0c27a; font-size: 9px; font-weight: 800; letter-spacing: .16em; }
-.seminar-profile h2 { margin: 13px 0 5px; font: 600 25px/1.4 "Yu Mincho", YuMincho, serif; }
-.seminar-profile p { margin: 0; color: rgba(255,255,255,.58); font: 12px/1.5 Georgia, serif; }
-.seminar-profile nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px 16px; }
-.seminar-profile a { color: rgba(255,255,255,.8); border-bottom: 1px solid rgba(255,255,255,.35); font-size: 10px; font-weight: 800; }
-.professor-body { margin-top: 36px; padding: 28px; background: var(--paper); }
-.detail-links { width: min(760px, calc(100% - 48px)); margin: 50px auto 0; display: flex; flex-wrap: wrap; gap: 12px; }
-.detail-links a { padding: 12px 17px; border: 1px solid var(--ink); font-size: 11px; font-weight: 800; }
+.seminar-detail-layout { width: min(1100px, calc(100% - 48px)); margin: 74px auto 0; }
+.seminar-detail-section + .seminar-detail-section { margin-top: 92px; }
+.seminar-detail-heading { min-height: 118px; padding: 27px 34px; display: grid; grid-template-columns: 58px minmax(0, 1fr); align-items: center; gap: 24px; background: #e9ecf4; border-top: 4px solid var(--blue); }
+.seminar-detail-heading > span { color: rgba(18,63,114,.28); font: 30px/1 Georgia, serif; }
+.seminar-detail-heading small { color: var(--red); font: 800 8px/1 Georgia, serif; letter-spacing: .18em; }
+.seminar-detail-heading h2 { margin: 10px 0 0; font: 600 clamp(28px, 3.6vw, 43px)/1.3 "Yu Mincho", YuMincho, Georgia, serif; }
+.seminar-detail-layout.is-english .seminar-detail-heading h2 { font-family: Georgia, "Times New Roman", serif; }
+.seminar-introduction-layout { padding: 38px; display: grid; grid-template-columns: minmax(0, 1.12fr) minmax(300px, .88fr); gap: clamp(38px, 5vw, 72px); align-items: start; background: white; border: 1px solid var(--line); border-top: 0; }
+.seminar-detail-media { min-width: 0; margin: 0; overflow: hidden; background: #e8e7e3; position: relative; }
+.seminar-detail-media.is-seminar { aspect-ratio: 4 / 3; }
+.seminar-detail-media.is-professor { aspect-ratio: 4 / 5; }
+.seminar-detail-media img { width: 100%; height: 100%; display: block; object-fit: cover; }
+.seminar-detail-media.is-professor img { object-position: center top; }
+.seminar-media-placeholder { padding: 28px; display: flex; flex-direction: column; justify-content: space-between; color: white; background: linear-gradient(140deg, #123f72, #092b50); position: relative; overflow: hidden; }
+.seminar-media-placeholder::after { content: "K"; position: absolute; right: -4%; bottom: -15%; color: rgba(255,255,255,.055); font: italic min(22vw, 260px)/1 Georgia, serif; }
+.seminar-media-placeholder > span { position: relative; z-index: 1; font: 600 clamp(46px, 7vw, 92px)/1 Georgia, serif; }
+.seminar-media-placeholder > small { position: relative; z-index: 1; color: rgba(255,255,255,.62); font-size: 8px; font-weight: 800; letter-spacing: .15em; }
+.seminar-detail-copy { min-width: 0; padding-top: 3px; }
+.seminar-detail-copy .imported-body { width: auto; margin: 0; font-size: 13px; line-height: 2.08; white-space: pre-line; }
+.seminar-detail-copy .imported-body p { white-space: pre-line; }
+.seminar-detail-links { margin-top: 38px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--ink); }
+.seminar-detail-links a { min-height: 58px; padding: 14px 4px; display: flex; align-items: center; justify-content: space-between; gap: 16px; border-bottom: 1px solid var(--line); font-size: 10px; font-weight: 800; }
+.seminar-detail-links a:hover span { color: var(--blue); }
+.seminar-detail-links a:nth-child(odd) { padding-right: 14px; }
+.seminar-detail-links a:nth-child(even) { padding-left: 14px; border-left: 1px solid var(--line); }
+.seminar-detail-links b { color: var(--red); font-size: 17px; font-weight: 400; }
+.seminar-professor-layout { padding: 38px; display: grid; grid-template-columns: minmax(240px, 330px) minmax(0, 1fr); gap: 0; background: white; border: 1px solid var(--line); border-top: 0; }
+.seminar-professor-copy { min-height: 100%; padding: clamp(34px, 5vw, 66px); display: flex; flex-direction: column; color: white; background: var(--blue-deep); }
+.seminar-professor-copy > small { color: #f0c27a; font: 800 8px/1 Georgia, serif; letter-spacing: .18em; }
+.seminar-professor-copy h3 { margin: 17px 0 0; font: 600 clamp(29px, 3.5vw, 48px)/1.35 "Yu Mincho", YuMincho, Georgia, serif; }
+.seminar-detail-layout.is-english .seminar-professor-copy h3 { font-family: Georgia, "Times New Roman", serif; }
+.seminar-professor-secondary { margin: 9px 0 0; color: rgba(255,255,255,.53); font: 12px/1.6 Georgia, "Times New Roman", serif; }
+.seminar-professor-copy blockquote { margin: 38px 0 0; padding: 30px 0 0; display: grid; grid-template-columns: 38px minmax(0, 1fr); gap: 15px; border-top: 1px solid rgba(255,255,255,.22); }
+.seminar-professor-copy blockquote > span { color: #f0c27a; font: 44px/.9 Georgia, serif; }
+.seminar-professor-copy blockquote p { margin: 0; color: rgba(255,255,255,.78); font-size: 12px; line-height: 2; white-space: pre-line; }
+.seminar-professor-copy blockquote.is-empty p { color: rgba(255,255,255,.5); }
+.seminar-professor-link { width: max-content; margin-top: auto; padding-top: 38px; color: white; border-bottom: 1px solid rgba(255,255,255,.48); font-size: 10px; font-weight: 800; }
+.seminar-professor-link span { margin-left: 15px; color: #f0c27a; }
 .pearl-detail-availability { width: min(930px, calc(100% - 48px)); margin: 54px auto 0; padding: 34px; color: white; background: var(--blue-deep); box-shadow: 16px 16px 0 rgba(162,45,63,.13); }
 .pearl-detail-availability > header small { color: #f0c27a; font: 800 8px/1 Georgia, serif; letter-spacing: .16em; }
 .pearl-detail-availability > header h2 { margin: 14px 0 8px; font: 600 clamp(25px, 3vw, 38px)/1.35 Georgia, "Times New Roman", serif; }
@@ -629,6 +658,11 @@ section { scroll-margin-top: 142px; }
 .pearl-detail-availability dd { margin: 15px 0 0; color: rgba(255,255,255,.84); font-size: 11px; line-height: 1.75; overflow-wrap: anywhere; }
 .pearl-detail-note { margin: 22px 0 0; color: rgba(255,255,255,.55); font-size: 9px; line-height: 1.8; }
 
+@media (max-width: 920px) {
+  .seminar-introduction-layout { grid-template-columns: 1fr; }
+  .seminar-introduction-layout .seminar-detail-media.is-seminar { max-height: 620px; }
+}
+
 @media (max-width: 760px) {
   .archive-hero { min-height: 300px; padding-block: 72px 55px; }
   .archive-row { grid-template-columns: 84px 1fr 22px; gap: 12px; }
@@ -638,8 +672,19 @@ section { scroll-margin-top: 142px; }
   .archive-row h2, .directory-row h2 { font-size: 16px; }
   .archive-footer { align-items: flex-start; flex-direction: column; }
   .content-title { padding-top: 48px; }
-  .seminar-profile { display: block; padding: 24px; }
-  .seminar-profile nav { justify-content: flex-start; margin-top: 26px; }
+  .seminar-detail-layout { width: calc(100% - 40px); margin-top: 54px; }
+  .seminar-detail-section + .seminar-detail-section { margin-top: 64px; }
+  .seminar-detail-heading { min-height: 94px; padding: 22px 20px; grid-template-columns: 38px minmax(0, 1fr); gap: 14px; }
+  .seminar-detail-heading > span { font-size: 23px; }
+  .seminar-detail-heading h2 { font-size: 28px; }
+  .seminar-introduction-layout, .seminar-professor-layout { padding: 20px; }
+  .seminar-detail-links { grid-template-columns: 1fr; }
+  .seminar-detail-links a:nth-child(n) { padding-inline: 4px; border-left: 0; }
+  .seminar-professor-layout { grid-template-columns: 1fr; }
+  .seminar-detail-media.is-professor { width: min(100%, 350px); }
+  .seminar-professor-copy { min-height: 440px; padding: 34px 26px; }
+  .seminar-professor-copy blockquote { grid-template-columns: 28px minmax(0, 1fr); gap: 10px; }
+  .seminar-professor-copy blockquote > span { font-size: 35px; }
   .seminar-directory-hero { min-height: 300px; padding: 64px 20px 48px; }
   .seminar-directory-hero > b { display: none; }
   .seminar-directory-hero span { max-width: 310px; }

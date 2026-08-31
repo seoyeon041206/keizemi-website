@@ -1,6 +1,6 @@
 {
   "id": 3509,
-  "slug": "姚瑩研究会-p-dd",
+  "slug": "yao-ying",
   "title": "姚瑩研究会（P）（DD）",
   "date": "2025-01-07",
   "modified": "2026-02-21",
@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "姚 瑩（ヤオ イン）",
   "professorNameAlpha": "Ying Yao",
-  "professorDescription": "As a health economist, I use economic analysis to understand healthcare systems and social issues affecting health outcomes. My research emphasizes empirical approaches to evaluate policies and understand behavior. I welcome students who are curious about healthcare challenges and eager to develop analytical skills, even without prior experience in these areas.",
   "professorLink": "",
   "website": "",
   "twitter": "",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": ""
+  "url": "",
+  "seminarImage": "",
+  "seminarImageAlt": "姚瑩研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/yao-ying/professor.jpg",
+  "professorImageAlt": "姚 瑩（ヤオ イン） 教員写真",
+  "professorMessage": "As a health economist, I use economic analysis to understand healthcare systems and social issues affecting health outcomes. My research emphasizes empirical approaches to evaluate policies and understand behavior. I welcome students who are curious about healthcare challenges and eager to develop analytical skills, even without prior experience in these areas.\n"
 }

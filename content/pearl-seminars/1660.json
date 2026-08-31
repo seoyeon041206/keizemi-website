@@ -9,7 +9,6 @@
   "name": "Yoshimasa Shirai Seminar",
   "field": "International Economics",
   "relatedJapaneseId": 277,
-  "professorDescription": "国際貿易（広くはグローバリゼーション）が生産性や技術進歩に及ぼす影響、またはその逆の影響について考察する学術論文や学術書をみんなで読み議論しようと考えています。日本の実質賃金や労働生産性がなぜ伸び悩んでいるのかという大きな問いの一部分としても考えてみたいと思っています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000432_en.html",
   "order": 39,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese and English",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Shirai Yoshimasa",
+  "professorNameLocal": "白井義昌（シライ ヨシマサ）",
+  "seminarImage": "",
+  "seminarImageAlt": "Yoshimasa Shirai Seminar seminar group",
+  "professorImage": "",
+  "professorImageAlt": "Portrait of Shirai Yoshimasa",
+  "professorMessage": "国際貿易（広くはグローバリゼーション）が生産性や技術進歩に及ぼす影響、またはその逆の影響について考察する学術論文や学術書をみんなで読み議論しようと考えています。日本の実質賃金や労働生産性がなぜ伸び悩んでいるのかという大きな問いの一部分としても考えてみたいと思っています。",
+  "website": "https://shiraizemi2014.jimdofree.com/",
+  "twitter": "https://twitter.com/shirainyuzemi",
+  "instagram": "",
+  "facebook": ""
 }

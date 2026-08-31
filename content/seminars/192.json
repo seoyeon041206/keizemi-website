@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "廣瀬康生（ヒロセ ヤスオ）",
   "professorNameAlpha": "Hirose Yasuo",
-  "professorDescription": "大学院レベルのマクロ経済分析手法の習得を目指しますので、学部中～上級レベルのマクロ経済学、ミクロ経済学、微分積分、線形代数、統計学の知識が必要となります。数学やプログラミングが得意な方や、将来、政策当局や民間調査機関でマクロ経済分析に携わりたい方を歓迎します。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000511_ja.html?k=%E5%BB%A3%E7%80%AC%E5%BA%B7%E7%94%9F",
   "website": "https://hiroseseminar.github.io/",
   "twitter": "https://twitter.com/hirose_zemi",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://hiroseseminar.github.io/"
+  "url": "https://hiroseseminar.github.io/",
+  "seminarImage": "/uploads/seminars/hirose-yasuo/seminar.jpg",
+  "seminarImageAlt": "廣瀬康生研究会の研究会写真",
+  "professorImage": "",
+  "professorImageAlt": "廣瀬康生（ヒロセ ヤスオ） 教員写真",
+  "professorMessage": "大学院レベルのマクロ経済分析手法の習得を目指しますので、学部中～上級レベルのマクロ経済学、ミクロ経済学、微分積分、線形代数、統計学の知識が必要となります。数学やプログラミングが得意な方や、将来、政策当局や民間調査機関でマクロ経済分析に携わりたい方を歓迎します。"
 }

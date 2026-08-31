@@ -3,11 +3,12 @@ import { notFound } from 'next/navigation';
 import pearlJson from '@/content/generated/pearl-seminars.json';
 import seminarsJson from '@/content/generated/seminars.json';
 import type { PearlSeminar, Seminar } from '@/app/content-types';
-import { ContentChrome, ImportedBody } from '@/app/components/ContentChrome';
-import { siteHref } from '@/app/site-path';
+import { ContentChrome } from '@/app/components/ContentChrome';
+import { SeminarDetailSections, type SeminarDetailLink } from '@/app/components/SeminarDetailSections';
 
 const pearlSeminars = pearlJson as PearlSeminar[];
 const seminars = seminarsJson as Seminar[];
+const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://keizemi-keio.sykim140400.chatgpt.site').replace(/\/$/, '');
 
 export const dynamicParams = false;
 
@@ -19,11 +20,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const seminar = pearlSeminars.find((item) => item.slug === slug);
   if (!seminar) return {};
+  const socialImage = seminar.seminarImage ? `${siteUrl}${seminar.seminarImage}` : '';
   return {
     title: `${seminar.name} | KEIZEMI`,
     description: seminar.excerpt,
-    openGraph: { images: [] },
-    twitter: { images: [] },
+    openGraph: {
+      images: socialImage ? [{ url: socialImage, alt: seminar.seminarImageAlt }] : [],
+    },
+    twitter: { images: socialImage ? [socialImage] : [] },
   };
 }
 
@@ -32,6 +36,13 @@ export default async function PearlSeminarDetail({ params }: { params: Promise<{
   const seminar = pearlSeminars.find((item) => item.slug === slug);
   if (!seminar) notFound();
   const japanese = seminars.find((item) => item.id === seminar.relatedJapaneseId);
+  const links = [
+    { label: 'Official seminar website', href: seminar.website, external: true },
+    { label: 'X', href: seminar.twitter, external: true },
+    { label: 'Instagram', href: seminar.instagram, external: true },
+    { label: 'Facebook', href: seminar.facebook, external: true },
+    ...(japanese ? [{ label: 'Japanese seminar page', href: `/seminars/${japanese.slug}` }] : []),
+  ].filter((entry) => entry.href) as SeminarDetailLink[];
   return (
     <ContentChrome
       overline="PEARL / DOUBLE DEGREE"
@@ -50,14 +61,21 @@ export default async function PearlSeminarDetail({ params }: { params: Promise<{
         </dl>
         <p className="pearl-detail-note">“Allowed” may mean that you are expected to use Japanese in class or be comfortable studying in Japanese. Check all conditions before applying.</p>
       </section>
-      {(seminar.professorLink || japanese) && (
-        <nav className="detail-links">
-          {seminar.professorLink && <a href={seminar.professorLink} target="_blank" rel="noreferrer">Professor profile ↗</a>}
-          {japanese && <a href={siteHref(`/seminars/${japanese.slug}`)}>Japanese seminar page →</a>}
-        </nav>
-      )}
-      {seminar.professorDescription && <div className="imported-body professor-body" dangerouslySetInnerHTML={{ __html: seminar.professorDescription }} />}
-      <ImportedBody html={seminar.contentHtml} fallback={seminar.excerpt} />
+      <SeminarDetailSections
+        language="en"
+        seminarName={seminar.name}
+        introductionHtml={seminar.contentHtml}
+        introductionFallback={seminar.excerpt}
+        seminarImage={seminar.seminarImage}
+        seminarImageAlt={seminar.seminarImageAlt}
+        professorName={seminar.professorName}
+        professorNameSecondary={seminar.professorNameLocal}
+        professorImage={seminar.professorImage}
+        professorImageAlt={seminar.professorImageAlt}
+        professorMessage={seminar.professorMessage}
+        professorLink={seminar.professorLink}
+        links={links}
+      />
     </ContentChrome>
   );
 }

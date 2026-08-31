@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "玉田康成（タマダ ヤスナリ）",
   "professorNameAlpha": "Tamada Yasunari",
-  "professorDescription": "ゲーム理論や契約理論などのミクロ経済学の分析ツールはとても強力で、その射程は広く性能も高いです。これから社会に出て行く学生たちには、現実経済で直面していく課題の背後になる構造を理解し、適切に解決するための経済学リテラシーを身につけてほしいです。高い志を持ち、経済学が「難しい」と感じることがあっても、それを上回る「面白さ」を見つけること、それが豊かな学びにつながります。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000459_ja.html?k=%E7%8E%89%E7%94%B0",
   "website": "https://sites.google.com/view/keio-tamada-seminar",
   "twitter": "https://twitter.com/tamada_seminar",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://sites.google.com/view/keio-tamada-seminar"
+  "url": "https://sites.google.com/view/keio-tamada-seminar",
+  "seminarImage": "/uploads/seminars/tamada-yasunari/seminar.jpg",
+  "seminarImageAlt": "玉田康成研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/tamada-yasunari/professor.jpg",
+  "professorImageAlt": "玉田康成（タマダ ヤスナリ） 教員写真",
+  "professorMessage": "ゲーム理論や契約理論などのミクロ経済学の分析ツールはとても強力で、その射程は広く性能も高いです。これから社会に出て行く学生たちには、現実経済で直面していく課題の背後になる構造を理解し、適切に解決するための経済学リテラシーを身につけてほしいです。高い志を持ち、経済学が「難しい」と感じることがあっても、それを上回る「面白さ」を見つけること、それが豊かな学びにつながります。"
 }

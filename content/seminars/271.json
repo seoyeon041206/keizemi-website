@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "清田耕造（キヨタ コウゾウ）",
   "professorNameAlpha": "Kiyota Kozo",
-  "professorDescription": "I am a professor of economics at Keio Economic Observatory. I also have a joint appointment at the Graduate School of Economics, Keio University. At Keio, I teach graduate students, and organize research workshops for faculty members and graduate students. In our seminar, we try to solve global economic problems based on data science methods.",
   "professorLink": "https://k-ris.keio.ac.jp/html/100013704_ja.html?k=%E6%B8%85%E7%94%B0%E8%80%95%E9%80%A0",
   "website": "https://kiyotaseminar.com/",
   "twitter": "https://twitter.com/kiyota_zemi/",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://kiyotaseminar.com/"
+  "url": "https://kiyotaseminar.com/",
+  "seminarImage": "",
+  "seminarImageAlt": "清田耕造研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/kiyota-kouzo/professor.jpg",
+  "professorImageAlt": "清田耕造（キヨタ コウゾウ） 教員写真",
+  "professorMessage": "I am a professor of economics at Keio Economic Observatory. I also have a joint appointment at the Graduate School of Economics, Keio University. At Keio, I teach graduate students, and organize research workshops for faculty members and graduate students. In our seminar, we try to solve global economic problems based on data science methods."
 }

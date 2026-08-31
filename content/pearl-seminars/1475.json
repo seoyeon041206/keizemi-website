@@ -9,7 +9,6 @@
   "name": "Michio Naoi Seminar",
   "field": "Environmental and Urban Economics",
   "relatedJapaneseId": 206,
-  "professorDescription": "都市・地域経済学、応用計量経済学を中心とした研究を行っています。ゼミ（研究会）では、これらの分野を含む幅広いトピック（都市・地域、交通、環境、労働、教育など）に関するデータ分析（応用計量経済学）を扱っています。都市・地域問題は、皆さんにとっても身近なテーマですので、こうしたテーマに幅広い興味・関心を持ち、経済学的な分析・研究を行ってみたいという人を希望します。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000477_en.html",
   "order": 44,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Naoi Michio",
+  "professorNameLocal": "直井道生（ナオイ ミチオ）",
+  "seminarImage": "/uploads/seminars/naoi-michio/seminar.jpg",
+  "seminarImageAlt": "Michio Naoi Seminar seminar group",
+  "professorImage": "/uploads/seminars/naoi-michio/professor.jpg",
+  "professorImageAlt": "Portrait of Naoi Michio",
+  "professorMessage": "都市・地域経済学、応用計量経済学を中心とした研究を行っています。ゼミ（研究会）では、これらの分野を含む幅広いトピック（都市・地域、交通、環境、労働、教育など）に関するデータ分析（応用計量経済学）を扱っています。都市・地域問題は、皆さんにとっても身近なテーマですので、こうしたテーマに幅広い興味・関心を持ち、経済学的な分析・研究を行ってみたいという人を希望します。",
+  "website": "https://keionaoiseminar.wordpress.com/",
+  "twitter": "https://twitter.com/naoi_seminar",
+  "instagram": "https://www.instagram.com/naoi_zemi/?hl=ja",
+  "facebook": ""
 }

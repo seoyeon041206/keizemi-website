@@ -1,6 +1,6 @@
 {
   "id": 2308,
-  "slug": "松田一茂研究会p",
+  "slug": "matsuda-kazushige",
   "title": "松田一茂研究会（P）（DD）",
   "date": "2022-12-21",
   "modified": "2026-08-23",
@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "松田一茂(マツダ カズシゲ)",
   "professorNameAlpha": "Matsuda Kazushige",
-  "professorDescription": "",
   "professorLink": "",
   "website": "https://www.keio.ac.jp/ja/econ/research/t-interview-1/int-matsuda-kazushige/",
   "twitter": "",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://www.keio.ac.jp/ja/econ/research/t-interview-1/int-matsuda-kazushige/"
+  "url": "https://www.keio.ac.jp/ja/econ/research/t-interview-1/int-matsuda-kazushige/",
+  "seminarImage": "",
+  "seminarImageAlt": "松田一茂研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/matsuda-kazushige/professor.jpg",
+  "professorImageAlt": "松田一茂(マツダ カズシゲ) 教員写真",
+  "professorMessage": ""
 }

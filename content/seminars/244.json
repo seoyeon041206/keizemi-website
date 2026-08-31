@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "駒村康平（コマムラ コウヘイ）",
   "professorNameAlpha": "Komamura Kouhei",
-  "professorDescription": "高齢化率が40％に接近する超高齢社会が到来します。社会経済の仕組みを様々見直さないといけない状況になります。社会政策そして神経経済学の視点からこの問題に皆さんと取り組んで行きたいと思います。研究活動状況は、慶應義塾大学ファイナンシャルジェロントロジー研究センターのHPも参考にしてください。https://rcfg.keio.ac.jp/",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000405_ja.html?k=%E9%A7%92%E6%9D%91%E5%BA%B7%E5%B9%B3",
   "website": "https://komamura-keio-econ.jimdofree.com/",
   "twitter": "https://twitter.com/komazemi_2021?s=21&t=q6jCp6EIzmK3zxYgRLVudg",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://komamura-keio-econ.jimdofree.com/"
+  "url": "https://komamura-keio-econ.jimdofree.com/",
+  "seminarImage": "/uploads/seminars/komamura-kouhei/seminar.jpg",
+  "seminarImageAlt": "駒村康平研究会の研究会写真",
+  "professorImage": "",
+  "professorImageAlt": "駒村康平（コマムラ コウヘイ） 教員写真",
+  "professorMessage": "高齢化率が40％に接近する超高齢社会が到来します。社会経済の仕組みを様々見直さないといけない状況になります。社会政策そして神経経済学の視点からこの問題に皆さんと取り組んで行きたいと思います。研究活動状況は、慶應義塾大学ファイナンシャルジェロントロジー研究センターのHPも参考にしてください。https://rcfg.keio.ac.jp/"
 }

@@ -1,6 +1,6 @@
 {
   "id": 2312,
-  "slug": "尾崎裕之研究会p",
+  "slug": "ozaki-hiroyuki",
   "title": "尾崎裕之研究会（P）（DD）",
   "date": "2022-12-21",
   "modified": "2024-12-08",
@@ -11,7 +11,6 @@
   "status": "募集停止",
   "professorName": "尾崎裕之(オザキ ヒロユキ)",
   "professorNameAlpha": "Ozaki Hiroyuki",
-  "professorDescription": "研究会紹介スライドを参照ください。入ゼミ方法などは、必要に応じて今後上記websiteにアップします。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000366_ja.html",
   "website": "http://web.econ.keio.ac.jp/staff/ozaki/lectures.html",
   "twitter": "",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "http://web.econ.keio.ac.jp/staff/ozaki/lectures.html"
+  "url": "http://web.econ.keio.ac.jp/staff/ozaki/lectures.html",
+  "seminarImage": "",
+  "seminarImageAlt": "尾崎裕之研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/ozaki-hiroyuki/professor.jpg",
+  "professorImageAlt": "尾崎裕之(オザキ ヒロユキ) 教員写真",
+  "professorMessage": "研究会紹介スライドを参照ください。入ゼミ方法などは、必要に応じて今後上記websiteにアップします。"
 }

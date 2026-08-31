@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "津曲正俊（ツマガリ マサトシ）",
   "professorNameAlpha": "Tsumagari Masatoshi",
-  "professorDescription": "私は、契約理論を中心としたミクロ経済学の研究者です。契約理論は、情報が共有されていない状況で、人間間の関係形成がどう影響され、組織・制度設計の問題にどう反映されるかを分析します。研究会では、契約理論だけでなく、ゲーム理論、マーケットデザイン理論などミクロ経済学を幅広く勉強します。実証研究の重要性を鑑みて、基本的な実証手法も学習します。経済問題を分析する確かな理論・実証の力を身に着けていただきます。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000467_ja.html?k=%E6%B4%A5%E6%9B%B2%E6%AD%A3%E4%BF%8A",
   "website": "https://tsumagariseminar-afk.github.io/tsumagari-seminar-website/",
   "twitter": "https://twitter.com/tsumagari_2023",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://tsumagariseminar-afk.github.io/tsumagari-seminar-website/"
+  "url": "https://tsumagariseminar-afk.github.io/tsumagari-seminar-website/",
+  "seminarImage": "/uploads/seminars/tsumagari-masatoshi/seminar.jpg",
+  "seminarImageAlt": "津曲正俊研究会（P）（DD）の研究会写真",
+  "professorImage": "",
+  "professorImageAlt": "津曲正俊（ツマガリ マサトシ） 教員写真",
+  "professorMessage": "私は、契約理論を中心としたミクロ経済学の研究者です。契約理論は、情報が共有されていない状況で、人間間の関係形成がどう影響され、組織・制度設計の問題にどう反映されるかを分析します。研究会では、契約理論だけでなく、ゲーム理論、マーケットデザイン理論などミクロ経済学を幅広く勉強します。実証研究の重要性を鑑みて、基本的な実証手法も学習します。経済問題を分析する確かな理論・実証の力を身に着けていただきます。"
 }

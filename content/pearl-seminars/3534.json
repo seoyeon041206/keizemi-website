@@ -9,7 +9,6 @@
   "name": "Manabu Nose Seminar",
   "field": "International Economics",
   "relatedJapaneseId": 3505,
-  "professorDescription": "途上国における財政問題、企業や都市の発展、大規模災害・不確実性をテーマとして、実証研究を進めています。近年は、企業データや空間地理情報、Big Dataを用いて、インフラ投資やデジタル化の政策評価に取り組んでいます。IMFでは、アジア、アフリカ諸国の財務省や中央銀行等との政策交渉や経済予測を行いながら、財政・債務問題に関する研究を進めてきました。ゼミ活動は英語文献を題材として、プレゼン、ディスカッションを進めていきます。広く開発経済の研究や、将来国際機関での政策実務に関心がある学生の積極的な参加をお待ちしています。",
   "professorLink": "https://sites.google.com/site/econnose/home",
   "order": 42,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese and English",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Manabu Nose",
+  "professorNameLocal": "能勢 学（ノセ マナブ）",
+  "seminarImage": "/uploads/seminars/nose-manabu/seminar.jpg",
+  "seminarImageAlt": "Manabu Nose Seminar seminar group",
+  "professorImage": "/uploads/seminars/nose-manabu/professor.jpg",
+  "professorImageAlt": "Portrait of Manabu Nose",
+  "professorMessage": "途上国における財政問題、企業や都市の発展、大規模災害・不確実性をテーマとして、実証研究を進めています。近年は、企業データや空間地理情報、Big Dataを用いて、インフラ投資やデジタル化の政策評価に取り組んでいます。IMFでは、アジア、アフリカ諸国の財務省や中央銀行等との政策交渉や経済予測を行いながら、財政・債務問題に関する研究を進めてきました。ゼミ活動は英語文献を題材として、プレゼン、ディスカッションを進めていきます。広く開発経済の研究や、将来国際機関での政策実務に関心がある学生の積極的な参加をお待ちしています。",
+  "website": "https://noseseminar.studio.site/",
+  "twitter": "",
+  "instagram": "https://www.instagram.com/noseseminar?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D",
+  "facebook": ""
 }

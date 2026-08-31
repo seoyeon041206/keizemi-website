@@ -9,7 +9,6 @@
   "name": "Sayako Kanda Seminar",
   "field": "Economic History",
   "relatedJapaneseId": 228,
-  "professorDescription": "私はインド経済史を研究しています。学生の時にインド世界に出会ったこと、経済史のゼミに入ったこと、そしてそこで知り合った人々との関係が今のキャリアを築くきっかけになりました。学生の皆さんには、学問とその他の活動のなかで、キャンパス内外で多様なバックグラウンドをもつ人たちに出会い、話し、議論する機会をもってほしいです。刺激を受け、多くのことを学ぶでしょう。それが自らの可能性を広げてくれるように思います。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000387_en.html",
   "order": 51,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Classes are conducted in Japanese, but papers and assignments may be written in English.",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Kanda Sayako",
+  "professorNameLocal": "神田さやこ（カンダ サヤコ）",
+  "seminarImage": "/uploads/seminars/kanda-sayako/seminar.jpg",
+  "seminarImageAlt": "Sayako Kanda Seminar seminar group",
+  "professorImage": "",
+  "professorImageAlt": "Portrait of Kanda Sayako",
+  "professorMessage": "私はインド経済史を研究しています。学生の時にインド世界に出会ったこと、経済史のゼミに入ったこと、そしてそこで知り合った人々との関係が今のキャリアを築くきっかけになりました。学生の皆さんには、学問とその他の活動のなかで、キャンパス内外で多様なバックグラウンドをもつ人たちに出会い、話し、議論する機会をもってほしいです。刺激を受け、多くのことを学ぶでしょう。それが自らの可能性を広げてくれるように思います。",
+  "website": "",
+  "twitter": "https://twitter.com/kanda_seminar?s=11&t=cr4y3z1yUUxfFq9qlQCXYQ",
+  "instagram": "",
+  "facebook": ""
 }

@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "井深陽子（イブカ ヨウコ）",
   "professorNameAlpha": "Ibuka Yoko",
-  "professorDescription": "医療・福祉業は現在の世界・日本の経済で大きな役割を果たす産業です。医療経済学は、医療や健康に関わる市場の特徴を、個人の健康行動（需要側）・医療提供者や医療関連企業の行動（供給側）・政府の役割、という観点から学ぶ経済学の一分野です。皆さんと一緒に医療経済学の研究をすることを楽しみにしています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000339_ja.html?k=%E4%BA%95%E6%B7%B1%E9%99%BD%E5%AD%90",
   "website": "https://sites.google.com/view/ibuka-seminar/",
   "twitter": "https://twitter.com/ibuka_seminar",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://sites.google.com/view/ibuka-seminar/"
+  "url": "https://sites.google.com/view/ibuka-seminar/",
+  "seminarImage": "/uploads/seminars/ibuka-yoko/seminar.jpg",
+  "seminarImageAlt": "井深陽子研究会（P）の研究会写真",
+  "professorImage": "/uploads/seminars/ibuka-yoko/professor.jpg",
+  "professorImageAlt": "井深陽子（イブカ ヨウコ） 教員写真",
+  "professorMessage": "医療・福祉業は現在の世界・日本の経済で大きな役割を果たす産業です。医療経済学は、医療や健康に関わる市場の特徴を、個人の健康行動（需要側）・医療提供者や医療関連企業の行動（供給側）・政府の役割、という観点から学ぶ経済学の一分野です。皆さんと一緒に医療経済学の研究をすることを楽しみにしています。"
 }

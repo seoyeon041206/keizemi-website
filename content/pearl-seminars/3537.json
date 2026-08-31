@@ -9,7 +9,6 @@
   "name": "Ryotaro Takahashi Seminar",
   "field": "Economy and Society",
   "relatedJapaneseId": 3502,
-  "professorDescription": "今から30年ほど前まで、日本は小さな政府にもかかわらず所得の平等を享受してきました。いわゆる一億総中流と呼ばれる状況です。しかし、一般的に小さな政府は再分配機能が弱いと考えられています。それにもかかわらず、なぜ当時の日本は所得の平等を実現できたのでしょうか。この謎を解き明かすために、私は財政社会学の観点から日本財政を研究してきました。\n　現在は、「平等」を特徴とする小さな政府がいかに形成されたのか、そしてその形成の背後にある財政制度が現代日本にどのような影響をもたらしているのかについて関心を持ち、研究を進めています。",
   "professorLink": "https://sites.google.com/view/takahashi-ryotaro/",
   "order": 50,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Not Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Takahashi Ryotaro",
+  "professorNameLocal": "髙橋涼太朗（タカハシ リョウタロウ）",
+  "seminarImage": "",
+  "seminarImageAlt": "Ryotaro Takahashi Seminar seminar group",
+  "professorImage": "/uploads/seminars/takahashi-ryotaro/professor.jpg",
+  "professorImageAlt": "Portrait of Takahashi Ryotaro",
+  "professorMessage": "今から30年ほど前まで、日本は小さな政府にもかかわらず所得の平等を享受してきました。いわゆる一億総中流と呼ばれる状況です。しかし、一般的に小さな政府は再分配機能が弱いと考えられています。それにもかかわらず、なぜ当時の日本は所得の平等を実現できたのでしょうか。この謎を解き明かすために、私は財政社会学の観点から日本財政を研究してきました。\n　現在は、「平等」を特徴とする小さな政府がいかに形成されたのか、そしてその形成の背後にある財政制度が現代日本にどのような影響をもたらしているのかについて関心を持ち、研究を進めています。",
+  "website": "https://sites.google.com/view/takahashi-ryotaro/",
+  "twitter": "https://x.com/takahashi__semi?s=11&t=bf88c6rDwp6D_Cq8CSEaaQ",
+  "instagram": "https://www.instagram.com/takahashi__semi?igsh=eXIxZ3ZpOWNqc2Jk",
+  "facebook": ""
 }

@@ -9,7 +9,6 @@
   "name": "Yoko Ibuka Seminar",
   "field": "Labor and Industrial Economics",
   "relatedJapaneseId": 240,
-  "professorDescription": "医療・福祉業は現在の世界・日本の経済で大きな役割を果たす産業です。医療経済学は、医療や健康に関わる市場の特徴を、個人の健康行動（需要側）・医療提供者や医療関連企業の行動（供給側）・政府の役割、という観点から学ぶ経済学の一分野です。皆さんと一緒に医療経済学の研究をすることを楽しみにしています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000339_ja.html?k=%E4%BA%95%E6%B7%B1%E9%99%BD%E5%AD%90",
   "order": 29,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Not Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Ibuka Yoko",
+  "professorNameLocal": "井深陽子（イブカ ヨウコ）",
+  "seminarImage": "/uploads/seminars/ibuka-yoko/seminar.jpg",
+  "seminarImageAlt": "Yoko Ibuka Seminar seminar group",
+  "professorImage": "/uploads/seminars/ibuka-yoko/professor.jpg",
+  "professorImageAlt": "Portrait of Ibuka Yoko",
+  "professorMessage": "医療・福祉業は現在の世界・日本の経済で大きな役割を果たす産業です。医療経済学は、医療や健康に関わる市場の特徴を、個人の健康行動（需要側）・医療提供者や医療関連企業の行動（供給側）・政府の役割、という観点から学ぶ経済学の一分野です。皆さんと一緒に医療経済学の研究をすることを楽しみにしています。",
+  "website": "https://sites.google.com/view/ibuka-seminar/",
+  "twitter": "https://twitter.com/ibuka_seminar",
+  "instagram": "https://www.instagram.com/ibuka_seminar/",
+  "facebook": ""
 }

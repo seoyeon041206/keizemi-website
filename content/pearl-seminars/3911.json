@@ -9,7 +9,6 @@
   "name": "Keita Abe Seminar",
   "field": "Environmental and Urban Economics",
   "relatedJapaneseId": 3911,
-  "professorDescription": "阿部景太 (Abe Keita)",
   "professorLink": "",
   "order": 52,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese and English",
-  "recruitmentStatus": "新規募集"
+  "recruitmentStatus": "新規募集",
+  "professorName": "",
+  "professorNameLocal": "",
+  "seminarImage": "",
+  "seminarImageAlt": "Keita Abe Seminar seminar group",
+  "professorImage": "/uploads/seminars/abe-keita/professor.jpg",
+  "professorImageAlt": "Portrait of Keita Abe Seminar",
+  "professorMessage": "阿部景太 (Abe Keita)",
+  "website": "https://keita43a.github.io/jp/",
+  "twitter": "",
+  "instagram": "",
+  "facebook": ""
 }

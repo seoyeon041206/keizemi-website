@@ -9,7 +9,6 @@
   "name": "Yasunari Tamada Seminar",
   "field": "Economic Theory",
   "relatedJapaneseId": 188,
-  "professorDescription": "ゲーム理論や契約理論などのミクロ経済学の分析ツールはとても強力で、その射程は広く性能も高いです。これから社会に出て行く学生たちには、現実経済で直面していく課題の背後になる構造を理解し、適切に解決するための経済学リテラシーを身につけてほしいです。高い志を持ち、経済学が「難しい」と感じることがあっても、それを上回る「面白さ」を見つけること、それが豊かな学びにつながります。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000459_en.html",
   "order": 4,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Tamada Yasunari",
+  "professorNameLocal": "玉田康成（タマダ ヤスナリ）",
+  "seminarImage": "/uploads/seminars/tamada-yasunari/seminar.jpg",
+  "seminarImageAlt": "Yasunari Tamada Seminar seminar group",
+  "professorImage": "/uploads/seminars/tamada-yasunari/professor.jpg",
+  "professorImageAlt": "Portrait of Tamada Yasunari",
+  "professorMessage": "ゲーム理論や契約理論などのミクロ経済学の分析ツールはとても強力で、その射程は広く性能も高いです。これから社会に出て行く学生たちには、現実経済で直面していく課題の背後になる構造を理解し、適切に解決するための経済学リテラシーを身につけてほしいです。高い志を持ち、経済学が「難しい」と感じることがあっても、それを上回る「面白さ」を見つけること、それが豊かな学びにつながります。",
+  "website": "https://sites.google.com/view/keio-tamada-seminar",
+  "twitter": "https://twitter.com/tamada_seminar",
+  "instagram": "https://instagram.com/tamada__seminar?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr",
+  "facebook": ""
 }

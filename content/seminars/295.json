@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "難波ちづる（ナンバ チヅル）",
   "professorNameAlpha": "Namba Chizuru",
-  "professorDescription": "私たちのいる社会や、混沌とした現代世界がどのような歴史的経緯を経て成り立っているのか、そうした関心をもつ学生にきてほしいと思っています。 私たちが「あたりまえ」だと思っていることをあらためて批判的に問い直し、さまざまな資料から読み取った断片を、想像力をもちいながら論理的に構築していくのはとても刺激的な作業です。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000492_ja.html?k=%E9%9B%A3%E6%B3%A2%E3%81%A1%E3%81%A5%E3%82%8B",
   "website": "",
   "twitter": "https://twitter.com/namba_zemi?s=20",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": ""
+  "url": "",
+  "seminarImage": "/uploads/seminars/namba-chizuru/seminar.jpg",
+  "seminarImageAlt": "難波ちづる研究会（P）（DD）の研究会写真",
+  "professorImage": "",
+  "professorImageAlt": "難波ちづる（ナンバ チヅル） 教員写真",
+  "professorMessage": "私たちのいる社会や、混沌とした現代世界がどのような歴史的経緯を経て成り立っているのか、そうした関心をもつ学生にきてほしいと思っています。 私たちが「あたりまえ」だと思っていることをあらためて批判的に問い直し、さまざまな資料から読み取った断片を、想像力をもちいながら論理的に構築していくのはとても刺激的な作業です。"
 }

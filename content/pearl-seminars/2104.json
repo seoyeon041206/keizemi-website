@@ -9,7 +9,6 @@
   "name": "Hiroki Kawai Seminar",
   "field": "Econometrics and Statistics",
   "relatedJapaneseId": 204,
-  "professorDescription": "経済学の考え方と統計的な方法を用いて、様々な社会現象を生み出すメカニズムを明らかにし、望ましい制度設計の在り方について考えましょう。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000379_ja.html?k=%E6%B2%B3%E4%BA%95%E5%95%93%E5%B8%8C",
   "order": 10,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Kawai Hiroki",
+  "professorNameLocal": "河井啓希（カワイ ヒロキ）",
+  "seminarImage": "/uploads/seminars/kawai-hiroki/seminar.jpg",
+  "seminarImageAlt": "Hiroki Kawai Seminar seminar group",
+  "professorImage": "/uploads/seminars/kawai-hiroki/professor.jpg",
+  "professorImageAlt": "Portrait of Kawai Hiroki",
+  "professorMessage": "経済学の考え方と統計的な方法を用いて、様々な社会現象を生み出すメカニズムを明らかにし、望ましい制度設計の在り方について考えましょう。",
+  "website": "",
+  "twitter": "https://twitter.com/kawaisemi2022",
+  "instagram": "https://www.instagram.com/kawaizemi23/?hl=ja",
+  "facebook": ""
 }

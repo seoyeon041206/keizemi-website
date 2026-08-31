@@ -9,7 +9,6 @@
   "name": "Kazushige Matsuda Seminar",
   "field": "Economic Theory",
   "relatedJapaneseId": 2308,
-  "professorDescription": "",
   "professorLink": "",
   "order": 9,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Matsuda Kazushige",
+  "professorNameLocal": "松田一茂(マツダ カズシゲ)",
+  "seminarImage": "",
+  "seminarImageAlt": "Kazushige Matsuda Seminar seminar group",
+  "professorImage": "/uploads/seminars/matsuda-kazushige/professor.jpg",
+  "professorImageAlt": "Portrait of Matsuda Kazushige",
+  "professorMessage": "",
+  "website": "https://www.keio.ac.jp/ja/econ/research/t-interview-1/int-matsuda-kazushige/",
+  "twitter": "",
+  "instagram": "",
+  "facebook": ""
 }

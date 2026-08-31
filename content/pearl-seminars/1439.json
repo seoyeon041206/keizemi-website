@@ -9,7 +9,6 @@
   "name": "Kozo Kiyota Seminar",
   "field": "International Economics",
   "relatedJapaneseId": 271,
-  "professorDescription": "I am a professor of economics at Keio Economic Observatory. I also have a joint appointment at the Graduate School of Economics, Keio University. At Keio, I teach graduate students, and organize research workshops for faculty members and graduate students. In our seminar, we try to solve global economic problems based on data science methods.",
   "professorLink": "https://k-ris.keio.ac.jp/html/100013704_en.html",
   "order": 37,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "English only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Kiyota Kozo",
+  "professorNameLocal": "清田耕造（キヨタ コウゾウ）",
+  "seminarImage": "",
+  "seminarImageAlt": "Kozo Kiyota Seminar seminar group",
+  "professorImage": "/uploads/seminars/kiyota-kouzo/professor.jpg",
+  "professorImageAlt": "Portrait of Kiyota Kozo",
+  "professorMessage": "I am a professor of economics at Keio Economic Observatory. I also have a joint appointment at the Graduate School of Economics, Keio University. At Keio, I teach graduate students, and organize research workshops for faculty members and graduate students. In our seminar, we try to solve global economic problems based on data science methods.",
+  "website": "https://kiyotaseminar.com/",
+  "twitter": "https://twitter.com/kiyota_zemi/",
+  "instagram": "",
+  "facebook": ""
 }

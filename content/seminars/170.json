@@ -11,7 +11,6 @@
   "status": "募集停止",
   "professorName": "亀井憲樹",
   "professorNameAlpha": "Kamei Kenju",
-  "professorDescription": "私の専門は、経済実験手法をもとにデータを収集し仮説を検証する分野であり、組織・社会における民主的意思決定、人々の投票行動や制度構築などの組織・政治経済学のトピックス、ワークプレイス・デモクラシーやモラルハザードなどビジネス経済学のトピックス、社会的ジレンマ下での人々の協力に関する研究など、幅広い応用経済学分野で研究を進めています。知的好奇心があり実験・行動経済学に関心のある学生をお待ちしています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100016143_ja.html?k=kamei",
   "website": "https://sites.google.com/view/keiokameiseminar",
   "twitter": "https://twitter.com/keiokameizemi",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://sites.google.com/view/keiokameiseminar"
+  "url": "https://sites.google.com/view/keiokameiseminar",
+  "seminarImage": "/uploads/seminars/kamei-kenju/seminar.jpg",
+  "seminarImageAlt": "亀井憲樹研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/kamei-kenju/professor.jpg",
+  "professorImageAlt": "亀井憲樹 教員写真",
+  "professorMessage": "私の専門は、経済実験手法をもとにデータを収集し仮説を検証する分野であり、組織・社会における民主的意思決定、人々の投票行動や制度構築などの組織・政治経済学のトピックス、ワークプレイス・デモクラシーやモラルハザードなどビジネス経済学のトピックス、社会的ジレンマ下での人々の協力に関する研究など、幅広い応用経済学分野で研究を進めています。知的好奇心があり実験・行動経済学に関心のある学生をお待ちしています。"
 }

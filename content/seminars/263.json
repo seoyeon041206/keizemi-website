@@ -11,7 +11,6 @@
   "status": "募集停止",
   "professorName": "駒形哲哉（コマガタ テツヤ）",
   "professorNameAlpha": "Komagata Tetsuya",
-  "professorDescription": "理論を学ぶ一方で、現場で得られた知見から論理を組み立てる思考力も養ってほしいと思っています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000403_ja.html?k=%E9%A7%92%E5%BD%A2%E5%93%B2%E5%93%89",
   "website": "https://komagataseminar.mystrikingly.com/?s=06",
   "twitter": "https://twitter.com/komagata_2021?s=06",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://komagataseminar.mystrikingly.com/?s=06"
+  "url": "https://komagataseminar.mystrikingly.com/?s=06",
+  "seminarImage": "",
+  "seminarImageAlt": "駒形哲哉研究会（P）の研究会写真",
+  "professorImage": "",
+  "professorImageAlt": "駒形哲哉（コマガタ テツヤ） 教員写真",
+  "professorMessage": "理論を学ぶ一方で、現場で得られた知見から論理を組み立てる思考力も養ってほしいと思っています。\n"
 }

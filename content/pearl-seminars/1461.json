@@ -9,7 +9,6 @@
   "name": "Daisuke Nagakura Seminar",
   "field": "Econometrics and Statistics",
   "relatedJapaneseId": 212,
-  "professorDescription": "私のゼミでは、計量経済学の方法論とその応用について、また最近では機械学習についても勉強しています。Pythonを用いて学んだ手法を実際のデータに適用する演習もしています。3年生はグループに分かれて最終的に1つ論文を書くことを、4年生は個々で卒業論文を書くことを目標としています。論文のテーマは統計分析であれば何でも構いません。私の専門は金融計量経済学ですが、ゼミ生のテーマは多岐にわたっています。詳しくは、　http://user.keio.ac.jp/~nagakura/mitaronsotsuron.html　を見て下さい。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000490_en.html",
   "order": 13,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Nagakura Daisuke",
+  "professorNameLocal": "長倉大輔（ナガクラ ダイスケ）",
+  "seminarImage": "/uploads/seminars/nagakura-daisuke/seminar.jpg",
+  "seminarImageAlt": "Daisuke Nagakura Seminar seminar group",
+  "professorImage": "/uploads/seminars/nagakura-daisuke/professor.jpg",
+  "professorImageAlt": "Portrait of Nagakura Daisuke",
+  "professorMessage": "私のゼミでは、計量経済学の方法論とその応用について、また最近では機械学習についても勉強しています。Pythonを用いて学んだ手法を実際のデータに適用する演習もしています。3年生はグループに分かれて最終的に1つ論文を書くことを、4年生は個々で卒業論文を書くことを目標としています。論文のテーマは統計分析であれば何でも構いません。私の専門は金融計量経済学ですが、ゼミ生のテーマは多岐にわたっています。詳しくは、　http://user.keio.ac.jp/~nagakura/mitaronsotsuron.html　を見て下さい。",
+  "website": "https://nagakurastatisticsfrom2011.jimdofree.com/",
+  "twitter": "https://twitter.com/nagakura_2020",
+  "instagram": "https://www.instagram.com/nagakura_zemi/",
+  "facebook": ""
 }

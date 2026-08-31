@@ -9,7 +9,6 @@
   "name": "Hiroyuki Yamada Seminar",
   "field": "International Economics",
   "relatedJapaneseId": 281,
-  "professorDescription": "We conduct research that uses data to analyze various issues in developing countries, sometimes incorporating historical and cultural perspectives and geospatial factors. In the process of economic development, many countries experience declining birthrates and aging populations, which leads to the problems currently faced by developed countries. There will be endless discussions both from the analytical methodological perspective and from the perspective of economic dynamism. I hope to engage in friendly discussions with gutsy students and strive to make the world a better place.",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000570_en.html",
   "order": 40,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese is the main language, but technical terms are used in English as is. Presentations and discussions in English are also welcome.",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Yamada Hiroyuki",
+  "professorNameLocal": "山田浩之（ヤマダ ヒロユキ）",
+  "seminarImage": "/uploads/seminars/yamada-hiroyuki/seminar.jpg",
+  "seminarImageAlt": "Hiroyuki Yamada Seminar seminar group",
+  "professorImage": "/uploads/seminars/yamada-hiroyuki/professor.jpg",
+  "professorImageAlt": "Portrait of Yamada Hiroyuki",
+  "professorMessage": "We conduct research that uses data to analyze various issues in developing countries, sometimes incorporating historical and cultural perspectives and geospatial factors. In the process of economic development, many countries experience declining birthrates and aging populations, which leads to the problems currently faced by developed countries. There will be endless discussions both from the analytical methodological perspective and from the perspective of economic dynamism. I hope to engage in friendly discussions with gutsy students and strive to make the world a better place.",
+  "website": "https://hyamadaseminar.wixsite.com/developmentecon",
+  "twitter": "https://twitter.com/hyamadaseminar?s=20",
+  "instagram": "https://www.instagram.com/hyamada_seminar/",
+  "facebook": ""
 }

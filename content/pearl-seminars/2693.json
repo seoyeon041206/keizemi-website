@@ -9,7 +9,6 @@
   "name": "Morimitsu Kurino Seminar",
   "field": "Economic Theory",
   "relatedJapaneseId": 180,
-  "professorDescription": "",
   "professorLink": "",
   "order": 2,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Not Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Kurino Morimitsu",
+  "professorNameLocal": "栗野盛光（クリノ モリミツ）",
+  "seminarImage": "/uploads/seminars/kurino-morimitsu/seminar.jpg",
+  "seminarImageAlt": "Morimitsu Kurino Seminar seminar group",
+  "professorImage": "",
+  "professorImageAlt": "Portrait of Kurino Morimitsu",
+  "professorMessage": "",
+  "website": "https://keiokurinoseminar.wixsite.com/kurinozemi",
+  "twitter": "https://mobile.twitter.com/econ_kurino",
+  "instagram": "https://www.instagram.com/kurino_seminar/",
+  "facebook": ""
 }

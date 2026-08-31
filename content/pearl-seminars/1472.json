@@ -9,7 +9,6 @@
   "name": "Chizuru Namba Seminar",
   "field": "Economy and Society",
   "relatedJapaneseId": 295,
-  "professorDescription": "私たちのいる社会や、混沌とした現代世界がどのような歴史的経緯を経て成り立っているのか、そうした関心をもつ学生にきてほしいと思っています。 私たちが「あたりまえ」だと思っていることをあらためて批判的に問い直し、さまざまな資料から読み取った断片を、想像力をもちいながら論理的に構築していくのはとても刺激的な作業です。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000492_en.html",
   "order": 49,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Namba Chizuru",
+  "professorNameLocal": "難波ちづる（ナンバ チヅル）",
+  "seminarImage": "/uploads/seminars/namba-chizuru/seminar.jpg",
+  "seminarImageAlt": "Chizuru Namba Seminar seminar group",
+  "professorImage": "",
+  "professorImageAlt": "Portrait of Namba Chizuru",
+  "professorMessage": "私たちのいる社会や、混沌とした現代世界がどのような歴史的経緯を経て成り立っているのか、そうした関心をもつ学生にきてほしいと思っています。 私たちが「あたりまえ」だと思っていることをあらためて批判的に問い直し、さまざまな資料から読み取った断片を、想像力をもちいながら論理的に構築していくのはとても刺激的な作業です。",
+  "website": "",
+  "twitter": "https://twitter.com/namba_zemi?s=20",
+  "instagram": "https://www.instagram.com/namba_zemi/?hl=ja",
+  "facebook": ""
 }

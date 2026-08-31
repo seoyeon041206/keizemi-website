@@ -9,7 +9,6 @@
   "name": "Takero Doi Seminar",
   "field": "Economic Policy and Public Finance",
   "relatedJapaneseId": 254,
-  "professorDescription": "私のゼミでは，財政金融政策をはじめとする経済政策を政治経済学的に考える力を養うことを目的とします。主に税制改革，医療・介護・年金をはじめとする社会保障政策，公共投資政策，教育・育児などの地方財政，量的金融緩和政策，国債管理政策などを対象に，政治の影響を考慮しつつ経済学的にどう分析できるかに取り組みます。論文執筆のみならず，飲み会やOBOG会など，ゼミでの活動を大いに楽しみたい学生の応募をお待ちしています。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000476_en.html",
   "order": 33,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "Japanese only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Doi Takero",
+  "professorNameLocal": "土居丈朗（ドイ タケロウ）",
+  "seminarImage": "/uploads/seminars/doi-takero/seminar.jpg",
+  "seminarImageAlt": "Takero Doi Seminar seminar group",
+  "professorImage": "/uploads/seminars/doi-takero/professor.jpg",
+  "professorImageAlt": "Portrait of Doi Takero",
+  "professorMessage": "私のゼミでは，財政金融政策をはじめとする経済政策を政治経済学的に考える力を養うことを目的とします。主に税制改革，医療・介護・年金をはじめとする社会保障政策，公共投資政策，教育・育児などの地方財政，量的金融緩和政策，国債管理政策などを対象に，政治の影響を考慮しつつ経済学的にどう分析できるかに取り組みます。論文執筆のみならず，飲み会やOBOG会など，ゼミでの活動を大いに楽しみたい学生の応募をお待ちしています。",
+  "website": "https://doinyusemi.wixsite.com/doisemi",
+  "twitter": "https://twitter.com/doi_nyusemi",
+  "instagram": "https://www.instagram.com/doi_takero_seminar/",
+  "facebook": ""
 }

@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "",
   "professorNameAlpha": "",
-  "professorDescription": "PCPの必修科目である「Finance, Policy, and the Global Economy」と「Independent Study」は、一上響、小橋文子、山田浩之が担当します。担当教員の専門である国際金融論、国際貿易論、開発経済学分野の実証分析の論文指導に力を入れています。分析手法の解説を行い、統計に苦手意識がある学生でも努力すれば修了できるよう指導しています。専門の異なる複数の教員から多角的な指導を受けながら、経済学の実践的スキルを身につけてキャリア形成の可能性を広げましょう。\n\nThe instructors of the required courses of the programme, ‘Finance, Policy and the Global Economy’ and ‘Independent Study,’ are Hibiki Ichiue, Ayako Obashi, and Hiroyuki Yamada. As the instructors specialize in empirical research in the fields of International Macroeconomics, International Trade, and Development Economics, the courses are intended especially to help students acquire empirical research skills in these fields. Students who are feeling unsure about statistics and econometrics are also welcome as we provide basic training in empirical analysis. Embrace this opportunity to expand your knowledge, develop practical skills, and unlock exciting career possibilities.",
   "professorLink": "",
   "website": "https://www.econ.keio.ac.jp/undergraduate/pcp",
   "twitter": "",
@@ -24,6 +23,10 @@
   "languages": [
     "English"
   ],
-  "image": "",
-  "url": "https://www.econ.keio.ac.jp/undergraduate/pcp"
+  "url": "https://www.econ.keio.ac.jp/undergraduate/pcp",
+  "seminarImage": "/uploads/seminars/professional-career-program-pcp-p/seminar.jpg",
+  "seminarImageAlt": "Professional Career Program ：PCP（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/professional-career-program-pcp-p/professor.jpg",
+  "professorImageAlt": "Professional Career Program ：PCP（P）（DD） 教員写真",
+  "professorMessage": "PCPの必修科目である「Finance, Policy, and the Global Economy」と「Independent Study」は、一上響、小橋文子、山田浩之が担当します。担当教員の専門である国際金融論、国際貿易論、開発経済学分野の実証分析の論文指導に力を入れています。分析手法の解説を行い、統計に苦手意識がある学生でも努力すれば修了できるよう指導しています。専門の異なる複数の教員から多角的な指導を受けながら、経済学の実践的スキルを身につけてキャリア形成の可能性を広げましょう。\n\nThe instructors of the required courses of the programme, ‘Finance, Policy and the Global Economy’ and ‘Independent Study,’ are Hibiki Ichiue, Ayako Obashi, and Hiroyuki Yamada. As the instructors specialize in empirical research in the fields of International Macroeconomics, International Trade, and Development Economics, the courses are intended especially to help students acquire empirical research skills in these fields. Students who are feeling unsure about statistics and econometrics are also welcome as we provide basic training in empirical analysis. Embrace this opportunity to expand your knowledge, develop practical skills, and unlock exciting career possibilities."
 }

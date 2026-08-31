@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "太田淳（オオタ アツシ）",
   "professorNameAlpha": "Ota Atsushi",
-  "professorDescription": "この研究会は、新興国経済を庶民生活のレベルで理解することを目的とします。そのために毎年夏休みに2週間ほどジャカルタ郊外の低所得者層居住地で合宿し、フィールド調査を行います。東南アジアや新興国経済、その庶民の生活に関心があり、研究のテーマや方法も自分たちで決める意欲のある学生は、ぜひ一緒に勉強しましょう。言葉もほとんど分からないフィールドで、体当たりの経験を楽しめる学生に参加してほしいと思います。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000348_ja.html?k=%E5%A4%AA%E7%94%B0%E6%B7%B3",
   "website": "https://www.otaseminar.com/",
   "twitter": "https://mobile.twitter.com/otaseminar20165",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://www.otaseminar.com/"
+  "url": "https://www.otaseminar.com/",
+  "seminarImage": "/uploads/seminars/ota-atsushi/seminar.jpg",
+  "seminarImageAlt": "太田淳研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/ota-atsushi/professor.jpg",
+  "professorImageAlt": "太田淳（オオタ アツシ） 教員写真",
+  "professorMessage": "この研究会は、新興国経済を庶民生活のレベルで理解することを目的とします。そのために毎年夏休みに2週間ほどジャカルタ郊外の低所得者層居住地で合宿し、フィールド調査を行います。東南アジアや新興国経済、その庶民の生活に関心があり、研究のテーマや方法も自分たちで決める意欲のある学生は、ぜひ一緒に勉強しましょう。言葉もほとんど分からないフィールドで、体当たりの経験を楽しめる学生に参加してほしいと思います。"
 }

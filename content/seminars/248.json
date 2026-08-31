@@ -11,7 +11,6 @@
   "status": "募集中",
   "professorName": "小林慶一郎（コバヤシ ケイイチロウ）",
   "professorNameAlpha": "Kobayashi Keiichirou",
-  "professorDescription": "ゼミでは、自身の関心によって問題を発見し探究します。まずはゼミ生各自が自身の力で研究課題を発見することが第一で、私はそれを支援する伴走者です。私自身の研究関心は、日本経済の過去30年の停滞です。金融危機や長期経済停滞についてマクロ経済学の理論モデルを研究し、危機の30年を解明することを試みています。同様のテーマでも、または、まったく違うテーマでも自分の力で研究したい人を歓迎します。",
   "professorLink": "https://k-ris.keio.ac.jp/html/100000402_ja.html?k=%E5%B0%8F%E6%9E%97%E6%85%B6%E4%B8%80%E9%83%8E",
   "website": "https://economicsssss.wixsite.com/kobakei",
   "twitter": "https://twitter.com/kobayashilabo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
@@ -25,6 +24,10 @@
     "日本語",
     "English"
   ],
-  "image": "",
-  "url": "https://economicsssss.wixsite.com/kobakei"
+  "url": "https://economicsssss.wixsite.com/kobakei",
+  "seminarImage": "",
+  "seminarImageAlt": "小林慶一郎研究会（P）（DD）の研究会写真",
+  "professorImage": "/uploads/seminars/kobayashi-keiichirou/professor.jpg",
+  "professorImageAlt": "小林慶一郎（コバヤシ ケイイチロウ） 教員写真",
+  "professorMessage": "ゼミでは、自身の関心によって問題を発見し探究します。まずはゼミ生各自が自身の力で研究課題を発見することが第一で、私はそれを支援する伴走者です。私自身の研究関心は、日本経済の過去30年の停滞です。金融危機や長期経済停滞についてマクロ経済学の理論モデルを研究し、危機の30年を解明することを試みています。同様のテーマでも、または、まったく違うテーマでも自分の力で研究したい人を歓迎します。"
 }

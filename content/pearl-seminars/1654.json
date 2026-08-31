@@ -9,7 +9,6 @@
   "name": "Akira Sasahara Seminar",
   "field": "International Economics",
   "relatedJapaneseId": 275,
-  "professorDescription": "Sasahara Seminar aims to become one of the most fun and intellectually stimulating zemi. We study economics with rigor and enthusiasm. As a professor, my goal is to help students discover that economics is a challenging and fun subject. If you want to make your Mita campus life exciting, please join us!",
   "professorLink": "https://sasaharaseminar-2.jimdosite.com/",
   "order": 38,
   "sourceYear": 2026,
@@ -18,5 +17,16 @@
   "pearlStatus": "Allowed",
   "ddStatus": "Allowed",
   "language": "English only",
-  "recruitmentStatus": "募集中"
+  "recruitmentStatus": "募集中",
+  "professorName": "Sasahara Akira",
+  "professorNameLocal": "笹原彰（ササハラ アキラ）",
+  "seminarImage": "/uploads/seminars/sasahara-akira/seminar.jpg",
+  "seminarImageAlt": "Akira Sasahara Seminar seminar group",
+  "professorImage": "/uploads/seminars/sasahara-akira/professor.jpg",
+  "professorImageAlt": "Portrait of Sasahara Akira",
+  "professorMessage": "Sasahara Seminar aims to become one of the most fun and intellectually stimulating zemi. We study economics with rigor and enthusiasm. As a professor, my goal is to help students discover that economics is a challenging and fun subject. If you want to make your Mita campus life exciting, please join us!",
+  "website": "https://sasaharaseminar-2.jimdosite.com/",
+  "twitter": "",
+  "instagram": "https://www.instagram.com/sasaharaseminar/",
+  "facebook": ""
 }
