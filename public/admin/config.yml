@@ -227,6 +227,62 @@ collections:
                   - { label: 氏名, name: name, widget: string }
                   - { label: 所属研究会, name: seminar, widget: string, required: false }
                   - { label: メッセージ, name: message, widget: text, required: false }
+      - name: recruitment
+        label: 新規委員募集
+        file: content/recruitment.json
+        format: json
+        fields:
+          - { label: 英字見出し, name: overline, widget: string }
+          - { label: ページタイトル, name: title, widget: string }
+          - { label: リード文, name: heroLead, widget: text }
+          - { label: 募集年度, name: year, widget: string }
+          - label: 導入文
+            name: introduction
+            widget: list
+            field: { label: 段落, name: paragraph, widget: text }
+          - label: 募集概要
+            name: overview
+            widget: list
+            fields:
+              - { label: 項目, name: label, widget: string }
+              - { label: 内容, name: value, widget: string }
+              - { label: 補足, name: note, widget: string }
+          - label: 特徴
+            name: feature
+            widget: object
+            fields:
+              - { label: 英字見出し, name: overline, widget: string }
+              - { label: タイトル, name: title, widget: string }
+              - { label: 説明, name: description, widget: text }
+          - label: 募集役職
+            name: roles
+            widget: list
+            fields:
+              - { label: 番号, name: number, widget: string }
+              - { label: 役職名, name: name, widget: string }
+              - { label: 人数, name: count, widget: string }
+              - { label: 説明, name: description, widget: text }
+          - label: 求める人物像
+            name: qualities
+            widget: list
+            field: { label: 項目, name: quality, widget: text }
+          - label: 応募の流れ
+            name: steps
+            widget: list
+            fields:
+              - { label: 番号, name: number, widget: string }
+              - { label: タイトル, name: title, widget: string }
+              - { label: 説明, name: description, widget: text }
+          - label: リンク・連絡先
+            name: links
+            widget: object
+            fields:
+              - { label: 説明資料リンク名, name: guideLabel, widget: string }
+              - { label: 説明資料URL, name: guideUrl, widget: string }
+              - { label: エントリーリンク名, name: entryLabel, widget: string }
+              - { label: エントリーリンク, name: entryHref, widget: string }
+              - { label: 問い合わせメール, name: contactEmail, widget: string }
+          - { label: 締めのメッセージ, name: closing, widget: text }
 
   - name: admissions_content
     label: 入ゼミ・試験ページ

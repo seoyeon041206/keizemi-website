@@ -804,3 +804,99 @@ section { scroll-margin-top: 142px; }
   .about-values > article:first-child { border-right: 0; border-bottom: 1px solid var(--line); }
   .about-values > article { padding-block: 72px; }
 }
+
+/* New committee member recruitment */
+.recruitment-hero { min-height: 430px; padding: 86px clamp(24px, 7vw, 110px) 68px; display: grid; grid-template-columns: minmax(0, 1fr) 300px; align-items: end; gap: clamp(56px, 9vw, 130px); color: white; background: linear-gradient(118deg, #071d35 0 68%, #123f72 68%); }
+.recruitment-hero > div > p { margin: 0 0 18px; color: #f0c27a; font-size: 10px; font-weight: 800; letter-spacing: .2em; }
+.recruitment-hero h1 { margin: 0; font: 600 clamp(50px, 6vw, 82px)/1.2 "Yu Mincho", YuMincho, serif; letter-spacing: -.04em; }
+.recruitment-hero > div > span { max-width: 680px; display: block; margin-top: 24px; color: rgba(255,255,255,.7); font-size: 14px; line-height: 1.9; }
+.recruitment-hero aside { padding: 26px 0 6px; border-top: 1px solid rgba(255,255,255,.34); }
+.recruitment-hero aside small { display: block; color: #f0c27a; font: 800 8px/1 Georgia, serif; letter-spacing: .17em; }
+.recruitment-hero aside strong { display: block; margin-top: 16px; font: 600 31px/1.35 "Yu Mincho", YuMincho, serif; }
+.recruitment-hero aside span { display: block; margin-top: 10px; color: rgba(255,255,255,.52); font: 8px/1.6 Georgia, serif; letter-spacing: .12em; }
+.recruitment-intro { padding: 92px clamp(24px, 7vw, 110px); display: grid; grid-template-columns: minmax(290px, .82fr) minmax(0, 1.18fr); gap: clamp(60px, 10vw, 145px); background: var(--cream); }
+.recruitment-intro header small, .recruitment-section-heading small, .recruitment-qualities header small { color: var(--red); font: 800 9px/1 Georgia, serif; letter-spacing: .17em; }
+.recruitment-intro h2 { margin: 20px 0 0; font: 600 clamp(37px, 4.7vw, 60px)/1.45 "Yu Mincho", YuMincho, serif; letter-spacing: -.04em; }
+.recruitment-intro > div { padding-top: 28px; border-top: 1px solid var(--ink); }
+.recruitment-intro > div > p { margin: 0 0 19px; color: #4f5d6b; font-size: 14px; line-height: 2.1; }
+.recruitment-primary-actions { margin-top: 34px; display: flex; flex-wrap: wrap; gap: 10px; }
+.recruitment-primary-actions a { min-height: 54px; padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; gap: 28px; color: white; background: var(--blue-deep); font-size: 11px; font-weight: 800; }
+.recruitment-primary-actions a:last-child { color: var(--ink); background: white; border: 1px solid var(--line); }
+.recruitment-primary-actions span { color: #f0c27a; font-size: 17px; font-weight: 400; }
+.recruitment-primary-actions a:last-child span { color: var(--red); }
+.recruitment-overview, .recruitment-roles, .recruitment-steps { padding: 94px clamp(24px, 7vw, 110px) 108px; background: var(--paper); }
+.recruitment-section-heading { margin-bottom: 45px; display: flex; align-items: end; justify-content: space-between; gap: 50px; }
+.recruitment-section-heading h2 { margin: 13px 0 0; font: 600 clamp(35px, 4vw, 54px)/1.35 "Yu Mincho", YuMincho, serif; letter-spacing: -.035em; }
+.recruitment-section-heading > p { max-width: 500px; margin: 0 0 5px; color: #5d6b79; font-size: 13px; line-height: 1.85; }
+.recruitment-overview > div { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--ink); border-left: 1px solid var(--line); }
+.recruitment-overview article { min-height: 245px; padding: 28px; display: flex; flex-direction: column; background: white; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.recruitment-overview article > span { color: rgba(18,63,114,.23); font: 34px/1 Georgia, serif; }
+.recruitment-overview article small { margin-top: 34px; color: var(--red); font-size: 9px; font-weight: 800; letter-spacing: .12em; }
+.recruitment-overview article h3 { margin: 11px 0 0; font: 600 21px/1.55 "Yu Mincho", YuMincho, serif; }
+.recruitment-overview article p { margin: auto 0 0; padding-top: 20px; color: #6c7782; font-size: 11px; }
+.recruitment-feature { padding: 82px clamp(24px, 7vw, 110px); display: grid; grid-template-columns: minmax(300px, .9fr) minmax(0, 1.1fr); align-items: center; gap: clamp(50px, 9vw, 130px); color: white; background: var(--red); }
+.recruitment-feature small { color: #f0c27a; font: 800 9px/1 Georgia, serif; letter-spacing: .17em; }
+.recruitment-feature h2 { margin: 18px 0 0; font: 600 clamp(32px, 4vw, 50px)/1.45 "Yu Mincho", YuMincho, serif; }
+.recruitment-feature > p { margin: 0; padding: 26px 0 26px 30px; color: rgba(255,255,255,.77); border-left: 1px solid rgba(255,255,255,.38); font-size: 14px; line-height: 2.05; }
+.recruitment-roles { background: var(--cream); }
+.recruitment-role-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.recruitment-role-grid article { min-height: 270px; padding: 27px; display: flex; flex-direction: column; background: white; border: 1px solid var(--line); }
+.recruitment-role-grid article:first-child { color: white; background: var(--blue-deep); border-color: var(--blue-deep); }
+.recruitment-role-grid header { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.recruitment-role-grid header > span { color: rgba(18,63,114,.23); font: 34px/1 Georgia, serif; }
+.recruitment-role-grid article:first-child header > span { color: rgba(255,255,255,.2); }
+.recruitment-role-grid header strong { color: var(--red); font-size: 10px; }
+.recruitment-role-grid article:first-child header strong { color: #f0c27a; }
+.recruitment-role-grid h3 { margin: 50px 0 13px; font: 600 24px/1.4 "Yu Mincho", YuMincho, serif; }
+.recruitment-role-grid p { margin: auto 0 0; color: #65727e; font-size: 12px; line-height: 1.9; }
+.recruitment-role-grid article:first-child p { color: rgba(255,255,255,.66); }
+.recruitment-qualities { padding: 94px clamp(24px, 7vw, 110px) 108px; display: grid; grid-template-columns: minmax(270px, .65fr) minmax(0, 1.35fr); gap: clamp(60px, 10vw, 150px); color: white; background: var(--blue-deep); }
+.recruitment-qualities h2 { margin: 18px 0 0; font: 600 clamp(35px, 4vw, 52px)/1.4 "Yu Mincho", YuMincho, serif; }
+.recruitment-qualities ol { margin: 0; padding: 0; list-style: none; border-top: 1px solid rgba(255,255,255,.36); }
+.recruitment-qualities li { min-height: 94px; padding: 24px 0; display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 18px; align-items: center; border-bottom: 1px solid rgba(255,255,255,.18); }
+.recruitment-qualities li span { color: #f0c27a; font: 11px/1 Georgia, serif; }
+.recruitment-qualities li p { margin: 0; color: rgba(255,255,255,.8); font-size: 14px; line-height: 1.8; }
+.recruitment-steps { background: var(--paper); }
+.recruitment-steps ol { margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); list-style: none; border-top: 1px solid var(--ink); border-left: 1px solid var(--line); }
+.recruitment-steps li { min-height: 250px; padding: 28px; display: flex; flex-direction: column; background: white; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.recruitment-steps li > span { color: var(--red); font: 11px/1 Georgia, serif; }
+.recruitment-steps h3 { margin: 48px 0 13px; font: 600 23px/1.4 "Yu Mincho", YuMincho, serif; }
+.recruitment-steps li p { margin: 0; color: #64717e; font-size: 12px; line-height: 1.9; }
+.recruitment-entry-link { width: max-content; margin-top: 30px; padding-bottom: 6px; display: flex; align-items: center; gap: 18px; border-bottom: 1px solid var(--ink); font-size: 12px; font-weight: 800; }
+.recruitment-entry-link span { color: var(--red); font-size: 18px; font-weight: 400; }
+.recruitment-contact { padding: 76px clamp(24px, 7vw, 110px); display: grid; grid-template-columns: minmax(280px, .9fr) minmax(260px, 1fr) auto; align-items: center; gap: clamp(32px, 6vw, 80px); color: white; background: #303030; }
+.recruitment-contact small { color: #f0c27a; font: 800 9px/1 Georgia, serif; letter-spacing: .17em; }
+.recruitment-contact h2 { margin: 16px 0 0; font: 600 clamp(28px, 3.5vw, 44px)/1.45 "Yu Mincho", YuMincho, serif; }
+.recruitment-contact > p { margin: 0; color: rgba(255,255,255,.65); font-size: 13px; line-height: 1.95; }
+.recruitment-contact > a { padding: 16px 19px; display: flex; align-items: center; gap: 18px; color: var(--blue-deep); background: #f0c27a; font-size: 10px; font-weight: 800; white-space: nowrap; }
+.recruitment-contact > a span { font-size: 16px; font-weight: 400; }
+
+@media (max-width: 760px) {
+  .recruitment-hero { min-height: 360px; padding: 64px 20px 48px; grid-template-columns: 1fr; gap: 42px; background: var(--blue-deep); }
+  .recruitment-hero aside { max-width: 310px; }
+  .recruitment-intro { padding: 58px 20px 68px; grid-template-columns: 1fr; gap: 42px; }
+  .recruitment-intro > div { padding-top: 22px; }
+  .recruitment-primary-actions { flex-direction: column; }
+  .recruitment-primary-actions a { width: 100%; }
+  .recruitment-overview, .recruitment-roles, .recruitment-steps { padding: 62px 20px 72px; }
+  .recruitment-section-heading { margin-bottom: 34px; align-items: flex-start; flex-direction: column; gap: 20px; }
+  .recruitment-overview > div, .recruitment-role-grid, .recruitment-steps ol { grid-template-columns: 1fr; }
+  .recruitment-overview article, .recruitment-role-grid article, .recruitment-steps li { min-height: 220px; }
+  .recruitment-feature { padding: 58px 20px 66px; grid-template-columns: 1fr; gap: 34px; }
+  .recruitment-feature > p { padding: 24px 0 0; border-top: 1px solid rgba(255,255,255,.38); border-left: 0; }
+  .recruitment-qualities { padding: 62px 20px 72px; grid-template-columns: 1fr; gap: 40px; }
+  .recruitment-qualities li { grid-template-columns: 36px minmax(0, 1fr); gap: 12px; }
+  .recruitment-entry-link { width: 100%; justify-content: space-between; }
+  .recruitment-contact { padding: 58px 20px; grid-template-columns: 1fr; }
+  .recruitment-contact > a { width: 100%; justify-content: space-between; white-space: normal; overflow-wrap: anywhere; }
+}
+
+@media (min-width: 761px) and (max-width: 1080px) {
+  .recruitment-hero { grid-template-columns: minmax(0, 1fr) 230px; }
+  .recruitment-intro, .recruitment-feature { grid-template-columns: 1fr; gap: 44px; }
+  .recruitment-feature > p { padding: 26px 0 0; border-top: 1px solid rgba(255,255,255,.38); border-left: 0; }
+  .recruitment-role-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .recruitment-qualities { grid-template-columns: 1fr; gap: 44px; }
+  .recruitment-contact { grid-template-columns: 1fr 1fr; }
+  .recruitment-contact > a { width: max-content; }
+}
