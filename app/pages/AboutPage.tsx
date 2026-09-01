@@ -8,6 +8,7 @@ type AboutContent = {
   overline: string;
   title: string;
   heroLead: string;
+  heroMarker: { value: string; label: string };
   introduction: string[];
   mission: string;
   composition: Array<{ label: string; value: string; description: string }>;
@@ -41,8 +42,8 @@ export function AboutPage() {
           <span>{about.heroLead}</span>
         </div>
         <aside aria-label="委員会の構成">
-          <strong>ALL</strong>
-          <span>ECONOMICS SEMINAR MEMBERS</span>
+          <strong>{about.heroMarker.value}</strong>
+          <span>{about.heroMarker.label}</span>
         </aside>
       </section>
 

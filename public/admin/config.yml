@@ -154,6 +154,12 @@ collections:
           - { label: 英字見出し, name: overline, widget: string }
           - { label: ページタイトル, name: title, widget: string }
           - { label: リード文, name: heroLead, widget: text }
+          - label: ヒーロー右側表示
+            name: heroMarker
+            widget: object
+            fields:
+              - { label: メイン表示, name: value, widget: string }
+              - { label: 補足表示, name: label, widget: string }
           - label: 委員会説明
             name: introduction
             widget: list

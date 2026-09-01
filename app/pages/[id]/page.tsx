@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import pagesJson from '@/content/pages.json';
+import aboutJson from '@/content/about.json';
 import type { BaseContent } from '@/app/content-types';
 import { ContentChrome, ImportedBody } from '@/app/components/ContentChrome';
 import { HandoutPage } from '@/app/pages/HandoutPage';
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   if (!page) return {};
   return {
     title: `${page.title} | KEIZEMI`,
-    description: page.excerpt,
+    description: page.id === 71 ? aboutJson.heroLead : page.excerpt,
     openGraph: { images: [] },
     twitter: { images: [] },
   };
