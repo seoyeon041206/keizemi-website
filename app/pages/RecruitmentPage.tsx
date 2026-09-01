@@ -1,5 +1,6 @@
 import recruitmentJson from '@/content/recruitment.json';
 import { ArchiveFooter } from '@/app/components/ContentChrome';
+import { RecruitmentNavigation } from '@/app/components/RecruitmentNavigation';
 import { SiteHeader } from '@/app/components/SiteHeader';
 import { siteHref } from '@/app/site-path';
 
@@ -7,6 +8,7 @@ type RecruitmentContent = {
   overline: string;
   title: string;
   heroLead: string;
+  introTitle: string;
   year: string;
   introduction: string[];
   overview: Array<{ label: string; value: string; note: string }>;
@@ -48,10 +50,12 @@ export function RecruitmentPage() {
         <a href={siteHref('/')} aria-label="ホーム">⌂</a><span aria-hidden="true">›</span><a href={siteHref('/pages/71')}>委員会について</a><span aria-hidden="true">›</span><strong>{recruitment.title}</strong>
       </nav>
 
+      <RecruitmentNavigation active="overview" />
+
       <section className="recruitment-intro">
         <header>
           <small>01 · AT A GLANCE</small>
-          <h2>研究会を越えて、<br />一年を動かす。</h2>
+          <h2>{recruitment.introTitle}</h2>
         </header>
         <div>
           {recruitment.introduction.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}

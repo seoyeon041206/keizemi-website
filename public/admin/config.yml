@@ -235,6 +235,7 @@ collections:
           - { label: 英字見出し, name: overline, widget: string }
           - { label: ページタイトル, name: title, widget: string }
           - { label: リード文, name: heroLead, widget: text }
+          - { label: 導入見出し, name: introTitle, widget: string }
           - { label: 募集年度, name: year, widget: string }
           - label: 導入文
             name: introduction

@@ -9,6 +9,7 @@ import { HandoutPage } from '@/app/pages/HandoutPage';
 import { CommitteePage } from '@/app/pages/CommitteePage';
 import { AboutPage } from '@/app/pages/AboutPage';
 import { RecruitmentPage } from '@/app/pages/RecruitmentPage';
+import { RecruitmentEntryPage } from '@/app/pages/RecruitmentEntryPage';
 import { PearlSchedulePage } from '@/app/pages/PearlSchedulePage';
 import { PreviousResultsPage } from '@/app/pages/PreviousResultsPage';
 
@@ -38,6 +39,7 @@ export default async function InformationPage({ params }: { params: Promise<{ id
   if (!page) notFound();
   if (page.id === 71) return <AboutPage />;
   if (page.id === 707) return <RecruitmentPage />;
+  if (page.id === 843) return <RecruitmentEntryPage page={page} />;
   if (page.id === 139) return <HandoutPage />;
   if (page.id === 584) return <CommitteePage />;
   if (page.id === 1598) return <PearlSchedulePage />;

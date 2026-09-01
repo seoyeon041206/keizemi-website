@@ -7,7 +7,7 @@ type MenuGroup = {
   key: string;
   label: string;
   labelEn: string;
-  links: Array<{ label: string; href: string; note?: string }>;
+  links: Array<{ label: string; href: string; note?: string; parent?: string }>;
 };
 
 const menuGroups: MenuGroup[] = [
@@ -19,6 +19,7 @@ const menuGroups: MenuGroup[] = [
       { label: '委員会について', href: '/pages/71', note: '活動内容と組織について' },
       { label: '常任委員紹介', href: '/pages/584', note: '運営メンバー' },
       { label: '新規委員募集', href: '/pages/707', note: '委員会への参加案内' },
+      { label: '新規委員エントリー', href: '/pages/843', note: '応募の流れ・日程', parent: '新規委員募集' },
       { label: '財務報告資料', href: '/pages/77', note: '会計・財務情報' },
       { label: '関連リンク', href: '/pages/1862' },
     ],
@@ -127,8 +128,8 @@ export function SiteHeader() {
             </header>
             <div className="category-panel-links">
               {activeGroup.links.map((link) => (
-                <a href={siteHref(link.href)} onClick={() => setActiveKey(null)} key={`${activeGroup.key}-${link.label}`}>
-                  <span><strong>{link.label}</strong>{link.note && <small>{link.note}</small>}</span>
+                <a className={link.parent ? 'is-subpage' : ''} href={siteHref(link.href)} onClick={() => setActiveKey(null)} key={`${activeGroup.key}-${link.label}`}>
+                  <span>{link.parent && <em>{link.parent} · SUBPAGE</em>}<strong>{link.label}</strong>{link.note && <small>{link.note}</small>}</span>
                   <b aria-hidden="true">→</b>
                 </a>
               ))}

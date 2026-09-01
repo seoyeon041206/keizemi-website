@@ -44,6 +44,9 @@ a { color: inherit; text-decoration: none; }
 .category-panel-links strong { font: 600 16px/1.5 "Yu Mincho", YuMincho, serif; }
 .category-panel-links small { color: rgba(255,255,255,.48); font-size: 9px; }
 .category-panel-links b { color: #f0c27a; font-size: 18px; font-weight: 400; }
+.category-panel-links a.is-subpage { padding-left: clamp(48px, 7vw, 112px); background: rgba(255,255,255,.025); }
+.category-panel-links a.is-subpage:hover { padding-left: clamp(58px, 8vw, 130px); }
+.category-panel-links em { color: #f0c27a; font: 700 7px/1 Georgia, serif; letter-spacing: .14em; }
 @keyframes category-panel-in { from { opacity: 0; transform: translateY(-12px); } to { opacity: 1; transform: translateY(0); } }
 
 .hero { min-height: 610px; padding: clamp(74px, 10vw, 132px) clamp(24px, 7vw, 110px) 82px; display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(310px, .8fr); align-items: end; gap: clamp(50px, 8vw, 128px); background: linear-gradient(90deg, transparent 49.93%, rgba(18,35,56,.06) 50%, transparent 50.07%), radial-gradient(circle at 83% 30%, rgba(162,45,63,.10), transparent 24%), var(--cream); position: relative; overflow: hidden; }
@@ -806,6 +809,16 @@ section { scroll-margin-top: 142px; }
 }
 
 /* New committee member recruitment */
+.recruitment-subnav { padding: 28px clamp(24px, 7vw, 110px) 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); background: var(--cream); }
+.recruitment-subnav a { min-height: 78px; padding: 17px 20px; display: grid; grid-template-columns: 34px minmax(0, 1fr); align-content: center; column-gap: 13px; background: white; border: 1px solid var(--line); border-left: 0; }
+.recruitment-subnav a:first-child { border-left: 1px solid var(--line); }
+.recruitment-subnav a.is-active { color: white; background: var(--blue-deep); border-color: var(--blue-deep); }
+.recruitment-subnav a > span { grid-row: 1 / 3; color: var(--red); font: 10px/1 Georgia, serif; }
+.recruitment-subnav a.is-active > span { color: #f0c27a; }
+.recruitment-subnav strong { font: 600 15px/1.45 "Yu Mincho", YuMincho, serif; }
+.recruitment-subnav small { margin-top: 3px; color: #74808b; font-size: 9px; }
+.recruitment-subnav a.is-active small { color: rgba(255,255,255,.55); }
+.content-document > .recruitment-subnav { width: min(930px, calc(100% - 48px)); margin: 42px auto 0; padding: 0; background: transparent; }
 .recruitment-hero { min-height: 430px; padding: 86px clamp(24px, 7vw, 110px) 68px; display: grid; grid-template-columns: minmax(0, 1fr) 300px; align-items: end; gap: clamp(56px, 9vw, 130px); color: white; background: linear-gradient(118deg, #071d35 0 68%, #123f72 68%); }
 .recruitment-hero > div > p { margin: 0 0 18px; color: #f0c27a; font-size: 10px; font-weight: 800; letter-spacing: .2em; }
 .recruitment-hero h1 { margin: 0; font: 600 clamp(50px, 6vw, 82px)/1.2 "Yu Mincho", YuMincho, serif; letter-spacing: -.04em; }
@@ -872,6 +885,10 @@ section { scroll-margin-top: 142px; }
 .recruitment-contact > a span { font-size: 16px; font-weight: 400; }
 
 @media (max-width: 760px) {
+  .recruitment-subnav { padding: 22px 20px 0; grid-template-columns: 1fr; }
+  .recruitment-subnav a { border-left: 1px solid var(--line); border-top: 0; }
+  .recruitment-subnav a:first-child { border-top: 1px solid var(--line); }
+  .content-document > .recruitment-subnav { width: calc(100% - 40px); margin-top: 32px; padding: 0; }
   .recruitment-hero { min-height: 360px; padding: 64px 20px 48px; grid-template-columns: 1fr; gap: 42px; background: var(--blue-deep); }
   .recruitment-hero aside { max-width: 310px; }
   .recruitment-intro { padding: 58px 20px 68px; grid-template-columns: 1fr; gap: 42px; }
