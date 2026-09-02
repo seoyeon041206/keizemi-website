@@ -1,0 +1,79 @@
+{
+  "overline": "JOIN THE COMMITTEE · ENTRY",
+  "title": "新規委員エントリー",
+  "heroLead": "応募の流れ、募集日程、エントリーシートの内容をまとめています。",
+  "year": "2026年度",
+  "status": "募集日程・応募案内",
+  "introTitle": "応募前に、流れを確認する。",
+  "introduction": "通常募集と、状況により実施する追加募集があります。応募フォームの提出後に書類選考と面接を行い、研究会への所属確定後、常任委員として正式に加入します。",
+  "rounds": [
+    {
+      "number": "01",
+      "label": "REGULAR ENTRY",
+      "title": "通常募集",
+      "period": "1月5日〜2月28日",
+      "description": "研究会への所属を予定している学生を対象とした通常の募集日程です。",
+      "timeline": [
+        { "date": "1月5日", "title": "募集開始" },
+        { "date": "1月5日〜2月28日", "title": "面接実施", "note": "書類選考後、対象者へメールで日程をご案内します。" },
+        { "date": "2月28日", "title": "エントリー締切" },
+        { "date": "3月11日まで", "title": "選考結果発表" },
+        { "date": "3月14日", "title": "ゼミ試験結果発表" },
+        { "date": "4月1日", "title": "正式加入" }
+      ],
+      "eligibility": "2026年度、経済学部研究会に所属予定の学生",
+      "briefing": "現在、開催予定はありません。各担当の説明は2026年度の説明資料をご確認ください。",
+      "notes": [
+        "エントリーは1回のみ可能です。追加募集期間との併願はできません。",
+        "日程は変更となる場合があります。"
+      ],
+      "formLabel": "応募フォームを開く",
+      "formUrl": "https://docs.google.com/forms/d/e/1FAIpQLSemN2EPjqf2XtThyeMbZWcmFmy9FGKAb0ET1IqT5oRYV8QLVw/viewform?usp=dialog"
+    },
+    {
+      "number": "02",
+      "label": "ADDITIONAL ENTRY · IF HELD",
+      "title": "追加募集",
+      "period": "3月14日〜3月31日",
+      "description": "募集状況に応じて実施する追加募集です。実施の有無は最新のお知らせをご確認ください。",
+      "timeline": [
+        { "date": "3月14日", "title": "追加募集開始" },
+        { "date": "3月14日〜3月31日", "title": "面接実施", "note": "書類選考後、対象者へメールで日程をご案内します。" },
+        { "date": "3月31日", "title": "エントリー締切" },
+        { "date": "4月10日まで", "title": "選考結果発表" },
+        { "date": "4月10日頃", "title": "正式加入" }
+      ],
+      "eligibility": "A日程〜C日程試験合格者",
+      "briefing": "ご連絡いただければ随時ご案内します。説明資料もあわせてご確認ください。",
+      "notes": [
+        "人数の状況により、希望する担当に配属されない場合があります。",
+        "日程は変更となる場合があります。"
+      ],
+      "formLabel": "追加募集の応募フォームを開く",
+      "formUrl": "https://docs.google.com/forms/d/e/1FAIpQLSemN2EPjqf2XtThyeMbZWcmFmy9FGKAb0ET1IqT5oRYV8QLVw/viewform?usp=dialog"
+    }
+  ],
+  "entrySheet": {
+    "title": "エントリーシートの設問",
+    "description": "応募前に、以下の内容をご準備ください。",
+    "questions": [
+      "氏名・メールアドレス・電話番号",
+      "留学予定の有無",
+      "経済学部ゼミナール委員会でチャレンジしたいこと、または実現したい変革（200文字以内）",
+      "希望役職（第3希望まで）と、それぞれの志望動機（各200文字以内）"
+    ]
+  },
+  "resources": [
+    {
+      "label": "2026 GUIDE",
+      "title": "2026年度 新規常任委員説明資料",
+      "url": "https://docs.google.com/presentation/d/1ZeHk3r3t9rYx2jk8w6Vmb6vzqk7qQ6jdfOlQZ5WYCEQ"
+    },
+    {
+      "label": "ARCHIVE",
+      "title": "2024年度 新規常任委員説明資料",
+      "url": "https://docs.google.com/presentation/d/16hHYhQn8As7Bxi87sUCi7MX2qEDgBg4i/edit#slide=id.p86"
+    }
+  ],
+  "contactEmail": "keioeconomicscomittee@gmail.com"
+}

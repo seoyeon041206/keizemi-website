@@ -55,7 +55,6 @@ const menuGroups: MenuGroup[] = [
     links: [
       { label: '春季・秋季イベント交流会', href: '/pages/1544', note: '研究会を越えた交流' },
       { label: '三田祭論文', href: '/pages/1524', note: '論文コンクール・研究発表' },
-      { label: '講演会', href: '/pages/1573', note: '学内外の講演イベント' },
     ],
   },
   {
@@ -129,7 +128,7 @@ export function SiteHeader() {
             <div className="category-panel-links">
               {activeGroup.links.map((link) => (
                 <a className={link.parent ? 'is-subpage' : ''} href={siteHref(link.href)} onClick={() => setActiveKey(null)} key={`${activeGroup.key}-${link.label}`}>
-                  <span>{link.parent && <em>{link.parent} · SUBPAGE</em>}<strong>{link.label}</strong>{link.note && <small>{link.note}</small>}</span>
+                  <span>{link.parent && <em>{link.parent}</em>}<strong>{link.label}</strong>{link.note && <small>{link.note}</small>}</span>
                   <b aria-hidden="true">→</b>
                 </a>
               ))}

@@ -1,6 +1,5 @@
 import recruitmentJson from '@/content/recruitment.json';
 import { ArchiveFooter } from '@/app/components/ContentChrome';
-import { RecruitmentNavigation } from '@/app/components/RecruitmentNavigation';
 import { SiteHeader } from '@/app/components/SiteHeader';
 import { siteHref } from '@/app/site-path';
 
@@ -49,8 +48,6 @@ export function RecruitmentPage() {
       <nav className="directory-breadcrumb" aria-label="パンくずリスト">
         <a href={siteHref('/')} aria-label="ホーム">⌂</a><span aria-hidden="true">›</span><a href={siteHref('/pages/71')}>委員会について</a><span aria-hidden="true">›</span><strong>{recruitment.title}</strong>
       </nav>
-
-      <RecruitmentNavigation active="overview" />
 
       <section className="recruitment-intro">
         <header>

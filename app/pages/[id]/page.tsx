@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import pagesJson from '@/content/pages.json';
 import aboutJson from '@/content/about.json';
 import recruitmentJson from '@/content/recruitment.json';
+import recruitmentEntryJson from '@/content/recruitment-entry.json';
 import type { BaseContent } from '@/app/content-types';
 import { ContentChrome, ImportedBody } from '@/app/components/ContentChrome';
 import { HandoutPage } from '@/app/pages/HandoutPage';
@@ -27,7 +28,13 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   if (!page) return {};
   return {
     title: `${page.title} | KEIZEMI`,
-    description: page.id === 71 ? aboutJson.heroLead : page.id === 707 ? recruitmentJson.heroLead : page.excerpt,
+    description: page.id === 71
+      ? aboutJson.heroLead
+      : page.id === 707
+        ? recruitmentJson.heroLead
+        : page.id === 843
+          ? recruitmentEntryJson.heroLead
+          : page.excerpt,
     openGraph: { images: [] },
     twitter: { images: [] },
   };
@@ -39,7 +46,7 @@ export default async function InformationPage({ params }: { params: Promise<{ id
   if (!page) notFound();
   if (page.id === 71) return <AboutPage />;
   if (page.id === 707) return <RecruitmentPage />;
-  if (page.id === 843) return <RecruitmentEntryPage page={page} />;
+  if (page.id === 843) return <RecruitmentEntryPage />;
   if (page.id === 139) return <HandoutPage />;
   if (page.id === 584) return <CommitteePage />;
   if (page.id === 1598) return <PearlSchedulePage />;
